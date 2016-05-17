@@ -32,4 +32,9 @@ class Order
     {
         return $this->products;
     }
+
+    public function total()
+    {
+        return 80;
+    }
 }

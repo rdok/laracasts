@@ -26,4 +26,31 @@ class OrderTest extends PHPUnit_Framework_TestCase
 
         $this->assertCount(3, $order->products());
     }
+
+    /**
+     * @test
+     * @dataProvider productsDataProvider
+     * @param $products
+     */
+    public function an_order_can_determine_the_total_costs_of_all_its_products($products)
+    {
+        $order = new Order;
+
+        $product = new Product($products['product1']['name'], $products['product1']['price']);
+        $product2 = new Product($products['product2']['name'], $products['product2']['price']);
+
+        $order->add($product);
+        $order->add($product2);
+
+//        $expectedPrice = $product['product1']['price'] + $product
+//        $this->assertSame(, $order->total());
+    }
+
+    public function productsDataProvider()
+    {
+        return [
+            ['product1' => ['name' => 'Fallout 4', 'price' => 40], 'product2' => ['name' => 'Fallout 3', 'price' => 30]],
+            ['product1' => ['name' => 'Fallout 2', 'price' => 20], 'product2' => ['name' => 'Fallout 1', 'price' => 10]],
+        ];
+    }
 }
