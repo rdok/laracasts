@@ -21,11 +21,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="ProductTest.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/tests/unit/ProductTest.php">
+      <file leaf-file-name="Order.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/Order.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="316">
-              <caret line="31" column="39" selection-start-line="31" selection-start-column="39" selection-end-line="31" selection-end-column="39" />
+            <state relative-caret-position="204">
+              <caret line="14" column="24" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
               <folding />
             </state>
           </provider>
@@ -43,6 +43,8 @@
         <option value="$PROJECT_DIR$/phpunit.xml" />
         <option value="$PROJECT_DIR$/app/Product.php" />
         <option value="$PROJECT_DIR$/tests/unit/ProductTest.php" />
+        <option value="$PROJECT_DIR$/tests/unit/OrderTest.php" />
+        <option value="$PROJECT_DIR$/app/Order.php" />
       </list>
     </option>
   </component>
@@ -63,6 +65,37 @@
     <option name="y" value="24" />
     <option name="width" value="1920" />
     <option name="height" value="1056" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+          <State>
+            <id>Code SmellPHP</id>
+          </State>
+          <State>
+            <id>PHP</id>
+          </State>
+          <State>
+            <id>UndefinedPHP</id>
+          </State>
+          <State>
+            <id>XML</id>
+          </State>
+          <State>
+            <id>XPath</id>
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>Blade files</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -89,15 +122,18 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane />
       </pane>
-      <pane id="Scratches" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="settings.editor.selected.configurable" value="preferences.intentionPowerPack" />
+    <property name="settings.editor.splitter.proportion" value="0.2" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/app" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -120,6 +156,12 @@
       <method />
     </configuration>
     <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
       <method />
     </configuration>
     <configuration default="true" type="js.build_tools.npm" factoryName="npm">
@@ -133,6 +175,9 @@
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
   </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="0fa75392-ff58-4ade-af29-6c5a7fd81cb1" name="Default" comment="" />
@@ -142,11 +187,12 @@
       <updated>1463026469187</updated>
       <workItem from="1463026470333" duration="419000" />
       <workItem from="1463371543928" duration="1189000" />
+      <workItem from="1463459829291" duration="990000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1608000" />
+    <option name="totallyTimeSpent" value="2598000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="24" width="1920" height="1056" extended-state="6" />
@@ -157,7 +203,6 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297769" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -169,6 +214,7 @@
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297769" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
@@ -186,18 +232,27 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/tests/unit/ProductTest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1054">
+          <caret line="31" column="39" selection-start-line="31" selection-start-column="39" selection-end-line="31" selection-end-column="39" />
+          <folding>
+            <marker date="1463460507765" expanded="true" signature="27:99" placeholder=" @author Rizart Dokollari &lt;r.dokollari@gmail.com&gt; ..." />
+            <marker date="1463460507765" expanded="true" signature="154:1076" placeholder="{...}" />
+            <marker date="1463460507765" expanded="true" signature="164:251" placeholder=" @test ..." />
+            <marker date="1463460507765" expanded="true" signature="306:424" placeholder="{...}" />
+            <marker date="1463460507765" expanded="true" signature="433:548" placeholder=" @test ..." />
+            <marker date="1463460507765" expanded="true" signature="619:783" placeholder="{...}" />
+            <marker date="1463460507765" expanded="true" signature="827:1074" placeholder="{...}" />
+            <marker date="1463460507765" expanded="true" signature="850:1066" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/tests/functional/ExampleTest.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="476">
           <caret line="14" column="32" selection-start-line="14" selection-start-column="32" selection-end-line="14" selection-end-column="32" />
-          <folding>
-            <marker date="1463026889153" expanded="true" signature="41:323" placeholder="{...}" />
-            <marker date="1463026889153" expanded="true" signature="51:124" placeholder=" A basic functional test example. ..." />
-            <marker date="1463026889153" expanded="true" signature="165:321" placeholder="{...}" />
-            <marker date="1463026889153" expanded="true" signature="218:228" placeholder="..." />
-            <marker date="1463026889153" expanded="true" signature="248:277" placeholder="..." />
-            <marker date="1463026889153" expanded="true" signature="303:313" placeholder="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -229,14 +284,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
           <caret line="4" column="6" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
-          <folding>
-            <marker date="1463026889153" expanded="true" signature="41:323" placeholder="{...}" />
-            <marker date="1463026889153" expanded="true" signature="51:124" placeholder=" A basic functional test example. ..." />
-            <marker date="1463026889153" expanded="true" signature="165:321" placeholder="{...}" />
-            <marker date="1463026889153" expanded="true" signature="218:228" placeholder="..." />
-            <marker date="1463026889153" expanded="true" signature="248:277" placeholder="..." />
-            <marker date="1463026889153" expanded="true" signature="303:313" placeholder="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -244,12 +291,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1463026322585" expanded="true" signature="68:531" placeholder="{...}" />
-            <marker date="1463026322585" expanded="true" signature="78:168" placeholder=" The base URL to use while testing the application. ..." />
-            <marker date="1463026322585" expanded="true" signature="224:319" placeholder=" Creates the application. ..." />
-            <marker date="1463026322585" expanded="true" signature="361:529" placeholder="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -271,8 +312,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Product.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="622">
-          <caret line="24" column="34" selection-start-line="24" selection-start-column="34" selection-end-line="24" selection-end-column="34" />
+        <state relative-caret-position="282">
+          <caret line="14" column="20" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="20" />
           <folding>
             <marker date="1463372719137" expanded="false" signature="9:81" placeholder=" @author Rizart Dokollari &lt;r.dokollari@gmail.com&gt; ..." />
             <marker date="1463372719137" expanded="true" signature="115:458" placeholder="{...}" />
@@ -286,8 +327,38 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/tests/unit/ProductTest.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="316">
-          <caret line="31" column="39" selection-start-line="31" selection-start-column="39" selection-end-line="31" selection-end-column="39" />
+        <state relative-caret-position="340">
+          <caret line="18" column="47" selection-start-line="18" selection-start-column="47" selection-end-line="18" selection-end-column="47" />
+          <folding>
+            <marker date="1463460507765" expanded="true" signature="27:99" placeholder=" @author Rizart Dokollari &lt;r.dokollari@gmail.com&gt; ..." />
+            <marker date="1463460507765" expanded="true" signature="154:1076" placeholder="{...}" />
+            <marker date="1463460507765" expanded="true" signature="164:251" placeholder=" @test ..." />
+            <marker date="1463460507765" expanded="true" signature="306:424" placeholder="{...}" />
+            <marker date="1463460507765" expanded="true" signature="433:548" placeholder=" @test ..." />
+            <marker date="1463460507765" expanded="true" signature="619:783" placeholder="{...}" />
+            <marker date="1463460507765" expanded="true" signature="827:1074" placeholder="{...}" />
+            <marker date="1463460507765" expanded="true" signature="850:1066" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/unit/OrderTest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="612">
+          <caret line="19" column="17" selection-start-line="19" selection-start-column="17" selection-end-line="19" selection-end-column="17" />
+          <folding>
+            <marker date="1463460677177" expanded="false" signature="10:37" placeholder="..." />
+            <marker date="1463460677177" expanded="true" signature="42:114" placeholder=" @author Rizart Dokollari &lt;r.dokollari@gmail.com&gt; ..." />
+            <marker date="1463460677177" expanded="true" signature="167:619" placeholder="{...}" />
+            <marker date="1463460677177" expanded="true" signature="238:617" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Order.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="14" column="24" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
           <folding />
         </state>
       </provider>
