@@ -10,13 +10,13 @@ class ProductTest extends PHPUnit_Framework_TestCase
     /**
      * @test
      * @dataProvider productDataProvider
-     * @param $product
+     * @param $productName
      */
-    public function a_product_has_name($product)
+    public function a_product_has_name($productName)
     {
-        $product = new Product($product);
+        $product = new Product($productName);
 
-        $this->assertSame($product, $product->name());
+        $this->assertSame($productName, $product->name());
     }
 
     /**
