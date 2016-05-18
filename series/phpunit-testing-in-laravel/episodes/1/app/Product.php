@@ -12,7 +12,16 @@ class Product
     private $name;
     private $price;
 
-    public function __construct($name)
+    public function __construct($name, $price = null)
+    {
+        $this->setName($name);
+        $this->setPrice($price);
+    }
+
+    /**
+     * @param mixed $name
+     */
+    public function setName($name)
     {
         $this->name = $name;
     }

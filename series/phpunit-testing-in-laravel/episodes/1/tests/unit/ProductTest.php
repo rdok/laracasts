@@ -44,4 +44,12 @@ class ProductTest extends PHPUnit_Framework_TestCase
             ['name' => 'Fallout 1', 'price' => 10]
         ];
     }
+
+    /** @test */
+    public function a_product_can_set_the_price_on_initialization()
+    {
+        $product = new Product('Fallout 4', 40);
+
+        $this->assertSame(40, $product->price());
+    }
 }
