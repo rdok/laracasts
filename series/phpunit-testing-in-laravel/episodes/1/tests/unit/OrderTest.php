@@ -20,19 +20,15 @@ class OrderTest extends PHPUnit_Framework_TestCase
         $order->add($product2);
 
         $this->assertCount(2, $order->products());
-
-        $product3 = new Product('Fallout 2');
-        $order->add($product3);
-
-        $this->assertCount(3, $order->products());
     }
 
     /**
      * @test
      * @dataProvider productsDataProvider
      * @param $products
+     * @param $totalPrice
      */
-    public function an_order_can_determine_the_total_costs_of_all_its_products($products)
+    public function an_order_can_determine_the_total_costs_of_all_its_products($products, $totalPrice)
     {
         $order = new Order;
 
@@ -42,15 +38,27 @@ class OrderTest extends PHPUnit_Framework_TestCase
         $order->add($product);
         $order->add($product2);
 
-//        $expectedPrice = $product['product1']['price'] + $product
-//        $this->assertSame(, $order->total());
+        $this->assertSame($totalPrice, $order->total());
     }
+
 
     public function productsDataProvider()
     {
         return [
-            ['product1' => ['name' => 'Fallout 4', 'price' => 40], 'product2' => ['name' => 'Fallout 3', 'price' => 30]],
-            ['product1' => ['name' => 'Fallout 2', 'price' => 20], 'product2' => ['name' => 'Fallout 1', 'price' => 10]],
+            [
+                'products'   => [
+                    'product1' => ['name' => 'Fallout 4', 'price' => 40],
+                    'product2' => ['name' => 'Fallout 3', 'price' => 30]
+                ],
+                'totalPrice' => 70,
+            ],
+            [
+                'products'   => [
+                    'product1' => ['name' => 'Fallout 2', 'price' => 20],
+                    'product2' => ['name' => 'Fallout 1', 'price' => 10]
+                ],
+                'totalPrice' => 30,
+            ]
         ];
     }
 }

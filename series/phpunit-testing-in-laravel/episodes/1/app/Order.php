@@ -35,6 +35,13 @@ class Order
 
     public function total()
     {
-        return 80;
+        $total = 0;
+
+        foreach ($this->products as $product) {
+
+            $total += $product->price();
+        }
+
+        return $total;
     }
 }
