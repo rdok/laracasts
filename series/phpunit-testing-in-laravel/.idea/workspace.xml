@@ -24,8 +24,8 @@
       <file leaf-file-name="Team.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/Team.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="8" column="3" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
+            <state relative-caret-position="682">
+              <caret line="22" column="41" selection-start-line="22" selection-start-column="41" selection-end-line="22" selection-end-column="41" />
               <folding />
             </state>
           </provider>
@@ -36,7 +36,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/readme.md" />
         <option value="$PROJECT_DIR$/resources/views/welcome.blade.php" />
         <option value="$PROJECT_DIR$/app/Http/routes.php" />
         <option value="$PROJECT_DIR$/tests/ExampleTest.php" />
@@ -46,13 +45,17 @@
         <option value="$PROJECT_DIR$/tests/unit/OrderTest.php" />
         <option value="$PROJECT_DIR$/database/factories/ArticleFactory.php" />
         <option value="$PROJECT_DIR$/app/Article.php" />
-        <option value="$PROJECT_DIR$/config/database.php" />
         <option value="$PROJECT_DIR$/database/testing.sqlite" />
         <option value="$PROJECT_DIR$/phpunit.xml" />
         <option value="$PROJECT_DIR$/tests/integration/app/ArticleTest.php" />
         <option value="$PROJECT_DIR$/database/migrations/2016_05_19_044721_create_articles_table.php" />
-        <option value="$PROJECT_DIR$/tests/integration/app/TeamTest.php" />
+        <option value="$PROJECT_DIR$/database/factories/TeamFactory.php" />
+        <option value="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Database/Eloquent/FactoryBuilder.php" />
         <option value="$PROJECT_DIR$/database/migrations/2016_05_20_042728_create_teams_table.php" />
+        <option value="$PROJECT_DIR$/config/database.php" />
+        <option value="$PROJECT_DIR$/readme.md" />
+        <option value="$PROJECT_DIR$/database/migrations/2014_10_12_000000_create_users_table.php" />
+        <option value="$PROJECT_DIR$/tests/integration/app/TeamTest.php" />
         <option value="$PROJECT_DIR$/app/Team.php" />
       </list>
     </option>
@@ -61,6 +64,9 @@
   <component name="JsBuildToolPackageJson" detection-done="true" />
   <component name="JsGulpfileManager">
     <detection-done>true</detection-done>
+  </component>
+  <component name="PhpServers">
+    <servers />
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
@@ -124,57 +130,26 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="Scratches" />
       <pane id="ProjectPane">
-        <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="phpunit-testing-in-laravel" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="phpunit-testing-in-laravel" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="phpunit-testing-in-laravel" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="phpunit-testing-in-laravel" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="phpunit-testing-in-laravel" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
+        <subPane />
       </pane>
+      <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="settings.editor.selected.configurable" value="preferences.sourceCode.PHP" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../../unit-tests/tdd-by-example/tdd-by-example" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../chamb-net/chamb.net" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/database/factories" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/tests" />
       <recent name="$PROJECT_DIR$/tests/functional" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/database/factories" />
     </key>
   </component>
   <component name="RunManager">
@@ -228,11 +203,13 @@
       <workItem from="1463592928017" duration="2658000" />
       <workItem from="1463633179910" duration="320000" />
       <workItem from="1463717188791" duration="1308000" />
+      <workItem from="1464111464421" duration="1809000" />
+      <workItem from="1464321866942" duration="1294000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7295000" />
+    <option name="totallyTimeSpent" value="10398000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="24" width="1920" height="1056" extended-state="6" />
@@ -259,6 +236,14 @@
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
+  </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
@@ -273,16 +258,26 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/app/Team.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="248">
+          <caret line="8" column="3" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Team.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="8" column="3" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/tests/integration/app/ArticleTest.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="612">
           <caret line="19" column="45" selection-start-line="19" selection-start-column="45" selection-end-line="19" selection-end-column="45" />
-          <folding>
-            <marker date="1463633499531" expanded="true" signature="10:78" placeholder="..." />
-            <marker date="1463633499531" expanded="true" signature="83:155" placeholder=" @author Rizart Dokollari &lt;r.dokollari@gmail.com&gt; ..." />
-            <marker date="1463633499531" expanded="true" signature="192:647" placeholder="{...}" />
-            <marker date="1463633499531" expanded="true" signature="293:645" placeholder="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -308,7 +303,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/readme.md" />
     <entry file="file://$PROJECT_DIR$/resources/views/welcome.blade.php" />
     <entry file="file://$PROJECT_DIR$/app/Http/routes.php">
       <provider selected="true" editor-type-id="text-editor">
@@ -365,11 +359,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
           <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-          <folding>
-            <marker date="1463633487186" expanded="true" signature="27:104" placeholder="..." />
-            <marker date="1463633487186" expanded="true" signature="133:248" placeholder="{...}" />
-            <marker date="1463633487186" expanded="true" signature="185:246" placeholder="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -377,7 +366,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -385,7 +373,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
           <caret line="3" column="26" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -393,7 +380,120 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
           <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/phpunit.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="850">
+          <caret line="27" column="54" selection-start-line="27" selection-start-column="54" selection-end-line="27" selection-end-column="54" />
+          <folding>
+            <marker date="1463717746506" expanded="true" signature="69:1247" placeholder="..." />
+            <marker date="1463717746506" expanded="true" signature="551:701" placeholder="..." />
+            <marker date="1463717746506" expanded="true" signature="601:683" placeholder="..." />
+            <marker date="1463717746506" expanded="true" signature="714:962" placeholder="..." />
+            <marker date="1463717746506" expanded="true" signature="776:948" placeholder="..." />
+            <marker date="1463717746506" expanded="true" signature="853:927" placeholder="..." />
+            <marker date="1463717746506" expanded="true" signature="972:1236" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/integration/app/ArticleTest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/tests/integration/TeamTest.php" />
+    <entry file="file://$PROJECT_DIR$/database/migrations/2016_05_19_044721_create_articles_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="578">
+          <caret line="19" column="32" selection-start-line="19" selection-start-column="32" selection-end-line="19" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/factories/ArticleFactory.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1463633248143" expanded="false" signature="9:392" placeholder="..." />
+            <marker date="1463633248143" expanded="true" signature="431:536" placeholder="..." />
+            <marker date="1463633248143" expanded="true" signature="482:535" placeholder="..." />
+            <marker date="1463633248143" expanded="true" signature="495:532" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/factories/TeamFactory.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="279">
+          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+          <folding>
+            <marker date="1464322251185" expanded="false" signature="9:392" placeholder="..." />
+            <marker date="1464322251185" expanded="true" signature="428:551" placeholder="..." />
+            <marker date="1464322251185" expanded="true" signature="476:550" placeholder="..." />
+            <marker date="1464322251185" expanded="true" signature="489:547" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Database/Eloquent/FactoryBuilder.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="31">
+          <caret line="33" column="6" selection-start-line="33" selection-start-column="6" selection-end-line="33" selection-end-column="6" />
+          <folding>
+            <marker date="1463026377730" expanded="false" signature="52:120" placeholder="..." />
+            <marker date="1463026377730" expanded="true" signature="142:3688" placeholder="{...}" />
+            <marker date="1463026377730" expanded="true" signature="152:230" placeholder=" The model definitions in the container. ..." />
+            <marker date="1463026377730" expanded="true" signature="269:331" placeholder=" The model being built. ..." />
+            <marker date="1463026377730" expanded="true" signature="364:438" placeholder=" The name of the model being built. ..." />
+            <marker date="1463026377730" expanded="true" signature="482:549" placeholder=" The number of models to build. ..." />
+            <marker date="1463026377730" expanded="true" signature="587:672" placeholder=" The Faker instance for the builder. ..." />
+            <marker date="1463026377730" expanded="true" signature="705:911" placeholder=" Create an new builder instance. ..." />
+            <marker date="1463026377730" expanded="true" signature="994:1140" placeholder="{...}" />
+            <marker date="1463026377730" expanded="true" signature="1149:1270" placeholder=" Set the amount of models you wish to create / make. ..." />
+            <marker date="1463026377730" expanded="true" signature="1307:1375" placeholder="{...}" />
+            <marker date="1463026377730" expanded="true" signature="1384:1523" placeholder=" Create a collection of models and persist them to the database. ..." />
+            <marker date="1463026377730" expanded="true" signature="1576:1843" placeholder="{...}" />
+            <marker date="1463026377730" expanded="true" signature="1663:1702" placeholder="..." />
+            <marker date="1463026377730" expanded="true" signature="1710:1810" placeholder="..." />
+            <marker date="1463026377730" expanded="true" signature="1754:1800" placeholder="..." />
+            <marker date="1463026377730" expanded="true" signature="1852:1958" placeholder=" Create a collection of models. ..." />
+            <marker date="1463026377730" expanded="true" signature="2009:2340" placeholder="{...}" />
+            <marker date="1463026377730" expanded="true" signature="2050:2112" placeholder="..." />
+            <marker date="1463026377730" expanded="true" signature="2120:2333" placeholder="..." />
+            <marker date="1463026377730" expanded="true" signature="2201:2277" placeholder="..." />
+            <marker date="1463026377730" expanded="true" signature="2349:2559" placeholder=" Make an instance of the model with the given attributes. ..." />
+            <marker date="1463026377730" expanded="true" signature="2621:3259" placeholder="{...}" />
+            <marker date="1463026377730" expanded="true" signature="2660:3251" placeholder="..." />
+            <marker date="1463026377730" expanded="true" signature="2691:3250" placeholder="..." />
+            <marker date="1463026377730" expanded="true" signature="2765:2902" placeholder="..." />
+            <marker date="1463026377730" expanded="true" signature="2946:3064" placeholder="..." />
+            <marker date="1463026377730" expanded="true" signature="3122:3189" placeholder="..." />
+            <marker date="1463026377730" expanded="true" signature="3268:3399" placeholder=" Evaluate any Closure attributes on the attribute array. ..." />
+            <marker date="1463026377730" expanded="true" signature="3465:3686" placeholder="{...}" />
+            <marker date="1463026377730" expanded="true" signature="3518:3650" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/migrations/2016_05_20_042728_create_teams_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="496">
+          <caret line="18" column="47" selection-start-line="18" selection-start-column="47" selection-end-line="18" selection-end-column="47" />
+          <folding>
+            <marker date="1464322512321" expanded="true" signature="11:133" placeholder="..." />
+            <marker date="1464322512321" expanded="true" signature="175:673" placeholder="{...}" />
+            <marker date="1464322512321" expanded="true" signature="185:245" placeholder=" Run the migrations. ..." />
+            <marker date="1464322512321" expanded="true" signature="272:526" placeholder="{...}" />
+            <marker date="1464322512321" expanded="true" signature="302:518" placeholder="..." />
+            <marker date="1464322512321" expanded="true" signature="340:517" placeholder="..." />
+            <marker date="1464322512321" expanded="true" signature="535:599" placeholder=" Reverse the migrations. ..." />
+            <marker date="1464322512321" expanded="true" signature="628:671" placeholder="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -419,109 +519,53 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/phpunit.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="850">
-          <caret line="27" column="54" selection-start-line="27" selection-start-column="54" selection-end-line="27" selection-end-column="54" />
-          <folding>
-            <marker date="1463717746506" expanded="true" signature="69:1247" placeholder="..." />
-            <marker date="1463717746506" expanded="true" signature="551:701" placeholder="..." />
-            <marker date="1463717746506" expanded="true" signature="601:683" placeholder="..." />
-            <marker date="1463717746506" expanded="true" signature="714:962" placeholder="..." />
-            <marker date="1463717746506" expanded="true" signature="776:948" placeholder="..." />
-            <marker date="1463717746506" expanded="true" signature="853:927" placeholder="..." />
-            <marker date="1463717746506" expanded="true" signature="972:1236" placeholder="..." />
-          </folding>
+    <entry file="file://$PROJECT_DIR$/readme.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="124">
+            <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tests/integration/app/ArticleTest.php">
+    <entry file="file://$PROJECT_DIR$/database/migrations/2014_10_12_000000_create_users_table.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+        <state relative-caret-position="589">
+          <caret line="21" column="70" selection-start-line="21" selection-start-column="70" selection-end-line="21" selection-end-column="70" />
           <folding>
-            <marker date="1463633499531" expanded="true" signature="10:78" placeholder="..." />
-            <marker date="1463633499531" expanded="true" signature="83:155" placeholder=" @author Rizart Dokollari &lt;r.dokollari@gmail.com&gt; ..." />
-            <marker date="1463633499531" expanded="true" signature="192:647" placeholder="{...}" />
-            <marker date="1463633499531" expanded="true" signature="293:645" placeholder="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/database/factories/ArticleFactory.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1463633248143" expanded="false" signature="9:392" placeholder="..." />
-            <marker date="1463633248143" expanded="true" signature="431:536" placeholder="..." />
-            <marker date="1463633248143" expanded="true" signature="482:535" placeholder="..." />
-            <marker date="1463633248143" expanded="true" signature="495:532" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests/tests/integration/TeamTest.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/database/migrations/2016_05_19_044721_create_articles_table.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="578">
-          <caret line="19" column="32" selection-start-line="19" selection-start-column="32" selection-end-line="19" selection-end-column="32" />
-          <folding>
-            <marker date="1463717794239" expanded="true" signature="11:133" placeholder="..." />
-            <marker date="1463717794239" expanded="true" signature="178:672" placeholder="{...}" />
-            <marker date="1463717794239" expanded="true" signature="188:248" placeholder=" Run the migrations. ..." />
-            <marker date="1463717794239" expanded="true" signature="275:522" placeholder="{...}" />
-            <marker date="1463717794239" expanded="true" signature="305:514" placeholder="..." />
-            <marker date="1463717794239" expanded="true" signature="346:513" placeholder="..." />
-            <marker date="1463717794239" expanded="true" signature="531:595" placeholder=" Reverse the migrations. ..." />
-            <marker date="1463717794239" expanded="true" signature="624:670" placeholder="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/database/migrations/2016_05_20_042728_create_teams_table.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="17" column="43" selection-start-line="17" selection-start-column="43" selection-end-line="17" selection-end-column="43" />
-          <folding>
-            <marker date="1463718479586" expanded="false" signature="11:133" placeholder="..." />
-            <marker date="1463718479586" expanded="true" signature="175:623" placeholder="{...}" />
-            <marker date="1463718479586" expanded="true" signature="185:245" placeholder=" Run the migrations. ..." />
-            <marker date="1463718479586" expanded="true" signature="272:476" placeholder="{...}" />
-            <marker date="1463718479586" expanded="true" signature="302:468" placeholder="..." />
-            <marker date="1463718479586" expanded="true" signature="340:467" placeholder="..." />
-            <marker date="1463718479586" expanded="true" signature="485:549" placeholder=" Reverse the migrations. ..." />
-            <marker date="1463718479586" expanded="true" signature="578:621" placeholder="{...}" />
+            <marker date="1464323064279" expanded="true" signature="11:133" placeholder="..." />
+            <marker date="1464323064279" expanded="true" signature="175:812" placeholder="{...}" />
+            <marker date="1464323064279" expanded="true" signature="185:245" placeholder=" Run the migrations. ..." />
+            <marker date="1464323064279" expanded="true" signature="272:665" placeholder="{...}" />
+            <marker date="1464323064279" expanded="true" signature="302:657" placeholder="..." />
+            <marker date="1464323064279" expanded="true" signature="340:656" placeholder="..." />
+            <marker date="1464323064279" expanded="true" signature="674:738" placeholder=" Reverse the migrations. ..." />
+            <marker date="1464323064279" expanded="true" signature="767:810" placeholder="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/tests/integration/app/TeamTest.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="452">
-          <caret line="16" column="23" selection-start-line="16" selection-start-column="23" selection-end-line="16" selection-end-column="23" />
+        <state relative-caret-position="906">
+          <caret line="36" column="34" selection-start-line="36" selection-start-column="34" selection-end-line="36" selection-end-column="34" />
           <folding>
-            <marker date="1463718304868" expanded="true" signature="11:76" placeholder="..." />
-            <marker date="1463718304868" expanded="true" signature="109:535" placeholder="{...}" />
-            <marker date="1463718304868" expanded="true" signature="150:232" placeholder=" @test ..." />
-            <marker date="1463718304868" expanded="true" signature="283:398" placeholder="{...}" />
-            <marker date="1463718304868" expanded="true" signature="439:533" placeholder="{...}" />
-            <marker date="1463718304868" expanded="true" signature="462:525" placeholder="..." />
+            <marker date="1464323160910" expanded="true" signature="11:90" placeholder="..." />
+            <marker date="1464323160910" expanded="true" signature="123:808" placeholder="{...}" />
+            <marker date="1464323160910" expanded="true" signature="164:246" placeholder=" @test ..." />
+            <marker date="1464323160910" expanded="true" signature="297:410" placeholder="{...}" />
+            <marker date="1464323160910" expanded="true" signature="451:511" placeholder="{...}" />
+            <marker date="1464323160910" expanded="true" signature="574:806" placeholder="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Team.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="8" column="3" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
+        <state relative-caret-position="682">
+          <caret line="22" column="41" selection-start-line="22" selection-start-column="41" selection-end-line="22" selection-end-column="41" />
           <folding />
         </state>
       </provider>
