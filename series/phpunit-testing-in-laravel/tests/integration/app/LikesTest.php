@@ -14,11 +14,11 @@ class LikesTest extends TestCase
         $user = factory(User::class)->create();
         $post = factory(Post::class)->create();
 
-        $this->assertCount(0, $user->likedPosts()->get());
+        $this->assertCount(0, $user->likes()->get());
 
         $user->like($post);
 
-        $this->assertCount(1, $user->likedPosts()->get());
+        $this->assertCount(1, $user->likes()->get());
 
 //        $this->assertEquals($post, $user->likedPosts()->get()->get(0));
 

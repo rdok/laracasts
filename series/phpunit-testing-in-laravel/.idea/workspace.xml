@@ -21,11 +21,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Likes.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/Likes.php">
+      <file leaf-file-name="Like.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/Like.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="403">
-              <caret line="13" column="31" selection-start-line="13" selection-start-column="31" selection-end-line="13" selection-end-column="31" />
+            <state relative-caret-position="875">
+              <caret line="29" column="27" selection-start-line="29" selection-start-column="27" selection-end-line="29" selection-end-column="27" />
               <folding />
             </state>
           </provider>
@@ -61,10 +61,11 @@
         <option value="$PROJECT_DIR$/database/migrations/2016_05_28_090612_create_posts_table.php" />
         <option value="$PROJECT_DIR$/app/Post.php" />
         <option value="$PROJECT_DIR$/database/migrations/2016_05_28_091135_create_post_user_table.php" />
+        <option value="$PROJECT_DIR$/app/Likes.php" />
         <option value="$PROJECT_DIR$/database/migrations/2016_05_28_092555_create_likes_table.php" />
         <option value="$PROJECT_DIR$/tests/integration/app/LikesTest.php" />
         <option value="$PROJECT_DIR$/app/User.php" />
-        <option value="$PROJECT_DIR$/app/Likes.php" />
+        <option value="$PROJECT_DIR$/app/Like.php" />
       </list>
     </option>
   </component>
@@ -217,12 +218,12 @@
       <workItem from="1464111464421" duration="1809000" />
       <workItem from="1464321866942" duration="1928000" />
       <workItem from="1464373950109" duration="33000" />
-      <workItem from="1464415511843" duration="10195000" />
+      <workItem from="1464415511843" duration="12017000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="21260000" />
+    <option name="totallyTimeSpent" value="23082000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="24" width="1920" height="1056" extended-state="6" />
@@ -492,13 +493,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/tests/tests/integration/TeamTest.php" />
-    <entry file="file://$PROJECT_DIR$/database/migrations/2016_05_19_044721_create_articles_table.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="578">
-          <caret line="19" column="32" selection-start-line="19" selection-start-column="32" selection-end-line="19" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/database/factories/ArticleFactory.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -553,13 +547,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/database/migrations/2016_05_20_042728_create_teams_table.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="496">
-          <caret line="18" column="47" selection-start-line="18" selection-start-column="47" selection-end-line="18" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/readme.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -567,13 +554,6 @@
             <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
           </first_editor>
           <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/database/migrations/2014_10_12_000000_create_users_table.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="589">
-          <caret line="21" column="70" selection-start-line="21" selection-start-column="70" selection-end-line="21" selection-end-column="70" />
         </state>
       </provider>
     </entry>
@@ -1435,37 +1415,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/database/migrations/2016_05_28_090612_create_posts_table.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
-          <caret line="17" column="44" selection-start-line="17" selection-start-column="44" selection-end-line="17" selection-end-column="44" />
-          <folding>
-            <marker date="1464426450067" expanded="true" signature="11:133" placeholder="..." />
-            <marker date="1464426450067" expanded="true" signature="175:623" placeholder="{...}" />
-            <marker date="1464426450067" expanded="true" signature="185:245" placeholder=" Run the migrations. ..." />
-            <marker date="1464426450067" expanded="true" signature="272:476" placeholder="{...}" />
-            <marker date="1464426450067" expanded="true" signature="302:468" placeholder="..." />
-            <marker date="1464426450067" expanded="true" signature="340:467" placeholder="..." />
-            <marker date="1464426450067" expanded="true" signature="485:549" placeholder=" Reverse the migrations. ..." />
-            <marker date="1464426450067" expanded="true" signature="578:621" placeholder="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/database/migrations/2016_05_28_091135_create_post_user_table.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="968">
           <caret line="35" column="5" selection-start-line="35" selection-start-column="5" selection-end-line="35" selection-end-column="5" />
-          <folding>
-            <marker date="1464427035757" expanded="true" signature="11:133" placeholder="..." />
-            <marker date="1464427035757" expanded="true" signature="178:940" placeholder="{...}" />
-            <marker date="1464427035757" expanded="true" signature="188:248" placeholder=" Run the migrations. ..." />
-            <marker date="1464427035757" expanded="true" signature="275:789" placeholder="{...}" />
-            <marker date="1464427035757" expanded="true" signature="305:781" placeholder="..." />
-            <marker date="1464427035757" expanded="true" signature="347:780" placeholder="..." />
-            <marker date="1464427035757" expanded="true" signature="798:862" placeholder=" Reverse the migrations. ..." />
-            <marker date="1464427035757" expanded="true" signature="891:938" placeholder="{...}" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1691,10 +1645,78 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/database/migrations/2016_05_28_092555_create_likes_table.php">
+    <entry file="file://$PROJECT_DIR$/database/migrations/2016_05_28_090612_create_posts_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="17" column="44" selection-start-line="17" selection-start-column="44" selection-end-line="17" selection-end-column="44" />
+          <folding>
+            <marker date="1464426450067" expanded="true" signature="11:133" placeholder="..." />
+            <marker date="1464426450067" expanded="true" signature="175:623" placeholder="{...}" />
+            <marker date="1464426450067" expanded="true" signature="185:245" placeholder=" Run the migrations. ..." />
+            <marker date="1464426450067" expanded="true" signature="272:476" placeholder="{...}" />
+            <marker date="1464426450067" expanded="true" signature="302:468" placeholder="..." />
+            <marker date="1464426450067" expanded="true" signature="340:467" placeholder="..." />
+            <marker date="1464426450067" expanded="true" signature="485:549" placeholder=" Reverse the migrations. ..." />
+            <marker date="1464426450067" expanded="true" signature="578:621" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/migrations/2016_05_20_042728_create_teams_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="496">
+          <caret line="18" column="47" selection-start-line="18" selection-start-column="47" selection-end-line="18" selection-end-column="47" />
+          <folding>
+            <marker date="1464322512321" expanded="false" signature="11:133" placeholder="..." />
+            <marker date="1464322512321" expanded="true" signature="175:673" placeholder="{...}" />
+            <marker date="1464322512321" expanded="true" signature="185:245" placeholder=" Run the migrations. ..." />
+            <marker date="1464322512321" expanded="true" signature="272:526" placeholder="{...}" />
+            <marker date="1464322512321" expanded="true" signature="302:518" placeholder="..." />
+            <marker date="1464322512321" expanded="true" signature="340:517" placeholder="..." />
+            <marker date="1464322512321" expanded="true" signature="535:599" placeholder=" Reverse the migrations. ..." />
+            <marker date="1464322512321" expanded="true" signature="628:671" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/migrations/2016_05_19_044721_create_articles_table.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="527">
-          <caret line="19" column="37" selection-start-line="19" selection-start-column="37" selection-end-line="19" selection-end-column="37" />
+          <caret line="19" column="32" selection-start-line="19" selection-start-column="32" selection-end-line="19" selection-end-column="32" />
+          <folding>
+            <marker date="1463717794239" expanded="false" signature="11:133" placeholder="..." />
+            <marker date="1463717794239" expanded="true" signature="178:672" placeholder="{...}" />
+            <marker date="1463717794239" expanded="true" signature="188:248" placeholder=" Run the migrations. ..." />
+            <marker date="1463717794239" expanded="true" signature="275:522" placeholder="{...}" />
+            <marker date="1463717794239" expanded="true" signature="305:514" placeholder="..." />
+            <marker date="1463717794239" expanded="true" signature="346:513" placeholder="..." />
+            <marker date="1463717794239" expanded="true" signature="531:595" placeholder=" Reverse the migrations. ..." />
+            <marker date="1463717794239" expanded="true" signature="624:670" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/migrations/2014_10_12_000000_create_users_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="372">
+          <caret line="14" column="4" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="4" />
+          <folding>
+            <marker date="1464323064279" expanded="false" signature="11:133" placeholder="..." />
+            <marker date="1464323064279" expanded="true" signature="175:812" placeholder="{...}" />
+            <marker date="1464323064279" expanded="true" signature="185:245" placeholder=" Run the migrations. ..." />
+            <marker date="1464323064279" expanded="true" signature="272:665" placeholder="{...}" />
+            <marker date="1464323064279" expanded="true" signature="302:657" placeholder="..." />
+            <marker date="1464323064279" expanded="true" signature="340:656" placeholder="..." />
+            <marker date="1464323064279" expanded="true" signature="674:738" placeholder=" Reverse the migrations. ..." />
+            <marker date="1464323064279" expanded="true" signature="767:810" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/migrations/2016_05_28_092555_create_likes_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="968">
+          <caret line="34" column="0" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
           <folding>
             <marker date="1464427621432" expanded="true" signature="11:133" placeholder="..." />
             <marker date="1464427621432" expanded="true" signature="175:692" placeholder="{...}" />
@@ -1710,32 +1732,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/tests/integration/app/LikesTest.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="496">
-          <caret line="18" column="26" selection-start-line="18" selection-start-column="26" selection-end-line="18" selection-end-column="26" />
+        <state relative-caret-position="558">
+          <caret line="20" column="41" selection-start-line="20" selection-start-column="41" selection-end-line="20" selection-end-column="41" />
           <folding>
-            <marker date="1464427546258" expanded="true" signature="11:90" placeholder="..." />
-            <marker date="1464427546258" expanded="true" signature="124:739" placeholder="{...}" />
-            <marker date="1464427546258" expanded="true" signature="219:737" placeholder="{...}" />
-            <marker date="1464427546258" expanded="true" signature="576:729" placeholder="..." />
-            <marker date="1464427546258" expanded="true" signature="586:728" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/User.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="906">
-          <caret line="46" column="38" selection-start-line="46" selection-start-column="38" selection-end-line="46" selection-end-column="38" />
-          <folding>
-            <marker date="1464427754679" expanded="true" signature="114:856" placeholder="{...}" />
-            <marker date="1464427754679" expanded="true" signature="124:203" placeholder=" The attributes that are mass assignable. ..." />
-            <marker date="1464427754679" expanded="true" signature="233:291" placeholder="..." />
-            <marker date="1464427754679" expanded="true" signature="302:389" placeholder=" The attributes that should be hidden for arrays. ..." />
-            <marker date="1464427754679" expanded="true" signature="417:468" placeholder="..." />
-            <marker date="1464427754679" expanded="true" signature="503:567" placeholder="{...}" />
-            <marker date="1464427754679" expanded="true" signature="595:653" placeholder="{...}" />
-            <marker date="1464427754679" expanded="true" signature="691:747" placeholder="{...}" />
-            <marker date="1464427754679" expanded="true" signature="781:854" placeholder="{...}" />
+            <marker date="1464429501093" expanded="true" signature="11:90" placeholder="..." />
+            <marker date="1464429501093" expanded="true" signature="124:729" placeholder="{...}" />
+            <marker date="1464429501093" expanded="true" signature="219:727" placeholder="{...}" />
+            <marker date="1464429501093" expanded="true" signature="566:719" placeholder="..." />
+            <marker date="1464429501093" expanded="true" signature="576:718" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -1743,7 +1747,7 @@
     <entry file="file://$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="343">
-          <caret line="809" column="20" selection-start-line="809" selection-start-column="20" selection-end-line="809" selection-end-column="20" />
+          <caret line="908" column="20" selection-start-line="908" selection-start-column="20" selection-end-line="908" selection-end-column="20" />
           <folding>
             <marker date="1463026377742" expanded="false" signature="52:1266" placeholder="..." />
             <marker date="1463026377742" expanded="true" signature="1380:93956" placeholder="{...}" />
@@ -2338,10 +2342,28 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Likes.php">
+    <entry file="file://$PROJECT_DIR$/app/User.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="403">
-          <caret line="13" column="31" selection-start-line="13" selection-start-column="31" selection-end-line="13" selection-end-column="31" />
+        <state relative-caret-position="813">
+          <caret line="43" column="0" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
+          <folding>
+            <marker date="1464429513477" expanded="true" signature="114:841" placeholder="{...}" />
+            <marker date="1464429513477" expanded="true" signature="124:203" placeholder=" The attributes that are mass assignable. ..." />
+            <marker date="1464429513477" expanded="true" signature="233:291" placeholder="..." />
+            <marker date="1464429513477" expanded="true" signature="302:389" placeholder=" The attributes that should be hidden for arrays. ..." />
+            <marker date="1464429513477" expanded="true" signature="417:468" placeholder="..." />
+            <marker date="1464429513477" expanded="true" signature="503:567" placeholder="{...}" />
+            <marker date="1464429513477" expanded="true" signature="595:653" placeholder="{...}" />
+            <marker date="1464429513477" expanded="true" signature="691:740" placeholder="{...}" />
+            <marker date="1464429513477" expanded="true" signature="769:839" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Like.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="875">
+          <caret line="29" column="27" selection-start-line="29" selection-start-column="27" selection-end-line="29" selection-end-column="27" />
           <folding />
         </state>
       </provider>

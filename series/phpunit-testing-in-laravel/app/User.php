@@ -39,11 +39,11 @@ class User extends Authenticatable
 
     public function like(Post $post)
     {
-        $this->likedPosts()->attach($post);
+        $this->likes()->save($post);
     }
 
-    public function likedPosts()
+    public function likes()
     {
-        return $this->morphToMany(Likes::class, 'likeable');
+        return $this->morphMany(Like::class, 'likeable');
     }
 }
