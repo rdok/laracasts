@@ -97,17 +97,26 @@ class TeamTest extends TestCase
 
         $team->add($users);
 
-        $this->assertSame(2, $team->count());
-
         $team->remove($users->get(0));
 
         $this->assertSame(1, $team->count());
 
         $actualMember = $team->members()->get()->get(0);
 
-        unset($users->get(1)->wasRecentlyCreated);
-        unset($actualMember->wasRecentlyCreated);
+        $this->assertEquals($users->get(1)->id, $actualMember->id);
+    }
 
-        $this->assertEquals($users->get(1), $actualMember);
+    /** @test */
+    public function reset_members()
+    {
+        $team = factory(Team::class)->create();
+
+        $users = factory(User::class, 2)->create();
+
+        $team->add($users);
+
+        $team->resetMembers();
+
+        $this->assertSame(0, $team->count());
     }
 }

@@ -9,11 +9,6 @@ class Team extends Model
 {
     protected $fillable = ['name', 'size'];
 
-    public function remove(User $user)
-    {
-        return $user->team()->dissociate()->save();
-    }
-
     public function add($users)
     {
         $this->guardAgainstTooManyMembers($users);
@@ -44,5 +39,19 @@ class Team extends Model
     public function members()
     {
         return $this->hasMany(User::class);
+    }
+
+    public function resetMembers()
+    {
+        foreach ($this->members()->get() as $member) {
+            $this->remove($member);
+        }
+
+        return true;
+    }
+
+    public function remove(User $user)
+    {
+        return $user->team()->dissociate()->save();
     }
 }
