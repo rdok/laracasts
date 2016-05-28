@@ -36,4 +36,14 @@ class User extends Authenticatable
     {
         return $this->belongsTo(Team::class);
     }
+
+    public function like(Post $post)
+    {
+        $this->likedPosts()->attach($post);
+    }
+
+    public function likedPosts()
+    {
+        return $this->morphToMany(Likes::class, 'likeable');
+    }
 }
