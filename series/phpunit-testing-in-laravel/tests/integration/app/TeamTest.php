@@ -80,10 +80,34 @@ class TeamTest extends TestCase
     public function it_can_add_multiple_members_at_once()
     {
         $team = factory(Team::class)->create();
+
         $users = factory(User::class, 2)->create();
 
         $team->add($users);
 
         $this->assertSame(2, $team->count());
+    }
+
+    /** @test */
+    public function removes_a_member()
+    {
+        $team = factory(Team::class)->create();
+
+        $users = factory(User::class, 2)->create();
+
+        $team->add($users);
+
+        $this->assertSame(2, $team->count());
+
+        $team->remove($users->get(0));
+
+        $this->assertSame(1, $team->count());
+
+        $actualMember = $team->members()->get()->get(0);
+
+        unset($users->get(1)->wasRecentlyCreated);
+        unset($actualMember->wasRecentlyCreated);
+
+        $this->assertEquals($users->get(1), $actualMember);
     }
 }

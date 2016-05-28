@@ -3,12 +3,16 @@
 namespace App;
 
 use Exception;
-use Illuminate\Database\Eloquent\Collection;
 use Illuminate\Database\Eloquent\Model;
 
 class Team extends Model
 {
     protected $fillable = ['name', 'size'];
+
+    public function remove(User $user)
+    {
+        return $user->team()->dissociate()->save();
+    }
 
     public function add($users)
     {
