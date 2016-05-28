@@ -3,6 +3,7 @@
 namespace App;
 
 use Exception;
+use Illuminate\Database\Eloquent\Collection;
 use Illuminate\Database\Eloquent\Model;
 
 class Team extends Model
@@ -26,7 +27,9 @@ class Team extends Model
             throw new Exception("Team cannot hold any more members.");
         }
 
-        if ($this->count() + $newMembers->count() > $this->size) {
+        $numberOfMembersToAdd = $newMembers instanceof User ? 1 : $newMembers->count();
+
+        if ($this->count() + $numberOfMembersToAdd > $this->size) {
             throw new Exception("Team maximum size is exceeded.");
         }
     }
@@ -41,17 +44,25 @@ class Team extends Model
         return $this->hasMany(User::class);
     }
 
-    public function resetMembers()
+    public function removeMembers()
     {
-        foreach ($this->members()->get() as $member) {
-            $this->remove($member);
-        }
-
-        return true;
+        return $this->members()->update(['team_id' => null]);
     }
 
-    public function remove(User $user)
+    public function remove($users)
     {
-        return $user->team()->dissociate()->save();
+        if ($users instanceof User) {
+            return $users->leaveTeam();
+        }
+
+        return $this->removeMany($users);
+    }
+
+    public function removeMany(Collection $users)
+    {
+        return $this
+            ->members()
+            ->whereIn('id', $users->pluck('id'))
+            ->update(['team_id' => null]);
     }
 }
