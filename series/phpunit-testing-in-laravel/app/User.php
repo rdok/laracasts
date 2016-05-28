@@ -27,6 +27,11 @@ class User extends Authenticatable
         'remember_token',
     ];
 
+    public function leaveTeam()
+    {
+        return $this->team()->dissociate()->save();
+    }
+
     public function team()
     {
         return $this->belongsTo(Team::class);
