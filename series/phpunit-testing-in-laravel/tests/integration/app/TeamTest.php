@@ -13,7 +13,7 @@ class TeamTest extends TestCase
      * @param $teamName
      * @dataProvider teamNamesProvider
      */
-    public function a_team_has_a_name($teamName)
+    public function it_has_a_name($teamName)
     {
         $team = new Team(['name' => $teamName]);
 
@@ -26,13 +26,63 @@ class TeamTest extends TestCase
     }
 
     /** @test */
-    public function a_team_can_add_members()
+    public function it_can_add_a_member()
+    {
+        $team = factory(Team::class)->create();
+
+        $user = factory(User::class)->create();
+
+        $team->add($user);
+
+        $this->assertSame(1, $team->count());
+    }
+
+    /** @test */
+    public function it_can_add_members()
     {
         $team = factory(Team::class)->create();
         $users = factory(User::class, 2)->create();
 
-        $team->add($users->get(0));
-        $team->add($users->get(1));
+        $team->add($users);
+
+        $this->assertSame(2, $team->count());
+    }
+
+    /** @test */
+    public function it_has_a_maximum_size()
+    {
+        $team = factory(Team::class)->create(['size' => 2]);
+
+        $users = factory(User::class, 2)->create();
+
+        $team->add($users);
+
+        $this->setExpectedException(Exception::class, "Team cannot hold any more members.");
+
+        $users = factory(User::class, 2)->create();
+
+        $team->add($users);
+    }
+
+    /** @test */
+    public function it_has_a_maximum_size_when_members_to_add_are_greater_than_max()
+    {
+        $team = factory(Team::class)->create(['size' => 2]);
+
+        $this->setExpectedException(Exception::class, "Team maximum size is exceeded.");
+
+        $users = factory(User::class, 3)->create();
+
+        $team->add($users);
+    }
+
+    /** @test */
+    public function it_can_add_multiple_members_at_once()
+    {
+        $team = factory(Team::class)->create();
+        $users = factory(User::class, 2)->create();
+
+        $team->add($users);
 
         $this->assertSame(2, $team->count());
     }
