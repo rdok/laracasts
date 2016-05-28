@@ -21,13 +21,13 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Team.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/Team.php">
+      <file leaf-file-name="TeamTest.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/tests/integration/app/TeamTest.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="751">
-              <caret line="28" column="0" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+            <state relative-caret-position="930">
+              <caret line="110" column="56" selection-start-line="110" selection-start-column="56" selection-end-line="110" selection-end-column="56" />
               <folding>
-                <element signature="e#23#37#0#PHP" expanded="true" />
+                <element signature="e#7#20#0#PHP" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -57,8 +57,9 @@
         <option value="$PROJECT_DIR$/config/database.php" />
         <option value="$PROJECT_DIR$/readme.md" />
         <option value="$PROJECT_DIR$/database/migrations/2014_10_12_000000_create_users_table.php" />
-        <option value="$PROJECT_DIR$/tests/integration/app/TeamTest.php" />
+        <option value="$PROJECT_DIR$/app/User.php" />
         <option value="$PROJECT_DIR$/app/Team.php" />
+        <option value="$PROJECT_DIR$/tests/integration/app/TeamTest.php" />
       </list>
     </option>
   </component>
@@ -118,7 +119,7 @@
     <ConfirmationsSetting value="0" id="Remove" />
   </component>
   <component name="ProjectView">
-    <navigator proportions="" version="1">
+    <navigator currentView="ProjectPane" proportions="" version="1">
       <flattenPackages />
       <showMembers />
       <showModules />
@@ -131,7 +132,13 @@
       <manualOrder />
       <foldersAlwaysOnTop value="true" />
     </navigator>
-    <panes />
+    <panes>
+      <pane id="ProjectPane">
+        <subPane />
+      </pane>
+      <pane id="Scope" />
+      <pane id="Scratches" />
+    </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -183,6 +190,9 @@
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
   </component>
+  <component name="StructureViewFactory">
+    <option name="ACTIVE_ACTIONS" value=",ALPHA_COMPARATOR" />
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -202,12 +212,12 @@
       <workItem from="1464111464421" duration="1809000" />
       <workItem from="1464321866942" duration="1928000" />
       <workItem from="1464373950109" duration="33000" />
-      <workItem from="1464415511843" duration="2748000" />
+      <workItem from="1464415511843" duration="4442000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13813000" />
+    <option name="totallyTimeSpent" value="15507000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="24" width="1920" height="1056" extended-state="6" />
@@ -261,16 +271,7 @@
         <state relative-caret-position="1054">
           <caret line="36" column="34" selection-start-line="36" selection-start-column="34" selection-end-line="36" selection-end-column="34" />
           <folding>
-            <marker date="1464418114679" expanded="true" signature="11:90" placeholder="..." />
-            <marker date="1464418114679" expanded="true" signature="123:2005" placeholder="{...}" />
-            <marker date="1464418114679" expanded="true" signature="164:246" placeholder=" @test ..." />
-            <marker date="1464418114679" expanded="true" signature="293:406" placeholder="{...}" />
-            <marker date="1464418114679" expanded="true" signature="447:507" placeholder="{...}" />
-            <marker date="1464418114679" expanded="true" signature="567:751" placeholder="{...}" />
-            <marker date="1464418114679" expanded="true" signature="810:998" placeholder="{...}" />
-            <marker date="1464418114679" expanded="true" signature="1060:1391" placeholder="{...}" />
-            <marker date="1464418114679" expanded="true" signature="1494:1739" placeholder="{...}" />
-            <marker date="1464418114679" expanded="true" signature="1815:2003" placeholder="{...}" />
+            <element signature="e#7#20#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -280,16 +281,7 @@
         <state relative-caret-position="1054">
           <caret line="36" column="34" selection-start-line="36" selection-start-column="34" selection-end-line="36" selection-end-column="34" />
           <folding>
-            <marker date="1464418114679" expanded="true" signature="11:90" placeholder="..." />
-            <marker date="1464418114679" expanded="true" signature="123:2005" placeholder="{...}" />
-            <marker date="1464418114679" expanded="true" signature="164:246" placeholder=" @test ..." />
-            <marker date="1464418114679" expanded="true" signature="293:406" placeholder="{...}" />
-            <marker date="1464418114679" expanded="true" signature="447:507" placeholder="{...}" />
-            <marker date="1464418114679" expanded="true" signature="567:751" placeholder="{...}" />
-            <marker date="1464418114679" expanded="true" signature="810:998" placeholder="{...}" />
-            <marker date="1464418114679" expanded="true" signature="1060:1391" placeholder="{...}" />
-            <marker date="1464418114679" expanded="true" signature="1494:1739" placeholder="{...}" />
-            <marker date="1464418114679" expanded="true" signature="1815:2003" placeholder="{...}" />
+            <element signature="e#7#20#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -299,7 +291,16 @@
         <state relative-caret-position="248">
           <caret line="8" column="3" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
           <folding>
-            <element signature="e#23#37#0#PHP" expanded="true" />
+            <marker date="1464419781917" expanded="true" signature="27:77" placeholder="..." />
+            <marker date="1464419781917" expanded="true" signature="103:1018" placeholder="{...}" />
+            <marker date="1464419781917" expanded="true" signature="189:253" placeholder="{...}" />
+            <marker date="1464419781917" expanded="true" signature="286:501" placeholder="{...}" />
+            <marker date="1464419781917" expanded="true" signature="382:442" placeholder="..." />
+            <marker date="1464419781917" expanded="true" signature="563:846" placeholder="{...}" />
+            <marker date="1464419781917" expanded="true" signature="614:694" placeholder="..." />
+            <marker date="1464419781917" expanded="true" signature="763:839" placeholder="..." />
+            <marker date="1464419781917" expanded="true" signature="875:929" placeholder="{...}" />
+            <marker date="1464419781917" expanded="true" signature="960:1016" placeholder="{...}" />
           </folding>
         </state>
       </provider>
@@ -309,7 +310,16 @@
         <state relative-caret-position="272">
           <caret line="8" column="3" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
           <folding>
-            <element signature="e#23#37#0#PHP" expanded="true" />
+            <marker date="1464419781917" expanded="true" signature="27:77" placeholder="..." />
+            <marker date="1464419781917" expanded="true" signature="103:1018" placeholder="{...}" />
+            <marker date="1464419781917" expanded="true" signature="189:253" placeholder="{...}" />
+            <marker date="1464419781917" expanded="true" signature="286:501" placeholder="{...}" />
+            <marker date="1464419781917" expanded="true" signature="382:442" placeholder="..." />
+            <marker date="1464419781917" expanded="true" signature="563:846" placeholder="{...}" />
+            <marker date="1464419781917" expanded="true" signature="614:694" placeholder="..." />
+            <marker date="1464419781917" expanded="true" signature="763:839" placeholder="..." />
+            <marker date="1464419781917" expanded="true" signature="875:929" placeholder="{...}" />
+            <marker date="1464419781917" expanded="true" signature="960:1016" placeholder="{...}" />
           </folding>
         </state>
       </provider>
@@ -1226,45 +1236,316 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/User.php">
+    <entry file="file://$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Relations/BelongsTo.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="186">
-          <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
+        <state relative-caret-position="343">
+          <caret line="250" column="20" selection-start-line="250" selection-start-column="20" selection-end-line="250" selection-end-column="20" />
           <folding>
-            <marker date="1463026322309" expanded="true" signature="114:448" placeholder="{...}" />
-            <marker date="1463026322309" expanded="true" signature="124:203" placeholder=" The attributes that are mass assignable. ..." />
-            <marker date="1463026322309" expanded="true" signature="233:275" placeholder="..." />
-            <marker date="1463026322309" expanded="true" signature="286:373" placeholder=" The attributes that should be hidden for arrays. ..." />
-            <marker date="1463026322309" expanded="true" signature="401:444" placeholder="..." />
+            <marker date="1463026377830" expanded="false" signature="62:226" placeholder="..." />
+            <marker date="1463026377830" expanded="true" signature="260:8920" placeholder="{...}" />
+            <marker date="1463026377830" expanded="true" signature="270:346" placeholder=" The foreign key of the parent model. ..." />
+            <marker date="1463026377830" expanded="true" signature="384:463" placeholder=" The associated key on the parent model. ..." />
+            <marker date="1463026377830" expanded="true" signature="499:568" placeholder=" The name of the relationship. ..." />
+            <marker date="1463026377830" expanded="true" signature="604:913" placeholder=" Create a new belongs to relationship instance. ..." />
+            <marker date="1463026377830" expanded="true" signature="1013:1187" placeholder="{...}" />
+            <marker date="1463026377830" expanded="true" signature="1196:1274" placeholder=" Get the results of the relationship. ..." />
+            <marker date="1463026377830" expanded="true" signature="1309:1359" placeholder="{...}" />
+            <marker date="1463026377830" expanded="true" signature="1368:1456" placeholder=" Set the base constraints on the relation query. ..." />
+            <marker date="1463026377830" expanded="true" signature="1495:1967" placeholder="{...}" />
+            <marker date="1463026377830" expanded="true" signature="1537:1960" placeholder="..." />
+            <marker date="1463026377830" expanded="true" signature="1976:2255" placeholder=" Add the constraints for a relationship query. ..." />
+            <marker date="1463026377830" expanded="true" signature="2345:2739" placeholder="{...}" />
+            <marker date="1463026377830" expanded="true" signature="2420:2515" placeholder="..." />
+            <marker date="1463026377830" expanded="true" signature="2748:3045" placeholder=" Add the constraints for a relationship query on the same table. ..." />
+            <marker date="1463026377830" expanded="true" signature="3150:3506" placeholder="{...}" />
+            <marker date="1463026377830" expanded="true" signature="3515:3593" placeholder=" Get a relationship join table hash. ..." />
+            <marker date="1463026377830" expanded="true" signature="3638:3695" placeholder="{...}" />
+            <marker date="1463026377830" expanded="true" signature="3704:3829" placeholder=" Set the constraints for an eager load of the relation. ..." />
+            <marker date="1463026377830" expanded="true" signature="3886:4296" placeholder="{...}" />
+            <marker date="1463026377830" expanded="true" signature="4305:4425" placeholder=" Gather the keys from an array of related models. ..." />
+            <marker date="1463026377830" expanded="true" signature="4483:5322" placeholder="{...}" />
+            <marker date="1463026377830" expanded="true" signature="4810:4934" placeholder="..." />
+            <marker date="1463026377830" expanded="true" signature="4877:4924" placeholder="..." />
+            <marker date="1463026377830" expanded="true" signature="5231:5264" placeholder="..." />
+            <marker date="1463026377830" expanded="true" signature="5331:5480" placeholder=" Initialize the relation on a set of models. ..." />
+            <marker date="1463026377830" expanded="true" signature="5541:5676" placeholder="{...}" />
+            <marker date="1463026377830" expanded="true" signature="5585:5644" placeholder="..." />
+            <marker date="1463026377830" expanded="true" signature="5685:5907" placeholder=" Match the eagerly loaded results to their parents. ..." />
+            <marker date="1463026377830" expanded="true" signature="5982:6944" placeholder="{...}" />
+            <marker date="1463026377830" expanded="true" signature="6383:6458" placeholder="..." />
+            <marker date="1463026377830" expanded="true" signature="6754:6912" placeholder="..." />
+            <marker date="1463026377830" expanded="true" signature="6810:6902" placeholder="..." />
+            <marker date="1463026377830" expanded="true" signature="6953:7137" placeholder=" Associate the model instance to the given parent. ..." />
+            <marker date="1463026377830" expanded="true" signature="7177:7499" placeholder="{...}" />
+            <marker date="1463026377830" expanded="true" signature="7387:7461" placeholder="..." />
+            <marker date="1463026377830" expanded="true" signature="7508:7641" placeholder=" Dissociate previously associated model from the given parent. ..." />
+            <marker date="1463026377830" expanded="true" signature="7676:7817" placeholder="{...}" />
+            <marker date="1463026377830" expanded="true" signature="7826:7946" placeholder=" Update the parent model on the relationship. ..." />
+            <marker date="1463026377830" expanded="true" signature="7994:8101" placeholder="{...}" />
+            <marker date="1463026377830" expanded="true" signature="8110:8193" placeholder=" Get the foreign key of the relationship. ..." />
+            <marker date="1463026377830" expanded="true" signature="8231:8277" placeholder="{...}" />
+            <marker date="1463026377830" expanded="true" signature="8286:8385" placeholder=" Get the fully qualified foreign key of the relationship. ..." />
+            <marker date="1463026377830" expanded="true" signature="8432:8508" placeholder="{...}" />
+            <marker date="1463026377830" expanded="true" signature="8517:8603" placeholder=" Get the associated key of the relationship. ..." />
+            <marker date="1463026377830" expanded="true" signature="8639:8683" placeholder="{...}" />
+            <marker date="1463026377830" expanded="true" signature="8692:8794" placeholder=" Get the fully qualified associated key of the relationship. ..." />
+            <marker date="1463026377830" expanded="true" signature="8843:8918" placeholder="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tests/integration/app/TeamTest.php">
+    <entry file="file://$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Relations/BelongsToMany.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="589">
-          <caret line="34" column="16" selection-start-line="34" selection-start-column="16" selection-end-line="34" selection-end-column="16" />
+        <state relative-caret-position="343">
+          <caret line="1053" column="20" selection-start-line="1053" selection-start-column="20" selection-end-line="1053" selection-end-column="20" />
           <folding>
-            <marker date="1464418114679" expanded="true" signature="11:90" placeholder="..." />
-            <marker date="1464418114679" expanded="true" signature="123:2005" placeholder="{...}" />
-            <marker date="1464418114679" expanded="true" signature="164:246" placeholder=" @test ..." />
-            <marker date="1464418114679" expanded="true" signature="293:406" placeholder="{...}" />
-            <marker date="1464418114679" expanded="true" signature="447:507" placeholder="{...}" />
-            <marker date="1464418114679" expanded="true" signature="567:751" placeholder="{...}" />
-            <marker date="1464418114679" expanded="true" signature="810:998" placeholder="{...}" />
-            <marker date="1464418114679" expanded="true" signature="1060:1391" placeholder="{...}" />
-            <marker date="1464418114679" expanded="true" signature="1494:1739" placeholder="{...}" />
-            <marker date="1464418114679" expanded="true" signature="1815:2003" placeholder="{...}" />
+            <marker date="1463026377838" expanded="false" signature="62:297" placeholder="..." />
+            <marker date="1463026377838" expanded="true" signature="335:36637" placeholder="{...}" />
+            <marker date="1463026377838" expanded="true" signature="345:425" placeholder=" The intermediate table for the relation. ..." />
+            <marker date="1463026377838" expanded="true" signature="458:534" placeholder=" The foreign key of the parent model. ..." />
+            <marker date="1463026377838" expanded="true" signature="572:647" placeholder=" The associated key of the relation. ..." />
+            <marker date="1463026377838" expanded="true" signature="683:754" placeholder=" The &quot;name&quot; of the relationship. ..." />
+            <marker date="1463026377838" expanded="true" signature="794:869" placeholder=" The pivot table columns to retrieve. ..." />
+            <marker date="1463026377838" expanded="true" signature="914:982" placeholder=" Any pivot table restrictions. ..." />
+            <marker date="1463026377838" expanded="true" signature="1026:1125" placeholder=" The custom pivot table column for the created_at timestamp. ..." />
+            <marker date="1463026377838" expanded="true" signature="1167:1266" placeholder=" The custom pivot table column for the updated_at timestamp. ..." />
+            <marker date="1463026377838" expanded="true" signature="1308:1656" placeholder=" Create a new belongs to many relationship instance. ..." />
+            <marker date="1463026377838" expanded="true" signature="1775:1988" placeholder="{...}" />
+            <marker date="1463026377838" expanded="true" signature="1997:2075" placeholder=" Get the results of the relationship. ..." />
+            <marker date="1463026377838" expanded="true" signature="2110:2151" placeholder="{...}" />
+            <marker date="1463026377838" expanded="true" signature="2160:2420" placeholder=" Set a where clause for a pivot table column. ..." />
+            <marker date="1463026377838" expanded="true" signature="2513:2658" placeholder="{...}" />
+            <marker date="1463026377838" expanded="true" signature="2667:2928" placeholder=" Set a &quot;where in&quot; clause for a pivot table column. ..." />
+            <marker date="1463026377838" expanded="true" signature="3013:3156" placeholder="{...}" />
+            <marker date="1463026377838" expanded="true" signature="3165:3399" placeholder=" Set an &quot;or where&quot; clause for a pivot table column. ..." />
+            <marker date="1463026377838" expanded="true" signature="3476:3556" placeholder="{...}" />
+            <marker date="1463026377838" expanded="true" signature="3565:3770" placeholder=" Set an &quot;or where in&quot; clause for a pivot table column. ..." />
+            <marker date="1463026377838" expanded="true" signature="3825:3897" placeholder="{...}" />
+            <marker date="1463026377838" expanded="true" signature="3906:4023" placeholder=" Execute the query and get the first result. ..." />
+            <marker date="1463026377838" expanded="true" signature="4069:4195" placeholder="{...}" />
+            <marker date="1463026377838" expanded="true" signature="4204:4454" placeholder=" Execute the query and get the first result or throw an exception. ..." />
+            <marker date="1463026377838" expanded="true" signature="4506:4656" placeholder="{...}" />
+            <marker date="1463026377838" expanded="true" signature="4570:4606" placeholder="..." />
+            <marker date="1463026377838" expanded="true" signature="4665:4815" placeholder=" Execute the query as a &quot;select&quot; statement. ..." />
+            <marker date="1463026377838" expanded="true" signature="4859:5813" placeholder="{...}" />
+            <marker date="1463026377838" expanded="true" signature="5680:5750" placeholder="..." />
+            <marker date="1463026377838" expanded="true" signature="5822:6079" placeholder=" Get a paginator for the &quot;select&quot; statement. ..." />
+            <marker date="1463026377838" expanded="true" signature="6179:6430" placeholder="{...}" />
+            <marker date="1463026377838" expanded="true" signature="6439:6660" placeholder=" Paginate the given query into a simple paginator. ..." />
+            <marker date="1463026377838" expanded="true" signature="6752:7002" placeholder="{...}" />
+            <marker date="1463026377838" expanded="true" signature="7011:7145" placeholder=" Chunk the results of the query. ..." />
+            <marker date="1463026377838" expanded="true" signature="7201:7466" placeholder="{...}" />
+            <marker date="1463026377838" expanded="true" signature="7304:7458" placeholder="..." />
+            <marker date="1463026377838" expanded="true" signature="7349:7457" placeholder="..." />
+            <marker date="1463026377838" expanded="true" signature="7475:7597" placeholder=" Hydrate the pivot table relationship on the models. ..." />
+            <marker date="1463026377838" expanded="true" signature="7658:8105" placeholder="{...}" />
+            <marker date="1463026377838" expanded="true" signature="7955:8098" placeholder="..." />
+            <marker date="1463026377838" expanded="true" signature="8114:8253" placeholder=" Get the pivot attributes from a model. ..." />
+            <marker date="1463026377838" expanded="true" signature="8313:8856" placeholder="{...}" />
+            <marker date="1463026377838" expanded="true" signature="8404:8824" placeholder="..." />
+            <marker date="1463026377838" expanded="true" signature="8712:8814" placeholder="..." />
+            <marker date="1463026377838" expanded="true" signature="8865:8953" placeholder=" Set the base constraints on the relation query. ..." />
+            <marker date="1463026377838" expanded="true" signature="8992:9108" placeholder="{...}" />
+            <marker date="1463026377838" expanded="true" signature="9061:9101" placeholder="..." />
+            <marker date="1463026377838" expanded="true" signature="9117:9396" placeholder=" Add the constraints for a relationship query. ..." />
+            <marker date="1463026377838" expanded="true" signature="9486:9761" placeholder="{...}" />
+            <marker date="1463026377838" expanded="true" signature="9561:9652" placeholder="..." />
+            <marker date="1463026377838" expanded="true" signature="9770:10067" placeholder=" Add the constraints for a relationship query on the same table. ..." />
+            <marker date="1463026377838" expanded="true" signature="10168:10454" placeholder="{...}" />
+            <marker date="1463026377838" expanded="true" signature="10463:10541" placeholder=" Get a relationship join table hash. ..." />
+            <marker date="1463026377838" expanded="true" signature="10586:10643" placeholder="{...}" />
+            <marker date="1463026377838" expanded="true" signature="10652:10818" placeholder=" Set the select clause for the relation query. ..." />
+            <marker date="1463026377838" expanded="true" signature="10884:11069" placeholder="{...}" />
+            <marker date="1463026377838" expanded="true" signature="10923:10990" placeholder="..." />
+            <marker date="1463026377838" expanded="true" signature="11078:11159" placeholder=" Get the pivot columns for the relation. ..." />
+            <marker date="1463026377838" expanded="true" signature="11209:11745" placeholder="{...}" />
+            <marker date="1463026377838" expanded="true" signature="11617:11698" placeholder="..." />
+            <marker date="1463026377838" expanded="true" signature="11754:11890" placeholder=" Determine whether the given column is defined as a pivot column. ..." />
+            <marker date="1463026377838" expanded="true" signature="11939:12006" placeholder="{...}" />
+            <marker date="1463026377838" expanded="true" signature="12015:12166" placeholder=" Set the join clause for the relation query. ..." />
+            <marker date="1463026377838" expanded="true" signature="12214:12713" placeholder="{...}" />
+            <marker date="1463026377838" expanded="true" signature="12722:12808" placeholder=" Set the where clause for the relation query. ..." />
+            <marker date="1463026377838" expanded="true" signature="12844:12992" placeholder="{...}" />
+            <marker date="1463026377838" expanded="true" signature="13001:13126" placeholder=" Set the constraints for an eager load of the relation. ..." />
+            <marker date="1463026377838" expanded="true" signature="13183:13275" placeholder="{...}" />
+            <marker date="1463026377838" expanded="true" signature="13284:13433" placeholder=" Initialize the relation on a set of models. ..." />
+            <marker date="1463026377838" expanded="true" signature="13494:13656" placeholder="{...}" />
+            <marker date="1463026377838" expanded="true" signature="13538:13624" placeholder="..." />
+            <marker date="1463026377838" expanded="true" signature="13665:13887" placeholder=" Match the eagerly loaded results to their parents. ..." />
+            <marker date="1463026377838" expanded="true" signature="13962:14570" placeholder="{...}" />
+            <marker date="1463026377838" expanded="true" signature="14310:14538" placeholder="..." />
+            <marker date="1463026377838" expanded="true" signature="14373:14528" placeholder="..." />
+            <marker date="1463026377838" expanded="true" signature="14579:14746" placeholder=" Build model dictionary keyed by the relation's foreign key. ..." />
+            <marker date="1463026377838" expanded="true" signature="14808:15275" placeholder="{...}" />
+            <marker date="1463026377838" expanded="true" signature="15167:15239" placeholder="..." />
+            <marker date="1463026377838" expanded="true" signature="15284:15441" placeholder=" Touch all of the related models for the relationship. ..." />
+            <marker date="1463026377838" expanded="true" signature="15471:16010" placeholder="{...}" />
+            <marker date="1463026377838" expanded="true" signature="15910:16003" placeholder="..." />
+            <marker date="1463026377838" expanded="true" signature="16019:16128" placeholder=" Get all of the IDs for the related models. ..." />
+            <marker date="1463026377838" expanded="true" signature="16166:16355" placeholder="{...}" />
+            <marker date="1463026377838" expanded="true" signature="16364:16606" placeholder=" Save a new model and attach it to the parent model. ..." />
+            <marker date="1463026377838" expanded="true" signature="16683:16821" placeholder="{...}" />
+            <marker date="1463026377838" expanded="true" signature="16830:17029" placeholder=" Save an array of new models and attach them to the parent model. ..." />
+            <marker date="1463026377838" expanded="true" signature="17091:17294" placeholder="{...}" />
+            <marker date="1463026377838" expanded="true" signature="17143:17227" placeholder="..." />
+            <marker date="1463026377838" expanded="true" signature="17303:17518" placeholder=" Find a related model by its primary key. ..." />
+            <marker date="1463026377838" expanded="true" signature="17568:17787" placeholder="{...}" />
+            <marker date="1463026377838" expanded="true" signature="17603:17663" placeholder="..." />
+            <marker date="1463026377838" expanded="true" signature="17796:17982" placeholder=" Find multiple related models by their primary keys. ..." />
+            <marker date="1463026377838" expanded="true" signature="18037:18256" placeholder="{...}" />
+            <marker date="1463026377838" expanded="true" signature="18070:18136" placeholder="..." />
+            <marker date="1463026377838" expanded="true" signature="18265:18572" placeholder=" Find a related model by its primary key or throw an exception. ..." />
+            <marker date="1463026377838" expanded="true" signature="18628:18983" placeholder="{...}" />
+            <marker date="1463026377838" expanded="true" signature="18710:18827" placeholder="..." />
+            <marker date="1463026377838" expanded="true" signature="18772:18817" placeholder="..." />
+            <marker date="1463026377838" expanded="true" signature="18858:18895" placeholder="..." />
+            <marker date="1463026377838" expanded="true" signature="18992:19236" placeholder=" Find a related model by its primary key or return new instance of the related model. ..." />
+            <marker date="1463026377838" expanded="true" signature="19291:19463" placeholder="{...}" />
+            <marker date="1463026377838" expanded="true" signature="19360:19429" placeholder="..." />
+            <marker date="1463026377838" expanded="true" signature="19472:19655" placeholder=" Get the first related model record matching the attributes or instantiate it. ..." />
+            <marker date="1463026377838" expanded="true" signature="19707:19893" placeholder="{...}" />
+            <marker date="1463026377838" expanded="true" signature="19784:19859" placeholder="..." />
+            <marker date="1463026377838" expanded="true" signature="19902:20134" placeholder=" Get the first related record matching the attributes or create it. ..." />
+            <marker date="1463026377838" expanded="true" signature="20225:20415" placeholder="{...}" />
+            <marker date="1463026377838" expanded="true" signature="20302:20381" placeholder="..." />
+            <marker date="1463026377838" expanded="true" signature="20424:20703" placeholder=" Create or update a related record matching the attributes, and fill it with values. ..." />
+            <marker date="1463026377838" expanded="true" signature="20815:21077" placeholder="{...}" />
+            <marker date="1463026377838" expanded="true" signature="20892:20962" placeholder="..." />
+            <marker date="1463026377838" expanded="true" signature="21086:21295" placeholder=" Create a new instance of the related model. ..." />
+            <marker date="1463026377838" expanded="true" signature="21379:21839" placeholder="{...}" />
+            <marker date="1463026377838" expanded="true" signature="21848:22008" placeholder=" Create an array of new instances of the related models. ..." />
+            <marker date="1463026377838" expanded="true" signature="22079:22331" placeholder="{...}" />
+            <marker date="1463026377838" expanded="true" signature="22159:22261" placeholder="..." />
+            <marker date="1463026377838" expanded="true" signature="22340:22555" placeholder=" Sync the intermediate tables with a list of IDs or collection of models. ..." />
+            <marker date="1463026377838" expanded="true" signature="22607:24258" placeholder="{...}" />
+            <marker date="1463026377838" expanded="true" signature="22634:22708" placeholder="..." />
+            <marker date="1463026377838" expanded="true" signature="22753:22800" placeholder="..." />
+            <marker date="1463026377838" expanded="true" signature="23536:23740" placeholder="..." />
+            <marker date="1463026377838" expanded="true" signature="23627:23729" placeholder="..." />
+            <marker date="1463026377838" expanded="true" signature="23642:23719" placeholder="..." />
+            <marker date="1463026377838" expanded="true" signature="24027:24102" placeholder="..." />
+            <marker date="1463026377838" expanded="true" signature="24178:24225" placeholder="..." />
+            <marker date="1463026377838" expanded="true" signature="24267:24387" placeholder=" Format the sync list so that it is keyed by ID. ..." />
+            <marker date="1463026377838" expanded="true" signature="24443:24725" placeholder="{...}" />
+            <marker date="1463026377838" expanded="true" signature="24524:24692" placeholder="..." />
+            <marker date="1463026377838" expanded="true" signature="24567:24640" placeholder="..." />
+            <marker date="1463026377838" expanded="true" signature="24734:24922" placeholder=" Attach all of the IDs that aren't in the current array. ..." />
+            <marker date="1463026377838" expanded="true" signature="25004:26127" placeholder="{...}" />
+            <marker date="1463026377838" expanded="true" signature="25118:26094" placeholder="..." />
+            <marker date="1463026377838" expanded="true" signature="25437:25593" placeholder="..." />
+            <marker date="1463026377838" expanded="true" signature="25987:26084" placeholder="..." />
+            <marker date="1463026377838" expanded="true" signature="26136:26310" placeholder=" Update an existing pivot record on the table. ..." />
+            <marker date="1463026377838" expanded="true" signature="26391:26727" placeholder="{...}" />
+            <marker date="1463026377838" expanded="true" signature="26462:26546" placeholder="..." />
+            <marker date="1463026377838" expanded="true" signature="26647:26694" placeholder="..." />
+            <marker date="1463026377838" expanded="true" signature="26736:26895" placeholder=" Attach a model to the parent. ..." />
+            <marker date="1463026377838" expanded="true" signature="26968:27343" placeholder="{...}" />
+            <marker date="1463026377838" expanded="true" signature="27010:27052" placeholder="..." />
+            <marker date="1463026377838" expanded="true" signature="27095:27140" placeholder="..." />
+            <marker date="1463026377838" expanded="true" signature="27289:27336" placeholder="..." />
+            <marker date="1463026377838" expanded="true" signature="27352:27513" placeholder=" Create an array of records to insert into the pivot table. ..." />
+            <marker date="1463026377838" expanded="true" signature="27583:28154" placeholder="{...}" />
+            <marker date="1463026377838" expanded="true" signature="28035:28121" placeholder="..." />
+            <marker date="1463026377838" expanded="true" signature="28163:28364" placeholder=" Create a full attachment record payload. ..." />
+            <marker date="1463026377838" expanded="true" signature="28433:28878" placeholder="{...}" />
+            <marker date="1463026377838" expanded="true" signature="28887:29065" placeholder=" Get the attach record ID and extra attributes. ..." />
+            <marker date="1463026377838" expanded="true" signature="29135:29289" placeholder="{...}" />
+            <marker date="1463026377838" expanded="true" signature="29173:29243" placeholder="..." />
+            <marker date="1463026377838" expanded="true" signature="29298:29430" placeholder=" Create a new pivot attachment record. ..." />
+            <marker date="1463026377838" expanded="true" signature="29487:29965" placeholder="{...}" />
+            <marker date="1463026377838" expanded="true" signature="29863:29933" placeholder="..." />
+            <marker date="1463026377838" expanded="true" signature="29974:30135" placeholder=" Set the creation and update timestamps on an attach record. ..." />
+            <marker date="1463026377838" expanded="true" signature="30214:30550" placeholder="{...}" />
+            <marker date="1463026377838" expanded="true" signature="30341:30400" placeholder="..." />
+            <marker date="1463026377838" expanded="true" signature="30459:30518" placeholder="..." />
+            <marker date="1463026377838" expanded="true" signature="30559:30694" placeholder=" Detach models from the relationship. ..." />
+            <marker date="1463026377838" expanded="true" signature="30749:31631" placeholder="{...}" />
+            <marker date="1463026377838" expanded="true" signature="30792:30844" placeholder="..." />
+            <marker date="1463026377838" expanded="true" signature="31186:31255" placeholder="..." />
+            <marker date="1463026377838" expanded="true" signature="31551:31598" placeholder="..." />
+            <marker date="1463026377838" expanded="true" signature="31640:31723" placeholder=" If we're touching the parent model, touch. ..." />
+            <marker date="1463026377838" expanded="true" signature="31763:31968" placeholder="{...}" />
+            <marker date="1463026377838" expanded="true" signature="31808:31858" placeholder="..." />
+            <marker date="1463026377838" expanded="true" signature="31924:31961" placeholder="..." />
+            <marker date="1463026377838" expanded="true" signature="31977:32066" placeholder=" Determine if we should touch the parent on sync. ..." />
+            <marker date="1463026377838" expanded="true" signature="32108:32196" placeholder="{...}" />
+            <marker date="1463026377838" expanded="true" signature="32205:32305" placeholder=" Attempt to guess the name of the inverse of the relation. ..." />
+            <marker date="1463026377838" expanded="true" signature="32353:32441" placeholder="{...}" />
+            <marker date="1463026377838" expanded="true" signature="32450:32568" placeholder=" Create a new query builder for the pivot table. ..." />
+            <marker date="1463026377838" expanded="true" signature="32609:32870" placeholder="{...}" />
+            <marker date="1463026377838" expanded="true" signature="32714:32788" placeholder="..." />
+            <marker date="1463026377838" expanded="true" signature="32879:33000" placeholder=" Get a new plain query builder for the pivot table. ..." />
+            <marker date="1463026377838" expanded="true" signature="33042:33127" placeholder="{...}" />
+            <marker date="1463026377838" expanded="true" signature="33136:33282" placeholder=" Get a new pivot statement for a given &quot;other&quot; ID. ..." />
+            <marker date="1463026377838" expanded="true" signature="33332:33412" placeholder="{...}" />
+            <marker date="1463026377838" expanded="true" signature="33421:33601" placeholder=" Create a new pivot model instance. ..." />
+            <marker date="1463026377838" expanded="true" signature="33673:33853" placeholder="{...}" />
+            <marker date="1463026377838" expanded="true" signature="33862:34021" placeholder=" Create a new existing pivot model instance. ..." />
+            <marker date="1463026377838" expanded="true" signature="34084:34147" placeholder="{...}" />
+            <marker date="1463026377838" expanded="true" signature="34156:34282" placeholder=" Set the columns on the pivot table to retrieve. ..." />
+            <marker date="1463026377838" expanded="true" signature="34324:34502" placeholder="{...}" />
+            <marker date="1463026377838" expanded="true" signature="34511:34731" placeholder=" Specify that the pivot table has creation and update timestamps. ..." />
+            <marker date="1463026377838" expanded="true" signature="34806:34980" placeholder="{...}" />
+            <marker date="1463026377838" expanded="true" signature="34989:35072" placeholder=" Get the name of the &quot;created at&quot; column. ..." />
+            <marker date="1463026377838" expanded="true" signature="35106:35195" placeholder="{...}" />
+            <marker date="1463026377838" expanded="true" signature="35204:35287" placeholder=" Get the name of the &quot;updated at&quot; column. ..." />
+            <marker date="1463026377838" expanded="true" signature="35321:35410" placeholder="{...}" />
+            <marker date="1463026377838" expanded="true" signature="35419:35509" placeholder=" Get the related model's updated at column name. ..." />
+            <marker date="1463026377838" expanded="true" signature="35555:35658" placeholder="{...}" />
+            <marker date="1463026377838" expanded="true" signature="35667:35774" placeholder=" Get the key for comparing against the parent key in &quot;has&quot; query. ..." />
+            <marker date="1463026377838" expanded="true" signature="35815:35866" placeholder="{...}" />
+            <marker date="1463026377838" expanded="true" signature="35875:35971" placeholder=" Get the fully qualified foreign key for the relation. ..." />
+            <marker date="1463026377838" expanded="true" signature="36009:36072" placeholder="{...}" />
+            <marker date="1463026377838" expanded="true" signature="36081:36177" placeholder=" Get the fully qualified &quot;other key&quot; for the relation. ..." />
+            <marker date="1463026377838" expanded="true" signature="36213:36274" placeholder="{...}" />
+            <marker date="1463026377838" expanded="true" signature="36283:36374" placeholder=" Get the intermediate table for the relationship. ..." />
+            <marker date="1463026377838" expanded="true" signature="36407:36448" placeholder="{...}" />
+            <marker date="1463026377838" expanded="true" signature="36457:36547" placeholder=" Get the relationship name for the relationship. ..." />
+            <marker date="1463026377838" expanded="true" signature="36587:36635" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/User.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="930">
+          <caret line="31" column="31" selection-start-line="31" selection-start-column="31" selection-end-line="31" selection-end-column="31" />
+          <folding>
+            <marker date="1464419729465" expanded="true" signature="114:558" placeholder="{...}" />
+            <marker date="1464419729465" expanded="true" signature="124:203" placeholder=" The attributes that are mass assignable. ..." />
+            <marker date="1464419729465" expanded="true" signature="233:291" placeholder="..." />
+            <marker date="1464419729465" expanded="true" signature="302:389" placeholder=" The attributes that should be hidden for arrays. ..." />
+            <marker date="1464419729465" expanded="true" signature="417:468" placeholder="..." />
+            <marker date="1464419729465" expanded="true" signature="498:556" placeholder="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Team.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="751">
-          <caret line="28" column="0" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+        <state relative-caret-position="403">
+          <caret line="13" column="48" selection-start-line="13" selection-start-column="48" selection-end-line="13" selection-end-column="48" />
           <folding>
-            <element signature="e#23#37#0#PHP" expanded="true" />
+            <marker date="1464419781917" expanded="true" signature="27:77" placeholder="..." />
+            <marker date="1464419781917" expanded="true" signature="103:1018" placeholder="{...}" />
+            <marker date="1464419781917" expanded="true" signature="189:253" placeholder="{...}" />
+            <marker date="1464419781917" expanded="true" signature="286:501" placeholder="{...}" />
+            <marker date="1464419781917" expanded="true" signature="382:442" placeholder="..." />
+            <marker date="1464419781917" expanded="true" signature="563:846" placeholder="{...}" />
+            <marker date="1464419781917" expanded="true" signature="614:694" placeholder="..." />
+            <marker date="1464419781917" expanded="true" signature="763:839" placeholder="..." />
+            <marker date="1464419781917" expanded="true" signature="875:929" placeholder="{...}" />
+            <marker date="1464419781917" expanded="true" signature="960:1016" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/integration/app/TeamTest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="930">
+          <caret line="110" column="56" selection-start-line="110" selection-start-column="56" selection-end-line="110" selection-end-column="56" />
+          <folding>
+            <element signature="e#7#20#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
