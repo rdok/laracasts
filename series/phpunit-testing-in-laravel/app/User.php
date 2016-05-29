@@ -48,8 +48,11 @@ class User extends Authenticatable
         return $like->save();
     }
 
-    public function likes()
+    public function unlike(Post $post)
     {
-        return $this->morphMany(Like::class, 'likeable');
+        return Like::where('likeable_id', $post->id)
+            ->where('likeable_type', Post::class)
+            ->where('user_id', $this->id)
+            ->delete();
     }
 }

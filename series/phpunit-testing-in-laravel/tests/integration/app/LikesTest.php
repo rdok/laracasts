@@ -28,4 +28,27 @@ class LikesTest extends TestCase
             'likeable_type' => get_class($post),
         ]);
     }
+
+    /** @test */
+    public function a_user_can_unlike_a_post()
+    {
+        $user = factory(User::class)->create();
+        $post = factory(Post::class)->create();
+
+        $user->like($post);
+
+        $this->seeInDatabase('likes', [
+            'user_id'       => $user->id,
+            'likeable_id'   => $post->id,
+            'likeable_type' => get_class($post),
+        ]);
+
+        $user->unlike($post);
+
+        $this->dontSeeInDatabase('likes', [
+            'user_id'       => $user->id,
+            'likeable_id'   => $post->id,
+            'likeable_type' => get_class($post),
+        ]);
+    }
 }
