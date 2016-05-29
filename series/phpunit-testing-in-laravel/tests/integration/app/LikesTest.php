@@ -14,13 +14,13 @@ class LikesTest extends TestCase
         $user = factory(User::class)->create();
         $post = factory(Post::class)->create();
 
-        $this->assertCount(0, $user->likes()->get());
+        $this->dontSeeInDatabase('likes', [
+            'user_id'       => $user->id,
+            'likeable_id'   => $post->id,
+            'likeable_type' => get_class($post),
+        ]);
 
         $user->like($post);
-
-        $this->assertCount(1, $user->likes()->get());
-
-//        $this->assertEquals($post, $user->likedPosts()->get()->get(0));
 
         $this->seeInDatabase('likes', [
             'user_id'       => $user->id,
