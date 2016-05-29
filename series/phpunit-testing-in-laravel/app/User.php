@@ -39,7 +39,13 @@ class User extends Authenticatable
 
     public function like(Post $post)
     {
-        $this->likes()->save($post);
+        $like = new Like();
+
+        $like->likeable()->associate($post);
+
+        $like->user()->associate($this);
+
+        return $like->save();
     }
 
     public function likes()

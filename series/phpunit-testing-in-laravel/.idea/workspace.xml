@@ -16,17 +16,26 @@
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
   </component>
+  <component name="DatabaseView">
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_TABLE_DETAILS" value="true" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+  </component>
   <component name="FavoritesManager">
     <favorites_list name="1" />
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Like.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/Like.php">
+      <file leaf-file-name="LikesTest.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/tests/integration/app/LikesTest.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="875">
-              <caret line="29" column="27" selection-start-line="29" selection-start-column="27" selection-end-line="29" selection-end-column="27" />
-              <folding />
+            <state relative-caret-position="434">
+              <caret line="16" column="32" selection-start-line="16" selection-start-column="32" selection-end-line="16" selection-end-column="32" />
+              <folding>
+                <element signature="e#7#20#0#PHP" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -63,9 +72,9 @@
         <option value="$PROJECT_DIR$/database/migrations/2016_05_28_091135_create_post_user_table.php" />
         <option value="$PROJECT_DIR$/app/Likes.php" />
         <option value="$PROJECT_DIR$/database/migrations/2016_05_28_092555_create_likes_table.php" />
-        <option value="$PROJECT_DIR$/tests/integration/app/LikesTest.php" />
-        <option value="$PROJECT_DIR$/app/User.php" />
         <option value="$PROJECT_DIR$/app/Like.php" />
+        <option value="$PROJECT_DIR$/app/User.php" />
+        <option value="$PROJECT_DIR$/tests/integration/app/LikesTest.php" />
       </list>
     </option>
   </component>
@@ -139,11 +148,11 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane />
       </pane>
-      <pane id="Scope" />
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -219,11 +228,13 @@
       <workItem from="1464321866942" duration="1928000" />
       <workItem from="1464373950109" duration="33000" />
       <workItem from="1464415511843" duration="12017000" />
+      <workItem from="1464449578378" duration="12000" />
+      <workItem from="1464498216714" duration="1958000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="23082000" />
+    <option name="totallyTimeSpent" value="25052000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="24" width="1920" height="1056" extended-state="6" />
@@ -232,7 +243,7 @@
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3296875" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -272,104 +283,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/tests/integration/app/TeamTest.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1054">
-          <caret line="36" column="34" selection-start-line="36" selection-start-column="34" selection-end-line="36" selection-end-column="34" />
-          <folding>
-            <marker date="1464425676041" expanded="true" signature="11:90" placeholder="..." />
-            <marker date="1464425676041" expanded="true" signature="123:3260" placeholder="{...}" />
-            <marker date="1464425676041" expanded="true" signature="164:246" placeholder=" @test ..." />
-            <marker date="1464425676041" expanded="true" signature="293:406" placeholder="{...}" />
-            <marker date="1464425676041" expanded="true" signature="447:507" placeholder="{...}" />
-            <marker date="1464425676041" expanded="true" signature="567:749" placeholder="{...}" />
-            <marker date="1464425676041" expanded="true" signature="808:995" placeholder="{...}" />
-            <marker date="1464425676041" expanded="true" signature="1056:1383" placeholder="{...}" />
-            <marker date="1464425676041" expanded="true" signature="1485:1728" placeholder="{...}" />
-            <marker date="1464425676041" expanded="true" signature="1779:1975" placeholder="{...}" />
-            <marker date="1464425676041" expanded="true" signature="2051:2239" placeholder="{...}" />
-            <marker date="1464425676041" expanded="true" signature="2296:2649" placeholder="{...}" />
-            <marker date="1464425676041" expanded="true" signature="2726:2971" placeholder="{...}" />
-            <marker date="1464425676041" expanded="true" signature="3038:3258" placeholder="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests/integration/app/TeamTest.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1054">
-          <caret line="36" column="34" selection-start-line="36" selection-start-column="34" selection-end-line="36" selection-end-column="34" />
-          <folding>
-            <marker date="1464425676041" expanded="true" signature="11:90" placeholder="..." />
-            <marker date="1464425676041" expanded="true" signature="123:3260" placeholder="{...}" />
-            <marker date="1464425676041" expanded="true" signature="164:246" placeholder=" @test ..." />
-            <marker date="1464425676041" expanded="true" signature="293:406" placeholder="{...}" />
-            <marker date="1464425676041" expanded="true" signature="447:507" placeholder="{...}" />
-            <marker date="1464425676041" expanded="true" signature="567:749" placeholder="{...}" />
-            <marker date="1464425676041" expanded="true" signature="808:995" placeholder="{...}" />
-            <marker date="1464425676041" expanded="true" signature="1056:1383" placeholder="{...}" />
-            <marker date="1464425676041" expanded="true" signature="1485:1728" placeholder="{...}" />
-            <marker date="1464425676041" expanded="true" signature="1779:1975" placeholder="{...}" />
-            <marker date="1464425676041" expanded="true" signature="2051:2239" placeholder="{...}" />
-            <marker date="1464425676041" expanded="true" signature="2296:2649" placeholder="{...}" />
-            <marker date="1464425676041" expanded="true" signature="2726:2971" placeholder="{...}" />
-            <marker date="1464425676041" expanded="true" signature="3038:3258" placeholder="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Team.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="248">
-          <caret line="8" column="3" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
-          <folding>
-            <marker date="1464426005133" expanded="true" signature="27:122" placeholder="..." />
-            <marker date="1464426005133" expanded="true" signature="148:1745" placeholder="{...}" />
-            <marker date="1464426005133" expanded="true" signature="227:471" placeholder="{...}" />
-            <marker date="1464426005133" expanded="true" signature="352:412" placeholder="..." />
-            <marker date="1464426005133" expanded="true" signature="543:827" placeholder="{...}" />
-            <marker date="1464426005133" expanded="true" signature="594:674" placeholder="..." />
-            <marker date="1464426005133" expanded="true" signature="744:820" placeholder="..." />
-            <marker date="1464426005133" expanded="true" signature="856:910" placeholder="{...}" />
-            <marker date="1464426005133" expanded="true" signature="941:997" placeholder="{...}" />
-            <marker date="1464426005133" expanded="true" signature="1006:1057" placeholder=" @param $newMembers ..." />
-            <marker date="1464426005133" expanded="true" signature="1114:1253" placeholder="{...}" />
-            <marker date="1464426005133" expanded="true" signature="1290:1364" placeholder="{...}" />
-            <marker date="1464426005133" expanded="true" signature="1400:1543" placeholder="{...}" />
-            <marker date="1464426005133" expanded="true" signature="1444:1493" placeholder="..." />
-            <marker date="1464426005133" expanded="true" signature="1594:1743" placeholder="{...}" />
-            <marker date="1464426005133" expanded="true" signature="1668:1693" placeholder="..." />
-            <marker date="1464426005133" expanded="true" signature="1716:1735" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Team.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="8" column="3" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
-          <folding>
-            <marker date="1464426005133" expanded="true" signature="27:122" placeholder="..." />
-            <marker date="1464426005133" expanded="true" signature="148:1745" placeholder="{...}" />
-            <marker date="1464426005133" expanded="true" signature="227:471" placeholder="{...}" />
-            <marker date="1464426005133" expanded="true" signature="352:412" placeholder="..." />
-            <marker date="1464426005133" expanded="true" signature="543:827" placeholder="{...}" />
-            <marker date="1464426005133" expanded="true" signature="594:674" placeholder="..." />
-            <marker date="1464426005133" expanded="true" signature="744:820" placeholder="..." />
-            <marker date="1464426005133" expanded="true" signature="856:910" placeholder="{...}" />
-            <marker date="1464426005133" expanded="true" signature="941:997" placeholder="{...}" />
-            <marker date="1464426005133" expanded="true" signature="1006:1057" placeholder=" @param $newMembers ..." />
-            <marker date="1464426005133" expanded="true" signature="1114:1253" placeholder="{...}" />
-            <marker date="1464426005133" expanded="true" signature="1290:1364" placeholder="{...}" />
-            <marker date="1464426005133" expanded="true" signature="1400:1543" placeholder="{...}" />
-            <marker date="1464426005133" expanded="true" signature="1444:1493" placeholder="..." />
-            <marker date="1464426005133" expanded="true" signature="1594:1743" placeholder="{...}" />
-            <marker date="1464426005133" expanded="true" signature="1668:1693" placeholder="..." />
-            <marker date="1464426005133" expanded="true" signature="1716:1735" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/tests/integration/app/ArticleTest.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="612">
@@ -511,39 +424,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="31">
           <caret line="33" column="6" selection-start-line="33" selection-start-column="6" selection-end-line="33" selection-end-column="6" />
-          <folding>
-            <marker date="1463026377730" expanded="false" signature="52:120" placeholder="..." />
-            <marker date="1463026377730" expanded="true" signature="142:3688" placeholder="{...}" />
-            <marker date="1463026377730" expanded="true" signature="152:230" placeholder=" The model definitions in the container. ..." />
-            <marker date="1463026377730" expanded="true" signature="269:331" placeholder=" The model being built. ..." />
-            <marker date="1463026377730" expanded="true" signature="364:438" placeholder=" The name of the model being built. ..." />
-            <marker date="1463026377730" expanded="true" signature="482:549" placeholder=" The number of models to build. ..." />
-            <marker date="1463026377730" expanded="true" signature="587:672" placeholder=" The Faker instance for the builder. ..." />
-            <marker date="1463026377730" expanded="true" signature="705:911" placeholder=" Create an new builder instance. ..." />
-            <marker date="1463026377730" expanded="true" signature="994:1140" placeholder="{...}" />
-            <marker date="1463026377730" expanded="true" signature="1149:1270" placeholder=" Set the amount of models you wish to create / make. ..." />
-            <marker date="1463026377730" expanded="true" signature="1307:1375" placeholder="{...}" />
-            <marker date="1463026377730" expanded="true" signature="1384:1523" placeholder=" Create a collection of models and persist them to the database. ..." />
-            <marker date="1463026377730" expanded="true" signature="1576:1843" placeholder="{...}" />
-            <marker date="1463026377730" expanded="true" signature="1663:1702" placeholder="..." />
-            <marker date="1463026377730" expanded="true" signature="1710:1810" placeholder="..." />
-            <marker date="1463026377730" expanded="true" signature="1754:1800" placeholder="..." />
-            <marker date="1463026377730" expanded="true" signature="1852:1958" placeholder=" Create a collection of models. ..." />
-            <marker date="1463026377730" expanded="true" signature="2009:2340" placeholder="{...}" />
-            <marker date="1463026377730" expanded="true" signature="2050:2112" placeholder="..." />
-            <marker date="1463026377730" expanded="true" signature="2120:2333" placeholder="..." />
-            <marker date="1463026377730" expanded="true" signature="2201:2277" placeholder="..." />
-            <marker date="1463026377730" expanded="true" signature="2349:2559" placeholder=" Make an instance of the model with the given attributes. ..." />
-            <marker date="1463026377730" expanded="true" signature="2621:3259" placeholder="{...}" />
-            <marker date="1463026377730" expanded="true" signature="2660:3251" placeholder="..." />
-            <marker date="1463026377730" expanded="true" signature="2691:3250" placeholder="..." />
-            <marker date="1463026377730" expanded="true" signature="2765:2902" placeholder="..." />
-            <marker date="1463026377730" expanded="true" signature="2946:3064" placeholder="..." />
-            <marker date="1463026377730" expanded="true" signature="3122:3189" placeholder="..." />
-            <marker date="1463026377730" expanded="true" signature="3268:3399" placeholder=" Evaluate any Closure attributes on the attribute array. ..." />
-            <marker date="1463026377730" expanded="true" signature="3465:3686" placeholder="{...}" />
-            <marker date="1463026377730" expanded="true" signature="3518:3650" placeholder="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -561,410 +441,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="343">
           <caret line="461" column="20" selection-start-line="461" selection-start-column="20" selection-end-line="461" selection-end-column="20" />
-          <folding>
-            <marker date="1463026390650" expanded="false" signature="8:225" placeholder="..." />
-            <marker date="1463026390650" expanded="false" signature="233:514" placeholder="..." />
-            <marker date="1463026390650" expanded="true" signature="519:1593" placeholder=" A TestCase defines the fixture to run multiple tests. ..." />
-            <marker date="1463026390650" expanded="true" signature="1738:63219" placeholder="{...}" />
-            <marker date="1463026390650" expanded="true" signature="1748:1971" placeholder=" Enable or disable the backup and restoration of the $GLOBALS array. ..." />
-            <marker date="1463026390650" expanded="true" signature="2019:2043" placeholder=" @var array ..." />
-            <marker date="1463026390650" expanded="true" signature="2103:2325" placeholder=" Enable or disable the backup and restoration of static attributes. ..." />
-            <marker date="1463026390650" expanded="true" signature="2382:2406" placeholder=" @var array ..." />
-            <marker date="1463026390650" expanded="true" signature="2475:2577" placeholder=" Whether or not this test is to be run in a separate PHP process. ..." />
-            <marker date="1463026390650" expanded="true" signature="2636:2778" placeholder=" Whether or not this test should preserve the global state when ..." />
-            <marker date="1463026390650" expanded="true" signature="2832:2932" placeholder=" Whether or not this test is running in a separate PHP process. ..." />
-            <marker date="1463026390650" expanded="true" signature="2977:3001" placeholder=" @var array ..." />
-            <marker date="1463026390650" expanded="true" signature="3041:3066" placeholder=" @var string ..." />
-            <marker date="1463026390650" expanded="true" signature="3105:3128" placeholder=" @var bool ..." />
-            <marker date="1463026390650" expanded="true" signature="3176:3250" placeholder=" The name of the expected Exception. ..." />
-            <marker date="1463026390650" expanded="true" signature="3300:3378" placeholder=" The message of the expected Exception. ..." />
-            <marker date="1463026390650" expanded="true" signature="3433:3534" placeholder=" The regex pattern to validate the expected Exception message. ..." />
-            <marker date="1463026390650" expanded="true" signature="3595:3667" placeholder=" The code of the expected Exception. ..." />
-            <marker date="1463026390650" expanded="true" signature="3714:3780" placeholder=" The name of the test case. ..." />
-            <marker date="1463026390650" expanded="true" signature="3817:3841" placeholder=" @var array ..." />
-            <marker date="1463026390650" expanded="true" signature="3889:3913" placeholder=" @var array ..." />
-            <marker date="1463026390650" expanded="true" signature="3964:3988" placeholder=" @var array ..." />
-            <marker date="1463026390650" expanded="true" signature="4035:4059" placeholder=" @var array ..." />
-            <marker date="1463026390650" expanded="true" signature="4101:4125" placeholder=" @var array ..." />
-            <marker date="1463026390650" expanded="true" signature="4172:4196" placeholder=" @var array ..." />
-            <marker date="1463026390650" expanded="true" signature="4248:4270" placeholder=" @var int ..." />
-            <marker date="1463026390650" expanded="true" signature="4302:4327" placeholder=" @var string ..." />
-            <marker date="1463026390650" expanded="true" signature="4371:4393" placeholder=" @var int ..." />
-            <marker date="1463026390650" expanded="true" signature="4436:4483" placeholder=" @var PHPUnit_Framework_TestResult ..." />
-            <marker date="1463026390650" expanded="true" signature="4515:4539" placeholder=" @var mixed ..." />
-            <marker date="1463026390650" expanded="true" signature="4575:4600" placeholder=" @var string ..." />
-            <marker date="1463026390650" expanded="true" signature="4637:4662" placeholder=" @var string ..." />
-            <marker date="1463026390650" expanded="true" signature="4714:4739" placeholder=" @var string ..." />
-            <marker date="1463026390650" expanded="true" signature="4792:4816" placeholder=" @var mixed ..." />
-            <marker date="1463026390650" expanded="true" signature="4864:4887" placeholder=" @var bool ..." />
-            <marker date="1463026390650" expanded="true" signature="4942:4964" placeholder=" @var int ..." />
-            <marker date="1463026390650" expanded="true" signature="5010:5067" placeholder=" @var SebastianBergmann\GlobalState\Snapshot ..." />
-            <marker date="1463026390650" expanded="true" signature="5101:5136" placeholder=" @var Prophecy\Prophet ..." />
-            <marker date="1463026390650" expanded="true" signature="5169:5192" placeholder=" @var bool ..." />
-            <marker date="1463026390650" expanded="true" signature="5254:5403" placeholder=" Constructs a test case with the given name. ..." />
-            <marker date="1463026390650" expanded="true" signature="5490:5670" placeholder="{...}" />
-            <marker date="1463026390650" expanded="true" signature="5526:5570" placeholder="..." />
-            <marker date="1463026390650" expanded="true" signature="5679:5771" placeholder=" Returns a string representation of the test case. ..." />
-            <marker date="1463026390650" expanded="true" signature="5804:6037" placeholder="{...}" />
-            <marker date="1463026390650" expanded="true" signature="5883:5974" placeholder="..." />
-            <marker date="1463026390650" expanded="true" signature="6046:6153" placeholder=" Counts the number of test cases executed by run(TestResult result). ..." />
-            <marker date="1463026390650" expanded="true" signature="6183:6213" placeholder="{...}" />
-            <marker date="1463026390650" expanded="true" signature="6222:6360" placeholder=" Returns the annotations for this test. ..." />
-            <marker date="1463026390650" expanded="true" signature="6399:6538" placeholder="{...}" />
-            <marker date="1463026390650" expanded="true" signature="6467:6530" placeholder="..." />
-            <marker date="1463026390650" expanded="true" signature="6547:6657" placeholder=" Gets the name of a TestCase. ..." />
-            <marker date="1463026390650" expanded="true" signature="6708:6874" placeholder="{...}" />
-            <marker date="1463026390650" expanded="true" signature="6742:6818" placeholder="..." />
-            <marker date="1463026390650" expanded="true" signature="6826:6867" placeholder="..." />
-            <marker date="1463026390650" expanded="true" signature="6883:7011" placeholder=" Returns the size of the test. ..." />
-            <marker date="1463026390650" expanded="true" signature="7043:7173" placeholder="{...}" />
-            <marker date="1463026390650" expanded="true" signature="7092:7165" placeholder="..." />
-            <marker date="1463026390650" expanded="true" signature="7182:7269" placeholder=" @return string ..." />
-            <marker date="1463026390650" expanded="true" signature="7309:7465" placeholder="{...}" />
-            <marker date="1463026390650" expanded="true" signature="7360:7403" placeholder="..." />
-            <marker date="1463026390650" expanded="true" signature="7411:7458" placeholder="..." />
-            <marker date="1463026390650" expanded="true" signature="7474:7559" placeholder=" @return bool ..." />
-            <marker date="1463026390650" expanded="true" signature="7593:7790" placeholder="{...}" />
-            <marker date="1463026390650" expanded="true" signature="7642:7677" placeholder="..." />
-            <marker date="1463026390650" expanded="true" signature="7726:7761" placeholder="..." />
-            <marker date="1463026390650" expanded="true" signature="7799:7949" placeholder=" @param string $expectedRegex ..." />
-            <marker date="1463026390650" expanded="true" signature="8005:8266" placeholder="{...}" />
-            <marker date="1463026390650" expanded="true" signature="8063:8123" placeholder="..." />
-            <marker date="1463026390650" expanded="true" signature="8193:8259" placeholder="..." />
-            <marker date="1463026390650" expanded="true" signature="8275:8376" placeholder=" @param string $expectedString ..." />
-            <marker date="1463026390650" expanded="true" signature="8434:8698" placeholder="{...}" />
-            <marker date="1463026390650" expanded="true" signature="8491:8551" placeholder="..." />
-            <marker date="1463026390650" expanded="true" signature="8623:8691" placeholder="..." />
-            <marker date="1463026390650" expanded="true" signature="8707:8810" placeholder=" @return bool ..." />
-            <marker date="1463026390650" expanded="true" signature="8867:8927" placeholder="{...}" />
-            <marker date="1463026390650" expanded="true" signature="8936:9020" placeholder=" @return bool ..." />
-            <marker date="1463026390650" expanded="true" signature="9067:9175" placeholder="{...}" />
-            <marker date="1463026390650" expanded="true" signature="9184:9271" placeholder=" @return string ..." />
-            <marker date="1463026390650" expanded="true" signature="9316:9369" placeholder="{...}" />
-            <marker date="1463026390650" expanded="true" signature="9378:9554" placeholder=" @param mixed  $exceptionName ..." />
-            <marker date="1463026390650" expanded="true" signature="9660:9849" placeholder="{...}" />
-            <marker date="1463026390650" expanded="true" signature="9858:10039" placeholder=" @param mixed  $exceptionName ..." />
-            <marker date="1463026390650" expanded="true" signature="10157:10370" placeholder="{...}" />
-            <marker date="1463026390650" expanded="true" signature="10379:10437" placeholder=" @since  Method available since Release 3.4.0 ..." />
-            <marker date="1463026390650" expanded="true" signature="10499:11332" placeholder="{...}" />
-            <marker date="1463026390650" expanded="true" signature="10519:11282" placeholder="..." />
-            <marker date="1463026390650" expanded="true" signature="10593:10668" placeholder="..." />
-            <marker date="1463026390650" expanded="true" signature="10719:11272" placeholder="..." />
-            <marker date="1463026390650" expanded="true" signature="10764:10928" placeholder="..." />
-            <marker date="1463026390650" expanded="true" signature="10998:11258" placeholder="..." />
-            <marker date="1463026390650" expanded="true" signature="11053:11239" placeholder="..." />
-            <marker date="1463026390650" expanded="true" signature="11316:11325" placeholder="..." />
-            <marker date="1463026390650" expanded="true" signature="11341:11441" placeholder=" @param bool $useErrorHandler ..." />
-            <marker date="1463026390650" expanded="true" signature="11500:11563" placeholder="{...}" />
-            <marker date="1463026390650" expanded="true" signature="11572:11629" placeholder=" @since Method available since Release 3.4.0 ..." />
-            <marker date="1463026390650" expanded="true" signature="11689:12041" placeholder="{...}" />
-            <marker date="1463026390650" expanded="true" signature="11709:11991" placeholder="..." />
-            <marker date="1463026390650" expanded="true" signature="11784:11859" placeholder="..." />
-            <marker date="1463026390650" expanded="true" signature="11907:11981" placeholder="..." />
-            <marker date="1463026390650" expanded="true" signature="12025:12034" placeholder="..." />
-            <marker date="1463026390650" expanded="true" signature="12050:12107" placeholder=" @since Method available since Release 3.6.0 ..." />
-            <marker date="1463026390650" expanded="true" signature="12152:12531" placeholder="{...}" />
-            <marker date="1463026390650" expanded="true" signature="12224:12253" placeholder="..." />
-            <marker date="1463026390650" expanded="true" signature="12329:12392" placeholder="..." />
-            <marker date="1463026390650" expanded="true" signature="12439:12524" placeholder="..." />
-            <marker date="1463026390650" expanded="true" signature="12540:12671" placeholder=" Returns the status of this test. ..." />
-            <marker date="1463026390650" expanded="true" signature="12705:12747" placeholder="{...}" />
-            <marker date="1463026390650" expanded="true" signature="12756:12898" placeholder=" Returns the status message of this test. ..." />
-            <marker date="1463026390650" expanded="true" signature="12939:12988" placeholder="{...}" />
-            <marker date="1463026390650" expanded="true" signature="12997:13141" placeholder=" Returns whether or not this test has failed. ..." />
-            <marker date="1463026390650" expanded="true" signature="13175:13372" placeholder="{...}" />
-            <marker date="1463026390650" expanded="true" signature="13381:13689" placeholder=" Runs the test case and collects the results in a TestResult object. ..." />
-            <marker date="1463026390650" expanded="true" signature="13760:20056" placeholder="{...}" />
-            <marker date="1463026390650" expanded="true" signature="13798:13852" placeholder="..." />
-            <marker date="1463026390650" expanded="true" signature="13913:14026" placeholder="..." />
-            <marker date="1463026390650" expanded="true" signature="14075:14235" placeholder="..." />
-            <marker date="1463026390650" expanded="true" signature="14328:14357" placeholder="..." />
-            <marker date="1463026390650" expanded="true" signature="14592:19812" placeholder="..." />
-            <marker date="1463026390650" expanded="true" signature="14816:15165" placeholder="..." />
-            <marker date="1463026390650" expanded="true" signature="15173:15577" placeholder="..." />
-            <marker date="1463026390650" expanded="true" signature="15273:15425" placeholder="..." />
-            <marker date="1463026390650" expanded="true" signature="15433:15489" placeholder="..." />
-            <marker date="1463026390650" expanded="true" signature="16265:16358" placeholder="..." />
-            <marker date="1463026390650" expanded="true" signature="16366:16423" placeholder="..." />
-            <marker date="1463026390650" expanded="true" signature="16472:16545" placeholder="..." />
-            <marker date="1463026390650" expanded="true" signature="16553:16598" placeholder="..." />
-            <marker date="1463026390650" expanded="true" signature="16646:16735" placeholder="..." />
-            <marker date="1463026390650" expanded="true" signature="16743:16800" placeholder="..." />
-            <marker date="1463026390650" expanded="true" signature="17912:19637" placeholder="..." />
-            <marker date="1463026390650" expanded="true" signature="17935:19623" placeholder="..." />
-            <marker date="1463026390650" expanded="true" signature="19820:19862" placeholder="..." />
-            <marker date="1463026390650" expanded="true" signature="19911:19993" placeholder="..." />
-            <marker date="1463026390650" expanded="true" signature="20065:20107" placeholder=" Runs the bare test sequence. ..." />
-            <marker date="1463026390650" expanded="true" signature="20139:24754" placeholder="{...}" />
-            <marker date="1463026390650" expanded="true" signature="20420:21142" placeholder="..." />
-            <marker date="1463026390650" expanded="true" signature="20580:20716" placeholder="..." />
-            <marker date="1463026390650" expanded="true" signature="20647:20702" placeholder="..." />
-            <marker date="1463026390650" expanded="true" signature="20834:20881" placeholder="..." />
-            <marker date="1463026390650" expanded="true" signature="21189:21336" placeholder="..." />
-            <marker date="1463026390650" expanded="true" signature="21380:21524" placeholder="..." />
-            <marker date="1463026390650" expanded="true" signature="21577:21721" placeholder="..." />
-            <marker date="1463026390650" expanded="true" signature="21755:21899" placeholder="..." />
-            <marker date="1463026390650" expanded="true" signature="21924:21955" placeholder="..." />
-            <marker date="1463026390650" expanded="true" signature="21980:22011" placeholder="..." />
-            <marker date="1463026390650" expanded="true" signature="22039:22182" placeholder="..." />
-            <marker date="1463026390650" expanded="true" signature="22455:22829" placeholder="..." />
-            <marker date="1463026390650" expanded="true" signature="22494:22819" placeholder="..." />
-            <marker date="1463026390650" expanded="true" signature="22555:22610" placeholder="..." />
-            <marker date="1463026390650" expanded="true" signature="22654:22805" placeholder="..." />
-            <marker date="1463026390650" expanded="true" signature="22724:22787" placeholder="..." />
-            <marker date="1463026390650" expanded="true" signature="22854:22933" placeholder="..." />
-            <marker date="1463026390650" expanded="true" signature="22884:22923" placeholder="..." />
-            <marker date="1463026390650" expanded="true" signature="22958:23037" placeholder="..." />
-            <marker date="1463026390650" expanded="true" signature="22988:23027" placeholder="..." />
-            <marker date="1463026390650" expanded="true" signature="23053:23104" placeholder="..." />
-            <marker date="1463026390650" expanded="true" signature="23152:23231" placeholder="..." />
-            <marker date="1463026390650" expanded="true" signature="23182:23221" placeholder="..." />
-            <marker date="1463026390650" expanded="true" signature="23312:23366" placeholder="..." />
-            <marker date="1463026390650" expanded="true" signature="23504:23555" placeholder="..." />
-            <marker date="1463026390650" expanded="true" signature="23691:23743" placeholder="..." />
-            <marker date="1463026390650" expanded="true" signature="23811:24292" placeholder="..." />
-            <marker date="1463026390650" expanded="true" signature="23829:24154" placeholder="..." />
-            <marker date="1463026390650" expanded="true" signature="23888:23989" placeholder="..." />
-            <marker date="1463026390650" expanded="true" signature="24038:24140" placeholder="..." />
-            <marker date="1463026390650" expanded="true" signature="24179:24218" placeholder="..." />
-            <marker date="1463026390650" expanded="true" signature="24243:24282" placeholder="..." />
-            <marker date="1463026390650" expanded="true" signature="24364:24747" placeholder="..." />
-            <marker date="1463026390650" expanded="true" signature="24417:24513" placeholder="..." />
-            <marker date="1463026390650" expanded="true" signature="24559:24692" placeholder="..." />
-            <marker date="1463026390650" expanded="true" signature="24763:24954" placeholder=" Override to run the test and assert its state. ..." />
-            <marker date="1463026390650" expanded="true" signature="24989:28059" placeholder="{...}" />
-            <marker date="1463026390650" expanded="true" signature="25031:25176" placeholder="..." />
-            <marker date="1463026390650" expanded="true" signature="25192:25305" placeholder="..." />
-            <marker date="1463026390650" expanded="true" signature="25339:25391" placeholder="..." />
-            <marker date="1463026390650" expanded="true" signature="25407:25566" placeholder="..." />
-            <marker date="1463026390650" expanded="true" signature="25454:25555" placeholder="..." />
-            <marker date="1463026390650" expanded="true" signature="25591:25622" placeholder="..." />
-            <marker date="1463026390650" expanded="true" signature="25647:25678" placeholder="..." />
-            <marker date="1463026390650" expanded="true" signature="25705:27772" placeholder="..." />
-            <marker date="1463026390650" expanded="true" signature="25798:26280" placeholder="..." />
-            <marker date="1463026390650" expanded="true" signature="25904:25966" placeholder="..." />
-            <marker date="1463026390650" expanded="true" signature="26205:26266" placeholder="..." />
-            <marker date="1463026390650" expanded="true" signature="26317:27715" placeholder="..." />
-            <marker date="1463026390650" expanded="true" signature="26352:26528" placeholder="..." />
-            <marker date="1463026390650" expanded="true" signature="26660:26928" placeholder="..." />
-            <marker date="1463026390650" expanded="true" signature="26699:26909" placeholder="..." />
-            <marker date="1463026390650" expanded="true" signature="27071:27351" placeholder="..." />
-            <marker date="1463026390650" expanded="true" signature="27110:27332" placeholder="..." />
-            <marker date="1463026390650" expanded="true" signature="27414:27676" placeholder="..." />
-            <marker date="1463026390650" expanded="true" signature="27453:27657" placeholder="..." />
-            <marker date="1463026390650" expanded="true" signature="27723:27762" placeholder="..." />
-            <marker date="1463026390650" expanded="true" signature="27823:28023" placeholder="..." />
-            <marker date="1463026390650" expanded="true" signature="27854:28012" placeholder="..." />
-            <marker date="1463026390650" expanded="true" signature="28068:28178" placeholder=" Verifies the mock object expectations. ..." />
-            <marker date="1463026390650" expanded="true" signature="28223:29211" placeholder="{...}" />
-            <marker date="1463026390650" expanded="true" signature="28283:28448" placeholder="..." />
-            <marker date="1463026390650" expanded="true" signature="28339:28392" placeholder="..." />
-            <marker date="1463026390650" expanded="true" signature="28489:29204" placeholder="..." />
-            <marker date="1463026390650" expanded="true" signature="28507:28572" placeholder="..." />
-            <marker date="1463026390650" expanded="true" signature="28596:28656" placeholder="..." />
-            <marker date="1463026390650" expanded="true" signature="28680:28740" placeholder="..." />
-            <marker date="1463026390650" expanded="true" signature="28817:29124" placeholder="..." />
-            <marker date="1463026390650" expanded="true" signature="28905:29110" placeholder="..." />
-            <marker date="1463026390650" expanded="true" signature="28974:29092" placeholder="..." />
-            <marker date="1463026390650" expanded="true" signature="29155:29194" placeholder="..." />
-            <marker date="1463026390650" expanded="true" signature="29220:29291" placeholder=" Sets the name of a TestCase. ..." />
-            <marker date="1463026390650" expanded="true" signature="29328:29369" placeholder="{...}" />
-            <marker date="1463026390650" expanded="true" signature="29378:29528" placeholder=" Sets the dependencies of a TestCase. ..." />
-            <marker date="1463026390650" expanded="true" signature="29587:29644" placeholder="{...}" />
-            <marker date="1463026390650" expanded="true" signature="29653:29794" placeholder=" Returns true if the tests has dependencies ..." />
-            <marker date="1463026390650" expanded="true" signature="29834:29893" placeholder="{...}" />
-            <marker date="1463026390650" expanded="true" signature="29902:30023" placeholder=" Sets ..." />
-            <marker date="1463026390650" expanded="true" signature="30088:30151" placeholder="{...}" />
-            <marker date="1463026390650" expanded="true" signature="30160:30273" placeholder=" @param bool $disallowChangesToGlobalState ..." />
-            <marker date="1463026390650" expanded="true" signature="30358:30447" placeholder="{...}" />
-            <marker date="1463026390650" expanded="true" signature="30456:30615" placeholder=" Calling this method in setUp() has no effect! ..." />
-            <marker date="1463026390650" expanded="true" signature="30670:30815" placeholder="{...}" />
-            <marker date="1463026390650" expanded="true" signature="30748:30808" placeholder="..." />
-            <marker date="1463026390650" expanded="true" signature="30824:30992" placeholder=" Calling this method in setUp() has no effect! ..." />
-            <marker date="1463026390650" expanded="true" signature="31065:31258" placeholder="{...}" />
-            <marker date="1463026390650" expanded="true" signature="31173:31251" placeholder="..." />
-            <marker date="1463026390650" expanded="true" signature="31267:31427" placeholder=" @param bool $runTestInSeparateProcess ..." />
-            <marker date="1463026390650" expanded="true" signature="31504:31821" placeholder="{...}" />
-            <marker date="1463026390650" expanded="true" signature="31560:31720" placeholder="..." />
-            <marker date="1463026390650" expanded="true" signature="31620:31710" placeholder="..." />
-            <marker date="1463026390650" expanded="true" signature="31728:31814" placeholder="..." />
-            <marker date="1463026390650" expanded="true" signature="31830:31985" placeholder=" @param bool $preserveGlobalState ..." />
-            <marker date="1463026390650" expanded="true" signature="32052:32276" placeholder="{...}" />
-            <marker date="1463026390650" expanded="true" signature="32103:32175" placeholder="..." />
-            <marker date="1463026390650" expanded="true" signature="32183:32269" placeholder="..." />
-            <marker date="1463026390650" expanded="true" signature="32285:32432" placeholder=" @param bool $inIsolation ..." />
-            <marker date="1463026390650" expanded="true" signature="32483:32683" placeholder="{...}" />
-            <marker date="1463026390650" expanded="true" signature="32526:32582" placeholder="..." />
-            <marker date="1463026390650" expanded="true" signature="32590:32676" placeholder="..." />
-            <marker date="1463026390650" expanded="true" signature="32692:32777" placeholder=" @return bool ..." />
-            <marker date="1463026390650" expanded="true" signature="32815:32862" placeholder="{...}" />
-            <marker date="1463026390650" expanded="true" signature="32871:32957" placeholder=" @return mixed ..." />
-            <marker date="1463026390650" expanded="true" signature="32991:33037" placeholder="{...}" />
-            <marker date="1463026390650" expanded="true" signature="33046:33139" placeholder=" @param mixed $result ..." />
-            <marker date="1463026390650" expanded="true" signature="33180:33229" placeholder="{...}" />
-            <marker date="1463026390650" expanded="true" signature="33238:33385" placeholder=" @param callable $callback ..." />
-            <marker date="1463026390650" expanded="true" signature="33436:33619" placeholder="{...}" />
-            <marker date="1463026390650" expanded="true" signature="33481:33568" placeholder="..." />
-            <marker date="1463026390650" expanded="true" signature="33628:33737" placeholder=" @return PHPUnit_Framework_TestResult ..." />
-            <marker date="1463026390650" expanded="true" signature="33781:33823" placeholder="{...}" />
-            <marker date="1463026390650" expanded="true" signature="33832:33947" placeholder=" @param PHPUnit_Framework_TestResult $result ..." />
-            <marker date="1463026390650" expanded="true" signature="34027:34072" placeholder="{...}" />
-            <marker date="1463026390650" expanded="true" signature="34081:34437" placeholder=" This method is a wrapper for the ini_set() function that automatically ..." />
-            <marker date="1463026390650" expanded="true" signature="34490:35039" placeholder="{...}" />
-            <marker date="1463026390650" expanded="true" signature="34532:34617" placeholder="..." />
-            <marker date="1463026390650" expanded="true" signature="34713:34780" placeholder="..." />
-            <marker date="1463026390650" expanded="true" signature="34788:35032" placeholder="..." />
-            <marker date="1463026390650" expanded="true" signature="34864:35007" placeholder="..." />
-            <marker date="1463026390650" expanded="true" signature="35048:35380" placeholder=" This method is a wrapper for the setlocale() function that automatically ..." />
-            <marker date="1463026390650" expanded="true" signature="35417:36479" placeholder="{...}" />
-            <marker date="1463026390650" expanded="true" signature="35489:35549" placeholder="..." />
-            <marker date="1463026390650" expanded="true" signature="35641:35725" placeholder="..." />
-            <marker date="1463026390650" expanded="true" signature="35766:35816" placeholder="..." />
-            <marker date="1463026390650" expanded="true" signature="35867:35927" placeholder="..." />
-            <marker date="1463026390650" expanded="true" signature="35986:36046" placeholder="..." />
-            <marker date="1463026390650" expanded="true" signature="36206:36472" placeholder="..." />
-            <marker date="1463026390650" expanded="true" signature="36488:37877" placeholder=" Returns a mock object for the specified class. ..." />
-            <marker date="1463026390650" expanded="true" signature="38133:38559" placeholder="{...}" />
-            <marker date="1463026390650" expanded="true" signature="38203:38477" placeholder="..." />
-            <marker date="1463026390650" expanded="true" signature="38568:38816" placeholder=" Returns a builder object to create mock objects using a fluent interface. ..." />
-            <marker date="1463026390650" expanded="true" signature="38865:38957" placeholder="{...}" />
-            <marker date="1463026390650" expanded="true" signature="38966:39488" placeholder=" Mocks the specified class and returns the name of the mocked class. ..." />
-            <marker date="1463026390650" expanded="true" signature="39723:40043" placeholder="{...}" />
-            <marker date="1463026390650" expanded="true" signature="39761:40001" placeholder="..." />
-            <marker date="1463026390650" expanded="true" signature="40052:40771" placeholder=" Returns a mock object for the specified abstract class with all abstract ..." />
-            <marker date="1463026390650" expanded="true" signature="41019:41433" placeholder="{...}" />
-            <marker date="1463026390650" expanded="true" signature="41105:41351" placeholder="..." />
-            <marker date="1463026390650" expanded="true" signature="41442:41917" placeholder=" Returns a mock object based on the given WSDL file. ..." />
-            <marker date="1463026390650" expanded="true" signature="42100:42765" placeholder="{...}" />
-            <marker date="1463026390650" expanded="true" signature="42147:42236" placeholder="..." />
-            <marker date="1463026390650" expanded="true" signature="42287:42525" placeholder="..." />
-            <marker date="1463026390650" expanded="true" signature="42373:42500" placeholder="..." />
-            <marker date="1463026390650" expanded="true" signature="42558:42757" placeholder="..." />
-            <marker date="1463026390650" expanded="true" signature="42774:43445" placeholder=" Returns a mock object for the specified trait with all abstract methods ..." />
-            <marker date="1463026390650" expanded="true" signature="43677:44075" placeholder="{...}" />
-            <marker date="1463026390650" expanded="true" signature="43755:43993" placeholder="..." />
-            <marker date="1463026390650" expanded="true" signature="44084:44544" placeholder=" Returns an object for the specified trait. ..." />
-            <marker date="1463026390650" expanded="true" signature="44756:45048" placeholder="{...}" />
-            <marker date="1463026390650" expanded="true" signature="44829:45040" placeholder="..." />
-            <marker date="1463026390650" expanded="true" signature="45057:45260" placeholder=" @param string|null $classOrInterface ..." />
-            <marker date="1463026390650" expanded="true" signature="45322:45401" placeholder="{...}" />
-            <marker date="1463026390650" expanded="true" signature="45410:45552" placeholder=" Adds a value to the assertion counter. ..." />
-            <marker date="1463026390650" expanded="true" signature="45602:45654" placeholder="{...}" />
-            <marker date="1463026390650" expanded="true" signature="45663:45818" placeholder=" Returns the number of assertions performed by this test. ..." />
-            <marker date="1463026390650" expanded="true" signature="45859:45908" placeholder="{...}" />
-            <marker date="1463026390650" expanded="true" signature="45917:46150" placeholder=" Returns a matcher that matches when the method is executed ..." />
-            <marker date="1463026390650" expanded="true" signature="46185:46270" placeholder="{...}" />
-            <marker date="1463026390650" expanded="true" signature="46279:46489" placeholder=" Returns a matcher that matches when the method is never executed. ..." />
-            <marker date="1463026390650" expanded="true" signature="46526:46611" placeholder="{...}" />
-            <marker date="1463026390650" expanded="true" signature="46620:46901" placeholder=" Returns a matcher that matches when the method is executed ..." />
-            <marker date="1463026390650" expanded="true" signature="46960:47093" placeholder="{...}" />
-            <marker date="1463026390650" expanded="true" signature="47102:47326" placeholder=" Returns a matcher that matches when the method is executed at least once. ..." />
-            <marker date="1463026390650" expanded="true" signature="47369:47457" placeholder="{...}" />
-            <marker date="1463026390650" expanded="true" signature="47466:47683" placeholder=" Returns a matcher that matches when the method is executed exactly once. ..." />
-            <marker date="1463026390650" expanded="true" signature="47719:47804" placeholder="{...}" />
-            <marker date="1463026390650" expanded="true" signature="47813:48077" placeholder=" Returns a matcher that matches when the method is executed ..." />
-            <marker date="1463026390650" expanded="true" signature="48122:48212" placeholder="{...}" />
-            <marker date="1463026390650" expanded="true" signature="48221:48499" placeholder=" Returns a matcher that matches when the method is executed ..." />
-            <marker date="1463026390650" expanded="true" signature="48556:48687" placeholder="{...}" />
-            <marker date="1463026390650" expanded="true" signature="48696:48960" placeholder=" Returns a matcher that matches when the method is executed ..." />
-            <marker date="1463026390650" expanded="true" signature="49000:49092" placeholder="{...}" />
-            <marker date="1463026390650" expanded="true" signature="49101:49256" placeholder=" @param mixed $value ..." />
-            <marker date="1463026390650" expanded="true" signature="49305:49386" placeholder="{...}" />
-            <marker date="1463026390650" expanded="true" signature="49395:49561" placeholder=" @param array $valueMap ..." />
-            <marker date="1463026390650" expanded="true" signature="49622:49714" placeholder="{...}" />
-            <marker date="1463026390650" expanded="true" signature="49723:49892" placeholder=" @param int $argumentIndex ..." />
-            <marker date="1463026390650" expanded="true" signature="49952:50071" placeholder="{...}" />
-            <marker date="1463026390650" expanded="true" signature="50080:50246" placeholder=" @param mixed $callback ..." />
-            <marker date="1463026390650" expanded="true" signature="50301:50393" placeholder="{...}" />
-            <marker date="1463026390650" expanded="true" signature="50402:50638" placeholder=" Returns the current object. ..." />
-            <marker date="1463026390650" expanded="true" signature="50680:50759" placeholder="{...}" />
-            <marker date="1463026390650" expanded="true" signature="50768:50934" placeholder=" @param Exception $exception ..." />
-            <marker date="1463026390650" expanded="true" signature="51000:51088" placeholder="{...}" />
-            <marker date="1463026390650" expanded="true" signature="51097:51267" placeholder=" @param mixed $value, ... ..." />
-            <marker date="1463026390650" expanded="true" signature="51317:51441" placeholder="{...}" />
-            <marker date="1463026390650" expanded="true" signature="51450:51635" placeholder=" Gets the data set description of a TestCase. ..." />
-            <marker date="1463026390650" expanded="true" signature="51700:52215" placeholder="{...}" />
-            <marker date="1463026390650" expanded="true" signature="51764:52183" placeholder="..." />
-            <marker date="1463026390650" expanded="true" signature="51807:51895" placeholder="..." />
-            <marker date="1463026390650" expanded="true" signature="51903:51992" placeholder="..." />
-            <marker date="1463026390650" expanded="true" signature="52065:52173" placeholder="..." />
-            <marker date="1463026390650" expanded="true" signature="52224:52325" placeholder=" Creates a default TestResult object. ..." />
-            <marker date="1463026390650" expanded="true" signature="52365:52426" placeholder="{...}" />
-            <marker date="1463026390650" expanded="true" signature="52435:52492" placeholder=" @since Method available since Release 3.5.4 ..." />
-            <marker date="1463026390650" expanded="true" signature="52538:54761" placeholder="{...}" />
-            <marker date="1463026390650" expanded="true" signature="52610:54732" placeholder="..." />
-            <marker date="1463026390650" expanded="true" signature="52847:53055" placeholder="..." />
-            <marker date="1463026390650" expanded="true" signature="52952:53041" placeholder="..." />
-            <marker date="1463026390650" expanded="true" signature="53182:54722" placeholder="..." />
-            <marker date="1463026390650" expanded="true" signature="53241:53325" placeholder="..." />
-            <marker date="1463026390650" expanded="true" signature="53383:53832" placeholder="..." />
-            <marker date="1463026390650" expanded="true" signature="53428:53778" placeholder="..." />
-            <marker date="1463026390650" expanded="true" signature="53560:53703" placeholder="..." />
-            <marker date="1463026390650" expanded="true" signature="53885:54619" placeholder="..." />
-            <marker date="1463026390650" expanded="true" signature="54120:54510" placeholder="..." />
-            <marker date="1463026390650" expanded="true" signature="54169:54448" placeholder="..." />
-            <marker date="1463026390650" expanded="true" signature="54627:54708" placeholder="..." />
-            <marker date="1463026390650" expanded="true" signature="54770:54912" placeholder=" This method is called before the first test of this test class is run. ..." />
-            <marker date="1463026390650" expanded="true" signature="54960:54972" placeholder="{...}" />
-            <marker date="1463026390650" expanded="true" signature="54981:55111" placeholder=" Sets up the fixture, for example, open a network connection. ..." />
-            <marker date="1463026390650" expanded="true" signature="55144:55156" placeholder="{...}" />
-            <marker date="1463026390650" expanded="true" signature="55165:55403" placeholder=" Performs assertions shared by all tests of a test case. ..." />
-            <marker date="1463026390650" expanded="true" signature="55450:55462" placeholder="{...}" />
-            <marker date="1463026390650" expanded="true" signature="55471:55711" placeholder=" Performs assertions shared by all tests of a test case. ..." />
-            <marker date="1463026390650" expanded="true" signature="55759:55771" placeholder="{...}" />
-            <marker date="1463026390650" expanded="true" signature="55780:55913" placeholder=" Tears down the fixture, for example, close a network connection. ..." />
-            <marker date="1463026390650" expanded="true" signature="55949:55961" placeholder="{...}" />
-            <marker date="1463026390650" expanded="true" signature="55970:56110" placeholder=" This method is called after the last test of this test class is run. ..." />
-            <marker date="1463026390650" expanded="true" signature="56160:56172" placeholder="{...}" />
-            <marker date="1463026390650" expanded="true" signature="56181:56389" placeholder=" This method is called when a test method did not execute successfully. ..." />
-            <marker date="1463026390650" expanded="true" signature="56448:56478" placeholder="{...}" />
-            <marker date="1463026390650" expanded="true" signature="56487:56667" placeholder=" Performs custom preparations on the process isolation template. ..." />
-            <marker date="1463026390650" expanded="true" signature="56733:56745" placeholder="{...}" />
-            <marker date="1463026390650" expanded="true" signature="56754:56892" placeholder=" Get the mock object generator, creating it if it doesn't exist. ..." />
-            <marker date="1463026390650" expanded="true" signature="56942:57144" placeholder="{...}" />
-            <marker date="1463026390650" expanded="true" signature="56999:57093" placeholder="..." />
-            <marker date="1463026390650" expanded="true" signature="57153:57210" placeholder=" @since Method available since Release 4.2.0 ..." />
-            <marker date="1463026390650" expanded="true" signature="57256:57498" placeholder="{...}" />
-            <marker date="1463026390650" expanded="true" signature="57332:57369" placeholder="..." />
-            <marker date="1463026390650" expanded="true" signature="57507:57564" placeholder=" @since Method available since Release 4.2.0 ..." />
-            <marker date="1463026390650" expanded="true" signature="57609:58350" placeholder="{...}" />
-            <marker date="1463026390650" expanded="true" signature="57676:57931" placeholder="..." />
-            <marker date="1463026390650" expanded="true" signature="57717:57762" placeholder="..." />
-            <marker date="1463026390650" expanded="true" signature="58018:58064" placeholder="..." />
-            <marker date="1463026390650" expanded="true" signature="58072:58216" placeholder="..." />
-            <marker date="1463026390650" expanded="true" signature="58122:58205" placeholder="..." />
-            <marker date="1463026390650" expanded="true" signature="58394:58739" placeholder="{...}" />
-            <marker date="1463026390650" expanded="true" signature="58626:58655" placeholder="..." />
-            <marker date="1463026390650" expanded="true" signature="58782:59699" placeholder="{...}" />
-            <marker date="1463026390650" expanded="true" signature="58840:58869" placeholder="..." />
-            <marker date="1463026390650" expanded="true" signature="59012:59336" placeholder="..." />
-            <marker date="1463026390650" expanded="true" signature="59030:59220" placeholder="..." />
-            <marker date="1463026390650" expanded="true" signature="59082:59205" placeholder="..." />
-            <marker date="1463026390650" expanded="true" signature="59269:59326" placeholder="..." />
-            <marker date="1463026390650" expanded="true" signature="59403:59476" placeholder="..." />
-            <marker date="1463026390650" expanded="true" signature="59523:59597" placeholder="..." />
-            <marker date="1463026390650" expanded="true" signature="59659:59692" placeholder="..." />
-            <marker date="1463026390650" expanded="true" signature="59708:59779" placeholder=" @param bool $backupGlobals ..." />
-            <marker date="1463026390650" expanded="true" signature="59844:61141" placeholder="{...}" />
-            <marker date="1463026390650" expanded="true" signature="59956:60025" placeholder="..." />
-            <marker date="1463026390650" expanded="true" signature="60072:60866" placeholder="..." />
-            <marker date="1463026390650" expanded="true" signature="60699:60856" placeholder="..." />
-            <marker date="1463026390650" expanded="true" signature="60753:60842" placeholder="..." />
-            <marker date="1463026390650" expanded="true" signature="61150:61272" placeholder=" @param Snapshot $before ..." />
-            <marker date="1463026390650" expanded="true" signature="61358:62324" placeholder="{...}" />
-            <marker date="1463026390650" expanded="true" signature="61484:62010" placeholder="..." />
-            <marker date="1463026390650" expanded="true" signature="61535:61729" placeholder="..." />
-            <marker date="1463026390650" expanded="true" signature="61783:61999" placeholder="..." />
-            <marker date="1463026390650" expanded="true" signature="62057:62317" placeholder="..." />
-            <marker date="1463026390650" expanded="true" signature="62108:62306" placeholder="..." />
-            <marker date="1463026390650" expanded="true" signature="62333:62480" placeholder=" @param array  $before ..." />
-            <marker date="1463026390650" expanded="true" signature="62572:62941" placeholder="{...}" />
-            <marker date="1463026390650" expanded="true" signature="62611:62934" placeholder="..." />
-            <marker date="1463026390650" expanded="true" signature="62730:62829" placeholder="..." />
-            <marker date="1463026390650" expanded="true" signature="62950:63046" placeholder=" @return Prophecy\Prophet ..." />
-            <marker date="1463026390650" expanded="true" signature="63082:63217" placeholder="{...}" />
-            <marker date="1463026390650" expanded="true" signature="63127:63178" placeholder="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -972,73 +448,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="343">
           <caret line="213" column="20" selection-start-line="213" selection-start-column="20" selection-end-line="213" selection-end-column="20" />
-          <folding>
-            <marker date="1463026377858" expanded="false" signature="62:226" placeholder="..." />
-            <marker date="1463026377858" expanded="true" signature="272:11231" placeholder="{...}" />
-            <marker date="1463026377858" expanded="true" signature="282:358" placeholder=" The foreign key of the parent model. ..." />
-            <marker date="1463026377858" expanded="true" signature="396:470" placeholder=" The local key of the parent model. ..." />
-            <marker date="1463026377858" expanded="true" signature="506:787" placeholder=" Create a new has one or many relationship instance. ..." />
-            <marker date="1463026377858" expanded="true" signature="876:1013" placeholder="{...}" />
-            <marker date="1463026377858" expanded="true" signature="1022:1110" placeholder=" Set the base constraints on the relation query. ..." />
-            <marker date="1463026377858" expanded="true" signature="1149:1347" placeholder="{...}" />
-            <marker date="1463026377858" expanded="true" signature="1191:1340" placeholder="..." />
-            <marker date="1463026377858" expanded="true" signature="1356:1635" placeholder=" Add the constraints for a relationship query. ..." />
-            <marker date="1463026377858" expanded="true" signature="1725:1971" placeholder="{...}" />
-            <marker date="1463026377858" expanded="true" signature="1800:1895" placeholder="..." />
-            <marker date="1463026377858" expanded="true" signature="1980:2277" placeholder=" Add the constraints for a relationship query on the same table. ..." />
-            <marker date="1463026377858" expanded="true" signature="2382:2736" placeholder="{...}" />
-            <marker date="1463026377858" expanded="true" signature="2745:2823" placeholder=" Get a relationship join table hash. ..." />
-            <marker date="1463026377858" expanded="true" signature="2868:2925" placeholder="{...}" />
-            <marker date="1463026377858" expanded="true" signature="2934:3059" placeholder=" Set the constraints for an eager load of the relation. ..." />
-            <marker date="1463026377858" expanded="true" signature="3116:3220" placeholder="{...}" />
-            <marker date="1463026377858" expanded="true" signature="3229:3458" placeholder=" Match the eagerly loaded results to their single parents. ..." />
-            <marker date="1463026377858" expanded="true" signature="3536:3623" placeholder="{...}" />
-            <marker date="1463026377858" expanded="true" signature="3632:3859" placeholder=" Match the eagerly loaded results to their many parents. ..." />
-            <marker date="1463026377858" expanded="true" signature="3938:4026" placeholder="{...}" />
-            <marker date="1463026377858" expanded="true" signature="4035:4291" placeholder=" Match the eagerly loaded results to their many parents. ..." />
-            <marker date="1463026377858" expanded="true" signature="4385:5027" placeholder="{...}" />
-            <marker date="1463026377858" expanded="true" signature="4736:4995" placeholder="..." />
-            <marker date="1463026377858" expanded="true" signature="4839:4985" placeholder="..." />
-            <marker date="1463026377858" expanded="true" signature="5036:5222" placeholder=" Get the value of a relationship by one or many type. ..." />
-            <marker date="1463026377858" expanded="true" signature="5296:5432" placeholder="{...}" />
-            <marker date="1463026377858" expanded="true" signature="5441:5608" placeholder=" Build model dictionary keyed by the relation's foreign key. ..." />
-            <marker date="1463026377858" expanded="true" signature="5670:6145" placeholder="{...}" />
-            <marker date="1463026377858" expanded="true" signature="6042:6109" placeholder="..." />
-            <marker date="1463026377858" expanded="true" signature="6154:6329" placeholder=" Attach a model instance to the parent model. ..." />
-            <marker date="1463026377858" expanded="true" signature="6370:6513" placeholder="{...}" />
-            <marker date="1463026377858" expanded="true" signature="6522:6673" placeholder=" Attach a collection of models to the parent instance. ..." />
-            <marker date="1463026377858" expanded="true" signature="6713:6831" placeholder="{...}" />
-            <marker date="1463026377858" expanded="true" signature="6757:6799" placeholder="..." />
-            <marker date="1463026377858" expanded="true" signature="6840:7076" placeholder=" Find a model by its primary key or return new instance of the related model. ..." />
-            <marker date="1463026377858" expanded="true" signature="7131:7388" placeholder="{...}" />
-            <marker date="1463026377858" expanded="true" signature="7200:7354" placeholder="..." />
-            <marker date="1463026377858" expanded="true" signature="7397:7580" placeholder=" Get the first related model record matching the attributes or instantiate it. ..." />
-            <marker date="1463026377858" expanded="true" signature="7632:7908" placeholder="{...}" />
-            <marker date="1463026377858" expanded="true" signature="7709:7874" placeholder="..." />
-            <marker date="1463026377858" expanded="true" signature="7917:8089" placeholder=" Get the first related record matching the attributes or create it. ..." />
-            <marker date="1463026377858" expanded="true" signature="8144:8316" placeholder="{...}" />
-            <marker date="1463026377858" expanded="true" signature="8221:8282" placeholder="..." />
-            <marker date="1463026377858" expanded="true" signature="8325:8544" placeholder=" Create or update a related record matching the attributes, and fill it with values. ..." />
-            <marker date="1463026377858" expanded="true" signature="8620:8774" placeholder="{...}" />
-            <marker date="1463026377858" expanded="true" signature="8783:8932" placeholder=" Create a new instance of the related model. ..." />
-            <marker date="1463026377858" expanded="true" signature="8980:9442" placeholder="{...}" />
-            <marker date="1463026377858" expanded="true" signature="9451:9578" placeholder=" Create an array of new instances of the related model. ..." />
-            <marker date="1463026377858" expanded="true" signature="9627:9794" placeholder="{...}" />
-            <marker date="1463026377858" expanded="true" signature="9699:9759" placeholder="..." />
-            <marker date="1463026377858" expanded="true" signature="9803:9921" placeholder=" Perform an update on all the related models. ..." />
-            <marker date="1463026377858" expanded="true" signature="9969:10183" placeholder="{...}" />
-            <marker date="1463026377858" expanded="true" signature="10023:10125" placeholder="..." />
-            <marker date="1463026377858" expanded="true" signature="10192:10299" placeholder=" Get the key for comparing against the parent key in &quot;has&quot; query. ..." />
-            <marker date="1463026377858" expanded="true" signature="10340:10391" placeholder="{...}" />
-            <marker date="1463026377858" expanded="true" signature="10400:10484" placeholder=" Get the foreign key for the relationship. ..." />
-            <marker date="1463026377858" expanded="true" signature="10522:10568" placeholder="{...}" />
-            <marker date="1463026377858" expanded="true" signature="10577:10646" placeholder=" Get the plain foreign key. ..." />
-            <marker date="1463026377858" expanded="true" signature="10689:10808" placeholder="{...}" />
-            <marker date="1463026377858" expanded="true" signature="10817:10903" placeholder=" Get the key value of the parent's local key. ..." />
-            <marker date="1463026377858" expanded="true" signature="10940:11013" placeholder="{...}" />
-            <marker date="1463026377858" expanded="true" signature="11022:11105" placeholder=" Get the fully qualified parent key name. ..." />
-            <marker date="1463026377858" expanded="true" signature="11155:11229" placeholder="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1046,210 +455,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="343">
           <caret line="374" column="13" selection-start-line="374" selection-start-column="13" selection-end-line="374" selection-end-column="13" />
-          <folding>
-            <marker date="1463026379830" expanded="false" signature="11:177" placeholder="..." />
-            <marker date="1463026379830" expanded="true" signature="220:653" placeholder="..." />
-            <marker date="1463026379830" expanded="true" signature="228:359" placeholder=" Assign high numeric IDs to a config item to force appending. ..." />
-            <marker date="1463026379830" expanded="true" signature="402:652" placeholder="{...}" />
-            <marker date="1463026379830" expanded="true" signature="477:621" placeholder="..." />
-            <marker date="1463026379830" expanded="true" signature="513:611" placeholder="..." />
-            <marker date="1463026379830" expanded="true" signature="693:1006" placeholder="..." />
-            <marker date="1463026379830" expanded="true" signature="701:899" placeholder=" Add an element to an array using &quot;dot&quot; notation if it doesn't exist. ..." />
-            <marker date="1463026379830" expanded="true" signature="946:1005" placeholder="{...}" />
-            <marker date="1463026379830" expanded="true" signature="1048:1356" placeholder="..." />
-            <marker date="1463026379830" expanded="true" signature="1056:1242" placeholder=" Build a new array using a callback. ..." />
-            <marker date="1463026379830" expanded="true" signature="1297:1355" placeholder="{...}" />
-            <marker date="1463026379830" expanded="true" signature="1401:1617" placeholder="..." />
-            <marker date="1463026379830" expanded="true" signature="1409:1528" placeholder=" Collapse an array of arrays into a single array. ..." />
-            <marker date="1463026379830" expanded="true" signature="1566:1616" placeholder="{...}" />
-            <marker date="1463026379830" expanded="true" signature="1660:1897" placeholder="..." />
-            <marker date="1463026379830" expanded="true" signature="1668:1812" placeholder=" Divide an array into two arrays. One with keys and the other with values. ..." />
-            <marker date="1463026379830" expanded="true" signature="1848:1896" placeholder="{...}" />
-            <marker date="1463026379830" expanded="true" signature="1937:2209" placeholder="..." />
-            <marker date="1463026379830" expanded="true" signature="1945:2105" placeholder=" Flatten a multi-dimensional associative array with dots. ..." />
-            <marker date="1463026379830" expanded="true" signature="2153:2208" placeholder="{...}" />
-            <marker date="1463026379830" expanded="true" signature="2252:2530" placeholder="..." />
-            <marker date="1463026379830" expanded="true" signature="2260:2431" placeholder=" Get all of the given array except for a specified array of items. ..." />
-            <marker date="1463026379830" expanded="true" signature="2474:2529" placeholder="{...}" />
-            <marker date="1463026379830" expanded="true" signature="2572:2934" placeholder="..." />
-            <marker date="1463026379830" expanded="true" signature="2580:2786" placeholder=" Return the first element in an array passing a given truth test. ..." />
-            <marker date="1463026379830" expanded="true" signature="2865:2933" placeholder="{...}" />
-            <marker date="1463026379830" expanded="true" signature="2978:3247" placeholder="..." />
-            <marker date="1463026379830" expanded="true" signature="2986:3138" placeholder=" Flatten a multi-dimensional array into a single level. ..." />
-            <marker date="1463026379830" expanded="true" signature="3189:3246" placeholder="{...}" />
-            <marker date="1463026379830" expanded="true" signature="3290:3574" placeholder="..." />
-            <marker date="1463026379830" expanded="true" signature="3298:3474" placeholder=" Remove one or many array items from a given array using &quot;dot&quot; notation. ..." />
-            <marker date="1463026379830" expanded="true" signature="3518:3573" placeholder="{...}" />
-            <marker date="1463026379830" expanded="true" signature="3614:3931" placeholder="..." />
-            <marker date="1463026379830" expanded="true" signature="3622:3813" placeholder=" Get an item from an array using &quot;dot&quot; notation. ..." />
-            <marker date="1463026379830" expanded="true" signature="3869:3930" placeholder="{...}" />
-            <marker date="1463026379830" expanded="true" signature="3971:4238" placeholder="..." />
-            <marker date="1463026379830" expanded="true" signature="3979:4147" placeholder=" Check if an item exists in an array using &quot;dot&quot; notation. ..." />
-            <marker date="1463026379830" expanded="true" signature="4186:4237" placeholder="{...}" />
-            <marker date="1463026379830" expanded="true" signature="4279:4638" placeholder="..." />
-            <marker date="1463026379830" expanded="true" signature="4287:4492" placeholder=" Return the last element in an array passing a given truth test. ..." />
-            <marker date="1463026379830" expanded="true" signature="4570:4637" placeholder="{...}" />
-            <marker date="1463026379830" expanded="true" signature="4679:4935" placeholder="..." />
-            <marker date="1463026379830" expanded="true" signature="4687:4840" placeholder=" Get a subset of the items from the given array. ..." />
-            <marker date="1463026379830" expanded="true" signature="4881:4934" placeholder="{...}" />
-            <marker date="1463026379830" expanded="true" signature="4977:5289" placeholder="..." />
-            <marker date="1463026379830" expanded="true" signature="4985:5171" placeholder=" Pluck an array of values from an array. ..." />
-            <marker date="1463026379830" expanded="true" signature="5227:5288" placeholder="{...}" />
-            <marker date="1463026379830" expanded="true" signature="5333:5634" placeholder="..." />
-            <marker date="1463026379830" expanded="true" signature="5341:5512" placeholder=" Push an item onto the beginning of an array. ..." />
-            <marker date="1463026379830" expanded="true" signature="5570:5633" placeholder="{...}" />
-            <marker date="1463026379830" expanded="true" signature="5675:5978" placeholder="..." />
-            <marker date="1463026379830" expanded="true" signature="5683:5857" placeholder=" Get a value from the array, and remove it. ..." />
-            <marker date="1463026379830" expanded="true" signature="5915:5977" placeholder="{...}" />
-            <marker date="1463026379830" expanded="true" signature="6018:6403" placeholder="..." />
-            <marker date="1463026379830" expanded="true" signature="6026:6295" placeholder=" Set an array item to a given value using &quot;dot&quot; notation. ..." />
-            <marker date="1463026379830" expanded="true" signature="6343:6402" placeholder="{...}" />
-            <marker date="1463026379830" expanded="true" signature="6444:6710" placeholder="..." />
-            <marker date="1463026379830" expanded="true" signature="6452:6598" placeholder=" Sort the array using the given callback. ..." />
-            <marker date="1463026379830" expanded="true" signature="6652:6709" placeholder="{...}" />
-            <marker date="1463026379830" expanded="true" signature="6761:6985" placeholder="..." />
-            <marker date="1463026379830" expanded="true" signature="6769:6885" placeholder=" Recursively sort an array by keys and values. ..." />
-            <marker date="1463026379830" expanded="true" signature="6929:6984" placeholder="{...}" />
-            <marker date="1463026379830" expanded="true" signature="7027:7297" placeholder="..." />
-            <marker date="1463026379830" expanded="true" signature="7035:7183" placeholder=" Filter the array using the given callback. ..." />
-            <marker date="1463026379830" expanded="true" signature="7238:7296" placeholder="{...}" />
-            <marker date="1463026379830" expanded="true" signature="7338:7531" placeholder="..." />
-            <marker date="1463026379830" expanded="true" signature="7346:7449" placeholder=" Convert a value to camel case. ..." />
-            <marker date="1463026379830" expanded="true" signature="7483:7530" placeholder="{...}" />
-            <marker date="1463026379830" expanded="true" signature="7576:7891" placeholder="..." />
-            <marker date="1463026379830" expanded="true" signature="7584:7717" placeholder=" Get the class &quot;basename&quot; of the given object / class. ..." />
-            <marker date="1463026379830" expanded="true" signature="7755:7890" placeholder="{...}" />
-            <marker date="1463026379830" expanded="true" signature="7942:8369" placeholder="..." />
-            <marker date="1463026379830" expanded="true" signature="7950:8099" placeholder=" Returns all traits used by a class, its subclasses and trait of their traits. ..." />
-            <marker date="1463026379830" expanded="true" signature="8143:8368" placeholder="{...}" />
-            <marker date="1463026379830" expanded="true" signature="8258:8321" placeholder="..." />
-            <marker date="1463026379830" expanded="true" signature="8407:8642" placeholder="..." />
-            <marker date="1463026379830" expanded="true" signature="8415:8552" placeholder=" Create a collection from the given value. ..." />
-            <marker date="1463026379830" expanded="true" signature="8590:8641" placeholder="{...}" />
-            <marker date="1463026379830" expanded="true" signature="8682:8975" placeholder="..." />
-            <marker date="1463026379830" expanded="true" signature="8690:8858" placeholder=" Fill in data where it's missing. ..." />
-            <marker date="1463026379830" expanded="true" signature="8907:8974" placeholder="{...}" />
-            <marker date="1463026379830" expanded="true" signature="9014:10222" placeholder="..." />
-            <marker date="1463026379830" expanded="true" signature="9022:9218" placeholder=" Get an item from an array or object using &quot;dot&quot; notation. ..." />
-            <marker date="1463026379830" expanded="true" signature="9274:10221" placeholder="{...}" />
-            <marker date="1463026379830" expanded="true" signature="9309:9346" placeholder="..." />
-            <marker date="1463026379830" expanded="true" signature="9466:10189" placeholder="..." />
-            <marker date="1463026379830" expanded="true" signature="9502:9859" placeholder="..." />
-            <marker date="1463026379830" expanded="true" signature="9555:9618" placeholder="..." />
-            <marker date="1463026379830" expanded="true" signature="9650:9711" placeholder="..." />
-            <marker date="1463026379830" expanded="true" signature="9939:9997" placeholder="..." />
-            <marker date="1463026379830" expanded="true" signature="10058:10118" placeholder="..." />
-            <marker date="1463026379830" expanded="true" signature="10126:10179" placeholder="..." />
-            <marker date="1463026379830" expanded="true" signature="10261:12169" placeholder="..." />
-            <marker date="1463026379830" expanded="true" signature="10269:10489" placeholder=" Set an item on an array or object using dot notation. ..." />
-            <marker date="1463026379830" expanded="true" signature="10556:12168" placeholder="{...}" />
-            <marker date="1463026379830" expanded="true" signature="10686:11101" placeholder="..." />
-            <marker date="1463026379830" expanded="true" signature="10732:10775" placeholder="..." />
-            <marker date="1463026379830" expanded="true" signature="10806:10953" placeholder="..." />
-            <marker date="1463026379830" expanded="true" signature="10853:10939" placeholder="..." />
-            <marker date="1463026379830" expanded="true" signature="10976:11091" placeholder="..." />
-            <marker date="1463026379830" expanded="true" signature="11023:11077" placeholder="..." />
-            <marker date="1463026379830" expanded="true" signature="11138:11501" placeholder="..." />
-            <marker date="1463026379830" expanded="true" signature="11167:11375" placeholder="..." />
-            <marker date="1463026379830" expanded="true" signature="11223:11284" placeholder="..." />
-            <marker date="1463026379830" expanded="true" signature="11434:11491" placeholder="..." />
-            <marker date="1463026379830" expanded="true" signature="11532:11893" placeholder="..." />
-            <marker date="1463026379830" expanded="true" signature="11561:11769" placeholder="..." />
-            <marker date="1463026379830" expanded="true" signature="11613:11676" placeholder="..." />
-            <marker date="1463026379830" expanded="true" signature="11824:11883" placeholder="..." />
-            <marker date="1463026379830" expanded="true" signature="11901:12136" placeholder="..." />
-            <marker date="1463026379830" expanded="true" signature="11957:12046" placeholder="..." />
-            <marker date="1463026379830" expanded="true" signature="12069:12126" placeholder="..." />
-            <marker date="1463026379830" expanded="true" signature="12202:12466" placeholder="..." />
-            <marker date="1463026379830" expanded="true" signature="12210:12317" placeholder=" Dump the passed variables and end the script. ..." />
-            <marker date="1463026379830" expanded="true" signature="12337:12465" placeholder="{...}" />
-            <marker date="1463026379830" expanded="true" signature="12362:12440" placeholder="..." />
-            <marker date="1463026379830" expanded="true" signature="12377:12422" placeholder="..." />
-            <marker date="1463026379830" expanded="true" signature="12498:12844" placeholder="..." />
-            <marker date="1463026379830" expanded="true" signature="12506:12651" placeholder=" Escape HTML entities in a string. ..." />
-            <marker date="1463026379830" expanded="true" signature="12676:12843" placeholder="{...}" />
-            <marker date="1463026379830" expanded="true" signature="12724:12770" placeholder="..." />
-            <marker date="1463026379830" expanded="true" signature="12884:13170" placeholder="..." />
-            <marker date="1463026379830" expanded="true" signature="12892:13060" placeholder=" Determine if a given string ends with a given substring. ..." />
-            <marker date="1463026379830" expanded="true" signature="13106:13169" placeholder="{...}" />
-            <marker date="1463026379830" expanded="true" signature="13205:13417" placeholder="..." />
-            <marker date="1463026379830" expanded="true" signature="13213:13346" placeholder=" Get the first element of an array. Useful for method chaining. ..." />
-            <marker date="1463026379830" expanded="true" signature="13374:13416" placeholder="{...}" />
-            <marker date="1463026379830" expanded="true" signature="13452:13635" placeholder="..." />
-            <marker date="1463026379830" expanded="true" signature="13460:13566" placeholder=" Get the last element from an array. ..." />
-            <marker date="1463026379830" expanded="true" signature="13594:13634" placeholder="{...}" />
-            <marker date="1463026379830" expanded="true" signature="13676:14280" placeholder="..." />
-            <marker date="1463026379830" expanded="true" signature="13684:13865" placeholder=" Get an item from an object using &quot;dot&quot; notation. ..." />
-            <marker date="1463026379830" expanded="true" signature="13923:14279" placeholder="{...}" />
-            <marker date="1463026379830" expanded="true" signature="13978:14015" placeholder="..." />
-            <marker date="1463026379830" expanded="true" signature="14068:14247" placeholder="..." />
-            <marker date="1463026379830" expanded="true" signature="14140:14193" placeholder="..." />
-            <marker date="1463026379830" expanded="true" signature="14327:14861" placeholder="..." />
-            <marker date="1463026379830" expanded="true" signature="14335:14548" placeholder=" Replace a given pattern with each value in the array in sequentially. ..." />
-            <marker date="1463026379830" expanded="true" signature="14616:14860" placeholder="{...}" />
-            <marker date="1463026379830" expanded="true" signature="14660:14852" placeholder="..." />
-            <marker date="1463026379830" expanded="true" signature="14710:14841" placeholder="..." />
-            <marker date="1463026379830" expanded="true" signature="14766:14830" placeholder="..." />
-            <marker date="1463026379830" expanded="true" signature="14902:15160" placeholder="..." />
-            <marker date="1463026379830" expanded="true" signature="14910:15048" placeholder=" Convert a string to snake case. ..." />
-            <marker date="1463026379830" expanded="true" signature="15100:15159" placeholder="{...}" />
-            <marker date="1463026379830" expanded="true" signature="15202:15494" placeholder="..." />
-            <marker date="1463026379830" expanded="true" signature="15210:15380" placeholder=" Determine if a given string starts with a given substring. ..." />
-            <marker date="1463026379830" expanded="true" signature="15428:15493" placeholder="{...}" />
-            <marker date="1463026379830" expanded="true" signature="15537:15825" placeholder="..." />
-            <marker date="1463026379830" expanded="true" signature="15545:15712" placeholder=" Determine if a given string contains a given substring. ..." />
-            <marker date="1463026379830" expanded="true" signature="15761:15824" placeholder="{...}" />
-            <marker date="1463026379830" expanded="true" signature="15866:16123" placeholder="..." />
-            <marker date="1463026379830" expanded="true" signature="15874:16028" placeholder=" Cap a string with a single instance of a given value. ..." />
-            <marker date="1463026379830" expanded="true" signature="16068:16122" placeholder="{...}" />
-            <marker date="1463026379830" expanded="true" signature="16160:16418" placeholder="..." />
-            <marker date="1463026379830" expanded="true" signature="16168:16323" placeholder=" Determine if a given string matches a given pattern. ..." />
-            <marker date="1463026379830" expanded="true" signature="16363:16417" placeholder="{...}" />
-            <marker date="1463026379830" expanded="true" signature="16458:16763" placeholder="..." />
-            <marker date="1463026379830" expanded="true" signature="16466:16640" placeholder=" Limit the number of characters in a string. ..." />
-            <marker date="1463026379830" expanded="true" signature="16701:16762" placeholder="{...}" />
-            <marker date="1463026379830" expanded="true" signature="16804:17057" placeholder="..." />
-            <marker date="1463026379830" expanded="true" signature="16812:16954" placeholder=" Get the plural form of an English word. ..." />
-            <marker date="1463026379830" expanded="true" signature="17000:17056" placeholder="{...}" />
-            <marker date="1463026379830" expanded="true" signature="17098:17359" placeholder="..." />
-            <marker date="1463026379830" expanded="true" signature="17106:17269" placeholder=" Generate a more truly &quot;random&quot; alpha-numeric string. ..." />
-            <marker date="1463026379830" expanded="true" signature="17309:17358" placeholder="{...}" />
-            <marker date="1463026379830" expanded="true" signature="17407:17847" placeholder="..." />
-            <marker date="1463026379830" expanded="true" signature="17415:17616" placeholder=" Replace a given value in the string sequentially with an array. ..." />
-            <marker date="1463026379830" expanded="true" signature="17684:17846" placeholder="{...}" />
-            <marker date="1463026379830" expanded="true" signature="17729:17813" placeholder="..." />
-            <marker date="1463026379830" expanded="true" signature="17895:18239" placeholder="..." />
-            <marker date="1463026379830" expanded="true" signature="17903:18101" placeholder=" Replace the first occurrence of a given value in the string. ..." />
-            <marker date="1463026379830" expanded="true" signature="18163:18238" placeholder="{...}" />
-            <marker date="1463026379830" expanded="true" signature="18286:18627" placeholder="..." />
-            <marker date="1463026379830" expanded="true" signature="18294:18491" placeholder=" Replace the last occurrence of a given value in the string. ..." />
-            <marker date="1463026379830" expanded="true" signature="18552:18626" placeholder="{...}" />
-            <marker date="1463026379830" expanded="true" signature="18670:18879" placeholder="..." />
-            <marker date="1463026379830" expanded="true" signature="18678:18792" placeholder=" Get the singular form of an English word. ..." />
-            <marker date="1463026379830" expanded="true" signature="18828:18878" placeholder="{...}" />
-            <marker date="1463026379830" expanded="true" signature="18918:19193" placeholder="..." />
-            <marker date="1463026379830" expanded="true" signature="18926:19084" placeholder=" Generate a URL friendly &quot;slug&quot; from a given string. ..." />
-            <marker date="1463026379830" expanded="true" signature="19134:19192" placeholder="{...}" />
-            <marker date="1463026379830" expanded="true" signature="19235:19436" placeholder="..." />
-            <marker date="1463026379830" expanded="true" signature="19243:19352" placeholder=" Convert a value to studly caps case. ..." />
-            <marker date="1463026379830" expanded="true" signature="19387:19435" placeholder="{...}" />
-            <marker date="1463026379830" expanded="true" signature="19477:19670" placeholder="..." />
-            <marker date="1463026379830" expanded="true" signature="19485:19588" placeholder=" Convert a value to title case. ..." />
-            <marker date="1463026379830" expanded="true" signature="19622:19669" placeholder="{...}" />
-            <marker date="1463026379830" expanded="true" signature="19721:20073" placeholder="..." />
-            <marker date="1463026379830" expanded="true" signature="19729:19851" placeholder=" Returns all traits used by a trait and its traits. ..." />
-            <marker date="1463026379830" expanded="true" signature="19895:20072" placeholder="{...}" />
-            <marker date="1463026379830" expanded="true" signature="19978:20040" placeholder="..." />
-            <marker date="1463026379830" expanded="true" signature="20109:20336" placeholder="..." />
-            <marker date="1463026379830" expanded="true" signature="20117:20232" placeholder=" Return the default value of the given value. ..." />
-            <marker date="1463026379830" expanded="true" signature="20261:20335" placeholder="{...}" />
-            <marker date="1463026379830" expanded="true" signature="20377:20585" placeholder="..." />
-            <marker date="1463026379830" expanded="true" signature="20385:20485" placeholder=" Determine whether the current environment is Windows based. ..." />
-            <marker date="1463026379830" expanded="true" signature="20513:20584" placeholder="{...}" />
-            <marker date="1463026379830" expanded="true" signature="20620:20811" placeholder="..." />
-            <marker date="1463026379830" expanded="true" signature="20628:20745" placeholder=" Return the given object. Useful for chaining. ..." />
-            <marker date="1463026379830" expanded="true" signature="20774:20810" placeholder="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1257,57 +462,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="343">
           <caret line="250" column="20" selection-start-line="250" selection-start-column="20" selection-end-line="250" selection-end-column="20" />
-          <folding>
-            <marker date="1463026377830" expanded="false" signature="62:226" placeholder="..." />
-            <marker date="1463026377830" expanded="true" signature="260:8920" placeholder="{...}" />
-            <marker date="1463026377830" expanded="true" signature="270:346" placeholder=" The foreign key of the parent model. ..." />
-            <marker date="1463026377830" expanded="true" signature="384:463" placeholder=" The associated key on the parent model. ..." />
-            <marker date="1463026377830" expanded="true" signature="499:568" placeholder=" The name of the relationship. ..." />
-            <marker date="1463026377830" expanded="true" signature="604:913" placeholder=" Create a new belongs to relationship instance. ..." />
-            <marker date="1463026377830" expanded="true" signature="1013:1187" placeholder="{...}" />
-            <marker date="1463026377830" expanded="true" signature="1196:1274" placeholder=" Get the results of the relationship. ..." />
-            <marker date="1463026377830" expanded="true" signature="1309:1359" placeholder="{...}" />
-            <marker date="1463026377830" expanded="true" signature="1368:1456" placeholder=" Set the base constraints on the relation query. ..." />
-            <marker date="1463026377830" expanded="true" signature="1495:1967" placeholder="{...}" />
-            <marker date="1463026377830" expanded="true" signature="1537:1960" placeholder="..." />
-            <marker date="1463026377830" expanded="true" signature="1976:2255" placeholder=" Add the constraints for a relationship query. ..." />
-            <marker date="1463026377830" expanded="true" signature="2345:2739" placeholder="{...}" />
-            <marker date="1463026377830" expanded="true" signature="2420:2515" placeholder="..." />
-            <marker date="1463026377830" expanded="true" signature="2748:3045" placeholder=" Add the constraints for a relationship query on the same table. ..." />
-            <marker date="1463026377830" expanded="true" signature="3150:3506" placeholder="{...}" />
-            <marker date="1463026377830" expanded="true" signature="3515:3593" placeholder=" Get a relationship join table hash. ..." />
-            <marker date="1463026377830" expanded="true" signature="3638:3695" placeholder="{...}" />
-            <marker date="1463026377830" expanded="true" signature="3704:3829" placeholder=" Set the constraints for an eager load of the relation. ..." />
-            <marker date="1463026377830" expanded="true" signature="3886:4296" placeholder="{...}" />
-            <marker date="1463026377830" expanded="true" signature="4305:4425" placeholder=" Gather the keys from an array of related models. ..." />
-            <marker date="1463026377830" expanded="true" signature="4483:5322" placeholder="{...}" />
-            <marker date="1463026377830" expanded="true" signature="4810:4934" placeholder="..." />
-            <marker date="1463026377830" expanded="true" signature="4877:4924" placeholder="..." />
-            <marker date="1463026377830" expanded="true" signature="5231:5264" placeholder="..." />
-            <marker date="1463026377830" expanded="true" signature="5331:5480" placeholder=" Initialize the relation on a set of models. ..." />
-            <marker date="1463026377830" expanded="true" signature="5541:5676" placeholder="{...}" />
-            <marker date="1463026377830" expanded="true" signature="5585:5644" placeholder="..." />
-            <marker date="1463026377830" expanded="true" signature="5685:5907" placeholder=" Match the eagerly loaded results to their parents. ..." />
-            <marker date="1463026377830" expanded="true" signature="5982:6944" placeholder="{...}" />
-            <marker date="1463026377830" expanded="true" signature="6383:6458" placeholder="..." />
-            <marker date="1463026377830" expanded="true" signature="6754:6912" placeholder="..." />
-            <marker date="1463026377830" expanded="true" signature="6810:6902" placeholder="..." />
-            <marker date="1463026377830" expanded="true" signature="6953:7137" placeholder=" Associate the model instance to the given parent. ..." />
-            <marker date="1463026377830" expanded="true" signature="7177:7499" placeholder="{...}" />
-            <marker date="1463026377830" expanded="true" signature="7387:7461" placeholder="..." />
-            <marker date="1463026377830" expanded="true" signature="7508:7641" placeholder=" Dissociate previously associated model from the given parent. ..." />
-            <marker date="1463026377830" expanded="true" signature="7676:7817" placeholder="{...}" />
-            <marker date="1463026377830" expanded="true" signature="7826:7946" placeholder=" Update the parent model on the relationship. ..." />
-            <marker date="1463026377830" expanded="true" signature="7994:8101" placeholder="{...}" />
-            <marker date="1463026377830" expanded="true" signature="8110:8193" placeholder=" Get the foreign key of the relationship. ..." />
-            <marker date="1463026377830" expanded="true" signature="8231:8277" placeholder="{...}" />
-            <marker date="1463026377830" expanded="true" signature="8286:8385" placeholder=" Get the fully qualified foreign key of the relationship. ..." />
-            <marker date="1463026377830" expanded="true" signature="8432:8508" placeholder="{...}" />
-            <marker date="1463026377830" expanded="true" signature="8517:8603" placeholder=" Get the associated key of the relationship. ..." />
-            <marker date="1463026377830" expanded="true" signature="8639:8683" placeholder="{...}" />
-            <marker date="1463026377830" expanded="true" signature="8692:8794" placeholder=" Get the fully qualified associated key of the relationship. ..." />
-            <marker date="1463026377830" expanded="true" signature="8843:8918" placeholder="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1315,22 +469,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="806">
           <caret line="75" column="0" selection-start-line="75" selection-start-column="0" selection-end-line="75" selection-end-column="0" />
-          <folding>
-            <marker date="1464425676041" expanded="true" signature="11:90" placeholder="..." />
-            <marker date="1464425676041" expanded="true" signature="123:3260" placeholder="{...}" />
-            <marker date="1464425676041" expanded="true" signature="164:246" placeholder=" @test ..." />
-            <marker date="1464425676041" expanded="true" signature="293:406" placeholder="{...}" />
-            <marker date="1464425676041" expanded="true" signature="447:507" placeholder="{...}" />
-            <marker date="1464425676041" expanded="true" signature="567:749" placeholder="{...}" />
-            <marker date="1464425676041" expanded="true" signature="808:995" placeholder="{...}" />
-            <marker date="1464425676041" expanded="true" signature="1056:1383" placeholder="{...}" />
-            <marker date="1464425676041" expanded="true" signature="1485:1728" placeholder="{...}" />
-            <marker date="1464425676041" expanded="true" signature="1779:1975" placeholder="{...}" />
-            <marker date="1464425676041" expanded="true" signature="2051:2239" placeholder="{...}" />
-            <marker date="1464425676041" expanded="true" signature="2296:2649" placeholder="{...}" />
-            <marker date="1464425676041" expanded="true" signature="2726:2971" placeholder="{...}" />
-            <marker date="1464425676041" expanded="true" signature="3038:3258" placeholder="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1338,25 +476,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="558">
           <caret line="26" column="69" selection-start-line="26" selection-start-column="69" selection-end-line="26" selection-end-column="69" />
-          <folding>
-            <marker date="1464426005133" expanded="true" signature="27:122" placeholder="..." />
-            <marker date="1464426005133" expanded="true" signature="148:1745" placeholder="{...}" />
-            <marker date="1464426005133" expanded="true" signature="227:471" placeholder="{...}" />
-            <marker date="1464426005133" expanded="true" signature="352:412" placeholder="..." />
-            <marker date="1464426005133" expanded="true" signature="543:827" placeholder="{...}" />
-            <marker date="1464426005133" expanded="true" signature="594:674" placeholder="..." />
-            <marker date="1464426005133" expanded="true" signature="744:820" placeholder="..." />
-            <marker date="1464426005133" expanded="true" signature="856:910" placeholder="{...}" />
-            <marker date="1464426005133" expanded="true" signature="941:997" placeholder="{...}" />
-            <marker date="1464426005133" expanded="true" signature="1006:1057" placeholder=" @param $newMembers ..." />
-            <marker date="1464426005133" expanded="true" signature="1114:1253" placeholder="{...}" />
-            <marker date="1464426005133" expanded="true" signature="1290:1364" placeholder="{...}" />
-            <marker date="1464426005133" expanded="true" signature="1400:1543" placeholder="{...}" />
-            <marker date="1464426005133" expanded="true" signature="1444:1493" placeholder="..." />
-            <marker date="1464426005133" expanded="true" signature="1594:1743" placeholder="{...}" />
-            <marker date="1464426005133" expanded="true" signature="1668:1693" placeholder="..." />
-            <marker date="1464426005133" expanded="true" signature="1716:1735" placeholder="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1364,32 +483,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1463026322000" expanded="false" signature="9:392" placeholder="..." />
-            <marker date="1463026322000" expanded="true" signature="413:647" placeholder="..." />
-            <marker date="1463026322000" expanded="true" signature="465:646" placeholder="..." />
-            <marker date="1463026322000" expanded="true" signature="478:643" placeholder="..." />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/database/factories/ModelFactory.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/database/factories/ModelFactory.php" />
     <entry file="file://$PROJECT_DIR$/database/factories/PostFactory.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="155">
           <caret line="5" column="11" selection-start-line="5" selection-start-column="11" selection-end-line="5" selection-end-column="11" />
-          <folding>
-            <marker date="1464426379086" expanded="true" signature="39:141" placeholder="..." />
-            <marker date="1464426379086" expanded="true" signature="87:140" placeholder="..." />
-            <marker date="1464426379086" expanded="true" signature="100:137" placeholder="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1397,39 +498,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="460">
           <caret line="54" column="13" selection-start-line="54" selection-start-column="9" selection-end-line="54" selection-end-column="23" />
-          <folding>
-            <marker date="1463717619206" expanded="true" signature="15:4153" placeholder="..." />
-            <marker date="1463717619206" expanded="true" signature="23:442" placeholder="..." />
-            <marker date="1463717619206" expanded="true" signature="486:922" placeholder="..." />
-            <marker date="1463717619206" expanded="true" signature="981:1629" placeholder="..." />
-            <marker date="1463717619206" expanded="true" signature="1655:2959" placeholder="..." />
-            <marker date="1463717619206" expanded="true" signature="1678:1833" placeholder="..." />
-            <marker date="1463717619206" expanded="true" signature="1866:2000" placeholder="..." />
-            <marker date="1463717619206" expanded="true" signature="2024:2518" placeholder="..." />
-            <marker date="1463717619206" expanded="true" signature="2542:2951" placeholder="..." />
-            <marker date="1463717619206" expanded="true" signature="2969:3402" placeholder="..." />
-            <marker date="1463717619206" expanded="true" signature="3447:3866" placeholder="..." />
-            <marker date="1463717619206" expanded="true" signature="3886:4149" placeholder="..." />
-            <marker date="1463717619206" expanded="true" signature="3939:4141" placeholder="..." />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/database/migrations/2016_05_28_091135_create_post_user_table.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="968">
-          <caret line="35" column="5" selection-start-line="35" selection-start-column="5" selection-end-line="35" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/database/migrations/2016_05_28_091135_create_post_user_table.php" />
     <entry file="file://$PROJECT_DIR$/app/Post.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="186">
           <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
-          <folding>
-            <marker date="1464426372822" expanded="true" signature="88:99" placeholder="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1437,309 +513,217 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="343">
           <caret line="920" column="20" selection-start-line="920" selection-start-column="20" selection-end-line="920" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Database/Schema/Blueprint.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="343">
+          <caret line="871" column="20" selection-start-line="871" selection-start-column="20" selection-end-line="871" selection-end-column="20" />
           <folding>
-            <marker date="1463026377838" expanded="false" signature="62:297" placeholder="..." />
-            <marker date="1463026377838" expanded="true" signature="335:36637" placeholder="{...}" />
-            <marker date="1463026377838" expanded="true" signature="345:425" placeholder=" The intermediate table for the relation. ..." />
-            <marker date="1463026377838" expanded="true" signature="458:534" placeholder=" The foreign key of the parent model. ..." />
-            <marker date="1463026377838" expanded="true" signature="572:647" placeholder=" The associated key of the relation. ..." />
-            <marker date="1463026377838" expanded="true" signature="683:754" placeholder=" The &quot;name&quot; of the relationship. ..." />
-            <marker date="1463026377838" expanded="true" signature="794:869" placeholder=" The pivot table columns to retrieve. ..." />
-            <marker date="1463026377838" expanded="true" signature="914:982" placeholder=" Any pivot table restrictions. ..." />
-            <marker date="1463026377838" expanded="true" signature="1026:1125" placeholder=" The custom pivot table column for the created_at timestamp. ..." />
-            <marker date="1463026377838" expanded="true" signature="1167:1266" placeholder=" The custom pivot table column for the updated_at timestamp. ..." />
-            <marker date="1463026377838" expanded="true" signature="1308:1656" placeholder=" Create a new belongs to many relationship instance. ..." />
-            <marker date="1463026377838" expanded="true" signature="1775:1988" placeholder="{...}" />
-            <marker date="1463026377838" expanded="true" signature="1997:2075" placeholder=" Get the results of the relationship. ..." />
-            <marker date="1463026377838" expanded="true" signature="2110:2151" placeholder="{...}" />
-            <marker date="1463026377838" expanded="true" signature="2160:2420" placeholder=" Set a where clause for a pivot table column. ..." />
-            <marker date="1463026377838" expanded="true" signature="2513:2658" placeholder="{...}" />
-            <marker date="1463026377838" expanded="true" signature="2667:2928" placeholder=" Set a &quot;where in&quot; clause for a pivot table column. ..." />
-            <marker date="1463026377838" expanded="true" signature="3013:3156" placeholder="{...}" />
-            <marker date="1463026377838" expanded="true" signature="3165:3399" placeholder=" Set an &quot;or where&quot; clause for a pivot table column. ..." />
-            <marker date="1463026377838" expanded="true" signature="3476:3556" placeholder="{...}" />
-            <marker date="1463026377838" expanded="true" signature="3565:3770" placeholder=" Set an &quot;or where in&quot; clause for a pivot table column. ..." />
-            <marker date="1463026377838" expanded="true" signature="3825:3897" placeholder="{...}" />
-            <marker date="1463026377838" expanded="true" signature="3906:4023" placeholder=" Execute the query and get the first result. ..." />
-            <marker date="1463026377838" expanded="true" signature="4069:4195" placeholder="{...}" />
-            <marker date="1463026377838" expanded="true" signature="4204:4454" placeholder=" Execute the query and get the first result or throw an exception. ..." />
-            <marker date="1463026377838" expanded="true" signature="4506:4656" placeholder="{...}" />
-            <marker date="1463026377838" expanded="true" signature="4570:4606" placeholder="..." />
-            <marker date="1463026377838" expanded="true" signature="4665:4815" placeholder=" Execute the query as a &quot;select&quot; statement. ..." />
-            <marker date="1463026377838" expanded="true" signature="4859:5813" placeholder="{...}" />
-            <marker date="1463026377838" expanded="true" signature="5680:5750" placeholder="..." />
-            <marker date="1463026377838" expanded="true" signature="5822:6079" placeholder=" Get a paginator for the &quot;select&quot; statement. ..." />
-            <marker date="1463026377838" expanded="true" signature="6179:6430" placeholder="{...}" />
-            <marker date="1463026377838" expanded="true" signature="6439:6660" placeholder=" Paginate the given query into a simple paginator. ..." />
-            <marker date="1463026377838" expanded="true" signature="6752:7002" placeholder="{...}" />
-            <marker date="1463026377838" expanded="true" signature="7011:7145" placeholder=" Chunk the results of the query. ..." />
-            <marker date="1463026377838" expanded="true" signature="7201:7466" placeholder="{...}" />
-            <marker date="1463026377838" expanded="true" signature="7304:7458" placeholder="..." />
-            <marker date="1463026377838" expanded="true" signature="7349:7457" placeholder="..." />
-            <marker date="1463026377838" expanded="true" signature="7475:7597" placeholder=" Hydrate the pivot table relationship on the models. ..." />
-            <marker date="1463026377838" expanded="true" signature="7658:8105" placeholder="{...}" />
-            <marker date="1463026377838" expanded="true" signature="7955:8098" placeholder="..." />
-            <marker date="1463026377838" expanded="true" signature="8114:8253" placeholder=" Get the pivot attributes from a model. ..." />
-            <marker date="1463026377838" expanded="true" signature="8313:8856" placeholder="{...}" />
-            <marker date="1463026377838" expanded="true" signature="8404:8824" placeholder="..." />
-            <marker date="1463026377838" expanded="true" signature="8712:8814" placeholder="..." />
-            <marker date="1463026377838" expanded="true" signature="8865:8953" placeholder=" Set the base constraints on the relation query. ..." />
-            <marker date="1463026377838" expanded="true" signature="8992:9108" placeholder="{...}" />
-            <marker date="1463026377838" expanded="true" signature="9061:9101" placeholder="..." />
-            <marker date="1463026377838" expanded="true" signature="9117:9396" placeholder=" Add the constraints for a relationship query. ..." />
-            <marker date="1463026377838" expanded="true" signature="9486:9761" placeholder="{...}" />
-            <marker date="1463026377838" expanded="true" signature="9561:9652" placeholder="..." />
-            <marker date="1463026377838" expanded="true" signature="9770:10067" placeholder=" Add the constraints for a relationship query on the same table. ..." />
-            <marker date="1463026377838" expanded="true" signature="10168:10454" placeholder="{...}" />
-            <marker date="1463026377838" expanded="true" signature="10463:10541" placeholder=" Get a relationship join table hash. ..." />
-            <marker date="1463026377838" expanded="true" signature="10586:10643" placeholder="{...}" />
-            <marker date="1463026377838" expanded="true" signature="10652:10818" placeholder=" Set the select clause for the relation query. ..." />
-            <marker date="1463026377838" expanded="true" signature="10884:11069" placeholder="{...}" />
-            <marker date="1463026377838" expanded="true" signature="10923:10990" placeholder="..." />
-            <marker date="1463026377838" expanded="true" signature="11078:11159" placeholder=" Get the pivot columns for the relation. ..." />
-            <marker date="1463026377838" expanded="true" signature="11209:11745" placeholder="{...}" />
-            <marker date="1463026377838" expanded="true" signature="11617:11698" placeholder="..." />
-            <marker date="1463026377838" expanded="true" signature="11754:11890" placeholder=" Determine whether the given column is defined as a pivot column. ..." />
-            <marker date="1463026377838" expanded="true" signature="11939:12006" placeholder="{...}" />
-            <marker date="1463026377838" expanded="true" signature="12015:12166" placeholder=" Set the join clause for the relation query. ..." />
-            <marker date="1463026377838" expanded="true" signature="12214:12713" placeholder="{...}" />
-            <marker date="1463026377838" expanded="true" signature="12722:12808" placeholder=" Set the where clause for the relation query. ..." />
-            <marker date="1463026377838" expanded="true" signature="12844:12992" placeholder="{...}" />
-            <marker date="1463026377838" expanded="true" signature="13001:13126" placeholder=" Set the constraints for an eager load of the relation. ..." />
-            <marker date="1463026377838" expanded="true" signature="13183:13275" placeholder="{...}" />
-            <marker date="1463026377838" expanded="true" signature="13284:13433" placeholder=" Initialize the relation on a set of models. ..." />
-            <marker date="1463026377838" expanded="true" signature="13494:13656" placeholder="{...}" />
-            <marker date="1463026377838" expanded="true" signature="13538:13624" placeholder="..." />
-            <marker date="1463026377838" expanded="true" signature="13665:13887" placeholder=" Match the eagerly loaded results to their parents. ..." />
-            <marker date="1463026377838" expanded="true" signature="13962:14570" placeholder="{...}" />
-            <marker date="1463026377838" expanded="true" signature="14310:14538" placeholder="..." />
-            <marker date="1463026377838" expanded="true" signature="14373:14528" placeholder="..." />
-            <marker date="1463026377838" expanded="true" signature="14579:14746" placeholder=" Build model dictionary keyed by the relation's foreign key. ..." />
-            <marker date="1463026377838" expanded="true" signature="14808:15275" placeholder="{...}" />
-            <marker date="1463026377838" expanded="true" signature="15167:15239" placeholder="..." />
-            <marker date="1463026377838" expanded="true" signature="15284:15441" placeholder=" Touch all of the related models for the relationship. ..." />
-            <marker date="1463026377838" expanded="true" signature="15471:16010" placeholder="{...}" />
-            <marker date="1463026377838" expanded="true" signature="15910:16003" placeholder="..." />
-            <marker date="1463026377838" expanded="true" signature="16019:16128" placeholder=" Get all of the IDs for the related models. ..." />
-            <marker date="1463026377838" expanded="true" signature="16166:16355" placeholder="{...}" />
-            <marker date="1463026377838" expanded="true" signature="16364:16606" placeholder=" Save a new model and attach it to the parent model. ..." />
-            <marker date="1463026377838" expanded="true" signature="16683:16821" placeholder="{...}" />
-            <marker date="1463026377838" expanded="true" signature="16830:17029" placeholder=" Save an array of new models and attach them to the parent model. ..." />
-            <marker date="1463026377838" expanded="true" signature="17091:17294" placeholder="{...}" />
-            <marker date="1463026377838" expanded="true" signature="17143:17227" placeholder="..." />
-            <marker date="1463026377838" expanded="true" signature="17303:17518" placeholder=" Find a related model by its primary key. ..." />
-            <marker date="1463026377838" expanded="true" signature="17568:17787" placeholder="{...}" />
-            <marker date="1463026377838" expanded="true" signature="17603:17663" placeholder="..." />
-            <marker date="1463026377838" expanded="true" signature="17796:17982" placeholder=" Find multiple related models by their primary keys. ..." />
-            <marker date="1463026377838" expanded="true" signature="18037:18256" placeholder="{...}" />
-            <marker date="1463026377838" expanded="true" signature="18070:18136" placeholder="..." />
-            <marker date="1463026377838" expanded="true" signature="18265:18572" placeholder=" Find a related model by its primary key or throw an exception. ..." />
-            <marker date="1463026377838" expanded="true" signature="18628:18983" placeholder="{...}" />
-            <marker date="1463026377838" expanded="true" signature="18710:18827" placeholder="..." />
-            <marker date="1463026377838" expanded="true" signature="18772:18817" placeholder="..." />
-            <marker date="1463026377838" expanded="true" signature="18858:18895" placeholder="..." />
-            <marker date="1463026377838" expanded="true" signature="18992:19236" placeholder=" Find a related model by its primary key or return new instance of the related model. ..." />
-            <marker date="1463026377838" expanded="true" signature="19291:19463" placeholder="{...}" />
-            <marker date="1463026377838" expanded="true" signature="19360:19429" placeholder="..." />
-            <marker date="1463026377838" expanded="true" signature="19472:19655" placeholder=" Get the first related model record matching the attributes or instantiate it. ..." />
-            <marker date="1463026377838" expanded="true" signature="19707:19893" placeholder="{...}" />
-            <marker date="1463026377838" expanded="true" signature="19784:19859" placeholder="..." />
-            <marker date="1463026377838" expanded="true" signature="19902:20134" placeholder=" Get the first related record matching the attributes or create it. ..." />
-            <marker date="1463026377838" expanded="true" signature="20225:20415" placeholder="{...}" />
-            <marker date="1463026377838" expanded="true" signature="20302:20381" placeholder="..." />
-            <marker date="1463026377838" expanded="true" signature="20424:20703" placeholder=" Create or update a related record matching the attributes, and fill it with values. ..." />
-            <marker date="1463026377838" expanded="true" signature="20815:21077" placeholder="{...}" />
-            <marker date="1463026377838" expanded="true" signature="20892:20962" placeholder="..." />
-            <marker date="1463026377838" expanded="true" signature="21086:21295" placeholder=" Create a new instance of the related model. ..." />
-            <marker date="1463026377838" expanded="true" signature="21379:21839" placeholder="{...}" />
-            <marker date="1463026377838" expanded="true" signature="21848:22008" placeholder=" Create an array of new instances of the related models. ..." />
-            <marker date="1463026377838" expanded="true" signature="22079:22331" placeholder="{...}" />
-            <marker date="1463026377838" expanded="true" signature="22159:22261" placeholder="..." />
-            <marker date="1463026377838" expanded="true" signature="22340:22555" placeholder=" Sync the intermediate tables with a list of IDs or collection of models. ..." />
-            <marker date="1463026377838" expanded="true" signature="22607:24258" placeholder="{...}" />
-            <marker date="1463026377838" expanded="true" signature="22634:22708" placeholder="..." />
-            <marker date="1463026377838" expanded="true" signature="22753:22800" placeholder="..." />
-            <marker date="1463026377838" expanded="true" signature="23536:23740" placeholder="..." />
-            <marker date="1463026377838" expanded="true" signature="23627:23729" placeholder="..." />
-            <marker date="1463026377838" expanded="true" signature="23642:23719" placeholder="..." />
-            <marker date="1463026377838" expanded="true" signature="24027:24102" placeholder="..." />
-            <marker date="1463026377838" expanded="true" signature="24178:24225" placeholder="..." />
-            <marker date="1463026377838" expanded="true" signature="24267:24387" placeholder=" Format the sync list so that it is keyed by ID. ..." />
-            <marker date="1463026377838" expanded="true" signature="24443:24725" placeholder="{...}" />
-            <marker date="1463026377838" expanded="true" signature="24524:24692" placeholder="..." />
-            <marker date="1463026377838" expanded="true" signature="24567:24640" placeholder="..." />
-            <marker date="1463026377838" expanded="true" signature="24734:24922" placeholder=" Attach all of the IDs that aren't in the current array. ..." />
-            <marker date="1463026377838" expanded="true" signature="25004:26127" placeholder="{...}" />
-            <marker date="1463026377838" expanded="true" signature="25118:26094" placeholder="..." />
-            <marker date="1463026377838" expanded="true" signature="25437:25593" placeholder="..." />
-            <marker date="1463026377838" expanded="true" signature="25987:26084" placeholder="..." />
-            <marker date="1463026377838" expanded="true" signature="26136:26310" placeholder=" Update an existing pivot record on the table. ..." />
-            <marker date="1463026377838" expanded="true" signature="26391:26727" placeholder="{...}" />
-            <marker date="1463026377838" expanded="true" signature="26462:26546" placeholder="..." />
-            <marker date="1463026377838" expanded="true" signature="26647:26694" placeholder="..." />
-            <marker date="1463026377838" expanded="true" signature="26736:26895" placeholder=" Attach a model to the parent. ..." />
-            <marker date="1463026377838" expanded="true" signature="26968:27343" placeholder="{...}" />
-            <marker date="1463026377838" expanded="true" signature="27010:27052" placeholder="..." />
-            <marker date="1463026377838" expanded="true" signature="27095:27140" placeholder="..." />
-            <marker date="1463026377838" expanded="true" signature="27289:27336" placeholder="..." />
-            <marker date="1463026377838" expanded="true" signature="27352:27513" placeholder=" Create an array of records to insert into the pivot table. ..." />
-            <marker date="1463026377838" expanded="true" signature="27583:28154" placeholder="{...}" />
-            <marker date="1463026377838" expanded="true" signature="28035:28121" placeholder="..." />
-            <marker date="1463026377838" expanded="true" signature="28163:28364" placeholder=" Create a full attachment record payload. ..." />
-            <marker date="1463026377838" expanded="true" signature="28433:28878" placeholder="{...}" />
-            <marker date="1463026377838" expanded="true" signature="28887:29065" placeholder=" Get the attach record ID and extra attributes. ..." />
-            <marker date="1463026377838" expanded="true" signature="29135:29289" placeholder="{...}" />
-            <marker date="1463026377838" expanded="true" signature="29173:29243" placeholder="..." />
-            <marker date="1463026377838" expanded="true" signature="29298:29430" placeholder=" Create a new pivot attachment record. ..." />
-            <marker date="1463026377838" expanded="true" signature="29487:29965" placeholder="{...}" />
-            <marker date="1463026377838" expanded="true" signature="29863:29933" placeholder="..." />
-            <marker date="1463026377838" expanded="true" signature="29974:30135" placeholder=" Set the creation and update timestamps on an attach record. ..." />
-            <marker date="1463026377838" expanded="true" signature="30214:30550" placeholder="{...}" />
-            <marker date="1463026377838" expanded="true" signature="30341:30400" placeholder="..." />
-            <marker date="1463026377838" expanded="true" signature="30459:30518" placeholder="..." />
-            <marker date="1463026377838" expanded="true" signature="30559:30694" placeholder=" Detach models from the relationship. ..." />
-            <marker date="1463026377838" expanded="true" signature="30749:31631" placeholder="{...}" />
-            <marker date="1463026377838" expanded="true" signature="30792:30844" placeholder="..." />
-            <marker date="1463026377838" expanded="true" signature="31186:31255" placeholder="..." />
-            <marker date="1463026377838" expanded="true" signature="31551:31598" placeholder="..." />
-            <marker date="1463026377838" expanded="true" signature="31640:31723" placeholder=" If we're touching the parent model, touch. ..." />
-            <marker date="1463026377838" expanded="true" signature="31763:31968" placeholder="{...}" />
-            <marker date="1463026377838" expanded="true" signature="31808:31858" placeholder="..." />
-            <marker date="1463026377838" expanded="true" signature="31924:31961" placeholder="..." />
-            <marker date="1463026377838" expanded="true" signature="31977:32066" placeholder=" Determine if we should touch the parent on sync. ..." />
-            <marker date="1463026377838" expanded="true" signature="32108:32196" placeholder="{...}" />
-            <marker date="1463026377838" expanded="true" signature="32205:32305" placeholder=" Attempt to guess the name of the inverse of the relation. ..." />
-            <marker date="1463026377838" expanded="true" signature="32353:32441" placeholder="{...}" />
-            <marker date="1463026377838" expanded="true" signature="32450:32568" placeholder=" Create a new query builder for the pivot table. ..." />
-            <marker date="1463026377838" expanded="true" signature="32609:32870" placeholder="{...}" />
-            <marker date="1463026377838" expanded="true" signature="32714:32788" placeholder="..." />
-            <marker date="1463026377838" expanded="true" signature="32879:33000" placeholder=" Get a new plain query builder for the pivot table. ..." />
-            <marker date="1463026377838" expanded="true" signature="33042:33127" placeholder="{...}" />
-            <marker date="1463026377838" expanded="true" signature="33136:33282" placeholder=" Get a new pivot statement for a given &quot;other&quot; ID. ..." />
-            <marker date="1463026377838" expanded="true" signature="33332:33412" placeholder="{...}" />
-            <marker date="1463026377838" expanded="true" signature="33421:33601" placeholder=" Create a new pivot model instance. ..." />
-            <marker date="1463026377838" expanded="true" signature="33673:33853" placeholder="{...}" />
-            <marker date="1463026377838" expanded="true" signature="33862:34021" placeholder=" Create a new existing pivot model instance. ..." />
-            <marker date="1463026377838" expanded="true" signature="34084:34147" placeholder="{...}" />
-            <marker date="1463026377838" expanded="true" signature="34156:34282" placeholder=" Set the columns on the pivot table to retrieve. ..." />
-            <marker date="1463026377838" expanded="true" signature="34324:34502" placeholder="{...}" />
-            <marker date="1463026377838" expanded="true" signature="34511:34731" placeholder=" Specify that the pivot table has creation and update timestamps. ..." />
-            <marker date="1463026377838" expanded="true" signature="34806:34980" placeholder="{...}" />
-            <marker date="1463026377838" expanded="true" signature="34989:35072" placeholder=" Get the name of the &quot;created at&quot; column. ..." />
-            <marker date="1463026377838" expanded="true" signature="35106:35195" placeholder="{...}" />
-            <marker date="1463026377838" expanded="true" signature="35204:35287" placeholder=" Get the name of the &quot;updated at&quot; column. ..." />
-            <marker date="1463026377838" expanded="true" signature="35321:35410" placeholder="{...}" />
-            <marker date="1463026377838" expanded="true" signature="35419:35509" placeholder=" Get the related model's updated at column name. ..." />
-            <marker date="1463026377838" expanded="true" signature="35555:35658" placeholder="{...}" />
-            <marker date="1463026377838" expanded="true" signature="35667:35774" placeholder=" Get the key for comparing against the parent key in &quot;has&quot; query. ..." />
-            <marker date="1463026377838" expanded="true" signature="35815:35866" placeholder="{...}" />
-            <marker date="1463026377838" expanded="true" signature="35875:35971" placeholder=" Get the fully qualified foreign key for the relation. ..." />
-            <marker date="1463026377838" expanded="true" signature="36009:36072" placeholder="{...}" />
-            <marker date="1463026377838" expanded="true" signature="36081:36177" placeholder=" Get the fully qualified &quot;other key&quot; for the relation. ..." />
-            <marker date="1463026377838" expanded="true" signature="36213:36274" placeholder="{...}" />
-            <marker date="1463026377838" expanded="true" signature="36283:36374" placeholder=" Get the intermediate table for the relationship. ..." />
-            <marker date="1463026377838" expanded="true" signature="36407:36448" placeholder="{...}" />
-            <marker date="1463026377838" expanded="true" signature="36457:36547" placeholder=" Get the relationship name for the relationship. ..." />
-            <marker date="1463026377838" expanded="true" signature="36587:36635" placeholder="{...}" />
+            <marker date="1463026378074" expanded="false" signature="50:174" placeholder="..." />
+            <marker date="1463026378074" expanded="true" signature="191:26881" placeholder="{...}" />
+            <marker date="1463026378074" expanded="true" signature="201:275" placeholder=" The table the blueprint describes. ..." />
+            <marker date="1463026378074" expanded="true" signature="308:393" placeholder=" The columns that should be added to the table. ..." />
+            <marker date="1463026378074" expanded="true" signature="433:518" placeholder=" The commands that should be run for the table. ..." />
+            <marker date="1463026378074" expanded="true" signature="559:652" placeholder=" The storage engine that should be used for the table. ..." />
+            <marker date="1463026378074" expanded="true" signature="683:757" placeholder=" The default character set that should be used for the table. ..." />
+            <marker date="1463026378074" expanded="true" signature="789:851" placeholder=" The collation that should be used for the table. ..." />
+            <marker date="1463026378074" expanded="true" signature="885:959" placeholder=" Whether to make the table temporary. ..." />
+            <marker date="1463026378074" expanded="true" signature="1001:1142" placeholder=" Create a new schema blueprint. ..." />
+            <marker date="1463026378074" expanded="true" signature="1210:1330" placeholder="{...}" />
+            <marker date="1463026378074" expanded="true" signature="1284:1323" placeholder="..." />
+            <marker date="1463026378074" expanded="true" signature="1339:1552" placeholder=" Execute the blueprint against the database. ..." />
+            <marker date="1463026378074" expanded="true" signature="1622:1762" placeholder="{...}" />
+            <marker date="1463026378074" expanded="true" signature="1698:1755" placeholder="..." />
+            <marker date="1463026378074" expanded="true" signature="1771:1988" placeholder=" Get the raw SQL statements for the blueprint. ..." />
+            <marker date="1463026378074" expanded="true" signature="2058:2769" placeholder="{...}" />
+            <marker date="1463026378074" expanded="true" signature="2419:2733" placeholder="..." />
+            <marker date="1463026378074" expanded="true" signature="2529:2723" placeholder="..." />
+            <marker date="1463026378074" expanded="true" signature="2618:2709" placeholder="..." />
+            <marker date="1463026378074" expanded="true" signature="2778:2870" placeholder=" Add the commands that are implied by the blueprint. ..." />
+            <marker date="1463026378074" expanded="true" signature="2916:3284" placeholder="{...}" />
+            <marker date="1463026378074" expanded="true" signature="2996:3078" placeholder="..." />
+            <marker date="1463026378074" expanded="true" signature="3156:3241" placeholder="..." />
+            <marker date="1463026378074" expanded="true" signature="3293:3387" placeholder=" Add the index commands fluently specified on columns. ..." />
+            <marker date="1463026378074" expanded="true" signature="3431:4391" placeholder="{...}" />
+            <marker date="1463026378074" expanded="true" signature="3483:4384" placeholder="..." />
+            <marker date="1463026378074" expanded="true" signature="3548:4374" placeholder="..." />
+            <marker date="1463026378074" expanded="true" signature="3844:3944" placeholder="..." />
+            <marker date="1463026378074" expanded="true" signature="4243:4360" placeholder="..." />
+            <marker date="1463026378074" expanded="true" signature="4400:4489" placeholder=" Determine if the blueprint has a create command. ..." />
+            <marker date="1463026378074" expanded="true" signature="4525:4707" placeholder="{...}" />
+            <marker date="1463026378074" expanded="true" signature="4579:4677" placeholder="..." />
+            <marker date="1463026378074" expanded="true" signature="4625:4667" placeholder="..." />
+            <marker date="1463026378074" expanded="true" signature="4716:4823" placeholder=" Indicate that the table needs to be created. ..." />
+            <marker date="1463026378074" expanded="true" signature="4854:4910" placeholder="{...}" />
+            <marker date="1463026378074" expanded="true" signature="4919:5006" placeholder=" Indicate that the table needs to be temporary. ..." />
+            <marker date="1463026378074" expanded="true" signature="5040:5085" placeholder="{...}" />
+            <marker date="1463026378074" expanded="true" signature="5094:5199" placeholder=" Indicate that the table should be dropped. ..." />
+            <marker date="1463026378074" expanded="true" signature="5228:5282" placeholder="{...}" />
+            <marker date="1463026378074" expanded="true" signature="5291:5409" placeholder=" Indicate that the table should be dropped if it exists. ..." />
+            <marker date="1463026378074" expanded="true" signature="5446:5508" placeholder="{...}" />
+            <marker date="1463026378074" expanded="true" signature="5517:5667" placeholder=" Indicate that the given columns should be dropped. ..." />
+            <marker date="1463026378074" expanded="true" signature="5710:5867" placeholder="{...}" />
+            <marker date="1463026378074" expanded="true" signature="5876:6045" placeholder=" Indicate that the given columns should be renamed. ..." />
+            <marker date="1463026378074" expanded="true" signature="6092:6177" placeholder="{...}" />
+            <marker date="1463026378074" expanded="true" signature="6186:6339" placeholder=" Indicate that the given primary key should be dropped. ..." />
+            <marker date="1463026378074" expanded="true" signature="6388:6474" placeholder="{...}" />
+            <marker date="1463026378074" expanded="true" signature="6483:6635" placeholder=" Indicate that the given unique key should be dropped. ..." />
+            <marker date="1463026378074" expanded="true" signature="6676:6760" placeholder="{...}" />
+            <marker date="1463026378074" expanded="true" signature="6769:6916" placeholder=" Indicate that the given index should be dropped. ..." />
+            <marker date="1463026378074" expanded="true" signature="6956:7038" placeholder="{...}" />
+            <marker date="1463026378074" expanded="true" signature="7047:7200" placeholder=" Indicate that the given foreign key should be dropped. ..." />
+            <marker date="1463026378074" expanded="true" signature="7242:7328" placeholder="{...}" />
+            <marker date="1463026378074" expanded="true" signature="7337:7432" placeholder=" Indicate that the timestamp columns should be dropped. ..." />
+            <marker date="1463026378074" expanded="true" signature="7471:7538" placeholder="{...}" />
+            <marker date="1463026378074" expanded="true" signature="7547:7642" placeholder=" Indicate that the timestamp columns should be dropped. ..." />
+            <marker date="1463026378074" expanded="true" signature="7683:7728" placeholder="{...}" />
+            <marker date="1463026378074" expanded="true" signature="7737:7833" placeholder=" Indicate that the soft delete column should be dropped. ..." />
+            <marker date="1463026378074" expanded="true" signature="7873:7926" placeholder="{...}" />
+            <marker date="1463026378074" expanded="true" signature="7935:8034" placeholder=" Indicate that the remember token column should be dropped. ..." />
+            <marker date="1463026378074" expanded="true" signature="8076:8133" placeholder="{...}" />
+            <marker date="1463026378074" expanded="true" signature="8142:8265" placeholder=" Rename the table to a given name. ..." />
+            <marker date="1463026378074" expanded="true" signature="8299:8370" placeholder="{...}" />
+            <marker date="1463026378074" expanded="true" signature="8379:8550" placeholder=" Specify the primary key(s) for the table. ..." />
+            <marker date="1463026378074" expanded="true" signature="8604:8680" placeholder="{...}" />
+            <marker date="1463026378074" expanded="true" signature="8689:8856" placeholder=" Specify a unique index for the table. ..." />
+            <marker date="1463026378074" expanded="true" signature="8909:8984" placeholder="{...}" />
+            <marker date="1463026378074" expanded="true" signature="8993:9154" placeholder=" Specify an index for the table. ..." />
+            <marker date="1463026378074" expanded="true" signature="9206:9280" placeholder="{...}" />
+            <marker date="1463026378074" expanded="true" signature="9289:9455" placeholder=" Specify a foreign key for the table. ..." />
+            <marker date="1463026378074" expanded="true" signature="9509:9585" placeholder="{...}" />
+            <marker date="1463026378074" expanded="true" signature="9594:9756" placeholder=" Create a new auto-incrementing integer (4-byte) column on the table. ..." />
+            <marker date="1463026378074" expanded="true" signature="9798:9864" placeholder="{...}" />
+            <marker date="1463026378074" expanded="true" signature="9873:10041" placeholder=" Create a new auto-incrementing small integer (2-byte) column on the table. ..." />
+            <marker date="1463026378074" expanded="true" signature="10088:10159" placeholder="{...}" />
+            <marker date="1463026378074" expanded="true" signature="10168:10337" placeholder=" Create a new auto-incrementing medium integer (3-byte) column on the table. ..." />
+            <marker date="1463026378074" expanded="true" signature="10385:10457" placeholder="{...}" />
+            <marker date="1463026378074" expanded="true" signature="10466:10632" placeholder=" Create a new auto-incrementing big integer (8-byte) column on the table. ..." />
+            <marker date="1463026378074" expanded="true" signature="10677:10746" placeholder="{...}" />
+            <marker date="1463026378074" expanded="true" signature="10755:10915" placeholder=" Create a new char column on the table. ..." />
+            <marker date="1463026378074" expanded="true" signature="10966:11047" placeholder="{...}" />
+            <marker date="1463026378074" expanded="true" signature="11056:11218" placeholder=" Create a new string column on the table. ..." />
+            <marker date="1463026378074" expanded="true" signature="11271:11354" placeholder="{...}" />
+            <marker date="1463026378074" expanded="true" signature="11363:11495" placeholder=" Create a new text column on the table. ..." />
+            <marker date="1463026378074" expanded="true" signature="11531:11593" placeholder="{...}" />
+            <marker date="1463026378074" expanded="true" signature="11602:11741" placeholder=" Create a new medium text column on the table. ..." />
+            <marker date="1463026378074" expanded="true" signature="11783:11851" placeholder="{...}" />
+            <marker date="1463026378074" expanded="true" signature="11860:11997" placeholder=" Create a new long text column on the table. ..." />
+            <marker date="1463026378074" expanded="true" signature="12037:12103" placeholder="{...}" />
+            <marker date="1463026378074" expanded="true" signature="12112:12323" placeholder=" Create a new integer (4-byte) column on the table. ..." />
+            <marker date="1463026378074" expanded="true" signature="12405:12508" placeholder="{...}" />
+            <marker date="1463026378074" expanded="true" signature="12517:12733" placeholder=" Create a new tiny integer (1-byte) column on the table. ..." />
+            <marker date="1463026378074" expanded="true" signature="12819:12926" placeholder="{...}" />
+            <marker date="1463026378074" expanded="true" signature="12935:13152" placeholder=" Create a new small integer (2-byte) column on the table. ..." />
+            <marker date="1463026378074" expanded="true" signature="13239:13347" placeholder="{...}" />
+            <marker date="1463026378074" expanded="true" signature="13356:13574" placeholder=" Create a new medium integer (3-byte) column on the table. ..." />
+            <marker date="1463026378074" expanded="true" signature="13662:13771" placeholder="{...}" />
+            <marker date="1463026378074" expanded="true" signature="13780:13995" placeholder=" Create a new big integer (8-byte) column on the table. ..." />
+            <marker date="1463026378074" expanded="true" signature="14080:14186" placeholder="{...}" />
+            <marker date="1463026378074" expanded="true" signature="14195:14389" placeholder=" Create a new unsigned tiny integer (1-byte) column on the table. ..." />
+            <marker date="1463026378074" expanded="true" signature="14464:14542" placeholder="{...}" />
+            <marker date="1463026378074" expanded="true" signature="14551:14746" placeholder=" Create a new unsigned small integer (2-byte) column on the table. ..." />
+            <marker date="1463026378074" expanded="true" signature="14822:14901" placeholder="{...}" />
+            <marker date="1463026378074" expanded="true" signature="14910:15106" placeholder=" Create a new unsigned medium integer (3-byte) column on the table. ..." />
+            <marker date="1463026378074" expanded="true" signature="15183:15263" placeholder="{...}" />
+            <marker date="1463026378074" expanded="true" signature="15272:15461" placeholder=" Create a new unsigned integer (4-byte) column on the table. ..." />
+            <marker date="1463026378074" expanded="true" signature="15532:15606" placeholder="{...}" />
+            <marker date="1463026378074" expanded="true" signature="15615:15808" placeholder=" Create a new unsigned big integer (8-byte) column on the table. ..." />
+            <marker date="1463026378074" expanded="true" signature="15882:15959" placeholder="{...}" />
+            <marker date="1463026378074" expanded="true" signature="15968:16162" placeholder=" Create a new float column on the table. ..." />
+            <marker date="1463026378074" expanded="true" signature="16224:16315" placeholder="{...}" />
+            <marker date="1463026378074" expanded="true" signature="16324:16525" placeholder=" Create a new double column on the table. ..." />
+            <marker date="1463026378074" expanded="true" signature="16594:16686" placeholder="{...}" />
+            <marker date="1463026378074" expanded="true" signature="16695:16891" placeholder=" Create a new decimal column on the table. ..." />
+            <marker date="1463026378074" expanded="true" signature="16955:17048" placeholder="{...}" />
+            <marker date="1463026378074" expanded="true" signature="17057:17192" placeholder=" Create a new boolean column on the table. ..." />
+            <marker date="1463026378074" expanded="true" signature="17231:17296" placeholder="{...}" />
+            <marker date="1463026378074" expanded="true" signature="17305:17469" placeholder=" Create a new enum column on the table. ..." />
+            <marker date="1463026378074" expanded="true" signature="17521:17603" placeholder="{...}" />
+            <marker date="1463026378074" expanded="true" signature="17612:17744" placeholder=" Create a new json column on the table. ..." />
+            <marker date="1463026378074" expanded="true" signature="17780:17842" placeholder="{...}" />
+            <marker date="1463026378074" expanded="true" signature="17851:17984" placeholder=" Create a new jsonb column on the table. ..." />
+            <marker date="1463026378074" expanded="true" signature="18021:18084" placeholder="{...}" />
+            <marker date="1463026378074" expanded="true" signature="18093:18225" placeholder=" Create a new date column on the table. ..." />
+            <marker date="1463026378074" expanded="true" signature="18261:18323" placeholder="{...}" />
+            <marker date="1463026378074" expanded="true" signature="18332:18469" placeholder=" Create a new date-time column on the table. ..." />
+            <marker date="1463026378074" expanded="true" signature="18509:18575" placeholder="{...}" />
+            <marker date="1463026378074" expanded="true" signature="18584:18738" placeholder=" Create a new date-time column (with time zone) on the table. ..." />
+            <marker date="1463026378074" expanded="true" signature="18780:18848" placeholder="{...}" />
+            <marker date="1463026378074" expanded="true" signature="18857:18989" placeholder=" Create a new time column on the table. ..." />
+            <marker date="1463026378074" expanded="true" signature="19025:19087" placeholder="{...}" />
+            <marker date="1463026378074" expanded="true" signature="19096:19245" placeholder=" Create a new time column (with time zone) on the table. ..." />
+            <marker date="1463026378074" expanded="true" signature="19283:19347" placeholder="{...}" />
+            <marker date="1463026378074" expanded="true" signature="19356:19493" placeholder=" Create a new timestamp column on the table. ..." />
+            <marker date="1463026378074" expanded="true" signature="19534:19601" placeholder="{...}" />
+            <marker date="1463026378074" expanded="true" signature="19610:19764" placeholder=" Create a new timestamp (with time zone) column on the table. ..." />
+            <marker date="1463026378074" expanded="true" signature="19807:19876" placeholder="{...}" />
+            <marker date="1463026378074" expanded="true" signature="19885:20027" placeholder=" Add nullable creation and update timestamps to the table. ..." />
+            <marker date="1463026378074" expanded="true" signature="20070:20111" placeholder="{...}" />
+            <marker date="1463026378074" expanded="true" signature="20120:20218" placeholder=" Add nullable creation and update timestamps to the table. ..." />
+            <marker date="1463026378074" expanded="true" signature="20253:20370" placeholder="{...}" />
+            <marker date="1463026378074" expanded="true" signature="20379:20477" placeholder=" Add creation and update timestampTz columns to the table. ..." />
+            <marker date="1463026378074" expanded="true" signature="20514:20635" placeholder="{...}" />
+            <marker date="1463026378074" expanded="true" signature="20644:20750" placeholder=" Add a &quot;deleted at&quot; timestamp for the table. ..." />
+            <marker date="1463026378074" expanded="true" signature="20786:20857" placeholder="{...}" />
+            <marker date="1463026378074" expanded="true" signature="20866:21000" placeholder=" Create a new binary column on the table. ..." />
+            <marker date="1463026378074" expanded="true" signature="21038:21102" placeholder="{...}" />
+            <marker date="1463026378074" expanded="true" signature="21111:21243" placeholder=" Create a new uuid column on the table. ..." />
+            <marker date="1463026378074" expanded="true" signature="21279:21341" placeholder="{...}" />
+            <marker date="1463026378074" expanded="true" signature="21350:21488" placeholder=" Create a new IP address column on the table. ..." />
+            <marker date="1463026378074" expanded="true" signature="21529:21596" placeholder="{...}" />
+            <marker date="1463026378074" expanded="true" signature="21605:21744" placeholder=" Create a new MAC address column on the table. ..." />
+            <marker date="1463026378074" expanded="true" signature="21786:21854" placeholder="{...}" />
+            <marker date="1463026378074" expanded="true" signature="21863:22019" placeholder=" Add the proper columns for a polymorphic table. ..." />
+            <marker date="1463026378074" expanded="true" signature="22074:22239" placeholder="{...}" />
+            <marker date="1463026378074" expanded="true" signature="22248:22357" placeholder=" Adds the `remember_token` column to the table. ..." />
+            <marker date="1463026378074" expanded="true" signature="22395:22472" placeholder="{...}" />
+            <marker date="1463026378074" expanded="true" signature="22481:22690" placeholder=" Create a new drop index command on the blueprint. ..." />
+            <marker date="1463026378074" expanded="true" signature="22757:23241" placeholder="{...}" />
+            <marker date="1463026378074" expanded="true" signature="23066:23169" placeholder="..." />
+            <marker date="1463026378074" expanded="true" signature="23250:23463" placeholder=" Add a new index command to the blueprint. ..." />
+            <marker date="1463026378074" expanded="true" signature="23526:23995" placeholder="{...}" />
+            <marker date="1463026378074" expanded="true" signature="23846:23917" placeholder="..." />
+            <marker date="1463026378074" expanded="true" signature="24004:24150" placeholder=" Create a default index name for the table. ..." />
+            <marker date="1463026378074" expanded="true" signature="24214:24360" placeholder="{...}" />
+            <marker date="1463026378074" expanded="true" signature="24369:24559" placeholder=" Add a new column to the blueprint. ..." />
+            <marker date="1463026378074" expanded="true" signature="24629:24802" placeholder="{...}" />
+            <marker date="1463026378074" expanded="true" signature="24811:24924" placeholder=" Remove a column from the schema blueprint. ..." />
+            <marker date="1463026378074" expanded="true" signature="24966:25163" placeholder="{...}" />
+            <marker date="1463026378074" expanded="true" signature="25011:25132" placeholder="..." />
+            <marker date="1463026378074" expanded="true" signature="25024:25131" placeholder="..." />
+            <marker date="1463026378074" expanded="true" signature="25067:25130" placeholder="..." />
+            <marker date="1463026378074" expanded="true" signature="25172:25333" placeholder=" Add a new command to the blueprint. ..." />
+            <marker date="1463026378074" expanded="true" signature="25400:25519" placeholder="{...}" />
+            <marker date="1463026378074" expanded="true" signature="25528:25683" placeholder=" Create a new Fluent command. ..." />
+            <marker date="1463026378074" expanded="true" signature="25753:25835" placeholder="{...}" />
+            <marker date="1463026378074" expanded="true" signature="25844:25925" placeholder=" Get the table the blueprint describes. ..." />
+            <marker date="1463026378074" expanded="true" signature="25958:25999" placeholder="{...}" />
+            <marker date="1463026378074" expanded="true" signature="26008:26083" placeholder=" Get the columns on the blueprint. ..." />
+            <marker date="1463026378074" expanded="true" signature="26118:26161" placeholder="{...}" />
+            <marker date="1463026378074" expanded="true" signature="26170:26246" placeholder=" Get the commands on the blueprint. ..." />
+            <marker date="1463026378074" expanded="true" signature="26282:26326" placeholder="{...}" />
+            <marker date="1463026378074" expanded="true" signature="26335:26431" placeholder=" Get the columns on the blueprint that should be added. ..." />
+            <marker date="1463026378074" expanded="true" signature="26471:26598" placeholder="{...}" />
+            <marker date="1463026378074" expanded="true" signature="26506:26590" placeholder="..." />
+            <marker date="1463026378074" expanded="true" signature="26542:26589" placeholder="..." />
+            <marker date="1463026378074" expanded="true" signature="26607:26705" placeholder=" Get the columns on the blueprint that should be changed. ..." />
+            <marker date="1463026378074" expanded="true" signature="26747:26879" placeholder="{...}" />
+            <marker date="1463026378074" expanded="true" signature="26782:26871" placeholder="..." />
+            <marker date="1463026378074" expanded="true" signature="26818:26870" placeholder="..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/database/migrations/2016_05_28_090612_create_posts_table.php">
+    <entry file="file://$PROJECT_DIR$/database/seeds/DatabaseSeeder.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
-          <caret line="17" column="44" selection-start-line="17" selection-start-column="44" selection-end-line="17" selection-end-column="44" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1464426450067" expanded="true" signature="11:133" placeholder="..." />
-            <marker date="1464426450067" expanded="true" signature="175:623" placeholder="{...}" />
-            <marker date="1464426450067" expanded="true" signature="185:245" placeholder=" Run the migrations. ..." />
-            <marker date="1464426450067" expanded="true" signature="272:476" placeholder="{...}" />
-            <marker date="1464426450067" expanded="true" signature="302:468" placeholder="..." />
-            <marker date="1464426450067" expanded="true" signature="340:467" placeholder="..." />
-            <marker date="1464426450067" expanded="true" signature="485:549" placeholder=" Reverse the migrations. ..." />
-            <marker date="1464426450067" expanded="true" signature="578:621" placeholder="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/database/migrations/2016_05_20_042728_create_teams_table.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="496">
-          <caret line="18" column="47" selection-start-line="18" selection-start-column="47" selection-end-line="18" selection-end-column="47" />
-          <folding>
-            <marker date="1464322512321" expanded="false" signature="11:133" placeholder="..." />
-            <marker date="1464322512321" expanded="true" signature="175:673" placeholder="{...}" />
-            <marker date="1464322512321" expanded="true" signature="185:245" placeholder=" Run the migrations. ..." />
-            <marker date="1464322512321" expanded="true" signature="272:526" placeholder="{...}" />
-            <marker date="1464322512321" expanded="true" signature="302:518" placeholder="..." />
-            <marker date="1464322512321" expanded="true" signature="340:517" placeholder="..." />
-            <marker date="1464322512321" expanded="true" signature="535:599" placeholder=" Reverse the migrations. ..." />
-            <marker date="1464322512321" expanded="true" signature="628:671" placeholder="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/database/migrations/2016_05_19_044721_create_articles_table.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="527">
-          <caret line="19" column="32" selection-start-line="19" selection-start-column="32" selection-end-line="19" selection-end-column="32" />
-          <folding>
-            <marker date="1463717794239" expanded="false" signature="11:133" placeholder="..." />
-            <marker date="1463717794239" expanded="true" signature="178:672" placeholder="{...}" />
-            <marker date="1463717794239" expanded="true" signature="188:248" placeholder=" Run the migrations. ..." />
-            <marker date="1463717794239" expanded="true" signature="275:522" placeholder="{...}" />
-            <marker date="1463717794239" expanded="true" signature="305:514" placeholder="..." />
-            <marker date="1463717794239" expanded="true" signature="346:513" placeholder="..." />
-            <marker date="1463717794239" expanded="true" signature="531:595" placeholder=" Reverse the migrations. ..." />
-            <marker date="1463717794239" expanded="true" signature="624:670" placeholder="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/database/migrations/2014_10_12_000000_create_users_table.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="372">
-          <caret line="14" column="4" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="4" />
-          <folding>
-            <marker date="1464323064279" expanded="false" signature="11:133" placeholder="..." />
-            <marker date="1464323064279" expanded="true" signature="175:812" placeholder="{...}" />
-            <marker date="1464323064279" expanded="true" signature="185:245" placeholder=" Run the migrations. ..." />
-            <marker date="1464323064279" expanded="true" signature="272:665" placeholder="{...}" />
-            <marker date="1464323064279" expanded="true" signature="302:657" placeholder="..." />
-            <marker date="1464323064279" expanded="true" signature="340:656" placeholder="..." />
-            <marker date="1464323064279" expanded="true" signature="674:738" placeholder=" Reverse the migrations. ..." />
-            <marker date="1464323064279" expanded="true" signature="767:810" placeholder="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/database/migrations/2016_05_28_092555_create_likes_table.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="968">
-          <caret line="34" column="0" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
-          <folding>
-            <marker date="1464427621432" expanded="true" signature="11:133" placeholder="..." />
-            <marker date="1464427621432" expanded="true" signature="175:692" placeholder="{...}" />
-            <marker date="1464427621432" expanded="true" signature="185:245" placeholder=" Run the migrations. ..." />
-            <marker date="1464427621432" expanded="true" signature="272:545" placeholder="{...}" />
-            <marker date="1464427621432" expanded="true" signature="302:537" placeholder="..." />
-            <marker date="1464427621432" expanded="true" signature="340:536" placeholder="..." />
-            <marker date="1464427621432" expanded="true" signature="554:618" placeholder=" Reverse the migrations. ..." />
-            <marker date="1464427621432" expanded="true" signature="647:690" placeholder="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests/integration/app/LikesTest.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="558">
-          <caret line="20" column="41" selection-start-line="20" selection-start-column="41" selection-end-line="20" selection-end-column="41" />
-          <folding>
-            <marker date="1464429501093" expanded="true" signature="11:90" placeholder="..." />
-            <marker date="1464429501093" expanded="true" signature="124:729" placeholder="{...}" />
-            <marker date="1464429501093" expanded="true" signature="219:727" placeholder="{...}" />
-            <marker date="1464429501093" expanded="true" signature="566:719" placeholder="..." />
-            <marker date="1464429501093" expanded="true" signature="576:718" placeholder="..." />
+            <marker date="1463026322429" expanded="true" signature="75:240" placeholder="{...}" />
+            <marker date="1463026322429" expanded="true" signature="85:149" placeholder=" Run the database seeds. ..." />
+            <marker date="1463026322429" expanded="true" signature="177:238" placeholder="{...}" />
           </folding>
         </state>
       </provider>
@@ -2342,29 +1326,203 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/User.php">
+    <entry file="file://$PROJECT_DIR$/database/migrations/2016_05_28_090612_create_posts_table.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="813">
-          <caret line="43" column="0" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
+        <state relative-caret-position="465">
+          <caret line="17" column="44" selection-start-line="17" selection-start-column="44" selection-end-line="17" selection-end-column="44" />
           <folding>
-            <marker date="1464429513477" expanded="true" signature="114:841" placeholder="{...}" />
-            <marker date="1464429513477" expanded="true" signature="124:203" placeholder=" The attributes that are mass assignable. ..." />
-            <marker date="1464429513477" expanded="true" signature="233:291" placeholder="..." />
-            <marker date="1464429513477" expanded="true" signature="302:389" placeholder=" The attributes that should be hidden for arrays. ..." />
-            <marker date="1464429513477" expanded="true" signature="417:468" placeholder="..." />
-            <marker date="1464429513477" expanded="true" signature="503:567" placeholder="{...}" />
-            <marker date="1464429513477" expanded="true" signature="595:653" placeholder="{...}" />
-            <marker date="1464429513477" expanded="true" signature="691:740" placeholder="{...}" />
-            <marker date="1464429513477" expanded="true" signature="769:839" placeholder="{...}" />
+            <marker date="1464426450067" expanded="false" signature="11:133" placeholder="..." />
+            <marker date="1464426450067" expanded="true" signature="175:623" placeholder="{...}" />
+            <marker date="1464426450067" expanded="true" signature="185:245" placeholder=" Run the migrations. ..." />
+            <marker date="1464426450067" expanded="true" signature="272:476" placeholder="{...}" />
+            <marker date="1464426450067" expanded="true" signature="302:468" placeholder="..." />
+            <marker date="1464426450067" expanded="true" signature="340:467" placeholder="..." />
+            <marker date="1464426450067" expanded="true" signature="485:549" placeholder=" Reverse the migrations. ..." />
+            <marker date="1464426450067" expanded="true" signature="578:621" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/migrations/2016_05_20_042728_create_teams_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="496">
+          <caret line="18" column="47" selection-start-line="18" selection-start-column="47" selection-end-line="18" selection-end-column="47" />
+          <folding>
+            <marker date="1464322512321" expanded="false" signature="11:133" placeholder="..." />
+            <marker date="1464322512321" expanded="true" signature="175:673" placeholder="{...}" />
+            <marker date="1464322512321" expanded="true" signature="185:245" placeholder=" Run the migrations. ..." />
+            <marker date="1464322512321" expanded="true" signature="272:526" placeholder="{...}" />
+            <marker date="1464322512321" expanded="true" signature="302:518" placeholder="..." />
+            <marker date="1464322512321" expanded="true" signature="340:517" placeholder="..." />
+            <marker date="1464322512321" expanded="true" signature="535:599" placeholder=" Reverse the migrations. ..." />
+            <marker date="1464322512321" expanded="true" signature="628:671" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/migrations/2016_05_19_044721_create_articles_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="527">
+          <caret line="19" column="32" selection-start-line="19" selection-start-column="32" selection-end-line="19" selection-end-column="32" />
+          <folding>
+            <marker date="1463717794239" expanded="false" signature="11:133" placeholder="..." />
+            <marker date="1463717794239" expanded="true" signature="178:672" placeholder="{...}" />
+            <marker date="1463717794239" expanded="true" signature="188:248" placeholder=" Run the migrations. ..." />
+            <marker date="1463717794239" expanded="true" signature="275:522" placeholder="{...}" />
+            <marker date="1463717794239" expanded="true" signature="305:514" placeholder="..." />
+            <marker date="1463717794239" expanded="true" signature="346:513" placeholder="..." />
+            <marker date="1463717794239" expanded="true" signature="531:595" placeholder=" Reverse the migrations. ..." />
+            <marker date="1463717794239" expanded="true" signature="624:670" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/migrations/2014_10_12_100000_create_password_resets_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1463026322417" expanded="false" signature="11:94" placeholder="..." />
+            <marker date="1463026322417" expanded="true" signature="145:632" placeholder="{...}" />
+            <marker date="1463026322417" expanded="true" signature="155:215" placeholder=" Run the migrations. ..." />
+            <marker date="1463026322417" expanded="true" signature="242:475" placeholder="{...}" />
+            <marker date="1463026322417" expanded="true" signature="272:467" placeholder="..." />
+            <marker date="1463026322417" expanded="true" signature="320:466" placeholder="..." />
+            <marker date="1463026322417" expanded="true" signature="484:548" placeholder=" Reverse the migrations. ..." />
+            <marker date="1463026322417" expanded="true" signature="577:630" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/migrations/2014_10_12_000000_create_users_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="372">
+          <caret line="14" column="4" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="4" />
+          <folding>
+            <marker date="1464323064279" expanded="false" signature="11:133" placeholder="..." />
+            <marker date="1464323064279" expanded="true" signature="175:812" placeholder="{...}" />
+            <marker date="1464323064279" expanded="true" signature="185:245" placeholder=" Run the migrations. ..." />
+            <marker date="1464323064279" expanded="true" signature="272:665" placeholder="{...}" />
+            <marker date="1464323064279" expanded="true" signature="302:657" placeholder="..." />
+            <marker date="1464323064279" expanded="true" signature="340:656" placeholder="..." />
+            <marker date="1464323064279" expanded="true" signature="674:738" placeholder=" Reverse the migrations. ..." />
+            <marker date="1464323064279" expanded="true" signature="767:810" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/migrations/2016_05_28_092555_create_likes_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="410">
+          <caret line="17" column="66" selection-start-line="17" selection-start-column="66" selection-end-line="17" selection-end-column="66" />
+          <folding>
+            <marker date="1464498990428" expanded="true" signature="11:133" placeholder="..." />
+            <marker date="1464498990428" expanded="true" signature="175:840" placeholder="{...}" />
+            <marker date="1464498990428" expanded="true" signature="185:245" placeholder=" Run the migrations. ..." />
+            <marker date="1464498990428" expanded="true" signature="272:693" placeholder="{...}" />
+            <marker date="1464498990428" expanded="true" signature="302:685" placeholder="..." />
+            <marker date="1464498990428" expanded="true" signature="340:684" placeholder="..." />
+            <marker date="1464498990428" expanded="true" signature="702:766" placeholder=" Reverse the migrations. ..." />
+            <marker date="1464498990428" expanded="true" signature="795:838" placeholder="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Like.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="875">
-          <caret line="29" column="27" selection-start-line="29" selection-start-column="27" selection-end-line="29" selection-end-column="27" />
-          <folding />
+        <state relative-caret-position="620">
+          <caret line="20" column="42" selection-start-line="20" selection-start-column="42" selection-end-line="20" selection-end-column="42" />
+          <folding>
+            <marker date="1464500030382" expanded="true" signature="88:383" placeholder="{...}" />
+            <marker date="1464500030382" expanded="true" signature="98:217" placeholder=" Get all the owning likeable models. ..." />
+            <marker date="1464500030382" expanded="true" signature="250:295" placeholder="{...}" />
+            <marker date="1464500030382" expanded="true" signature="323:381" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Relations/MorphTo.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="343">
+          <caret line="115" column="20" selection-start-line="115" selection-start-column="20" selection-end-line="115" selection-end-column="20" />
+          <folding>
+            <marker date="1463026377878" expanded="false" signature="62:184" placeholder="..." />
+            <marker date="1463026377878" expanded="true" signature="217:6657" placeholder="{...}" />
+            <marker date="1463026377878" expanded="true" signature="227:304" placeholder=" The type of the polymorphic relation. ..." />
+            <marker date="1463026377878" expanded="true" signature="341:465" placeholder=" The models whose relations are being eager loaded. ..." />
+            <marker date="1463026377878" expanded="true" signature="499:568" placeholder=" All of the models keyed by ID. ..." />
+            <marker date="1463026377878" expanded="true" signature="610:708" placeholder="..." />
+            <marker date="1463026377878" expanded="true" signature="755:1091" placeholder=" Create a new morph to relationship instance. ..." />
+            <marker date="1463026377878" expanded="true" signature="1198:1326" placeholder="{...}" />
+            <marker date="1463026377878" expanded="true" signature="1335:1413" placeholder=" Get the results of the relationship. ..." />
+            <marker date="1463026377878" expanded="true" signature="1448:1562" placeholder="{...}" />
+            <marker date="1463026377878" expanded="true" signature="1487:1516" placeholder="..." />
+            <marker date="1463026377878" expanded="true" signature="1571:1696" placeholder=" Set the constraints for an eager load of the relation. ..." />
+            <marker date="1463026377878" expanded="true" signature="1753:1840" placeholder="{...}" />
+            <marker date="1463026377878" expanded="true" signature="1849:1990" placeholder=" Build a dictionary with the models. ..." />
+            <marker date="1463026377878" expanded="true" signature="2051:2274" placeholder="{...}" />
+            <marker date="1463026377878" expanded="true" signature="2095:2267" placeholder="..." />
+            <marker date="1463026377878" expanded="true" signature="2141:2257" placeholder="..." />
+            <marker date="1463026377878" expanded="true" signature="2283:2505" placeholder=" Match the eagerly loaded results to their parents. ..." />
+            <marker date="1463026377878" expanded="true" signature="2580:2616" placeholder="{...}" />
+            <marker date="1463026377878" expanded="true" signature="2625:2805" placeholder=" Associate the model instance to the given parent. ..." />
+            <marker date="1463026377878" expanded="true" signature="2845:3081" placeholder="{...}" />
+            <marker date="1463026377878" expanded="true" signature="3090:3223" placeholder=" Dissociate previously associated model from the given parent. ..." />
+            <marker date="1463026377878" expanded="true" signature="3258:3461" placeholder="{...}" />
+            <marker date="1463026377878" expanded="true" signature="3470:3618" placeholder=" Get the results of the relationship. ..." />
+            <marker date="1463026377878" expanded="true" signature="3651:3842" placeholder="{...}" />
+            <marker date="1463026377878" expanded="true" signature="3716:3804" placeholder="..." />
+            <marker date="1463026377878" expanded="true" signature="3851:4039" placeholder=" Match the results for a given type to their parents. ..." />
+            <marker date="1463026377878" expanded="true" signature="4112:4425" placeholder="{...}" />
+            <marker date="1463026377878" expanded="true" signature="4158:4418" placeholder="..." />
+            <marker date="1463026377878" expanded="true" signature="4228:4408" placeholder="..." />
+            <marker date="1463026377878" expanded="true" signature="4310:4394" placeholder="..." />
+            <marker date="1463026377878" expanded="true" signature="4434:4583" placeholder=" Get all of the relation results for a type. ..." />
+            <marker date="1463026377878" expanded="true" signature="4632:4939" placeholder="{...}" />
+            <marker date="1463026377878" expanded="true" signature="4948:5067" placeholder=" Gather all of the foreign keys for a given type. ..." />
+            <marker date="1463026377878" expanded="true" signature="5116:5336" placeholder="{...}" />
+            <marker date="1463026377878" expanded="true" signature="5216:5308" placeholder="..." />
+            <marker date="1463026377878" expanded="true" signature="5251:5307" placeholder="..." />
+            <marker date="1463026377878" expanded="true" signature="5345:5482" placeholder=" Create a new model instance by type. ..." />
+            <marker date="1463026377878" expanded="true" signature="5529:5636" placeholder="{...}" />
+            <marker date="1463026377878" expanded="true" signature="5645:5720" placeholder=" Get the foreign key &quot;type&quot; name. ..." />
+            <marker date="1463026377878" expanded="true" signature="5757:5802" placeholder="{...}" />
+            <marker date="1463026377878" expanded="true" signature="5811:5897" placeholder=" Get the dictionary used by the relationship. ..." />
+            <marker date="1463026377878" expanded="true" signature="5935:5981" placeholder="{...}" />
+            <marker date="1463026377878" expanded="true" signature="5990:6078" placeholder=" Fetch soft-deleted model instances with query. ..." />
+            <marker date="1463026377878" expanded="true" signature="6114:6245" placeholder="{...}" />
+            <marker date="1463026377878" expanded="true" signature="6254:6433" placeholder=" Return trashed models with query if told so. ..." />
+            <marker date="1463026377878" expanded="true" signature="6489:6655" placeholder="{...}" />
+            <marker date="1463026377878" expanded="true" signature="6573:6624" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/User.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="713">
+          <caret line="44" column="0" selection-start-line="44" selection-start-column="0" selection-end-line="44" selection-end-column="0" />
+          <folding>
+            <marker date="1464500171612" expanded="true" signature="114:951" placeholder="{...}" />
+            <marker date="1464500171612" expanded="true" signature="124:203" placeholder=" The attributes that are mass assignable. ..." />
+            <marker date="1464500171612" expanded="true" signature="233:291" placeholder="..." />
+            <marker date="1464500171612" expanded="true" signature="302:389" placeholder=" The attributes that should be hidden for arrays. ..." />
+            <marker date="1464500171612" expanded="true" signature="417:468" placeholder="..." />
+            <marker date="1464500171612" expanded="true" signature="503:567" placeholder="{...}" />
+            <marker date="1464500171612" expanded="true" signature="595:653" placeholder="{...}" />
+            <marker date="1464500171612" expanded="true" signature="691:850" placeholder="{...}" />
+            <marker date="1464500171612" expanded="true" signature="879:949" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/integration/app/LikesTest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="434">
+          <caret line="16" column="32" selection-start-line="16" selection-start-column="32" selection-end-line="16" selection-end-column="32" />
+          <folding>
+            <element signature="e#7#20#0#PHP" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
