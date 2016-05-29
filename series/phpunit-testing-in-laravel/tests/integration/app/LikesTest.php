@@ -51,4 +51,16 @@ class LikesTest extends TestCase
             'likeable_type' => get_class($post),
         ]);
     }
+
+    /** @test */
+    public function a_post_knows_how_many_likes_has()
+    {
+        $users = factory(User::class, 2)->create();
+        $post = factory(Post::class)->create();
+
+        $users->get(0)->like($post);
+        $users->get(1)->like($post);
+
+        $this->assertCount(2, $post->likes()->get());
+    }
 }
