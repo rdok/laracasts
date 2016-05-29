@@ -28,14 +28,12 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="LikesTest.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/tests/integration/app/LikesTest.php">
+      <file leaf-file-name="User.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/User.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="434">
-              <caret line="16" column="32" selection-start-line="16" selection-start-column="32" selection-end-line="16" selection-end-column="32" />
-              <folding>
-                <element signature="e#7#20#0#PHP" expanded="true" />
-              </folding>
+            <state relative-caret-position="751">
+              <caret line="54" column="14" selection-start-line="54" selection-start-column="14" selection-end-line="54" selection-end-column="14" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -67,14 +65,14 @@
         <option value="$PROJECT_DIR$/tests/integration/app/TeamTest.php" />
         <option value="$PROJECT_DIR$/app/Team.php" />
         <option value="$PROJECT_DIR$/database/factories/PostFactory.php" />
-        <option value="$PROJECT_DIR$/database/migrations/2016_05_28_090612_create_posts_table.php" />
         <option value="$PROJECT_DIR$/app/Post.php" />
         <option value="$PROJECT_DIR$/database/migrations/2016_05_28_091135_create_post_user_table.php" />
         <option value="$PROJECT_DIR$/app/Likes.php" />
         <option value="$PROJECT_DIR$/database/migrations/2016_05_28_092555_create_likes_table.php" />
         <option value="$PROJECT_DIR$/app/Like.php" />
-        <option value="$PROJECT_DIR$/app/User.php" />
+        <option value="$PROJECT_DIR$/database/migrations/2016_05_28_090612_create_posts_table.php" />
         <option value="$PROJECT_DIR$/tests/integration/app/LikesTest.php" />
+        <option value="$PROJECT_DIR$/app/User.php" />
       </list>
     </option>
   </component>
@@ -229,12 +227,12 @@
       <workItem from="1464373950109" duration="33000" />
       <workItem from="1464415511843" duration="12017000" />
       <workItem from="1464449578378" duration="12000" />
-      <workItem from="1464498216714" duration="1958000" />
+      <workItem from="1464498216714" duration="3076000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="25052000" />
+    <option name="totallyTimeSpent" value="26170000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="24" width="1920" height="1056" extended-state="6" />
@@ -283,28 +281,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/tests/integration/app/ArticleTest.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="612">
-          <caret line="19" column="45" selection-start-line="19" selection-start-column="45" selection-end-line="19" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/composer.json" />
-    <entry file="file://$PROJECT_DIR$/tests/unit/OrderTest.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1530">
-          <caret line="46" column="5" selection-start-line="46" selection-start-column="5" selection-end-line="46" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests/unit/ProductTest.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1054">
-          <caret line="31" column="39" selection-start-line="31" selection-start-column="39" selection-end-line="31" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/tests/functional/ExampleTest.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="476">
@@ -1326,23 +1302,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/database/migrations/2016_05_28_090612_create_posts_table.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
-          <caret line="17" column="44" selection-start-line="17" selection-start-column="44" selection-end-line="17" selection-end-column="44" />
-          <folding>
-            <marker date="1464426450067" expanded="false" signature="11:133" placeholder="..." />
-            <marker date="1464426450067" expanded="true" signature="175:623" placeholder="{...}" />
-            <marker date="1464426450067" expanded="true" signature="185:245" placeholder=" Run the migrations. ..." />
-            <marker date="1464426450067" expanded="true" signature="272:476" placeholder="{...}" />
-            <marker date="1464426450067" expanded="true" signature="302:468" placeholder="..." />
-            <marker date="1464426450067" expanded="true" signature="340:467" placeholder="..." />
-            <marker date="1464426450067" expanded="true" signature="485:549" placeholder=" Reverse the migrations. ..." />
-            <marker date="1464426450067" expanded="true" signature="578:621" placeholder="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/database/migrations/2016_05_20_042728_create_teams_table.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="496">
@@ -1411,36 +1370,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/database/migrations/2016_05_28_092555_create_likes_table.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="410">
-          <caret line="17" column="66" selection-start-line="17" selection-start-column="66" selection-end-line="17" selection-end-column="66" />
-          <folding>
-            <marker date="1464498990428" expanded="true" signature="11:133" placeholder="..." />
-            <marker date="1464498990428" expanded="true" signature="175:840" placeholder="{...}" />
-            <marker date="1464498990428" expanded="true" signature="185:245" placeholder=" Run the migrations. ..." />
-            <marker date="1464498990428" expanded="true" signature="272:693" placeholder="{...}" />
-            <marker date="1464498990428" expanded="true" signature="302:685" placeholder="..." />
-            <marker date="1464498990428" expanded="true" signature="340:684" placeholder="..." />
-            <marker date="1464498990428" expanded="true" signature="702:766" placeholder=" Reverse the migrations. ..." />
-            <marker date="1464498990428" expanded="true" signature="795:838" placeholder="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Like.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="620">
-          <caret line="20" column="42" selection-start-line="20" selection-start-column="42" selection-end-line="20" selection-end-column="42" />
-          <folding>
-            <marker date="1464500030382" expanded="true" signature="88:383" placeholder="{...}" />
-            <marker date="1464500030382" expanded="true" signature="98:217" placeholder=" Get all the owning likeable models. ..." />
-            <marker date="1464500030382" expanded="true" signature="250:295" placeholder="{...}" />
-            <marker date="1464500030382" expanded="true" signature="323:381" placeholder="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Relations/MorphTo.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="343">
@@ -1498,31 +1427,1000 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/User.php">
+    <entry file="file://$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Support/Arr.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="713">
-          <caret line="44" column="0" selection-start-line="44" selection-start-column="0" selection-end-line="44" selection-end-column="0" />
+        <state relative-caret-position="441">
+          <caret line="515" column="27" selection-start-line="515" selection-start-column="27" selection-end-line="515" selection-end-column="27" />
           <folding>
-            <marker date="1464500171612" expanded="true" signature="114:951" placeholder="{...}" />
-            <marker date="1464500171612" expanded="true" signature="124:203" placeholder=" The attributes that are mass assignable. ..." />
-            <marker date="1464500171612" expanded="true" signature="233:291" placeholder="..." />
-            <marker date="1464500171612" expanded="true" signature="302:389" placeholder=" The attributes that should be hidden for arrays. ..." />
-            <marker date="1464500171612" expanded="true" signature="417:468" placeholder="..." />
-            <marker date="1464500171612" expanded="true" signature="503:567" placeholder="{...}" />
-            <marker date="1464500171612" expanded="true" signature="595:653" placeholder="{...}" />
-            <marker date="1464500171612" expanded="true" signature="691:850" placeholder="{...}" />
-            <marker date="1464500171612" expanded="true" signature="879:949" placeholder="{...}" />
+            <marker date="1463026379538" expanded="false" signature="42:95" placeholder="..." />
+            <marker date="1463026379538" expanded="true" signature="106:12934" placeholder="{...}" />
+            <marker date="1463026379538" expanded="true" signature="136:260" placeholder=" Determine whether the given value is array accessible. ..." />
+            <marker date="1463026379538" expanded="true" signature="308:386" placeholder="{...}" />
+            <marker date="1463026379538" expanded="true" signature="395:593" placeholder=" Add an element to an array using &quot;dot&quot; notation if it doesn't exist. ..." />
+            <marker date="1463026379538" expanded="true" signature="648:791" placeholder="{...}" />
+            <marker date="1463026379538" expanded="true" signature="704:760" placeholder="..." />
+            <marker date="1463026379538" expanded="true" signature="800:986" placeholder=" Build a new array using a callback. ..." />
+            <marker date="1463026379538" expanded="true" signature="1049:1298" placeholder="{...}" />
+            <marker date="1463026379538" expanded="true" signature="1124:1265" placeholder="..." />
+            <marker date="1463026379538" expanded="true" signature="1307:1426" placeholder=" Collapse an array of arrays into a single array. ..." />
+            <marker date="1463026379538" expanded="true" signature="1472:1814" placeholder="{...}" />
+            <marker date="1463026379538" expanded="true" signature="1540:1781" placeholder="..." />
+            <marker date="1463026379538" expanded="true" signature="1589:1644" placeholder="..." />
+            <marker date="1463026379538" expanded="true" signature="1676:1715" placeholder="..." />
+            <marker date="1463026379538" expanded="true" signature="1823:1967" placeholder=" Divide an array into two arrays. One with keys and the other with values. ..." />
+            <marker date="1463026379538" expanded="true" signature="2011:2082" placeholder="{...}" />
+            <marker date="1463026379538" expanded="true" signature="2091:2251" placeholder=" Flatten a multi-dimensional associative array with dots. ..." />
+            <marker date="1463026379538" expanded="true" signature="2307:2654" placeholder="{...}" />
+            <marker date="1463026379538" expanded="true" signature="2382:2621" placeholder="..." />
+            <marker date="1463026379538" expanded="true" signature="2437:2540" placeholder="..." />
+            <marker date="1463026379538" expanded="true" signature="2548:2611" placeholder="..." />
+            <marker date="1463026379538" expanded="true" signature="2663:2834" placeholder=" Get all of the given array except for a specified array of items. ..." />
+            <marker date="1463026379538" expanded="true" signature="2885:2960" placeholder="{...}" />
+            <marker date="1463026379538" expanded="true" signature="2969:3140" placeholder=" Determine if the given key exists in the provided array. ..." />
+            <marker date="1463026379538" expanded="true" signature="3190:3352" placeholder="{...}" />
+            <marker date="1463026379538" expanded="true" signature="3241:3297" placeholder="..." />
+            <marker date="1463026379538" expanded="true" signature="3361:3567" placeholder=" Return the first element in an array passing a given truth test. ..." />
+            <marker date="1463026379538" expanded="true" signature="3654:3971" placeholder="{...}" />
+            <marker date="1463026379538" expanded="true" signature="3694:3771" placeholder="..." />
+            <marker date="1463026379538" expanded="true" signature="3818:3931" placeholder="..." />
+            <marker date="1463026379538" expanded="true" signature="3877:3921" placeholder="..." />
+            <marker date="1463026379538" expanded="true" signature="3980:4185" placeholder=" Return the last element in an array passing a given truth test. ..." />
+            <marker date="1463026379538" expanded="true" signature="4271:4468" placeholder="{...}" />
+            <marker date="1463026379538" expanded="true" signature="4311:4386" placeholder="..." />
+            <marker date="1463026379538" expanded="true" signature="4477:4629" placeholder=" Flatten a multi-dimensional array into a single level. ..." />
+            <marker date="1463026379538" expanded="true" signature="4688:5202" placeholder="{...}" />
+            <marker date="1463026379538" expanded="true" signature="4753:5170" placeholder="..." />
+            <marker date="1463026379538" expanded="true" signature="4861:5128" placeholder="..." />
+            <marker date="1463026379538" expanded="true" signature="4897:5003" placeholder="..." />
+            <marker date="1463026379538" expanded="true" signature="5211:5387" placeholder=" Remove one or many array items from a given array using &quot;dot&quot; notation. ..." />
+            <marker date="1463026379538" expanded="true" signature="5439:6273" placeholder="{...}" />
+            <marker date="1463026379538" expanded="true" signature="5541:5570" placeholder="..." />
+            <marker date="1463026379538" expanded="true" signature="5606:6266" placeholder="..." />
+            <marker date="1463026379538" expanded="true" signature="5721:5798" placeholder="..." />
+            <marker date="1463026379538" expanded="true" signature="5957:6207" placeholder="..." />
+            <marker date="1463026379538" expanded="true" signature="6074:6136" placeholder="..." />
+            <marker date="1463026379538" expanded="true" signature="6144:6193" placeholder="..." />
+            <marker date="1463026379538" expanded="true" signature="6282:6473" placeholder=" Get an item from an array using &quot;dot&quot; notation. ..." />
+            <marker date="1463026379538" expanded="true" signature="6537:7080" placeholder="{...}" />
+            <marker date="1463026379538" expanded="true" signature="6587:6632" placeholder="..." />
+            <marker date="1463026379538" expanded="true" signature="6663:6699" placeholder="..." />
+            <marker date="1463026379538" expanded="true" signature="6745:6787" placeholder="..." />
+            <marker date="1463026379538" expanded="true" signature="6840:7049" placeholder="..." />
+            <marker date="1463026379538" expanded="true" signature="6922:6978" placeholder="..." />
+            <marker date="1463026379538" expanded="true" signature="6986:7039" placeholder="..." />
+            <marker date="1463026379538" expanded="true" signature="7089:7257" placeholder=" Check if an item exists in an array using &quot;dot&quot; notation. ..." />
+            <marker date="1463026379538" expanded="true" signature="7304:7796" placeholder="{...}" />
+            <marker date="1463026379538" expanded="true" signature="7334:7369" placeholder="..." />
+            <marker date="1463026379538" expanded="true" signature="7400:7435" placeholder="..." />
+            <marker date="1463026379538" expanded="true" signature="7481:7515" placeholder="..." />
+            <marker date="1463026379538" expanded="true" signature="7568:7767" placeholder="..." />
+            <marker date="1463026379538" expanded="true" signature="7650:7706" placeholder="..." />
+            <marker date="1463026379538" expanded="true" signature="7714:7757" placeholder="..." />
+            <marker date="1463026379538" expanded="true" signature="7805:8019" placeholder=" Determines if an array is associative. ..." />
+            <marker date="1463026379538" expanded="true" signature="8070:8163" placeholder="{...}" />
+            <marker date="1463026379538" expanded="true" signature="8172:8325" placeholder=" Get a subset of the items from the given array. ..." />
+            <marker date="1463026379538" expanded="true" signature="8374:8457" placeholder="{...}" />
+            <marker date="1463026379538" expanded="true" signature="8466:8651" placeholder=" Pluck an array of values from an array. ..." />
+            <marker date="1463026379538" expanded="true" signature="8715:9418" placeholder="{...}" />
+            <marker date="1463026379538" expanded="true" signature="8857:9385" placeholder="..." />
+            <marker date="1463026379538" expanded="true" signature="9200:9254" placeholder="..." />
+            <marker date="1463026379538" expanded="true" signature="9262:9375" placeholder="..." />
+            <marker date="1463026379538" expanded="true" signature="9427:9602" placeholder=" Explode the &quot;value&quot; and &quot;key&quot; arguments passed to &quot;pluck&quot;. ..." />
+            <marker date="1463026379538" expanded="true" signature="9671:9860" placeholder="{...}" />
+            <marker date="1463026379538" expanded="true" signature="9869:10040" placeholder=" Push an item onto the beginning of an array. ..." />
+            <marker date="1463026379538" expanded="true" signature="10106:10289" placeholder="{...}" />
+            <marker date="1463026379538" expanded="true" signature="10141:10193" placeholder="..." />
+            <marker date="1463026379538" expanded="true" signature="10201:10258" placeholder="..." />
+            <marker date="1463026379538" expanded="true" signature="10298:10472" placeholder=" Get a value from the array, and remove it. ..." />
+            <marker date="1463026379538" expanded="true" signature="10538:10667" placeholder="{...}" />
+            <marker date="1463026379538" expanded="true" signature="10676:10945" placeholder=" Set an array item to a given value using &quot;dot&quot; notation. ..." />
+            <marker date="1463026379538" expanded="true" signature="11001:11696" placeholder="{...}" />
+            <marker date="1463026379538" expanded="true" signature="11036:11081" placeholder="..." />
+            <marker date="1463026379538" expanded="true" signature="11155:11619" placeholder="..." />
+            <marker date="1463026379538" expanded="true" signature="11524:11572" placeholder="..." />
+            <marker date="1463026379538" expanded="true" signature="11705:11851" placeholder=" Sort the array using the given callback. ..." />
+            <marker date="1463026379538" expanded="true" signature="11913:11992" placeholder="{...}" />
+            <marker date="1463026379538" expanded="true" signature="12001:12117" placeholder=" Recursively sort an array by keys and values. ..." />
+            <marker date="1463026379538" expanded="true" signature="12168:12478" placeholder="{...}" />
+            <marker date="1463026379538" expanded="true" signature="12212:12327" placeholder="..." />
+            <marker date="1463026379538" expanded="true" signature="12248:12317" placeholder="..." />
+            <marker date="1463026379538" expanded="true" signature="12368:12404" placeholder="..." />
+            <marker date="1463026379538" expanded="true" signature="12412:12447" placeholder="..." />
+            <marker date="1463026379538" expanded="true" signature="12487:12635" placeholder=" Filter the array using the given callback. ..." />
+            <marker date="1463026379538" expanded="true" signature="12698:12932" placeholder="{...}" />
+            <marker date="1463026379538" expanded="true" signature="12774:12898" placeholder="..." />
+            <marker date="1463026379538" expanded="true" signature="12833:12888" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Like.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="186">
+          <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
+          <folding>
+            <marker date="1464500030382" expanded="true" signature="88:383" placeholder="{...}" />
+            <marker date="1464500030382" expanded="true" signature="98:217" placeholder=" Get all the owning likeable models. ..." />
+            <marker date="1464500030382" expanded="true" signature="250:295" placeholder="{...}" />
+            <marker date="1464500030382" expanded="true" signature="323:381" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/migrations/2016_05_28_092555_create_likes_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="441">
+          <caret line="18" column="38" selection-start-line="18" selection-start-column="38" selection-end-line="18" selection-end-column="38" />
+          <folding>
+            <marker date="1464498990428" expanded="true" signature="11:133" placeholder="..." />
+            <marker date="1464498990428" expanded="true" signature="175:840" placeholder="{...}" />
+            <marker date="1464498990428" expanded="true" signature="185:245" placeholder=" Run the migrations. ..." />
+            <marker date="1464498990428" expanded="true" signature="272:693" placeholder="{...}" />
+            <marker date="1464498990428" expanded="true" signature="302:685" placeholder="..." />
+            <marker date="1464498990428" expanded="true" signature="340:684" placeholder="..." />
+            <marker date="1464498990428" expanded="true" signature="702:766" placeholder=" Reverse the migrations. ..." />
+            <marker date="1464498990428" expanded="true" signature="795:838" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/migrations/2016_05_28_090612_create_posts_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="17" column="44" selection-start-line="17" selection-start-column="44" selection-end-line="17" selection-end-column="44" />
+          <folding>
+            <marker date="1464426450067" expanded="true" signature="11:133" placeholder="..." />
+            <marker date="1464426450067" expanded="true" signature="175:623" placeholder="{...}" />
+            <marker date="1464426450067" expanded="true" signature="185:245" placeholder=" Run the migrations. ..." />
+            <marker date="1464426450067" expanded="true" signature="272:476" placeholder="{...}" />
+            <marker date="1464426450067" expanded="true" signature="302:468" placeholder="..." />
+            <marker date="1464426450067" expanded="true" signature="340:467" placeholder="..." />
+            <marker date="1464426450067" expanded="true" signature="485:549" placeholder=" Reverse the migrations. ..." />
+            <marker date="1464426450067" expanded="true" signature="578:621" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Builder.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="343">
+          <caret line="557" column="20" selection-start-line="557" selection-start-column="20" selection-end-line="557" selection-end-column="20" />
+          <folding>
+            <marker date="1463026377718" expanded="false" signature="52:351" placeholder="..." />
+            <marker date="1463026377718" expanded="true" signature="366:39283" placeholder="{...}" />
+            <marker date="1463026377718" expanded="true" signature="376:476" placeholder=" The base query builder instance. ..." />
+            <marker date="1463026377718" expanded="true" signature="509:602" placeholder=" The model being queried. ..." />
+            <marker date="1463026377718" expanded="true" signature="635:720" placeholder=" The relationships that should be eager loaded. ..." />
+            <marker date="1463026377718" expanded="true" signature="762:838" placeholder=" All of the registered builder macros. ..." />
+            <marker date="1463026377718" expanded="true" signature="877:965" placeholder=" A replacement for the typical delete function. ..." />
+            <marker date="1463026377718" expanded="true" signature="1001:1095" placeholder=" The methods that should be returned from query builder. ..." />
+            <marker date="1463026377718" expanded="true" signature="1125:1259" placeholder="..." />
+            <marker date="1463026377718" expanded="true" signature="1270:1331" placeholder=" Applied global scopes. ..." />
+            <marker date="1463026377718" expanded="true" signature="1370:1514" placeholder=" Create a new Eloquent query builder instance. ..." />
+            <marker date="1463026377718" expanded="true" signature="1569:1612" placeholder="{...}" />
+            <marker date="1463026377718" expanded="true" signature="1621:1794" placeholder=" Register a new global scope. ..." />
+            <marker date="1463026377718" expanded="true" signature="1853:2026" placeholder="{...}" />
+            <marker date="1463026377718" expanded="true" signature="1952:1996" placeholder="..." />
+            <marker date="1463026377718" expanded="true" signature="2035:2176" placeholder=" Remove a registered global scope. ..." />
+            <marker date="1463026377718" expanded="true" signature="2225:2537" placeholder="{...}" />
+            <marker date="1463026377718" expanded="true" signature="2264:2342" placeholder="..." />
+            <marker date="1463026377718" expanded="true" signature="2396:2507" placeholder="..." />
+            <marker date="1463026377718" expanded="true" signature="2440:2497" placeholder="..." />
+            <marker date="1463026377718" expanded="true" signature="2546:2669" placeholder=" Remove all or passed registered global scopes. ..." />
+            <marker date="1463026377718" expanded="true" signature="2733:2967" placeholder="{...}" />
+            <marker date="1463026377718" expanded="true" signature="2772:2888" placeholder="..." />
+            <marker date="1463026377718" expanded="true" signature="2814:2878" placeholder="..." />
+            <marker date="1463026377718" expanded="true" signature="2896:2937" placeholder="..." />
+            <marker date="1463026377718" expanded="true" signature="2976:3199" placeholder=" Find a model by its primary key. ..." />
+            <marker date="1463026377718" expanded="true" signature="3249:3468" placeholder="{...}" />
+            <marker date="1463026377718" expanded="true" signature="3284:3344" placeholder="..." />
+            <marker date="1463026377718" expanded="true" signature="3477:3655" placeholder=" Find multiple models by their primary keys. ..." />
+            <marker date="1463026377718" expanded="true" signature="3710:3922" placeholder="{...}" />
+            <marker date="1463026377718" expanded="true" signature="3743:3802" placeholder="..." />
+            <marker date="1463026377718" expanded="true" signature="3931:4230" placeholder=" Find a model by its primary key or throw an exception. ..." />
+            <marker date="1463026377718" expanded="true" signature="4286:4640" placeholder="{...}" />
+            <marker date="1463026377718" expanded="true" signature="4368:4485" placeholder="..." />
+            <marker date="1463026377718" expanded="true" signature="4430:4475" placeholder="..." />
+            <marker date="1463026377718" expanded="true" signature="4516:4553" placeholder="..." />
+            <marker date="1463026377718" expanded="true" signature="4649:4841" placeholder=" Find a model by its primary key or return fresh model instance. ..." />
+            <marker date="1463026377718" expanded="true" signature="4896:5052" placeholder="{...}" />
+            <marker date="1463026377718" expanded="true" signature="4964:5000" placeholder="..." />
+            <marker date="1463026377718" expanded="true" signature="5061:5230" placeholder=" Get the first record matching the attributes or instantiate it. ..." />
+            <marker date="1463026377718" expanded="true" signature="5282:5463" placeholder="{...}" />
+            <marker date="1463026377718" expanded="true" signature="5361:5400" placeholder="..." />
+            <marker date="1463026377718" expanded="true" signature="5472:5636" placeholder=" Get the first record matching the attributes or create it. ..." />
+            <marker date="1463026377718" expanded="true" signature="5691:5932" placeholder="{...}" />
+            <marker date="1463026377718" expanded="true" signature="5770:5809" placeholder="..." />
+            <marker date="1463026377718" expanded="true" signature="5941:6152" placeholder=" Create or update a record matching the attributes, and fill it with values. ..." />
+            <marker date="1463026377718" expanded="true" signature="6228:6362" placeholder="{...}" />
+            <marker date="1463026377718" expanded="true" signature="6371:6529" placeholder=" Execute the query and get the first result. ..." />
+            <marker date="1463026377718" expanded="true" signature="6575:6642" placeholder="{...}" />
+            <marker date="1463026377718" expanded="true" signature="6651:6901" placeholder=" Execute the query and get the first result or throw an exception. ..." />
+            <marker date="1463026377718" expanded="true" signature="6953:7140" placeholder="{...}" />
+            <marker date="1463026377718" expanded="true" signature="7017:7053" placeholder="..." />
+            <marker date="1463026377718" expanded="true" signature="7149:7308" placeholder=" Execute the query as a &quot;select&quot; statement. ..." />
+            <marker date="1463026377718" expanded="true" signature="7352:7873" placeholder="{...}" />
+            <marker date="1463026377718" expanded="true" signature="7734:7804" placeholder="..." />
+            <marker date="1463026377718" expanded="true" signature="7882:8016" placeholder=" Get a single column's value from the first result of a query. ..." />
+            <marker date="1463026377718" expanded="true" signature="8053:8181" placeholder="{...}" />
+            <marker date="1463026377718" expanded="true" signature="8126:8174" placeholder="..." />
+            <marker date="1463026377718" expanded="true" signature="8190:8324" placeholder=" Chunk the results of the query. ..." />
+            <marker date="1463026377718" expanded="true" signature="8380:8985" placeholder="{...}" />
+            <marker date="1463026377718" expanded="true" signature="8486:8956" placeholder="..." />
+            <marker date="1463026377718" expanded="true" signature="8819:8862" placeholder="..." />
+            <marker date="1463026377718" expanded="true" signature="8994:9182" placeholder=" Chunk the results of a query by comparing numeric IDs. ..." />
+            <marker date="1463026377718" expanded="true" signature="9258:9678" placeholder="{...}" />
+            <marker date="1463026377718" expanded="true" signature="9399:9649" placeholder="..." />
+            <marker date="1463026377718" expanded="true" signature="9464:9507" placeholder="..." />
+            <marker date="1463026377718" expanded="true" signature="9687:9839" placeholder=" Execute a callback over each item while chunking. ..." />
+            <marker date="1463026377718" expanded="true" signature="9901:10339" placeholder="{...}" />
+            <marker date="1463026377718" expanded="true" signature="9990:10071" placeholder="..." />
+            <marker date="1463026377718" expanded="true" signature="10102:10331" placeholder="..." />
+            <marker date="1463026377718" expanded="true" signature="10147:10330" placeholder="..." />
+            <marker date="1463026377718" expanded="true" signature="10198:10320" placeholder="..." />
+            <marker date="1463026377718" expanded="true" signature="10255:10306" placeholder="..." />
+            <marker date="1463026377718" expanded="true" signature="10348:10526" placeholder=" Get an array with the values of a given column. ..." />
+            <marker date="1463026377718" expanded="true" signature="10576:11174" placeholder="{...}" />
+            <marker date="1463026377718" expanded="true" signature="10940:11132" placeholder="..." />
+            <marker date="1463026377718" expanded="true" signature="10992:11122" placeholder="..." />
+            <marker date="1463026377718" expanded="true" signature="11183:11416" placeholder=" Alias for the &quot;pluck&quot; method. ..." />
+            <marker date="1463026377718" expanded="true" signature="11466:11522" placeholder="{...}" />
+            <marker date="1463026377718" expanded="true" signature="11531:11818" placeholder=" Paginate the given query. ..." />
+            <marker date="1463026377718" expanded="true" signature="11918:12378" placeholder="{...}" />
+            <marker date="1463026377718" expanded="true" signature="12034:12176" placeholder="..." />
+            <marker date="1463026377718" expanded="true" signature="12268:12369" placeholder="..." />
+            <marker date="1463026377718" expanded="true" signature="12387:12608" placeholder=" Paginate the given query into a simple paginator. ..." />
+            <marker date="1463026377718" expanded="true" signature="12700:13071" placeholder="{...}" />
+            <marker date="1463026377718" expanded="true" signature="12961:13062" placeholder="..." />
+            <marker date="1463026377718" expanded="true" signature="13080:13182" placeholder=" Update a record in the database. ..." />
+            <marker date="1463026377718" expanded="true" signature="13226:13314" placeholder="{...}" />
+            <marker date="1463026377718" expanded="true" signature="13323:13496" placeholder=" Increment a column's value by a given amount. ..." />
+            <marker date="1463026377718" expanded="true" signature="13569:13703" placeholder="{...}" />
+            <marker date="1463026377718" expanded="true" signature="13712:13885" placeholder=" Decrement a column's value by a given amount. ..." />
+            <marker date="1463026377718" expanded="true" signature="13958:14092" placeholder="{...}" />
+            <marker date="1463026377718" expanded="true" signature="14101:14223" placeholder=" Add the &quot;updated at&quot; column to an array of values. ..." />
+            <marker date="1463026377718" expanded="true" signature="14282:14517" placeholder="{...}" />
+            <marker date="1463026377718" expanded="true" signature="14336:14373" placeholder="..." />
+            <marker date="1463026377718" expanded="true" signature="14526:14602" placeholder=" Delete a record from the database. ..." />
+            <marker date="1463026377718" expanded="true" signature="14633:14795" placeholder="{...}" />
+            <marker date="1463026377718" expanded="true" signature="14677:14745" placeholder="..." />
+            <marker date="1463026377718" expanded="true" signature="14804:14893" placeholder=" Run the default delete function on the builder. ..." />
+            <marker date="1463026377718" expanded="true" signature="14929:14980" placeholder="{...}" />
+            <marker date="1463026377718" expanded="true" signature="14989:15120" placeholder=" Register a replacement for the default delete function. ..." />
+            <marker date="1463026377718" expanded="true" signature="15170:15219" placeholder="{...}" />
+            <marker date="1463026377718" expanded="true" signature="15228:15379" placeholder=" Get the hydrated models without eager loading. ..." />
+            <marker date="1463026377718" expanded="true" signature="15429:15616" placeholder="{...}" />
+            <marker date="1463026377718" expanded="true" signature="15625:15741" placeholder=" Eager load the relationships for the models. ..." />
+            <marker date="1463026377718" expanded="true" signature="15797:16318" placeholder="{...}" />
+            <marker date="1463026377718" expanded="true" signature="15865:16286" placeholder="..." />
+            <marker date="1463026377718" expanded="true" signature="16186:16276" placeholder="..." />
+            <marker date="1463026377718" expanded="true" signature="16327:16515" placeholder=" Eagerly load the relationship on a set of models. ..." />
+            <marker date="1463026377718" expanded="true" signature="16597:17429" placeholder="{...}" />
+            <marker date="1463026377718" expanded="true" signature="17438:17606" placeholder=" Get the relation instance for the given relation name. ..." />
+            <marker date="1463026377718" expanded="true" signature="17647:18460" placeholder="{...}" />
+            <marker date="1463026377718" expanded="true" signature="17948:18030" placeholder="..." />
+            <marker date="1463026377718" expanded="true" signature="17973:18029" placeholder="..." />
+            <marker date="1463026377718" expanded="true" signature="18367:18426" placeholder="..." />
+            <marker date="1463026377718" expanded="true" signature="18469:18607" placeholder=" Get the deeply nested relations for a given top-level relation. ..." />
+            <marker date="1463026377718" expanded="true" signature="18659:19184" placeholder="{...}" />
+            <marker date="1463026377718" expanded="true" signature="18998:19152" placeholder="..." />
+            <marker date="1463026377718" expanded="true" signature="19051:19142" placeholder="..." />
+            <marker date="1463026377718" expanded="true" signature="19193:19336" placeholder=" Determine if the relationship is nested. ..." />
+            <marker date="1463026377718" expanded="true" signature="19388:19507" placeholder="{...}" />
+            <marker date="1463026377718" expanded="true" signature="19516:19722" placeholder=" Add a basic where clause to the query. ..." />
+            <marker date="1463026377718" expanded="true" signature="19810:20174" placeholder="{...}" />
+            <marker date="1463026377718" expanded="true" signature="19858:20051" placeholder="..." />
+            <marker date="1463026377718" expanded="true" signature="20059:20144" placeholder="..." />
+            <marker date="1463026377718" expanded="true" signature="20183:20396" placeholder=" Add an &quot;or where&quot; clause to the query. ..." />
+            <marker date="1463026377718" expanded="true" signature="20468:20543" placeholder="{...}" />
+            <marker date="1463026377718" expanded="true" signature="20552:20858" placeholder=" Add a relationship count / exists condition to the query. ..." />
+            <marker date="1463026377718" expanded="true" signature="20969:21837" placeholder="{...}" />
+            <marker date="1463026377718" expanded="true" signature="21023:21120" placeholder="..." />
+            <marker date="1463026377718" expanded="true" signature="21668:21724" placeholder="..." />
+            <marker date="1463026377718" expanded="true" signature="21761:21829" placeholder="..." />
+            <marker date="1463026377718" expanded="true" signature="21846:22159" placeholder=" Add nested relationship count / exists conditions to the query. ..." />
+            <marker date="1463026377718" expanded="true" signature="22272:23001" placeholder="{...}" />
+            <marker date="1463026377718" expanded="true" signature="22674:22911" placeholder="..." />
+            <marker date="1463026377718" expanded="true" signature="22715:22793" placeholder="..." />
+            <marker date="1463026377718" expanded="true" signature="22801:22901" placeholder="..." />
+            <marker date="1463026377718" expanded="true" signature="23010:23253" placeholder=" Add a relationship count / exists condition to the query. ..." />
+            <marker date="1463026377718" expanded="true" signature="23341:23420" placeholder="{...}" />
+            <marker date="1463026377718" expanded="true" signature="23429:23723" placeholder=" Add a relationship count / exists condition to the query with where clauses. ..." />
+            <marker date="1463026377718" expanded="true" signature="23814:23901" placeholder="{...}" />
+            <marker date="1463026377718" expanded="true" signature="23910:24140" placeholder=" Add a relationship count / exists condition to the query with where clauses. ..." />
+            <marker date="1463026377718" expanded="true" signature="24215:24290" placeholder="{...}" />
+            <marker date="1463026377718" expanded="true" signature="24299:24546" placeholder=" Add a relationship count / exists condition to the query with an &quot;or&quot;. ..." />
+            <marker date="1463026377718" expanded="true" signature="24615:24690" placeholder="{...}" />
+            <marker date="1463026377718" expanded="true" signature="24699:25005" placeholder=" Add a relationship count / exists condition to the query with where clauses and an &quot;or&quot;. ..." />
+            <marker date="1463026377718" expanded="true" signature="25098:25184" placeholder="{...}" />
+            <marker date="1463026377718" expanded="true" signature="25193:25548" placeholder=" Add the &quot;has&quot; condition where clause to the query. ..." />
+            <marker date="1463026377718" expanded="true" signature="25653:26049" placeholder="{...}" />
+            <marker date="1463026377718" expanded="true" signature="25802:25952" placeholder="..." />
+            <marker date="1463026377718" expanded="true" signature="26058:26221" placeholder=" Check if we can run an &quot;exists&quot; query to optimize performance. ..." />
+            <marker date="1463026377718" expanded="true" signature="26286:26372" placeholder="{...}" />
+            <marker date="1463026377718" expanded="true" signature="26381:26614" placeholder=" Add a sub query count clause to the query. ..." />
+            <marker date="1463026377718" expanded="true" signature="26724:26992" placeholder="{...}" />
+            <marker date="1463026377718" expanded="true" signature="26764:26818" placeholder="..." />
+            <marker date="1463026377718" expanded="true" signature="27001:27237" placeholder=" Merge the &quot;wheres&quot; from a relation query to a has query. ..." />
+            <marker date="1463026377718" expanded="true" signature="27343:27802" placeholder="{...}" />
+            <marker date="1463026377718" expanded="true" signature="27719:27794" placeholder="..." />
+            <marker date="1463026377718" expanded="true" signature="27811:27972" placeholder=" Get the &quot;has relation&quot; base query instance. ..." />
+            <marker date="1463026377718" expanded="true" signature="28028:28172" placeholder="{...}" />
+            <marker date="1463026377718" expanded="true" signature="28074:28164" placeholder="..." />
+            <marker date="1463026377718" expanded="true" signature="28103:28163" placeholder="..." />
+            <marker date="1463026377718" expanded="true" signature="28181:28306" placeholder=" Set the relationships that should be eager loaded. ..." />
+            <marker date="1463026377718" expanded="true" signature="28345:28595" placeholder="{...}" />
+            <marker date="1463026377718" expanded="true" signature="28388:28439" placeholder="..." />
+            <marker date="1463026377718" expanded="true" signature="28604:28722" placeholder=" Parse a list of relations into individuals. ..." />
+            <marker date="1463026377718" expanded="true" signature="28784:29727" placeholder="{...}" />
+            <marker date="1463026377718" expanded="true" signature="28870:29694" placeholder="..." />
+            <marker date="1463026377718" expanded="true" signature="29163:29318" placeholder="..." />
+            <marker date="1463026377718" expanded="true" signature="29198:29238" placeholder="..." />
+            <marker date="1463026377718" expanded="true" signature="29736:29884" placeholder=" Parse the nested relationships in a relation. ..." />
+            <marker date="1463026377718" expanded="true" signature="29942:30534" placeholder="{...}" />
+            <marker date="1463026377718" expanded="true" signature="30281:30501" placeholder="..." />
+            <marker date="1463026377718" expanded="true" signature="30388:30491" placeholder="..." />
+            <marker date="1463026377718" expanded="true" signature="30436:30476" placeholder="..." />
+            <marker date="1463026377718" expanded="true" signature="30543:30730" placeholder=" Call the given model scope on the underlying model. ..." />
+            <marker date="1463026377718" expanded="true" signature="30786:31446" placeholder="{...}" />
+            <marker date="1463026377718" expanded="true" signature="31337:31414" placeholder="..." />
+            <marker date="1463026377718" expanded="true" signature="31455:31600" placeholder=" Apply the scopes to the Eloquent builder instance and return it. ..." />
+            <marker date="1463026377718" expanded="true" signature="31636:32738" placeholder="{...}" />
+            <marker date="1463026377718" expanded="true" signature="31673:31708" placeholder="..." />
+            <marker date="1463026377718" expanded="true" signature="32175:32557" placeholder="..." />
+            <marker date="1463026377718" expanded="true" signature="32635:32705" placeholder="..." />
+            <marker date="1463026377718" expanded="true" signature="32747:32970" placeholder=" Apply a single scope on the given builder instance. ..." />
+            <marker date="1463026377718" expanded="true" signature="33024:33218" placeholder="{...}" />
+            <marker date="1463026377718" expanded="true" signature="33071:33110" placeholder="..." />
+            <marker date="1463026377718" expanded="true" signature="33146:33211" placeholder="..." />
+            <marker date="1463026377718" expanded="true" signature="33227:33435" placeholder=" Determine if the scope added after the given offset should be nested. ..." />
+            <marker date="1463026377718" expanded="true" signature="33527:33622" placeholder="{...}" />
+            <marker date="1463026377718" expanded="true" signature="33631:33832" placeholder=" Nest where conditions by slicing them at the given where count. ..." />
+            <marker date="1463026377718" expanded="true" signature="33911:34835" placeholder="{...}" />
+            <marker date="1463026377718" expanded="true" signature="34670:34828" placeholder="..." />
+            <marker date="1463026377718" expanded="true" signature="34711:34781" placeholder="..." />
+            <marker date="1463026377718" expanded="true" signature="34844:35113" placeholder=" Create a slice of where conditions at the given offsets and nest them if needed. ..." />
+            <marker date="1463026377718" expanded="true" signature="35217:35827" placeholder="{...}" />
+            <marker date="1463026377718" expanded="true" signature="35656:35732" placeholder="..." />
+            <marker date="1463026377718" expanded="true" signature="35740:35820" placeholder="..." />
+            <marker date="1463026377718" expanded="true" signature="35836:35962" placeholder=" Create a where array with nested where conditions. ..." />
+            <marker date="1463026377718" expanded="true" signature="36015:36212" placeholder="{...}" />
+            <marker date="1463026377718" expanded="true" signature="36221:36341" placeholder=" Get the underlying query builder instance. ..." />
+            <marker date="1463026377718" expanded="true" signature="36374:36415" placeholder="{...}" />
+            <marker date="1463026377718" expanded="true" signature="36424:36529" placeholder=" Get a base query builder instance. ..." />
+            <marker date="1463026377718" expanded="true" signature="36560:36621" placeholder="{...}" />
+            <marker date="1463026377718" expanded="true" signature="36630:36772" placeholder=" Set the underlying query builder instance. ..." />
+            <marker date="1463026377718" expanded="true" signature="36811:36877" placeholder="{...}" />
+            <marker date="1463026377718" expanded="true" signature="36886:36971" placeholder=" Get the relationships being eagerly loaded. ..." />
+            <marker date="1463026377718" expanded="true" signature="37009:37054" placeholder="{...}" />
+            <marker date="1463026377718" expanded="true" signature="37063:37181" placeholder=" Set the relationships being eagerly loaded. ..." />
+            <marker date="1463026377718" expanded="true" signature="37235:37309" placeholder="{...}" />
+            <marker date="1463026377718" expanded="true" signature="37318:37427" placeholder=" Get the model instance being queried. ..." />
+            <marker date="1463026377718" expanded="true" signature="37460:37501" placeholder="{...}" />
+            <marker date="1463026377718" expanded="true" signature="37510:37660" placeholder=" Set a model instance for the model being queried. ..." />
+            <marker date="1463026377718" expanded="true" signature="37705:37820" placeholder="{...}" />
+            <marker date="1463026377718" expanded="true" signature="37829:37977" placeholder=" Extend the builder with a given callback. ..." />
+            <marker date="1463026377718" expanded="true" signature="38031:38085" placeholder="{...}" />
+            <marker date="1463026377718" expanded="true" signature="38094:38196" placeholder=" Get the given macro by name. ..." />
+            <marker date="1463026377718" expanded="true" signature="38234:38293" placeholder="{...}" />
+            <marker date="1463026377718" expanded="true" signature="38302:38459" placeholder=" Dynamically handle calls into the query instance. ..." />
+            <marker date="1463026377718" expanded="true" signature="38510:39085" placeholder="{...}" />
+            <marker date="1463026377718" expanded="true" signature="38561:38696" placeholder="..." />
+            <marker date="1463026377718" expanded="true" signature="38776:38843" placeholder="..." />
+            <marker date="1463026377718" expanded="true" signature="38895:38986" placeholder="..." />
+            <marker date="1463026377718" expanded="true" signature="39094:39194" placeholder=" Force a clone of the underlying query builder when cloning. ..." />
+            <marker date="1463026377718" expanded="true" signature="39226:39281" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Database/Connection.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="343">
+          <caret line="386" column="20" selection-start-line="386" selection-start-column="20" selection-end-line="386" selection-end-column="20" />
+          <folding>
+            <marker date="1463026377598" expanded="false" signature="43:549" placeholder="..." />
+            <marker date="1463026377598" expanded="true" signature="598:29761" placeholder="{...}" />
+            <marker date="1463026377598" expanded="true" signature="641:704" placeholder=" The active PDO connection. ..." />
+            <marker date="1463026377598" expanded="true" signature="735:813" placeholder=" The active PDO connection used for reads. ..." />
+            <marker date="1463026377598" expanded="true" signature="848:934" placeholder=" The reconnector instance for the connection. ..." />
+            <marker date="1463026377598" expanded="true" signature="973:1083" placeholder=" The query grammar implementation. ..." />
+            <marker date="1463026377598" expanded="true" signature="1123:1235" placeholder=" The schema grammar implementation. ..." />
+            <marker date="1463026377598" expanded="true" signature="1276:1397" placeholder=" The query post processor implementation. ..." />
+            <marker date="1463026377598" expanded="true" signature="1438:1541" placeholder=" The event dispatcher instance. ..." />
+            <marker date="1463026377598" expanded="true" signature="1575:1653" placeholder=" The default fetch mode of the connection. ..." />
+            <marker date="1463026377598" expanded="true" signature="1707:1778" placeholder=" The argument for the fetch mode. ..." />
+            <marker date="1463026377598" expanded="true" signature="1819:1920" placeholder=" The constructor arguments for the PDO::FETCH_CLASS fetch mode. ..." />
+            <marker date="1463026377598" expanded="true" signature="1977:2048" placeholder=" The number of active transactions. ..." />
+            <marker date="1463026377598" expanded="true" signature="2092:2177" placeholder=" All of the queries run against the connection. ..." />
+            <marker date="1463026377598" expanded="true" signature="2218:2299" placeholder=" Indicates whether queries are being logged. ..." />
+            <marker date="1463026377598" expanded="true" signature="2349:2433" placeholder=" Indicates if the connection is in a &quot;dry run&quot;. ..." />
+            <marker date="1463026377598" expanded="true" signature="2479:2554" placeholder=" The name of the connected database. ..." />
+            <marker date="1463026377598" expanded="true" signature="2590:2685" placeholder=" The instance of Doctrine connection. ..." />
+            <marker date="1463026377598" expanded="true" signature="2731:2807" placeholder=" The table prefix for the connection. ..." />
+            <marker date="1463026377598" expanded="true" signature="2851:2936" placeholder=" The database connection configuration options. ..." />
+            <marker date="1463026377598" expanded="true" signature="2975:3199" placeholder=" Create a new database connection instance. ..." />
+            <marker date="1463026377598" expanded="true" signature="3294:3992" placeholder="{...}" />
+            <marker date="1463026377598" expanded="true" signature="4001:4094" placeholder=" Set the query grammar to the default implementation. ..." />
+            <marker date="1463026377598" expanded="true" signature="4141:4216" placeholder="{...}" />
+            <marker date="1463026377598" expanded="true" signature="4225:4344" placeholder=" Get the default query grammar instance. ..." />
+            <marker date="1463026377598" expanded="true" signature="4394:4439" placeholder="{...}" />
+            <marker date="1463026377598" expanded="true" signature="4448:4542" placeholder=" Set the schema grammar to the default implementation. ..." />
+            <marker date="1463026377598" expanded="true" signature="4590:4667" placeholder="{...}" />
+            <marker date="1463026377598" expanded="true" signature="4676:4797" placeholder=" Get the default schema grammar instance. ..." />
+            <marker date="1463026377598" expanded="true" signature="4848:4871" placeholder="{...}" />
+            <marker date="1463026377598" expanded="true" signature="4880:4980" placeholder=" Set the query post processor to the default implementation. ..." />
+            <marker date="1463026377598" expanded="true" signature="5028:5105" placeholder="{...}" />
+            <marker date="1463026377598" expanded="true" signature="5114:5238" placeholder=" Get the default post processor instance. ..." />
+            <marker date="1463026377598" expanded="true" signature="5289:5331" placeholder="{...}" />
+            <marker date="1463026377598" expanded="true" signature="5340:5461" placeholder=" Get a schema builder instance for the connection. ..." />
+            <marker date="1463026377598" expanded="true" signature="5502:5657" placeholder="{...}" />
+            <marker date="1463026377598" expanded="true" signature="5553:5608" placeholder="..." />
+            <marker date="1463026377598" expanded="true" signature="5666:5813" placeholder=" Begin a fluent query against a database table. ..." />
+            <marker date="1463026377598" expanded="true" signature="5849:5906" placeholder="{...}" />
+            <marker date="1463026377598" expanded="true" signature="5915:6019" placeholder=" Get a new query builder instance. ..." />
+            <marker date="1463026377598" expanded="true" signature="6049:6176" placeholder="{...}" />
+            <marker date="1463026377598" expanded="true" signature="6185:6319" placeholder=" Get a new raw query expression. ..." />
+            <marker date="1463026377598" expanded="true" signature="6353:6404" placeholder="{...}" />
+            <marker date="1463026377598" expanded="true" signature="6413:6568" placeholder=" Run a select statement and return a single result. ..." />
+            <marker date="1463026377598" expanded="true" signature="6624:6751" placeholder="{...}" />
+            <marker date="1463026377598" expanded="true" signature="6760:6909" placeholder=" Run a select statement against the database. ..." />
+            <marker date="1463026377598" expanded="true" signature="6981:7049" placeholder="{...}" />
+            <marker date="1463026377598" expanded="true" signature="7058:7239" placeholder=" Run a select statement against the database. ..." />
+            <marker date="1463026377598" expanded="true" signature="7312:8189" placeholder="{...}" />
+            <marker date="1463026377598" expanded="true" signature="7345:8181" placeholder="..." />
+            <marker date="1463026377598" expanded="true" signature="7417:8180" placeholder="..." />
+            <marker date="1463026377598" expanded="true" signature="7454:7494" placeholder="..." />
+            <marker date="1463026377598" expanded="true" signature="8198:8321" placeholder=" Get the PDO connection to use for a select query. ..." />
+            <marker date="1463026377598" expanded="true" signature="8382:8462" placeholder="{...}" />
+            <marker date="1463026377598" expanded="true" signature="8471:8620" placeholder=" Run an insert statement against the database. ..." />
+            <marker date="1463026377598" expanded="true" signature="8673:8737" placeholder="{...}" />
+            <marker date="1463026377598" expanded="true" signature="8746:8894" placeholder=" Run an update statement against the database. ..." />
+            <marker date="1463026377598" expanded="true" signature="8947:9020" placeholder="{...}" />
+            <marker date="1463026377598" expanded="true" signature="9029:9176" placeholder=" Run a delete statement against the database. ..." />
+            <marker date="1463026377598" expanded="true" signature="9229:9302" placeholder="{...}" />
+            <marker date="1463026377598" expanded="true" signature="9311:9470" placeholder=" Execute an SQL statement and return the boolean result. ..." />
+            <marker date="1463026377598" expanded="true" signature="9526:9841" placeholder="{...}" />
+            <marker date="1463026377598" expanded="true" signature="9559:9833" placeholder="..." />
+            <marker date="1463026377598" expanded="true" signature="9613:9832" placeholder="..." />
+            <marker date="1463026377598" expanded="true" signature="9650:9692" placeholder="..." />
+            <marker date="1463026377598" expanded="true" signature="9850:10010" placeholder=" Run an SQL statement and get the number of rows affected. ..." />
+            <marker date="1463026377598" expanded="true" signature="10075:10691" placeholder="{...}" />
+            <marker date="1463026377598" expanded="true" signature="10108:10683" placeholder="..." />
+            <marker date="1463026377598" expanded="true" signature="10162:10682" placeholder="..." />
+            <marker date="1463026377598" expanded="true" signature="10199:10238" placeholder="..." />
+            <marker date="1463026377598" expanded="true" signature="10700:10826" placeholder=" Run a raw, unprepared query against the PDO connection. ..." />
+            <marker date="1463026377598" expanded="true" signature="10867:11090" placeholder="{...}" />
+            <marker date="1463026377598" expanded="true" signature="10900:11082" placeholder="..." />
+            <marker date="1463026377598" expanded="true" signature="10936:11081" placeholder="..." />
+            <marker date="1463026377598" expanded="true" signature="10973:11015" placeholder="..." />
+            <marker date="1463026377598" expanded="true" signature="11099:11214" placeholder=" Prepare the query bindings for execution. ..." />
+            <marker date="1463026377598" expanded="true" signature="11269:11890" placeholder="{...}" />
+            <marker date="1463026377598" expanded="true" signature="11369:11856" placeholder="..." />
+            <marker date="1463026377598" expanded="true" signature="11677:11767" placeholder="..." />
+            <marker date="1463026377598" expanded="true" signature="11796:11846" placeholder="..." />
+            <marker date="1463026377598" expanded="true" signature="11899:12059" placeholder=" Execute a Closure within a transaction. ..." />
+            <marker date="1463026377598" expanded="true" signature="12112:12909" placeholder="{...}" />
+            <marker date="1463026377598" expanded="true" signature="12389:12468" placeholder="..." />
+            <marker date="1463026377598" expanded="true" signature="12727:12790" placeholder="..." />
+            <marker date="1463026377598" expanded="true" signature="12814:12877" placeholder="..." />
+            <marker date="1463026377598" expanded="true" signature="12918:12992" placeholder=" Start a new database transaction. ..." />
+            <marker date="1463026377598" expanded="true" signature="13033:13456" placeholder="{...}" />
+            <marker date="1463026377598" expanded="true" signature="13111:13169" placeholder="..." />
+            <marker date="1463026377598" expanded="true" signature="13250:13392" placeholder="..." />
+            <marker date="1463026377598" expanded="true" signature="13285:13381" placeholder="..." />
+            <marker date="1463026377598" expanded="true" signature="13465:13545" placeholder=" Commit the active database transaction. ..." />
+            <marker date="1463026377598" expanded="true" signature="13576:13759" placeholder="{...}" />
+            <marker date="1463026377598" expanded="true" signature="13622:13670" placeholder="..." />
+            <marker date="1463026377598" expanded="true" signature="13768:13850" placeholder=" Rollback the active database transaction. ..." />
+            <marker date="1463026377598" expanded="true" signature="13883:14333" placeholder="{...}" />
+            <marker date="1463026377598" expanded="true" signature="13929:13979" placeholder="..." />
+            <marker date="1463026377598" expanded="true" signature="14060:14210" placeholder="..." />
+            <marker date="1463026377598" expanded="true" signature="14095:14199" placeholder="..." />
+            <marker date="1463026377598" expanded="true" signature="14342:14420" placeholder=" Get the number of active transactions. ..." />
+            <marker date="1463026377598" expanded="true" signature="14461:14509" placeholder="{...}" />
+            <marker date="1463026377598" expanded="true" signature="14518:14640" placeholder=" Execute the given callback in &quot;dry run&quot; mode. ..." />
+            <marker date="1463026377598" expanded="true" signature="14689:15238" placeholder="{...}" />
+            <marker date="1463026377598" expanded="true" signature="15247:15499" placeholder=" Run a SQL statement and log its execution context. ..." />
+            <marker date="1463026377598" expanded="true" signature="15566:16655" placeholder="{...}" />
+            <marker date="1463026377598" expanded="true" signature="15928:16014" placeholder="..." />
+            <marker date="1463026377598" expanded="true" signature="16043:16264" placeholder="..." />
+            <marker date="1463026377598" expanded="true" signature="16087:16126" placeholder="..." />
+            <marker date="1463026377598" expanded="true" signature="16191:16253" placeholder="..." />
+            <marker date="1463026377598" expanded="true" signature="16664:16886" placeholder=" Run a SQL statement. ..." />
+            <marker date="1463026377598" expanded="true" signature="16966:17759" placeholder="{...}" />
+            <marker date="1463026377598" expanded="true" signature="17243:17311" placeholder="..." />
+            <marker date="1463026377598" expanded="true" signature="17603:17727" placeholder="..." />
+            <marker date="1463026377598" expanded="true" signature="17768:18087" placeholder=" Handle a query exception that occurred during query execution. ..." />
+            <marker date="1463026377598" expanded="true" signature="18202:18414" placeholder="{...}" />
+            <marker date="1463026377598" expanded="true" signature="18272:18388" placeholder="..." />
+            <marker date="1463026377598" expanded="true" signature="18423:18510" placeholder=" Disconnect from the underlying PDO connection. ..." />
+            <marker date="1463026377598" expanded="true" signature="18545:18604" placeholder="{...}" />
+            <marker date="1463026377598" expanded="true" signature="18613:18718" placeholder=" Reconnect to the database. ..." />
+            <marker date="1463026377598" expanded="true" signature="18752:18967" placeholder="{...}" />
+            <marker date="1463026377598" expanded="true" signature="18805:18876" placeholder="..." />
+            <marker date="1463026377598" expanded="true" signature="18976:19074" placeholder=" Reconnect to the database if a PDO connection is missing. ..." />
+            <marker date="1463026377598" expanded="true" signature="19130:19256" placeholder="{...}" />
+            <marker date="1463026377598" expanded="true" signature="19208:19249" placeholder="..." />
+            <marker date="1463026377598" expanded="true" signature="19265:19444" placeholder=" Log a query in the connection's query log. ..." />
+            <marker date="1463026377598" expanded="true" signature="19508:19806" placeholder="{...}" />
+            <marker date="1463026377598" expanded="true" signature="19550:19681" placeholder="..." />
+            <marker date="1463026377598" expanded="true" signature="19583:19670" placeholder="..." />
+            <marker date="1463026377598" expanded="true" signature="19720:19799" placeholder="..." />
+            <marker date="1463026377598" expanded="true" signature="19815:19946" placeholder=" Register a database query listener with the connection. ..." />
+            <marker date="1463026377598" expanded="true" signature="19994:20127" placeholder="{...}" />
+            <marker date="1463026377598" expanded="true" signature="20036:20120" placeholder="..." />
+            <marker date="1463026377598" expanded="true" signature="20136:20241" placeholder=" Fire an event for this connection. ..." />
+            <marker date="1463026377598" expanded="true" signature="20294:20763" placeholder="{...}" />
+            <marker date="1463026377598" expanded="true" signature="20338:20367" placeholder="..." />
+            <marker date="1463026377598" expanded="true" signature="20395:20756" placeholder="..." />
+            <marker date="1463026377598" expanded="true" signature="20432:20516" placeholder="..." />
+            <marker date="1463026377598" expanded="true" signature="20546:20630" placeholder="..." />
+            <marker date="1463026377598" expanded="true" signature="20662:20747" placeholder="..." />
+            <marker date="1463026377598" expanded="true" signature="20772:20893" placeholder=" Get the elapsed time since a given starting point. ..." />
+            <marker date="1463026377598" expanded="true" signature="20941:21013" placeholder="{...}" />
+            <marker date="1463026377598" expanded="true" signature="21022:21085" placeholder=" Is Doctrine available? ..." />
+            <marker date="1463026377598" expanded="true" signature="21129:21198" placeholder="{...}" />
+            <marker date="1463026377598" expanded="true" signature="21207:21371" placeholder=" Get a Doctrine Schema Column instance. ..." />
+            <marker date="1463026377598" expanded="true" signature="21428:21564" placeholder="{...}" />
+            <marker date="1463026377598" expanded="true" signature="21573:21709" placeholder=" Get the Doctrine DBAL schema manager for the connection. ..." />
+            <marker date="1463026377598" expanded="true" signature="21758:21863" placeholder="{...}" />
+            <marker date="1463026377598" expanded="true" signature="21872:21985" placeholder=" Get the Doctrine DBAL database connection instance. ..." />
+            <marker date="1463026377598" expanded="true" signature="22031:22368" placeholder="{...}" />
+            <marker date="1463026377598" expanded="true" signature="22087:22318" placeholder="..." />
+            <marker date="1463026377598" expanded="true" signature="22377:22449" placeholder=" Get the current PDO connection. ..." />
+            <marker date="1463026377598" expanded="true" signature="22480:22635" placeholder="{...}" />
+            <marker date="1463026377598" expanded="true" signature="22531:22600" placeholder="..." />
+            <marker date="1463026377598" expanded="true" signature="22644:22733" placeholder=" Get the current PDO connection used for reading. ..." />
+            <marker date="1463026377598" expanded="true" signature="22768:22917" placeholder="{...}" />
+            <marker date="1463026377598" expanded="true" signature="22814:22859" placeholder="..." />
+            <marker date="1463026377598" expanded="true" signature="22926:23062" placeholder=" Set the PDO connection. ..." />
+            <marker date="1463026377598" expanded="true" signature="23097:23303" placeholder="{...}" />
+            <marker date="1463026377598" expanded="true" signature="23143:23245" placeholder="..." />
+            <marker date="1463026377598" expanded="true" signature="23312:23425" placeholder=" Set the PDO connection used for reading. ..." />
+            <marker date="1463026377598" expanded="true" signature="23464:23530" placeholder="{...}" />
+            <marker date="1463026377598" expanded="true" signature="23539:23664" placeholder=" Set the reconnect instance on the connection. ..." />
+            <marker date="1463026377598" expanded="true" signature="23724:23802" placeholder="{...}" />
+            <marker date="1463026377598" expanded="true" signature="23811:23892" placeholder=" Get the database connection name. ..." />
+            <marker date="1463026377598" expanded="true" signature="23924:23977" placeholder="{...}" />
+            <marker date="1463026377598" expanded="true" signature="23986:24104" placeholder=" Get an option from the configuration options. ..." />
+            <marker date="1463026377598" expanded="true" signature="24145:24206" placeholder="{...}" />
+            <marker date="1463026377598" expanded="true" signature="24215:24282" placeholder=" Get the PDO driver name. ..." />
+            <marker date="1463026377598" expanded="true" signature="24320:24375" placeholder="{...}" />
+            <marker date="1463026377598" expanded="true" signature="24384:24509" placeholder=" Get the query grammar used by the connection. ..." />
+            <marker date="1463026377598" expanded="true" signature="24549:24597" placeholder="{...}" />
+            <marker date="1463026377598" expanded="true" signature="24606:24761" placeholder=" Set the query grammar used by the connection. ..." />
+            <marker date="1463026377598" expanded="true" signature="24832:24884" placeholder="{...}" />
+            <marker date="1463026377598" expanded="true" signature="24893:25020" placeholder=" Get the schema grammar used by the connection. ..." />
+            <marker date="1463026377598" expanded="true" signature="25061:25110" placeholder="{...}" />
+            <marker date="1463026377598" expanded="true" signature="25119:25276" placeholder=" Set the schema grammar used by the connection. ..." />
+            <marker date="1463026377598" expanded="true" signature="25349:25402" placeholder="{...}" />
+            <marker date="1463026377598" expanded="true" signature="25411:25547" placeholder=" Get the query post processor used by the connection. ..." />
+            <marker date="1463026377598" expanded="true" signature="25588:25637" placeholder="{...}" />
+            <marker date="1463026377598" expanded="true" signature="25646:25814" placeholder=" Set the query post processor used by the connection. ..." />
+            <marker date="1463026377598" expanded="true" signature="25875:25930" placeholder="{...}" />
+            <marker date="1463026377598" expanded="true" signature="25939:26063" placeholder=" Get the event dispatcher used by the connection. ..." />
+            <marker date="1463026377598" expanded="true" signature="26106:26148" placeholder="{...}" />
+            <marker date="1463026377598" expanded="true" signature="26157:26314" placeholder=" Set the event dispatcher instance on the connection. ..." />
+            <marker date="1463026377598" expanded="true" signature="26375:26420" placeholder="{...}" />
+            <marker date="1463026377598" expanded="true" signature="26429:26513" placeholder=" Determine if the connection in a &quot;dry run&quot;. ..." />
+            <marker date="1463026377598" expanded="true" signature="26548:26603" placeholder="{...}" />
+            <marker date="1463026377598" expanded="true" signature="26612:26698" placeholder=" Get the default fetch mode for the connection. ..." />
+            <marker date="1463026377598" expanded="true" signature="26735:26780" placeholder="{...}" />
+            <marker date="1463026377598" expanded="true" signature="26789:26883" placeholder=" Get the fetch argument to be applied when selecting. ..." />
+            <marker date="1463026377598" expanded="true" signature="26924:26973" placeholder="{...}" />
+            <marker date="1463026377598" expanded="true" signature="26982:27093" placeholder=" Get custom constructor arguments for the PDO::FETCH_CLASS fetch mode. ..." />
+            <marker date="1463026377598" expanded="true" signature="27145:27205" placeholder="{...}" />
+            <marker date="1463026377598" expanded="true" signature="27214:27465" placeholder=" Set the default fetch mode for the connection, and optional arguments for the given fetch mode. ..." />
+            <marker date="1463026377598" expanded="true" signature="27573:27740" placeholder="{...}" />
+            <marker date="1463026377598" expanded="true" signature="27749:27820" placeholder=" Get the connection query log. ..." />
+            <marker date="1463026377598" expanded="true" signature="27856:27900" placeholder="{...}" />
+            <marker date="1463026377598" expanded="true" signature="27909:27970" placeholder=" Clear the query log. ..." />
+            <marker date="1463026377598" expanded="true" signature="28008:28050" placeholder="{...}" />
+            <marker date="1463026377598" expanded="true" signature="28059:28139" placeholder=" Enable the query log on the connection. ..." />
+            <marker date="1463026377598" expanded="true" signature="28178:28228" placeholder="{...}" />
+            <marker date="1463026377598" expanded="true" signature="28237:28318" placeholder=" Disable the query log on the connection. ..." />
+            <marker date="1463026377598" expanded="true" signature="28358:28409" placeholder="{...}" />
+            <marker date="1463026377598" expanded="true" signature="28418:28499" placeholder=" Determine whether we're logging queries. ..." />
+            <marker date="1463026377598" expanded="true" signature="28531:28581" placeholder="{...}" />
+            <marker date="1463026377598" expanded="true" signature="28590:28672" placeholder=" Get the name of the connected database. ..." />
+            <marker date="1463026377598" expanded="true" signature="28712:28756" placeholder="{...}" />
+            <marker date="1463026377598" expanded="true" signature="28765:28880" placeholder=" Set the name of the connected database. ..." />
+            <marker date="1463026377598" expanded="true" signature="28929:28978" placeholder="{...}" />
+            <marker date="1463026377598" expanded="true" signature="28987:29070" placeholder=" Get the table prefix for the connection. ..." />
+            <marker date="1463026377598" expanded="true" signature="29109:29156" placeholder="{...}" />
+            <marker date="1463026377598" expanded="true" signature="29165:29283" placeholder=" Set the table prefix in use by the connection. ..." />
+            <marker date="1463026377598" expanded="true" signature="29329:29439" placeholder="{...}" />
+            <marker date="1463026377598" expanded="true" signature="29448:29611" placeholder=" Set the table prefix and return the grammar. ..." />
+            <marker date="1463026377598" expanded="true" signature="29667:29759" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Database/Query/Builder.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="684">
+          <caret line="2054" column="34" selection-start-line="2054" selection-start-column="34" selection-end-line="2054" selection-end-column="34" />
+          <folding>
+            <marker date="1463026377998" expanded="false" signature="49:508" placeholder="..." />
+            <marker date="1463026377998" expanded="true" signature="523:60573" placeholder="{...}" />
+            <marker date="1463026377998" expanded="true" signature="589:687" placeholder=" The database connection instance. ..." />
+            <marker date="1463026377998" expanded="true" signature="725:838" placeholder=" The database query grammar instance. ..." />
+            <marker date="1463026377998" expanded="true" signature="873:997" placeholder=" The database query post processor instance. ..." />
+            <marker date="1463026377998" expanded="true" signature="1034:1106" placeholder=" The current query value bindings. ..." />
+            <marker date="1463026377998" expanded="true" signature="1136:1285" placeholder="..." />
+            <marker date="1463026377998" expanded="true" signature="1296:1378" placeholder=" An aggregate function and column to be run. ..." />
+            <marker date="1463026377998" expanded="true" signature="1412:1487" placeholder=" The columns that should be returned. ..." />
+            <marker date="1463026377998" expanded="true" signature="1519:1605" placeholder=" Indicates if the query returns distinct results. ..." />
+            <marker date="1463026377998" expanded="true" signature="1646:1725" placeholder=" The table which the query is targeting. ..." />
+            <marker date="1463026377998" expanded="true" signature="1754:1823" placeholder=" The table joins for the query. ..." />
+            <marker date="1463026377998" expanded="true" signature="1853:1928" placeholder=" The where constraints for the query. ..." />
+            <marker date="1463026377998" expanded="true" signature="1959:2026" placeholder=" The groupings for the query. ..." />
+            <marker date="1463026377998" expanded="true" signature="2057:2133" placeholder=" The having constraints for the query. ..." />
+            <marker date="1463026377998" expanded="true" signature="2165:2232" placeholder=" The orderings for the query. ..." />
+            <marker date="1463026377998" expanded="true" signature="2263:2340" placeholder=" The maximum number of records to return. ..." />
+            <marker date="1463026377998" expanded="true" signature="2370:2437" placeholder=" The number of records to skip. ..." />
+            <marker date="1463026377998" expanded="true" signature="2468:2534" placeholder=" The query union statements. ..." />
+            <marker date="1463026377998" expanded="true" signature="2565:2648" placeholder=" The maximum number of union records to return. ..." />
+            <marker date="1463026377998" expanded="true" signature="2683:2756" placeholder=" The number of union records to skip. ..." />
+            <marker date="1463026377998" expanded="true" signature="2792:2865" placeholder=" The orderings for the union query. ..." />
+            <marker date="1463026377998" expanded="true" signature="2901:2990" placeholder=" Indicates whether row locking is being used. ..." />
+            <marker date="1463026377998" expanded="true" signature="3019:3093" placeholder=" The field backups currently in use. ..." />
+            <marker date="1463026377998" expanded="true" signature="3133:3209" placeholder=" The binding backups currently in use. ..." />
+            <marker date="1463026377998" expanded="true" signature="3256:3333" placeholder=" All of the available clause operators. ..." />
+            <marker date="1463026377998" expanded="true" signature="3364:3627" placeholder="..." />
+            <marker date="1463026377998" expanded="true" signature="3638:3709" placeholder=" Whether use write pdo for select. ..." />
+            <marker date="1463026377998" expanded="true" signature="3756:4046" placeholder=" Create a new query builder instance. ..." />
+            <marker date="1463026377998" expanded="true" signature="4231:4427" placeholder="{...}" />
+            <marker date="1463026377998" expanded="true" signature="4436:4546" placeholder=" Set the columns to be selected. ..." />
+            <marker date="1463026377998" expanded="true" signature="4593:4702" placeholder="{...}" />
+            <marker date="1463026377998" expanded="true" signature="4711:4904" placeholder=" Add a new &quot;raw&quot; select expression to the query. ..." />
+            <marker date="1463026377998" expanded="true" signature="4971:5149" placeholder="{...}" />
+            <marker date="1463026377998" expanded="true" signature="5058:5119" placeholder="..." />
+            <marker date="1463026377998" expanded="true" signature="5158:5424" placeholder=" Add a subselect expression to the query. ..." />
+            <marker date="1463026377998" expanded="true" signature="5469:5974" placeholder="{...}" />
+            <marker date="1463026377998" expanded="true" signature="5516:5609" placeholder="..." />
+            <marker date="1463026377998" expanded="true" signature="5649:5744" placeholder="..." />
+            <marker date="1463026377998" expanded="true" signature="5774:5811" placeholder="..." />
+            <marker date="1463026377998" expanded="true" signature="5819:5876" placeholder="..." />
+            <marker date="1463026377998" expanded="true" signature="5983:6098" placeholder=" Add a new select column to the query. ..." />
+            <marker date="1463026377998" expanded="true" signature="6139:6311" placeholder="{...}" />
+            <marker date="1463026377998" expanded="true" signature="6320:6410" placeholder=" Force the query to only return distinct results. ..." />
+            <marker date="1463026377998" expanded="true" signature="6443:6510" placeholder="{...}" />
+            <marker date="1463026377998" expanded="true" signature="6519:6634" placeholder=" Set the table which the query is targeting. ..." />
+            <marker date="1463026377998" expanded="true" signature="6669:6734" placeholder="{...}" />
+            <marker date="1463026377998" expanded="true" signature="6743:6994" placeholder=" Add a join clause to the query. ..." />
+            <marker date="1463026377998" expanded="true" signature="7099:8122" placeholder="{...}" />
+            <marker date="1463026377998" expanded="true" signature="7400:7596" placeholder="..." />
+            <marker date="1463026377998" expanded="true" signature="7866:8092" placeholder="..." />
+            <marker date="1463026377998" expanded="true" signature="7958:8024" placeholder="..." />
+            <marker date="1463026377998" expanded="true" signature="8131:8396" placeholder=" Add a &quot;join where&quot; clause to the query. ..." />
+            <marker date="1463026377998" expanded="true" signature="8476:8560" placeholder="{...}" />
+            <marker date="1463026377998" expanded="true" signature="8569:8800" placeholder=" Add a left join to the query. ..." />
+            <marker date="1463026377998" expanded="true" signature="8881:8965" placeholder="{...}" />
+            <marker date="1463026377998" expanded="true" signature="8974:9210" placeholder=" Add a &quot;join where&quot; clause to the query. ..." />
+            <marker date="1463026377998" expanded="true" signature="9277:9361" placeholder="{...}" />
+            <marker date="1463026377998" expanded="true" signature="9370:9602" placeholder=" Add a right join to the query. ..." />
+            <marker date="1463026377998" expanded="true" signature="9684:9769" placeholder="{...}" />
+            <marker date="1463026377998" expanded="true" signature="9778:10020" placeholder=" Add a &quot;right join where&quot; clause to the query. ..." />
+            <marker date="1463026377998" expanded="true" signature="10088:10173" placeholder="{...}" />
+            <marker date="1463026377998" expanded="true" signature="10182:10423" placeholder=" Add a &quot;cross join&quot; clause to the query. ..." />
+            <marker date="1463026377998" expanded="true" signature="10512:10715" placeholder="{...}" />
+            <marker date="1463026377998" expanded="true" signature="10540:10626" placeholder="..." />
+            <marker date="1463026377998" expanded="true" signature="10724:10922" placeholder=" Apply the callback's query changes if the given &quot;value&quot; is true. ..." />
+            <marker date="1463026377998" expanded="true" signature="10968:11125" placeholder="{...}" />
+            <marker date="1463026377998" expanded="true" signature="11023:11092" placeholder="..." />
+            <marker date="1463026377998" expanded="true" signature="11134:11403" placeholder=" Add a basic where clause to the query. ..." />
+            <marker date="1463026377998" expanded="true" signature="11491:14428" placeholder="{...}" />
+            <marker date="1463026377998" expanded="true" signature="11783:11855" placeholder="..." />
+            <marker date="1463026377998" expanded="true" signature="12146:12211" placeholder="..." />
+            <marker date="1463026377998" expanded="true" signature="12273:12373" placeholder="..." />
+            <marker date="1463026377998" expanded="true" signature="12669:12736" placeholder="..." />
+            <marker date="1463026377998" expanded="true" signature="13142:13207" placeholder="..." />
+            <marker date="1463026377998" expanded="true" signature="13497:13580" placeholder="..." />
+            <marker date="1463026377998" expanded="true" signature="13857:13940" placeholder="..." />
+            <marker date="1463026377998" expanded="true" signature="14341:14398" placeholder="..." />
+            <marker date="1463026377998" expanded="true" signature="14437:14584" placeholder=" Add an array of where clauses to the query. ..." />
+            <marker date="1463026377998" expanded="true" signature="14645:15037" placeholder="{...}" />
+            <marker date="1463026377998" expanded="true" signature="14686:15029" placeholder="..." />
+            <marker date="1463026377998" expanded="true" signature="14719:15018" placeholder="..." />
+            <marker date="1463026377998" expanded="true" signature="14769:15008" placeholder="..." />
+            <marker date="1463026377998" expanded="true" signature="14829:14915" placeholder="..." />
+            <marker date="1463026377998" expanded="true" signature="14923:14994" placeholder="..." />
+            <marker date="1463026377998" expanded="true" signature="15046:15256" placeholder=" Add an &quot;or where&quot; clause to the query. ..." />
+            <marker date="1463026377998" expanded="true" signature="15328:15403" placeholder="{...}" />
+            <marker date="1463026377998" expanded="true" signature="15412:15578" placeholder=" Determine if the given operator and value combination is legal. ..." />
+            <marker date="1463026377998" expanded="true" signature="15646:15787" placeholder="{...}" />
+            <marker date="1463026377998" expanded="true" signature="15796:15967" placeholder=" Add a raw where clause to the query. ..." />
+            <marker date="1463026377998" expanded="true" signature="16044:16212" placeholder="{...}" />
+            <marker date="1463026377998" expanded="true" signature="16221:16399" placeholder=" Add a raw or where clause to the query. ..." />
+            <marker date="1463026377998" expanded="true" signature="16460:16527" placeholder="{...}" />
+            <marker date="1463026377998" expanded="true" signature="16536:16741" placeholder=" Add a where between statement to the query. ..." />
+            <marker date="1463026377998" expanded="true" signature="16832:17012" placeholder="{...}" />
+            <marker date="1463026377998" expanded="true" signature="17021:17208" placeholder=" Add an or where between statement to the query. ..." />
+            <marker date="1463026377998" expanded="true" signature="17269:17341" placeholder="{...}" />
+            <marker date="1463026377998" expanded="true" signature="17350:17569" placeholder=" Add a where not between statement to the query. ..." />
+            <marker date="1463026377998" expanded="true" signature="17649:17731" placeholder="{...}" />
+            <marker date="1463026377998" expanded="true" signature="17740:17931" placeholder=" Add an or where not between statement to the query. ..." />
+            <marker date="1463026377998" expanded="true" signature="17995:18070" placeholder="{...}" />
+            <marker date="1463026377998" expanded="true" signature="18079:18266" placeholder=" Add a nested where statement to the query. ..." />
+            <marker date="1463026377998" expanded="true" signature="18337:18497" placeholder="{...}" />
+            <marker date="1463026377998" expanded="true" signature="18506:18632" placeholder=" Create a new query instance for nested where condition. ..." />
+            <marker date="1463026377998" expanded="true" signature="18671:18762" placeholder="{...}" />
+            <marker date="1463026377998" expanded="true" signature="18771:18974" placeholder=" Add another query builder as a nested where to the query builder. ..." />
+            <marker date="1463026377998" expanded="true" signature="19042:19286" placeholder="{...}" />
+            <marker date="1463026377998" expanded="true" signature="19085:19256" placeholder="..." />
+            <marker date="1463026377998" expanded="true" signature="19295:19505" placeholder=" Add a full sub-select to the query. ..." />
+            <marker date="1463026377998" expanded="true" signature="19588:20120" placeholder="{...}" />
+            <marker date="1463026377998" expanded="true" signature="20129:20301" placeholder=" Add an exists clause to the query. ..." />
+            <marker date="1463026377998" expanded="true" signature="20386:20789" placeholder="{...}" />
+            <marker date="1463026377998" expanded="true" signature="20798:20976" placeholder=" Add an or exists clause to the query. ..." />
+            <marker date="1463026377998" expanded="true" signature="21045:21115" placeholder="{...}" />
+            <marker date="1463026377998" expanded="true" signature="21124:21312" placeholder=" Add a where not exists clause to the query. ..." />
+            <marker date="1463026377998" expanded="true" signature="21386:21460" placeholder="{...}" />
+            <marker date="1463026377998" expanded="true" signature="21469:21625" placeholder=" Add a where not exists clause to the query. ..." />
+            <marker date="1463026377998" expanded="true" signature="21683:21749" placeholder="{...}" />
+            <marker date="1463026377998" expanded="true" signature="21758:21949" placeholder=" Add an exists clause to the query. ..." />
+            <marker date="1463026377998" expanded="true" signature="22039:22257" placeholder="{...}" />
+            <marker date="1463026377998" expanded="true" signature="22266:22467" placeholder=" Add a &quot;where in&quot; clause to the query. ..." />
+            <marker date="1463026377998" expanded="true" signature="22547:23388" placeholder="{...}" />
+            <marker date="1463026377998" expanded="true" signature="22634:22755" placeholder="..." />
+            <marker date="1463026377998" expanded="true" signature="22682:22744" placeholder="..." />
+            <marker date="1463026377998" expanded="true" signature="23059:23140" placeholder="..." />
+            <marker date="1463026377998" expanded="true" signature="23186:23237" placeholder="..." />
+            <marker date="1463026377998" expanded="true" signature="23397:23578" placeholder=" Add an &quot;or where in&quot; clause to the query. ..." />
+            <marker date="1463026377998" expanded="true" signature="23628:23695" placeholder="{...}" />
+            <marker date="1463026377998" expanded="true" signature="23704:23917" placeholder=" Add a &quot;where not in&quot; clause to the query. ..." />
+            <marker date="1463026377998" expanded="true" signature="23986:24063" placeholder="{...}" />
+            <marker date="1463026377998" expanded="true" signature="24072:24257" placeholder=" Add an &quot;or where not in&quot; clause to the query. ..." />
+            <marker date="1463026377998" expanded="true" signature="24310:24380" placeholder="{...}" />
+            <marker date="1463026377998" expanded="true" signature="24389:24605" placeholder=" Add a where in with a sub-select to the query. ..." />
+            <marker date="1463026377998" expanded="true" signature="24685:25222" placeholder="{...}" />
+            <marker date="1463026377998" expanded="true" signature="25231:25471" placeholder=" Add a external sub-select to the query. ..." />
+            <marker date="1463026377998" expanded="true" signature="25550:25764" placeholder="{...}" />
+            <marker date="1463026377998" expanded="true" signature="25773:25945" placeholder=" Add a &quot;where null&quot; clause to the query. ..." />
+            <marker date="1463026377998" expanded="true" signature="26018:26161" placeholder="{...}" />
+            <marker date="1463026377998" expanded="true" signature="26170:26322" placeholder=" Add an &quot;or where null&quot; clause to the query. ..." />
+            <marker date="1463026377998" expanded="true" signature="26365:26425" placeholder="{...}" />
+            <marker date="1463026377998" expanded="true" signature="26434:26618" placeholder=" Add a &quot;where not null&quot; clause to the query. ..." />
+            <marker date="1463026377998" expanded="true" signature="26680:26750" placeholder="{...}" />
+            <marker date="1463026377998" expanded="true" signature="26759:26915" placeholder=" Add an &quot;or where not null&quot; clause to the query. ..." />
+            <marker date="1463026377998" expanded="true" signature="26961:27024" placeholder="{...}" />
+            <marker date="1463026377998" expanded="true" signature="27033:27279" placeholder=" Add a &quot;where date&quot; statement to the query. ..." />
+            <marker date="1463026377998" expanded="true" signature="27357:27456" placeholder="{...}" />
+            <marker date="1463026377998" expanded="true" signature="27465:27682" placeholder=" Add an &quot;or where date&quot; statement to the query. ..." />
+            <marker date="1463026377998" expanded="true" signature="27744:27823" placeholder="{...}" />
+            <marker date="1463026377998" expanded="true" signature="27832:28077" placeholder=" Add a &quot;where day&quot; statement to the query. ..." />
+            <marker date="1463026377998" expanded="true" signature="28154:28252" placeholder="{...}" />
+            <marker date="1463026377998" expanded="true" signature="28261:28508" placeholder=" Add a &quot;where month&quot; statement to the query. ..." />
+            <marker date="1463026377998" expanded="true" signature="28587:28687" placeholder="{...}" />
+            <marker date="1463026377998" expanded="true" signature="28696:28942" placeholder=" Add a &quot;where year&quot; statement to the query. ..." />
+            <marker date="1463026377998" expanded="true" signature="29020:29119" placeholder="{...}" />
+            <marker date="1463026377998" expanded="true" signature="29128:29381" placeholder=" Add a date based (year, month, day) statement to the query. ..." />
+            <marker date="1463026377998" expanded="true" signature="29477:29642" placeholder="{...}" />
+            <marker date="1463026377998" expanded="true" signature="29651:29804" placeholder=" Handles dynamic &quot;where&quot; clauses to the query. ..." />
+            <marker date="1463026377998" expanded="true" signature="29861:31179" placeholder="{...}" />
+            <marker date="1463026377998" expanded="true" signature="30343:31149" placeholder="..." />
+            <marker date="1463026377998" expanded="true" signature="30674:30792" placeholder="..." />
+            <marker date="1463026377998" expanded="true" signature="31087:31139" placeholder="..." />
+            <marker date="1463026377998" expanded="true" signature="31188:31417" placeholder=" Add a single dynamic where clause statement to the query. ..." />
+            <marker date="1463026377998" expanded="true" signature="31496:31876" placeholder="{...}" />
+            <marker date="1463026377998" expanded="true" signature="31885:32005" placeholder=" Add a &quot;group by&quot; clause to the query. ..." />
+            <marker date="1463026377998" expanded="true" signature="32037:32222" placeholder="{...}" />
+            <marker date="1463026377998" expanded="true" signature="32087:32192" placeholder="..." />
+            <marker date="1463026377998" expanded="true" signature="32231:32434" placeholder=" Add a &quot;having&quot; clause to the query. ..." />
+            <marker date="1463026377998" expanded="true" signature="32523:32776" placeholder="{...}" />
+            <marker date="1463026377998" expanded="true" signature="32688:32746" placeholder="..." />
+            <marker date="1463026377998" expanded="true" signature="32785:32995" placeholder=" Add a &quot;or having&quot; clause to the query. ..." />
+            <marker date="1463026377998" expanded="true" signature="33068:33144" placeholder="{...}" />
+            <marker date="1463026377998" expanded="true" signature="33153:33325" placeholder=" Add a raw having clause to the query. ..." />
+            <marker date="1463026377998" expanded="true" signature="33403:33573" placeholder="{...}" />
+            <marker date="1463026377998" expanded="true" signature="33582:33761" placeholder=" Add a raw or having clause to the query. ..." />
+            <marker date="1463026377998" expanded="true" signature="33823:33891" placeholder="{...}" />
+            <marker date="1463026377998" expanded="true" signature="33900:34045" placeholder=" Add an &quot;order by&quot; clause to the query. ..." />
+            <marker date="1463026377998" expanded="true" signature="34104:34336" placeholder="{...}" />
+            <marker date="1463026377998" expanded="true" signature="34345:34508" placeholder=" Add an &quot;order by&quot; clause for a timestamp to the query. ..." />
+            <marker date="1463026377998" expanded="true" signature="34561:34621" placeholder="{...}" />
+            <marker date="1463026377998" expanded="true" signature="34630:34793" placeholder=" Add an &quot;order by&quot; clause for a timestamp to the query. ..." />
+            <marker date="1463026377998" expanded="true" signature="34846:34905" placeholder="{...}" />
+            <marker date="1463026377998" expanded="true" signature="34914:35057" placeholder=" Add a raw &quot;order by&quot; clause to the query. ..." />
+            <marker date="1463026377998" expanded="true" signature="35112:35337" placeholder="{...}" />
+            <marker date="1463026377998" expanded="true" signature="35346:35451" placeholder=" Set the &quot;offset&quot; value of the query. ..." />
+            <marker date="1463026377998" expanded="true" signature="35488:35629" placeholder="{...}" />
+            <marker date="1463026377998" expanded="true" signature="35638:35788" placeholder=" Alias to set the &quot;offset&quot; value of the query. ..." />
+            <marker date="1463026377998" expanded="true" signature="35823:35873" placeholder="{...}" />
+            <marker date="1463026377998" expanded="true" signature="35882:35986" placeholder=" Set the &quot;limit&quot; value of the query. ..." />
+            <marker date="1463026377998" expanded="true" signature="36022:36194" placeholder="{...}" />
+            <marker date="1463026377998" expanded="true" signature="36116:36164" placeholder="..." />
+            <marker date="1463026377998" expanded="true" signature="36203:36352" placeholder=" Alias to set the &quot;limit&quot; value of the query. ..." />
+            <marker date="1463026377998" expanded="true" signature="36387:36436" placeholder="{...}" />
+            <marker date="1463026377998" expanded="true" signature="36445:36620" placeholder=" Set the limit and offset for a given page. ..." />
+            <marker date="1463026377998" expanded="true" signature="36672:36752" placeholder="{...}" />
+            <marker date="1463026377998" expanded="true" signature="36761:36994" placeholder=" Constrain the query to the next &quot;page&quot; of results after a given ID. ..." />
+            <marker date="1463026377998" expanded="true" signature="37075:37222" placeholder="{...}" />
+            <marker date="1463026377998" expanded="true" signature="37163:37177" placeholder="..." />
+            <marker date="1463026377998" expanded="true" signature="37206:37214" placeholder="..." />
+            <marker date="1463026377998" expanded="true" signature="37231:37437" placeholder=" Add a union statement to the query. ..." />
+            <marker date="1463026377998" expanded="true" signature="37487:37749" placeholder="{...}" />
+            <marker date="1463026377998" expanded="true" signature="37534:37607" placeholder="..." />
+            <marker date="1463026377998" expanded="true" signature="37758:37942" placeholder=" Add a union all statement to the query. ..." />
+            <marker date="1463026377998" expanded="true" signature="37981:38036" placeholder="{...}" />
+            <marker date="1463026377998" expanded="true" signature="38045:38151" placeholder=" Lock the selected rows in the table. ..." />
+            <marker date="1463026377998" expanded="true" signature="38193:38330" placeholder="{...}" />
+            <marker date="1463026377998" expanded="true" signature="38257:38300" placeholder="..." />
+            <marker date="1463026377998" expanded="true" signature="38339:38459" placeholder=" Lock the selected rows in the table for updating. ..." />
+            <marker date="1463026377998" expanded="true" signature="38497:38543" placeholder="{...}" />
+            <marker date="1463026377998" expanded="true" signature="38552:38665" placeholder=" Share lock the selected rows in the table. ..." />
+            <marker date="1463026377998" expanded="true" signature="38700:38747" placeholder="{...}" />
+            <marker date="1463026377998" expanded="true" signature="38756:38839" placeholder=" Get the SQL representation of the query. ..." />
+            <marker date="1463026377998" expanded="true" signature="38869:38934" placeholder="{...}" />
+            <marker date="1463026377998" expanded="true" signature="38943:39091" placeholder=" Execute a query for a single record by ID. ..." />
+            <marker date="1463026377998" expanded="true" signature="39141:39215" placeholder="{...}" />
+            <marker date="1463026377998" expanded="true" signature="39224:39358" placeholder=" Get a single column's value from the first result of a query. ..." />
+            <marker date="1463026377998" expanded="true" signature="39395:39518" placeholder="{...}" />
+            <marker date="1463026377998" expanded="true" signature="39527:39651" placeholder=" Execute the query and get the first result. ..." />
+            <marker date="1463026377998" expanded="true" signature="39697:39821" placeholder="{...}" />
+            <marker date="1463026377998" expanded="true" signature="39830:39954" placeholder=" Execute the query as a &quot;select&quot; statement. ..." />
+            <marker date="1463026377998" expanded="true" signature="39998:40273" placeholder="{...}" />
+            <marker date="1463026377998" expanded="true" signature="40075:40123" placeholder="..." />
+            <marker date="1463026377998" expanded="true" signature="40282:40385" placeholder=" Run the query as a &quot;select&quot; statement against the connection. ..." />
+            <marker date="1463026377998" expanded="true" signature="40422:40536" placeholder="{...}" />
+            <marker date="1463026377998" expanded="true" signature="40545:40808" placeholder=" Paginate the given query into a simple paginator. ..." />
+            <marker date="1463026377998" expanded="true" signature="40906:41293" placeholder="{...}" />
+            <marker date="1463026377998" expanded="true" signature="41183:41284" placeholder="..." />
+            <marker date="1463026377998" expanded="true" signature="41302:41600" placeholder=" Get a paginator only supporting simple next and previous links. ..." />
+            <marker date="1463026377998" expanded="true" signature="41690:42001" placeholder="{...}" />
+            <marker date="1463026377998" expanded="true" signature="41891:41992" placeholder="..." />
+            <marker date="1463026377998" expanded="true" signature="42010:42134" placeholder=" Get the count of the total records for the paginator. ..." />
+            <marker date="1463026377998" expanded="true" signature="42196:42646" placeholder="{...}" />
+            <marker date="1463026377998" expanded="true" signature="42490:42535" placeholder="..." />
+            <marker date="1463026377998" expanded="true" signature="42655:42740" placeholder=" Backup some fields for the pagination count. ..." />
+            <marker date="1463026377998" expanded="true" signature="42788:43137" placeholder="{...}" />
+            <marker date="1463026377998" expanded="true" signature="42865:42965" placeholder="..." />
+            <marker date="1463026377998" expanded="true" signature="43015:43130" placeholder="..." />
+            <marker date="1463026377998" expanded="true" signature="43146:43281" placeholder=" Remove the column aliases since they will break count queries. ..." />
+            <marker date="1463026377998" expanded="true" signature="43341:43595" placeholder="{...}" />
+            <marker date="1463026377998" expanded="true" signature="43373:43587" placeholder="..." />
+            <marker date="1463026377998" expanded="true" signature="43393:43576" placeholder="..." />
+            <marker date="1463026377998" expanded="true" signature="43604:43692" placeholder=" Restore some fields after the pagination count. ..." />
+            <marker date="1463026377998" expanded="true" signature="43741:44078" placeholder="{...}" />
+            <marker date="1463026377998" expanded="true" signature="43818:43881" placeholder="..." />
+            <marker date="1463026377998" expanded="true" signature="43931:44005" placeholder="..." />
+            <marker date="1463026377998" expanded="true" signature="44087:44222" placeholder=" Chunk the results of the query. ..." />
+            <marker date="1463026377998" expanded="true" signature="44278:44883" placeholder="{...}" />
+            <marker date="1463026377998" expanded="true" signature="44384:44854" placeholder="..." />
+            <marker date="1463026377998" expanded="true" signature="44717:44760" placeholder="..." />
+            <marker date="1463026377998" expanded="true" signature="44892:45080" placeholder=" Chunk the results of a query by comparing numeric IDs. ..." />
+            <marker date="1463026377998" expanded="true" signature="45156:45570" placeholder="{...}" />
+            <marker date="1463026377998" expanded="true" signature="45293:45541" placeholder="..." />
+            <marker date="1463026377998" expanded="true" signature="45358:45401" placeholder="..." />
+            <marker date="1463026377998" expanded="true" signature="45579:45771" placeholder=" Execute a callback over each item while chunking. ..." />
+            <marker date="1463026377998" expanded="true" signature="45833:46295" placeholder="{...}" />
+            <marker date="1463026377998" expanded="true" signature="45908:46027" placeholder="..." />
+            <marker date="1463026377998" expanded="true" signature="46058:46287" placeholder="..." />
+            <marker date="1463026377998" expanded="true" signature="46103:46286" placeholder="..." />
+            <marker date="1463026377998" expanded="true" signature="46154:46276" placeholder="..." />
+            <marker date="1463026377998" expanded="true" signature="46211:46262" placeholder="..." />
+            <marker date="1463026377998" expanded="true" signature="46304:46457" placeholder=" Get an array with the values of a given column. ..." />
+            <marker date="1463026377998" expanded="true" signature="46507:46995" placeholder="{...}" />
+            <marker date="1463026377998" expanded="true" signature="46864:46987" placeholder="..." />
+            <marker date="1463026377998" expanded="true" signature="47004:47217" placeholder=" Alias for the &quot;pluck&quot; method. ..." />
+            <marker date="1463026377998" expanded="true" signature="47267:47323" placeholder="{...}" />
+            <marker date="1463026377998" expanded="true" signature="47332:47470" placeholder=" Strip off the table name or alias from a column identifier. ..." />
+            <marker date="1463026377998" expanded="true" signature="47523:47616" placeholder="{...}" />
+            <marker date="1463026377998" expanded="true" signature="47625:47777" placeholder=" Concatenate values of a given column as a string. ..." />
+            <marker date="1463026377998" expanded="true" signature="47828:47894" placeholder="{...}" />
+            <marker date="1463026377998" expanded="true" signature="47903:47994" placeholder=" Determine if any rows exist for the current query. ..." />
+            <marker date="1463026377998" expanded="true" signature="48025:48346" placeholder="{...}" />
+            <marker date="1463026377998" expanded="true" signature="48216:48316" placeholder="..." />
+            <marker date="1463026377998" expanded="true" signature="48355:48468" placeholder=" Retrieve the &quot;count&quot; result of the query. ..." />
+            <marker date="1463026377998" expanded="true" signature="48512:48669" placeholder="{...}" />
+            <marker date="1463026377998" expanded="true" signature="48554:48598" placeholder="..." />
+            <marker date="1463026377998" expanded="true" signature="48678:48800" placeholder=" Retrieve the minimum value of a given column. ..." />
+            <marker date="1463026377998" expanded="true" signature="48835:48905" placeholder="{...}" />
+            <marker date="1463026377998" expanded="true" signature="48914:49036" placeholder=" Retrieve the maximum value of a given column. ..." />
+            <marker date="1463026377998" expanded="true" signature="49071:49141" placeholder="{...}" />
+            <marker date="1463026377998" expanded="true" signature="49150:49276" placeholder=" Retrieve the sum of the values of a given column. ..." />
+            <marker date="1463026377998" expanded="true" signature="49311:49414" placeholder="{...}" />
+            <marker date="1463026377998" expanded="true" signature="49423:49553" placeholder=" Retrieve the average of the values of a given column. ..." />
+            <marker date="1463026377998" expanded="true" signature="49588:49658" placeholder="{...}" />
+            <marker date="1463026377998" expanded="true" signature="49667:49771" placeholder=" Alias for the &quot;avg&quot; method. ..." />
+            <marker date="1463026377998" expanded="true" signature="49810:49858" placeholder="{...}" />
+            <marker date="1463026377998" expanded="true" signature="49867:50024" placeholder=" Execute an aggregate function on the database. ..." />
+            <marker date="1463026377998" expanded="true" signature="50085:51125" placeholder="{...}" />
+            <marker date="1463026377998" expanded="true" signature="51001:51118" placeholder="..." />
+            <marker date="1463026377998" expanded="true" signature="51134:51243" placeholder=" Insert a new record into the database. ..." />
+            <marker date="1463026377998" expanded="true" signature="51287:52941" placeholder="{...}" />
+            <marker date="1463026377998" expanded="true" signature="51323:51357" placeholder="..." />
+            <marker date="1463026377998" expanded="true" signature="51648:51690" placeholder="..." />
+            <marker date="1463026377998" expanded="true" signature="51954:52098" placeholder="..." />
+            <marker date="1463026377998" expanded="true" signature="52004:52088" placeholder="..." />
+            <marker date="1463026377998" expanded="true" signature="52409:52512" placeholder="..." />
+            <marker date="1463026377998" expanded="true" signature="52451:52502" placeholder="..." />
+            <marker date="1463026377998" expanded="true" signature="52950:53111" placeholder=" Insert a new record and get the value of the primary key. ..." />
+            <marker date="1463026377998" expanded="true" signature="53178:53405" placeholder="{...}" />
+            <marker date="1463026377998" expanded="true" signature="53414:53516" placeholder=" Update a record in the database. ..." />
+            <marker date="1463026377998" expanded="true" signature="53560:53795" placeholder="{...}" />
+            <marker date="1463026377998" expanded="true" signature="53804:53984" placeholder=" Insert or update a record matching the attributes, and fill it with values. ..." />
+            <marker date="1463026377998" expanded="true" signature="54060:54280" placeholder="{...}" />
+            <marker date="1463026377998" expanded="true" signature="54119:54197" placeholder="..." />
+            <marker date="1463026377998" expanded="true" signature="54289:54466" placeholder=" Increment a column's value by a given amount. ..." />
+            <marker date="1463026377998" expanded="true" signature="54539:54730" placeholder="{...}" />
+            <marker date="1463026377998" expanded="true" signature="54739:54916" placeholder=" Decrement a column's value by a given amount. ..." />
+            <marker date="1463026377998" expanded="true" signature="54989:55180" placeholder="{...}" />
+            <marker date="1463026377998" expanded="true" signature="55189:55289" placeholder=" Delete a record from the database. ..." />
+            <marker date="1463026377998" expanded="true" signature="55330:55790" placeholder="{...}" />
+            <marker date="1463026377998" expanded="true" signature="55607:55658" placeholder="..." />
+            <marker date="1463026377998" expanded="true" signature="55799:55878" placeholder=" Run a truncate statement on the table. ..." />
+            <marker date="1463026377998" expanded="true" signature="55911:56072" placeholder="{...}" />
+            <marker date="1463026377998" expanded="true" signature="55997:56065" placeholder="..." />
+            <marker date="1463026377998" expanded="true" signature="56081:56192" placeholder=" Get a new instance of the query builder. ..." />
+            <marker date="1463026377998" expanded="true" signature="56225:56317" placeholder="{...}" />
+            <marker date="1463026377998" expanded="true" signature="56326:56474" placeholder=" Merge an array of where clauses and bindings. ..." />
+            <marker date="1463026377998" expanded="true" signature="56528:56725" placeholder="{...}" />
+            <marker date="1463026377998" expanded="true" signature="56734:56862" placeholder=" Remove all of the expressions from a list of bindings. ..." />
+            <marker date="1463026377998" expanded="true" signature="56918:57070" placeholder="{...}" />
+            <marker date="1463026377998" expanded="true" signature="56953:57062" placeholder="..." />
+            <marker date="1463026377998" expanded="true" signature="56966:57061" placeholder="..." />
+            <marker date="1463026377998" expanded="true" signature="56998:57060" placeholder="..." />
+            <marker date="1463026377998" expanded="true" signature="57079:57215" placeholder=" Create a raw database expression. ..." />
+            <marker date="1463026377998" expanded="true" signature="57249:57308" placeholder="{...}" />
+            <marker date="1463026377998" expanded="true" signature="57317:57417" placeholder=" Get the current query value bindings in a flattened array. ..." />
+            <marker date="1463026377998" expanded="true" signature="57453:57511" placeholder="{...}" />
+            <marker date="1463026377998" expanded="true" signature="57520:57592" placeholder=" Get the raw array of bindings. ..." />
+            <marker date="1463026377998" expanded="true" signature="57631:57675" placeholder="{...}" />
+            <marker date="1463026377998" expanded="true" signature="57684:57874" placeholder=" Set the bindings on the query builder. ..." />
+            <marker date="1463026377998" expanded="true" signature="57942:58172" placeholder="{...}" />
+            <marker date="1463026377998" expanded="true" signature="58006:58097" placeholder="..." />
+            <marker date="1463026377998" expanded="true" signature="58181:58357" placeholder=" Add a binding to the query. ..." />
+            <marker date="1463026377998" expanded="true" signature="58415:58803" placeholder="{...}" />
+            <marker date="1463026377998" expanded="true" signature="58479:58570" placeholder="..." />
+            <marker date="1463026377998" expanded="true" signature="58604:58709" placeholder="..." />
+            <marker date="1463026377998" expanded="true" signature="58717:58773" placeholder="..." />
+            <marker date="1463026377998" expanded="true" signature="58812:58957" placeholder=" Merge an array of bindings into our bindings. ..." />
+            <marker date="1463026377998" expanded="true" signature="59009:59128" placeholder="{...}" />
+            <marker date="1463026377998" expanded="true" signature="59137:59251" placeholder=" Get the database connection instance. ..." />
+            <marker date="1463026377998" expanded="true" signature="59289:59335" placeholder="{...}" />
+            <marker date="1463026377998" expanded="true" signature="59344:59470" placeholder=" Get the database query processor instance. ..." />
+            <marker date="1463026377998" expanded="true" signature="59507:59552" placeholder="{...}" />
+            <marker date="1463026377998" expanded="true" signature="59561:59672" placeholder=" Get the query grammar instance. ..." />
+            <marker date="1463026377998" expanded="true" signature="59707:59750" placeholder="{...}" />
+            <marker date="1463026377998" expanded="true" signature="59759:59829" placeholder=" Use the write pdo for query. ..." />
+            <marker date="1463026377998" expanded="true" signature="59865:59935" placeholder="{...}" />
+            <marker date="1463026377998" expanded="true" signature="59944:60142" placeholder=" Handle dynamic method calls into the method. ..." />
+            <marker date="1463026377998" expanded="true" signature="60193:60571" placeholder="{...}" />
+            <marker date="1463026377998" expanded="true" signature="60240:60308" placeholder="..." />
+            <marker date="1463026377998" expanded="true" signature="60359:60430" placeholder="..." />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/tests/integration/app/LikesTest.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="434">
-          <caret line="16" column="32" selection-start-line="16" selection-start-column="32" selection-end-line="16" selection-end-column="32" />
+        <state relative-caret-position="651">
+          <caret line="42" column="32" selection-start-line="42" selection-start-column="32" selection-end-line="42" selection-end-column="32" />
           <folding>
-            <element signature="e#7#20#0#PHP" expanded="true" />
+            <marker date="1464501018982" expanded="true" signature="11:90" placeholder="..." />
+            <marker date="1464501018982" expanded="true" signature="124:1343" placeholder="{...}" />
+            <marker date="1464501018982" expanded="true" signature="219:732" placeholder="{...}" />
+            <marker date="1464501018982" expanded="true" signature="356:509" placeholder="..." />
+            <marker date="1464501018982" expanded="true" signature="366:508" placeholder="..." />
+            <marker date="1464501018982" expanded="true" signature="571:724" placeholder="..." />
+            <marker date="1464501018982" expanded="true" signature="581:723" placeholder="..." />
+            <marker date="1464501018982" expanded="true" signature="797:1341" placeholder="{...}" />
+            <marker date="1464501018982" expanded="true" signature="959:1112" placeholder="..." />
+            <marker date="1464501018982" expanded="true" signature="969:1111" placeholder="..." />
+            <marker date="1464501018982" expanded="true" signature="1180:1333" placeholder="..." />
+            <marker date="1464501018982" expanded="true" signature="1190:1332" placeholder="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/User.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="751">
+          <caret line="54" column="14" selection-start-line="54" selection-start-column="14" selection-end-line="54" selection-end-column="14" />
+          <folding />
         </state>
       </provider>
     </entry>
