@@ -31,8 +31,8 @@
       <file leaf-file-name="ExpressionTest.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/tests/unit/ExpressionTest.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="292">
-              <caret line="37" column="0" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
+            <state relative-caret-position="968">
+              <caret line="66" column="34" selection-start-line="66" selection-start-column="34" selection-end-line="66" selection-end-column="34" />
               <folding />
             </state>
           </provider>
@@ -93,8 +93,8 @@
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
     <option name="y" value="24" />
-    <option name="width" value="1366" />
-    <option name="height" value="744" />
+    <option name="width" value="1920" />
+    <option name="height" value="1056" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -235,21 +235,22 @@
       <workItem from="1464449578378" duration="12000" />
       <workItem from="1464498216714" duration="6548000" />
       <workItem from="1464539559107" duration="3963000" />
+      <workItem from="1464631368903" duration="2307000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="33605000" />
+    <option name="totallyTimeSpent" value="35912000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="24" width="1366" height="744" extended-state="6" />
+    <frame x="0" y="24" width="1920" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24963397" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3296875" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32962447" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.328807" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -288,13 +289,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/Order.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="578">
-          <caret line="25" column="20" selection-start-line="25" selection-start-column="20" selection-end-line="25" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/Product.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="452">
@@ -466,199 +460,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="343">
           <caret line="871" column="20" selection-start-line="871" selection-start-column="20" selection-end-line="871" selection-end-column="20" />
-          <folding>
-            <marker date="1463026378074" expanded="false" signature="50:174" placeholder="..." />
-            <marker date="1463026378074" expanded="true" signature="191:26881" placeholder="{...}" />
-            <marker date="1463026378074" expanded="true" signature="201:275" placeholder=" The table the blueprint describes. ..." />
-            <marker date="1463026378074" expanded="true" signature="308:393" placeholder=" The columns that should be added to the table. ..." />
-            <marker date="1463026378074" expanded="true" signature="433:518" placeholder=" The commands that should be run for the table. ..." />
-            <marker date="1463026378074" expanded="true" signature="559:652" placeholder=" The storage engine that should be used for the table. ..." />
-            <marker date="1463026378074" expanded="true" signature="683:757" placeholder=" The default character set that should be used for the table. ..." />
-            <marker date="1463026378074" expanded="true" signature="789:851" placeholder=" The collation that should be used for the table. ..." />
-            <marker date="1463026378074" expanded="true" signature="885:959" placeholder=" Whether to make the table temporary. ..." />
-            <marker date="1463026378074" expanded="true" signature="1001:1142" placeholder=" Create a new schema blueprint. ..." />
-            <marker date="1463026378074" expanded="true" signature="1210:1330" placeholder="{...}" />
-            <marker date="1463026378074" expanded="true" signature="1284:1323" placeholder="..." />
-            <marker date="1463026378074" expanded="true" signature="1339:1552" placeholder=" Execute the blueprint against the database. ..." />
-            <marker date="1463026378074" expanded="true" signature="1622:1762" placeholder="{...}" />
-            <marker date="1463026378074" expanded="true" signature="1698:1755" placeholder="..." />
-            <marker date="1463026378074" expanded="true" signature="1771:1988" placeholder=" Get the raw SQL statements for the blueprint. ..." />
-            <marker date="1463026378074" expanded="true" signature="2058:2769" placeholder="{...}" />
-            <marker date="1463026378074" expanded="true" signature="2419:2733" placeholder="..." />
-            <marker date="1463026378074" expanded="true" signature="2529:2723" placeholder="..." />
-            <marker date="1463026378074" expanded="true" signature="2618:2709" placeholder="..." />
-            <marker date="1463026378074" expanded="true" signature="2778:2870" placeholder=" Add the commands that are implied by the blueprint. ..." />
-            <marker date="1463026378074" expanded="true" signature="2916:3284" placeholder="{...}" />
-            <marker date="1463026378074" expanded="true" signature="2996:3078" placeholder="..." />
-            <marker date="1463026378074" expanded="true" signature="3156:3241" placeholder="..." />
-            <marker date="1463026378074" expanded="true" signature="3293:3387" placeholder=" Add the index commands fluently specified on columns. ..." />
-            <marker date="1463026378074" expanded="true" signature="3431:4391" placeholder="{...}" />
-            <marker date="1463026378074" expanded="true" signature="3483:4384" placeholder="..." />
-            <marker date="1463026378074" expanded="true" signature="3548:4374" placeholder="..." />
-            <marker date="1463026378074" expanded="true" signature="3844:3944" placeholder="..." />
-            <marker date="1463026378074" expanded="true" signature="4243:4360" placeholder="..." />
-            <marker date="1463026378074" expanded="true" signature="4400:4489" placeholder=" Determine if the blueprint has a create command. ..." />
-            <marker date="1463026378074" expanded="true" signature="4525:4707" placeholder="{...}" />
-            <marker date="1463026378074" expanded="true" signature="4579:4677" placeholder="..." />
-            <marker date="1463026378074" expanded="true" signature="4625:4667" placeholder="..." />
-            <marker date="1463026378074" expanded="true" signature="4716:4823" placeholder=" Indicate that the table needs to be created. ..." />
-            <marker date="1463026378074" expanded="true" signature="4854:4910" placeholder="{...}" />
-            <marker date="1463026378074" expanded="true" signature="4919:5006" placeholder=" Indicate that the table needs to be temporary. ..." />
-            <marker date="1463026378074" expanded="true" signature="5040:5085" placeholder="{...}" />
-            <marker date="1463026378074" expanded="true" signature="5094:5199" placeholder=" Indicate that the table should be dropped. ..." />
-            <marker date="1463026378074" expanded="true" signature="5228:5282" placeholder="{...}" />
-            <marker date="1463026378074" expanded="true" signature="5291:5409" placeholder=" Indicate that the table should be dropped if it exists. ..." />
-            <marker date="1463026378074" expanded="true" signature="5446:5508" placeholder="{...}" />
-            <marker date="1463026378074" expanded="true" signature="5517:5667" placeholder=" Indicate that the given columns should be dropped. ..." />
-            <marker date="1463026378074" expanded="true" signature="5710:5867" placeholder="{...}" />
-            <marker date="1463026378074" expanded="true" signature="5876:6045" placeholder=" Indicate that the given columns should be renamed. ..." />
-            <marker date="1463026378074" expanded="true" signature="6092:6177" placeholder="{...}" />
-            <marker date="1463026378074" expanded="true" signature="6186:6339" placeholder=" Indicate that the given primary key should be dropped. ..." />
-            <marker date="1463026378074" expanded="true" signature="6388:6474" placeholder="{...}" />
-            <marker date="1463026378074" expanded="true" signature="6483:6635" placeholder=" Indicate that the given unique key should be dropped. ..." />
-            <marker date="1463026378074" expanded="true" signature="6676:6760" placeholder="{...}" />
-            <marker date="1463026378074" expanded="true" signature="6769:6916" placeholder=" Indicate that the given index should be dropped. ..." />
-            <marker date="1463026378074" expanded="true" signature="6956:7038" placeholder="{...}" />
-            <marker date="1463026378074" expanded="true" signature="7047:7200" placeholder=" Indicate that the given foreign key should be dropped. ..." />
-            <marker date="1463026378074" expanded="true" signature="7242:7328" placeholder="{...}" />
-            <marker date="1463026378074" expanded="true" signature="7337:7432" placeholder=" Indicate that the timestamp columns should be dropped. ..." />
-            <marker date="1463026378074" expanded="true" signature="7471:7538" placeholder="{...}" />
-            <marker date="1463026378074" expanded="true" signature="7547:7642" placeholder=" Indicate that the timestamp columns should be dropped. ..." />
-            <marker date="1463026378074" expanded="true" signature="7683:7728" placeholder="{...}" />
-            <marker date="1463026378074" expanded="true" signature="7737:7833" placeholder=" Indicate that the soft delete column should be dropped. ..." />
-            <marker date="1463026378074" expanded="true" signature="7873:7926" placeholder="{...}" />
-            <marker date="1463026378074" expanded="true" signature="7935:8034" placeholder=" Indicate that the remember token column should be dropped. ..." />
-            <marker date="1463026378074" expanded="true" signature="8076:8133" placeholder="{...}" />
-            <marker date="1463026378074" expanded="true" signature="8142:8265" placeholder=" Rename the table to a given name. ..." />
-            <marker date="1463026378074" expanded="true" signature="8299:8370" placeholder="{...}" />
-            <marker date="1463026378074" expanded="true" signature="8379:8550" placeholder=" Specify the primary key(s) for the table. ..." />
-            <marker date="1463026378074" expanded="true" signature="8604:8680" placeholder="{...}" />
-            <marker date="1463026378074" expanded="true" signature="8689:8856" placeholder=" Specify a unique index for the table. ..." />
-            <marker date="1463026378074" expanded="true" signature="8909:8984" placeholder="{...}" />
-            <marker date="1463026378074" expanded="true" signature="8993:9154" placeholder=" Specify an index for the table. ..." />
-            <marker date="1463026378074" expanded="true" signature="9206:9280" placeholder="{...}" />
-            <marker date="1463026378074" expanded="true" signature="9289:9455" placeholder=" Specify a foreign key for the table. ..." />
-            <marker date="1463026378074" expanded="true" signature="9509:9585" placeholder="{...}" />
-            <marker date="1463026378074" expanded="true" signature="9594:9756" placeholder=" Create a new auto-incrementing integer (4-byte) column on the table. ..." />
-            <marker date="1463026378074" expanded="true" signature="9798:9864" placeholder="{...}" />
-            <marker date="1463026378074" expanded="true" signature="9873:10041" placeholder=" Create a new auto-incrementing small integer (2-byte) column on the table. ..." />
-            <marker date="1463026378074" expanded="true" signature="10088:10159" placeholder="{...}" />
-            <marker date="1463026378074" expanded="true" signature="10168:10337" placeholder=" Create a new auto-incrementing medium integer (3-byte) column on the table. ..." />
-            <marker date="1463026378074" expanded="true" signature="10385:10457" placeholder="{...}" />
-            <marker date="1463026378074" expanded="true" signature="10466:10632" placeholder=" Create a new auto-incrementing big integer (8-byte) column on the table. ..." />
-            <marker date="1463026378074" expanded="true" signature="10677:10746" placeholder="{...}" />
-            <marker date="1463026378074" expanded="true" signature="10755:10915" placeholder=" Create a new char column on the table. ..." />
-            <marker date="1463026378074" expanded="true" signature="10966:11047" placeholder="{...}" />
-            <marker date="1463026378074" expanded="true" signature="11056:11218" placeholder=" Create a new string column on the table. ..." />
-            <marker date="1463026378074" expanded="true" signature="11271:11354" placeholder="{...}" />
-            <marker date="1463026378074" expanded="true" signature="11363:11495" placeholder=" Create a new text column on the table. ..." />
-            <marker date="1463026378074" expanded="true" signature="11531:11593" placeholder="{...}" />
-            <marker date="1463026378074" expanded="true" signature="11602:11741" placeholder=" Create a new medium text column on the table. ..." />
-            <marker date="1463026378074" expanded="true" signature="11783:11851" placeholder="{...}" />
-            <marker date="1463026378074" expanded="true" signature="11860:11997" placeholder=" Create a new long text column on the table. ..." />
-            <marker date="1463026378074" expanded="true" signature="12037:12103" placeholder="{...}" />
-            <marker date="1463026378074" expanded="true" signature="12112:12323" placeholder=" Create a new integer (4-byte) column on the table. ..." />
-            <marker date="1463026378074" expanded="true" signature="12405:12508" placeholder="{...}" />
-            <marker date="1463026378074" expanded="true" signature="12517:12733" placeholder=" Create a new tiny integer (1-byte) column on the table. ..." />
-            <marker date="1463026378074" expanded="true" signature="12819:12926" placeholder="{...}" />
-            <marker date="1463026378074" expanded="true" signature="12935:13152" placeholder=" Create a new small integer (2-byte) column on the table. ..." />
-            <marker date="1463026378074" expanded="true" signature="13239:13347" placeholder="{...}" />
-            <marker date="1463026378074" expanded="true" signature="13356:13574" placeholder=" Create a new medium integer (3-byte) column on the table. ..." />
-            <marker date="1463026378074" expanded="true" signature="13662:13771" placeholder="{...}" />
-            <marker date="1463026378074" expanded="true" signature="13780:13995" placeholder=" Create a new big integer (8-byte) column on the table. ..." />
-            <marker date="1463026378074" expanded="true" signature="14080:14186" placeholder="{...}" />
-            <marker date="1463026378074" expanded="true" signature="14195:14389" placeholder=" Create a new unsigned tiny integer (1-byte) column on the table. ..." />
-            <marker date="1463026378074" expanded="true" signature="14464:14542" placeholder="{...}" />
-            <marker date="1463026378074" expanded="true" signature="14551:14746" placeholder=" Create a new unsigned small integer (2-byte) column on the table. ..." />
-            <marker date="1463026378074" expanded="true" signature="14822:14901" placeholder="{...}" />
-            <marker date="1463026378074" expanded="true" signature="14910:15106" placeholder=" Create a new unsigned medium integer (3-byte) column on the table. ..." />
-            <marker date="1463026378074" expanded="true" signature="15183:15263" placeholder="{...}" />
-            <marker date="1463026378074" expanded="true" signature="15272:15461" placeholder=" Create a new unsigned integer (4-byte) column on the table. ..." />
-            <marker date="1463026378074" expanded="true" signature="15532:15606" placeholder="{...}" />
-            <marker date="1463026378074" expanded="true" signature="15615:15808" placeholder=" Create a new unsigned big integer (8-byte) column on the table. ..." />
-            <marker date="1463026378074" expanded="true" signature="15882:15959" placeholder="{...}" />
-            <marker date="1463026378074" expanded="true" signature="15968:16162" placeholder=" Create a new float column on the table. ..." />
-            <marker date="1463026378074" expanded="true" signature="16224:16315" placeholder="{...}" />
-            <marker date="1463026378074" expanded="true" signature="16324:16525" placeholder=" Create a new double column on the table. ..." />
-            <marker date="1463026378074" expanded="true" signature="16594:16686" placeholder="{...}" />
-            <marker date="1463026378074" expanded="true" signature="16695:16891" placeholder=" Create a new decimal column on the table. ..." />
-            <marker date="1463026378074" expanded="true" signature="16955:17048" placeholder="{...}" />
-            <marker date="1463026378074" expanded="true" signature="17057:17192" placeholder=" Create a new boolean column on the table. ..." />
-            <marker date="1463026378074" expanded="true" signature="17231:17296" placeholder="{...}" />
-            <marker date="1463026378074" expanded="true" signature="17305:17469" placeholder=" Create a new enum column on the table. ..." />
-            <marker date="1463026378074" expanded="true" signature="17521:17603" placeholder="{...}" />
-            <marker date="1463026378074" expanded="true" signature="17612:17744" placeholder=" Create a new json column on the table. ..." />
-            <marker date="1463026378074" expanded="true" signature="17780:17842" placeholder="{...}" />
-            <marker date="1463026378074" expanded="true" signature="17851:17984" placeholder=" Create a new jsonb column on the table. ..." />
-            <marker date="1463026378074" expanded="true" signature="18021:18084" placeholder="{...}" />
-            <marker date="1463026378074" expanded="true" signature="18093:18225" placeholder=" Create a new date column on the table. ..." />
-            <marker date="1463026378074" expanded="true" signature="18261:18323" placeholder="{...}" />
-            <marker date="1463026378074" expanded="true" signature="18332:18469" placeholder=" Create a new date-time column on the table. ..." />
-            <marker date="1463026378074" expanded="true" signature="18509:18575" placeholder="{...}" />
-            <marker date="1463026378074" expanded="true" signature="18584:18738" placeholder=" Create a new date-time column (with time zone) on the table. ..." />
-            <marker date="1463026378074" expanded="true" signature="18780:18848" placeholder="{...}" />
-            <marker date="1463026378074" expanded="true" signature="18857:18989" placeholder=" Create a new time column on the table. ..." />
-            <marker date="1463026378074" expanded="true" signature="19025:19087" placeholder="{...}" />
-            <marker date="1463026378074" expanded="true" signature="19096:19245" placeholder=" Create a new time column (with time zone) on the table. ..." />
-            <marker date="1463026378074" expanded="true" signature="19283:19347" placeholder="{...}" />
-            <marker date="1463026378074" expanded="true" signature="19356:19493" placeholder=" Create a new timestamp column on the table. ..." />
-            <marker date="1463026378074" expanded="true" signature="19534:19601" placeholder="{...}" />
-            <marker date="1463026378074" expanded="true" signature="19610:19764" placeholder=" Create a new timestamp (with time zone) column on the table. ..." />
-            <marker date="1463026378074" expanded="true" signature="19807:19876" placeholder="{...}" />
-            <marker date="1463026378074" expanded="true" signature="19885:20027" placeholder=" Add nullable creation and update timestamps to the table. ..." />
-            <marker date="1463026378074" expanded="true" signature="20070:20111" placeholder="{...}" />
-            <marker date="1463026378074" expanded="true" signature="20120:20218" placeholder=" Add nullable creation and update timestamps to the table. ..." />
-            <marker date="1463026378074" expanded="true" signature="20253:20370" placeholder="{...}" />
-            <marker date="1463026378074" expanded="true" signature="20379:20477" placeholder=" Add creation and update timestampTz columns to the table. ..." />
-            <marker date="1463026378074" expanded="true" signature="20514:20635" placeholder="{...}" />
-            <marker date="1463026378074" expanded="true" signature="20644:20750" placeholder=" Add a &quot;deleted at&quot; timestamp for the table. ..." />
-            <marker date="1463026378074" expanded="true" signature="20786:20857" placeholder="{...}" />
-            <marker date="1463026378074" expanded="true" signature="20866:21000" placeholder=" Create a new binary column on the table. ..." />
-            <marker date="1463026378074" expanded="true" signature="21038:21102" placeholder="{...}" />
-            <marker date="1463026378074" expanded="true" signature="21111:21243" placeholder=" Create a new uuid column on the table. ..." />
-            <marker date="1463026378074" expanded="true" signature="21279:21341" placeholder="{...}" />
-            <marker date="1463026378074" expanded="true" signature="21350:21488" placeholder=" Create a new IP address column on the table. ..." />
-            <marker date="1463026378074" expanded="true" signature="21529:21596" placeholder="{...}" />
-            <marker date="1463026378074" expanded="true" signature="21605:21744" placeholder=" Create a new MAC address column on the table. ..." />
-            <marker date="1463026378074" expanded="true" signature="21786:21854" placeholder="{...}" />
-            <marker date="1463026378074" expanded="true" signature="21863:22019" placeholder=" Add the proper columns for a polymorphic table. ..." />
-            <marker date="1463026378074" expanded="true" signature="22074:22239" placeholder="{...}" />
-            <marker date="1463026378074" expanded="true" signature="22248:22357" placeholder=" Adds the `remember_token` column to the table. ..." />
-            <marker date="1463026378074" expanded="true" signature="22395:22472" placeholder="{...}" />
-            <marker date="1463026378074" expanded="true" signature="22481:22690" placeholder=" Create a new drop index command on the blueprint. ..." />
-            <marker date="1463026378074" expanded="true" signature="22757:23241" placeholder="{...}" />
-            <marker date="1463026378074" expanded="true" signature="23066:23169" placeholder="..." />
-            <marker date="1463026378074" expanded="true" signature="23250:23463" placeholder=" Add a new index command to the blueprint. ..." />
-            <marker date="1463026378074" expanded="true" signature="23526:23995" placeholder="{...}" />
-            <marker date="1463026378074" expanded="true" signature="23846:23917" placeholder="..." />
-            <marker date="1463026378074" expanded="true" signature="24004:24150" placeholder=" Create a default index name for the table. ..." />
-            <marker date="1463026378074" expanded="true" signature="24214:24360" placeholder="{...}" />
-            <marker date="1463026378074" expanded="true" signature="24369:24559" placeholder=" Add a new column to the blueprint. ..." />
-            <marker date="1463026378074" expanded="true" signature="24629:24802" placeholder="{...}" />
-            <marker date="1463026378074" expanded="true" signature="24811:24924" placeholder=" Remove a column from the schema blueprint. ..." />
-            <marker date="1463026378074" expanded="true" signature="24966:25163" placeholder="{...}" />
-            <marker date="1463026378074" expanded="true" signature="25011:25132" placeholder="..." />
-            <marker date="1463026378074" expanded="true" signature="25024:25131" placeholder="..." />
-            <marker date="1463026378074" expanded="true" signature="25067:25130" placeholder="..." />
-            <marker date="1463026378074" expanded="true" signature="25172:25333" placeholder=" Add a new command to the blueprint. ..." />
-            <marker date="1463026378074" expanded="true" signature="25400:25519" placeholder="{...}" />
-            <marker date="1463026378074" expanded="true" signature="25528:25683" placeholder=" Create a new Fluent command. ..." />
-            <marker date="1463026378074" expanded="true" signature="25753:25835" placeholder="{...}" />
-            <marker date="1463026378074" expanded="true" signature="25844:25925" placeholder=" Get the table the blueprint describes. ..." />
-            <marker date="1463026378074" expanded="true" signature="25958:25999" placeholder="{...}" />
-            <marker date="1463026378074" expanded="true" signature="26008:26083" placeholder=" Get the columns on the blueprint. ..." />
-            <marker date="1463026378074" expanded="true" signature="26118:26161" placeholder="{...}" />
-            <marker date="1463026378074" expanded="true" signature="26170:26246" placeholder=" Get the commands on the blueprint. ..." />
-            <marker date="1463026378074" expanded="true" signature="26282:26326" placeholder="{...}" />
-            <marker date="1463026378074" expanded="true" signature="26335:26431" placeholder=" Get the columns on the blueprint that should be added. ..." />
-            <marker date="1463026378074" expanded="true" signature="26471:26598" placeholder="{...}" />
-            <marker date="1463026378074" expanded="true" signature="26506:26590" placeholder="..." />
-            <marker date="1463026378074" expanded="true" signature="26542:26589" placeholder="..." />
-            <marker date="1463026378074" expanded="true" signature="26607:26705" placeholder=" Get the columns on the blueprint that should be changed. ..." />
-            <marker date="1463026378074" expanded="true" signature="26747:26879" placeholder="{...}" />
-            <marker date="1463026378074" expanded="true" signature="26782:26871" placeholder="..." />
-            <marker date="1463026378074" expanded="true" signature="26818:26870" placeholder="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -680,16 +481,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="496">
           <caret line="18" column="47" selection-start-line="18" selection-start-column="47" selection-end-line="18" selection-end-column="47" />
-          <folding>
-            <marker date="1464322512321" expanded="false" signature="11:133" placeholder="..." />
-            <marker date="1464322512321" expanded="true" signature="175:673" placeholder="{...}" />
-            <marker date="1464322512321" expanded="true" signature="185:245" placeholder=" Run the migrations. ..." />
-            <marker date="1464322512321" expanded="true" signature="272:526" placeholder="{...}" />
-            <marker date="1464322512321" expanded="true" signature="302:518" placeholder="..." />
-            <marker date="1464322512321" expanded="true" signature="340:517" placeholder="..." />
-            <marker date="1464322512321" expanded="true" signature="535:599" placeholder=" Reverse the migrations. ..." />
-            <marker date="1464322512321" expanded="true" signature="628:671" placeholder="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -697,16 +488,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="527">
           <caret line="19" column="32" selection-start-line="19" selection-start-column="32" selection-end-line="19" selection-end-column="32" />
-          <folding>
-            <marker date="1463717794239" expanded="false" signature="11:133" placeholder="..." />
-            <marker date="1463717794239" expanded="true" signature="178:672" placeholder="{...}" />
-            <marker date="1463717794239" expanded="true" signature="188:248" placeholder=" Run the migrations. ..." />
-            <marker date="1463717794239" expanded="true" signature="275:522" placeholder="{...}" />
-            <marker date="1463717794239" expanded="true" signature="305:514" placeholder="..." />
-            <marker date="1463717794239" expanded="true" signature="346:513" placeholder="..." />
-            <marker date="1463717794239" expanded="true" signature="531:595" placeholder=" Reverse the migrations. ..." />
-            <marker date="1463717794239" expanded="true" signature="624:670" placeholder="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -714,16 +495,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1463026322417" expanded="false" signature="11:94" placeholder="..." />
-            <marker date="1463026322417" expanded="true" signature="145:632" placeholder="{...}" />
-            <marker date="1463026322417" expanded="true" signature="155:215" placeholder=" Run the migrations. ..." />
-            <marker date="1463026322417" expanded="true" signature="242:475" placeholder="{...}" />
-            <marker date="1463026322417" expanded="true" signature="272:467" placeholder="..." />
-            <marker date="1463026322417" expanded="true" signature="320:466" placeholder="..." />
-            <marker date="1463026322417" expanded="true" signature="484:548" placeholder=" Reverse the migrations. ..." />
-            <marker date="1463026322417" expanded="true" signature="577:630" placeholder="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -731,16 +502,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="372">
           <caret line="14" column="4" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="4" />
-          <folding>
-            <marker date="1464323064279" expanded="false" signature="11:133" placeholder="..." />
-            <marker date="1464323064279" expanded="true" signature="175:812" placeholder="{...}" />
-            <marker date="1464323064279" expanded="true" signature="185:245" placeholder=" Run the migrations. ..." />
-            <marker date="1464323064279" expanded="true" signature="272:665" placeholder="{...}" />
-            <marker date="1464323064279" expanded="true" signature="302:657" placeholder="..." />
-            <marker date="1464323064279" expanded="true" signature="340:656" placeholder="..." />
-            <marker date="1464323064279" expanded="true" signature="674:738" placeholder=" Reverse the migrations. ..." />
-            <marker date="1464323064279" expanded="true" signature="767:810" placeholder="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -762,12 +523,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="186">
           <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
-          <folding>
-            <marker date="1464500030382" expanded="true" signature="88:383" placeholder="{...}" />
-            <marker date="1464500030382" expanded="true" signature="98:217" placeholder=" Get all the owning likeable models. ..." />
-            <marker date="1464500030382" expanded="true" signature="250:295" placeholder="{...}" />
-            <marker date="1464500030382" expanded="true" signature="323:381" placeholder="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -782,16 +537,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="465">
           <caret line="17" column="44" selection-start-line="17" selection-start-column="44" selection-end-line="17" selection-end-column="44" />
-          <folding>
-            <marker date="1464426450067" expanded="true" signature="11:133" placeholder="..." />
-            <marker date="1464426450067" expanded="true" signature="175:623" placeholder="{...}" />
-            <marker date="1464426450067" expanded="true" signature="185:245" placeholder=" Run the migrations. ..." />
-            <marker date="1464426450067" expanded="true" signature="272:476" placeholder="{...}" />
-            <marker date="1464426450067" expanded="true" signature="302:468" placeholder="..." />
-            <marker date="1464426450067" expanded="true" signature="340:467" placeholder="..." />
-            <marker date="1464426450067" expanded="true" signature="485:549" placeholder=" Reverse the migrations. ..." />
-            <marker date="1464426450067" expanded="true" signature="578:621" placeholder="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -856,51 +601,68 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="385">
           <caret line="17" column="11" selection-start-line="17" selection-start-column="11" selection-end-line="17" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/com/jetbrains/php/lang/psi/stubs/data/pcre.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="343">
+          <caret line="82" column="9" selection-start-line="82" selection-start-column="9" selection-end-line="82" selection-end-column="9" />
           <folding>
-            <marker date="1464504207471" expanded="true" signature="0:1212" placeholder="{&quot;name&quot;: &quot;laravel/laravel&quot;...}" />
-            <marker date="1464504207471" expanded="true" signature="88:124" placeholder="[...]" />
-            <marker date="1464504207471" expanded="true" signature="180:240" placeholder="{&quot;php&quot;: &quot;&gt;=5.5.9&quot;...}" />
-            <marker date="1464504207471" expanded="true" signature="259:500" placeholder="{&quot;fzaninotto/faker&quot;: &quot;~1.4&quot;...}" />
-            <marker date="1464504207471" expanded="true" signature="516:606" placeholder="{...}" />
-            <marker date="1464504207471" expanded="true" signature="534:558" placeholder="[...]" />
-            <marker date="1464504207471" expanded="true" signature="573:602" placeholder="{&quot;App\&quot;: &quot;app/&quot;...}" />
-            <marker date="1464504207471" expanded="true" signature="626:730" placeholder="{...}" />
-            <marker date="1464504207471" expanded="true" signature="644:678" placeholder="[...]" />
-            <marker date="1464504207471" expanded="true" signature="693:726" placeholder="[...]" />
-            <marker date="1464504207471" expanded="true" signature="745:1159" placeholder="{...}" />
-            <marker date="1464504207471" expanded="true" signature="780:836" placeholder="[...]" />
-            <marker date="1464504207471" expanded="true" signature="869:909" placeholder="[...]" />
-            <marker date="1464504207471" expanded="true" signature="935:1033" placeholder="[...]" />
-            <marker date="1464504207471" expanded="true" signature="1058:1155" placeholder="[...]" />
-            <marker date="1464504207471" expanded="true" signature="1173:1210" placeholder="{&quot;preferred-install&quot;: &quot;dist&quot;...}" />
+            <marker date="1458140525000" expanded="true" signature="31:2235" placeholder=" Perform a regular expression match ..." />
+            <marker date="1458140525000" expanded="true" signature="2335:4303" placeholder=" Perform a global regular expression match ..." />
+            <marker date="1458140525000" expanded="true" signature="4424:7829" placeholder=" Perform a regular expression search and replace ..." />
+            <marker date="1458140525000" expanded="true" signature="7925:10146" placeholder=" Perform a regular expression search and replace using a callback ..." />
+            <marker date="1458140525000" expanded="true" signature="10257:10815" placeholder=" Perform a regular expression search and replace using callbacks ..." />
+            <marker date="1458140525000" expanded="true" signature="10922:11445" placeholder=" Perform a regular expression search and replace ..." />
+            <marker date="1458140525000" expanded="true" signature="11540:12527" placeholder=" Split string by a regular expression ..." />
+            <marker date="1458140525000" expanded="true" signature="12603:13092" placeholder=" Quote regular expression characters ..." />
+            <marker date="1458140525000" expanded="true" signature="13148:13685" placeholder=" Return array entries that match the pattern ..." />
+            <marker date="1458140525000" expanded="true" signature="13751:14245" placeholder=" Returns the error code of the last PCRE regex execution ..." />
+            <marker date="1458140525000" expanded="true" signature="14284:14567" placeholder=" Orders results so that $matches[0] is an array of full pattern ..." />
+            <marker date="1458140525000" expanded="true" signature="14608:14729" placeholder=" Returned by {@see preg_last_error()} if the last PCRE function failed due to limited JIT stack space. ..." />
+            <marker date="1458140525000" expanded="true" signature="14776:15024" placeholder=" Orders results so that $matches[0] is an array of first set of ..." />
+            <marker date="1458140525000" expanded="true" signature="15061:15179" placeholder=" See the description of ..." />
+            <marker date="1458140525000" expanded="true" signature="15223:15351" placeholder=" This flag tells &lt;b&gt;preg_split&lt;/b&gt; to return only non-empty ..." />
+            <marker date="1458140525000" expanded="true" signature="15393:15558" placeholder=" This flag tells &lt;b&gt;preg_split&lt;/b&gt; to capture ..." />
+            <marker date="1458140525000" expanded="true" signature="15605:15999" placeholder=" If this flag is set, for every occurring match the appendant string ..." />
+            <marker date="1458140525000" expanded="true" signature="16079:16200" placeholder=" Returned by &lt;b&gt;preg_last_error&lt;/b&gt; if there were no ..." />
+            <marker date="1458140525000" expanded="true" signature="16236:16369" placeholder=" Returned by &lt;b&gt;preg_last_error&lt;/b&gt; if there was an ..." />
+            <marker date="1458140525000" expanded="true" signature="16411:16538" placeholder=" Returned by &lt;b&gt;preg_last_error&lt;/b&gt; if backtrack limit was exhausted. ..." />
+            <marker date="1458140525000" expanded="true" signature="16587:16714" placeholder=" Returned by &lt;b&gt;preg_last_error&lt;/b&gt; if recursion limit was exhausted. ..." />
+            <marker date="1458140525000" expanded="true" signature="16763:16955" placeholder=" Returned by &lt;b&gt;preg_last_error&lt;/b&gt; if the last error was ..." />
+            <marker date="1458140525000" expanded="true" signature="16997:17215" placeholder=" Returned by &lt;b&gt;preg_last_error&lt;/b&gt; if the offset didn't ..." />
+            <marker date="1458140525000" expanded="true" signature="17264:17378" placeholder=" PCRE version and release date (e.g. &quot;7.0 18-Dec-2006&quot;). ..." />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Expression.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="620">
-          <caret line="59" column="59" selection-start-line="59" selection-start-column="59" selection-end-line="59" selection-end-column="59" />
+        <state relative-caret-position="682">
+          <caret line="58" column="39" selection-start-line="58" selection-start-column="39" selection-end-line="58" selection-end-column="39" />
           <folding>
-            <marker date="1464582264067" expanded="false" signature="9:81" placeholder=" @author Rizart Dokollari &lt;***REMOVED***&gt; ..." />
-            <marker date="1464582264067" expanded="true" signature="118:975" placeholder="{...}" />
-            <marker date="1464582264067" expanded="true" signature="182:221" placeholder="{...}" />
-            <marker date="1464582264067" expanded="true" signature="253:324" placeholder="{...}" />
-            <marker date="1464582264067" expanded="true" signature="333:371" placeholder=" @param mixed $expression ..." />
-            <marker date="1464582264067" expanded="true" signature="420:477" placeholder="{...}" />
-            <marker date="1464582264067" expanded="true" signature="512:561" placeholder="{...}" />
-            <marker date="1464582264067" expanded="true" signature="596:670" placeholder="{...}" />
-            <marker date="1464582264067" expanded="true" signature="706:785" placeholder="{...}" />
-            <marker date="1464582264067" expanded="true" signature="819:865" placeholder="{...}" />
-            <marker date="1464582264067" expanded="true" signature="900:973" placeholder="{...}" />
+            <marker date="1464633584357" expanded="false" signature="9:81" placeholder=" @author Rizart Dokollari &lt;***REMOVED***&gt; ..." />
+            <marker date="1464633584357" expanded="true" signature="118:1255" placeholder="{...}" />
+            <marker date="1464633584357" expanded="true" signature="182:221" placeholder="{...}" />
+            <marker date="1464633584357" expanded="true" signature="253:298" placeholder="{...}" />
+            <marker date="1464633584357" expanded="true" signature="336:415" placeholder="{...}" />
+            <marker date="1464633584357" expanded="true" signature="449:497" placeholder="{...}" />
+            <marker date="1464633584357" expanded="true" signature="531:595" placeholder="{...}" />
+            <marker date="1464633584357" expanded="true" signature="636:714" placeholder="{...}" />
+            <marker date="1464633584357" expanded="true" signature="749:846" placeholder="{...}" />
+            <marker date="1464633584357" expanded="true" signature="887:986" placeholder="{...}" />
+            <marker date="1464633584357" expanded="true" signature="1020:1066" placeholder="{...}" />
+            <marker date="1464633584357" expanded="true" signature="1099:1151" placeholder="{...}" />
+            <marker date="1464633584357" expanded="true" signature="1185:1253" placeholder="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/tests/unit/ExpressionTest.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="292">
-          <caret line="37" column="0" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
+        <state relative-caret-position="968">
+          <caret line="66" column="34" selection-start-line="66" selection-start-column="34" selection-end-line="66" selection-end-column="34" />
           <folding />
         </state>
       </provider>
