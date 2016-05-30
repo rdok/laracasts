@@ -9,6 +9,8 @@ namespace App;
 
 class Expression
 {
+    protected $expression;
+
     public static function make()
     {
         return new static;
@@ -16,7 +18,17 @@ class Expression
 
     public function anything()
     {
-        return '/.*/';
+        $this->setExpression('.*');
+
+        return $this;
+    }
+
+    /**
+     * @param mixed $expression
+     */
+    public function setExpression($expression)
+    {
+        $this->expression = "/$expression/";
     }
 
     public function then($string)
@@ -26,11 +38,25 @@ class Expression
 
     public function find($string)
     {
-        return "/$string/";
+        $this->setExpression($string);
+
+        return $this;
     }
 
     public function maybe($string)
     {
-        return "/($string)?/";
+        $this->setExpression("($string)?");
+
+        return $this;
+    }
+
+    public function __toString()
+    {
+        return $this->expression;
+    }
+
+    public function test($string)
+    {
+        return (bool)preg_match($this->expression, $string);
     }
 }
