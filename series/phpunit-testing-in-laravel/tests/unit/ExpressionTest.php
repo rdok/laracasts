@@ -15,10 +15,12 @@ class ExpressionTest extends \PHPUnit_Framework_TestCase
     public function finds_a_string()
     {
         $regex = Expression::make()->find('www');
-        $this->assertRegExp($regex, 'www');
+        $this->assertTrue($regex->test('www'));
 
         $regex = Expression::make()->then('www');
-        $this->assertRegExp($regex, 'www');
+        $this->assertTrue($regex->test('www'));
+
+        $this->assertFalse($regex->test('aaa'));
     }
 
     /** @test */
@@ -26,19 +28,23 @@ class ExpressionTest extends \PHPUnit_Framework_TestCase
     {
         $regex = Expression::make()->anything();
 
-        $this->assertRegExp($regex, 'foo');
+        $this->assertTrue($regex->test('foo'));
     }
 
     /** @test */
     public function maybe_has_a_value()
     {
         $regex = Expression::make()->maybe('http');
-        $this->assertRegExp($regex, 'http');
-        $this->assertRegExp($regex, '');
+        $this->assertTrue($regex->test('http'));
+
+        $this->assertTrue($regex->test(''));
     }
 
     /** @test */
     public function chains_method_calls()
     {
+        $regex = Expression::make()->find('foo')->maybe('bar')->then('biz');
+
+        $this->assertRegExp($regex, 'foobarbiz');
     }
 }
