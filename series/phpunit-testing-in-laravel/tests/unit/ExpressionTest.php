@@ -43,8 +43,26 @@ class ExpressionTest extends \PHPUnit_Framework_TestCase
     /** @test */
     public function chains_method_calls()
     {
-        $regex = Expression::make()->find('foo')->maybe('bar')->then('biz');
+        $regex = Expression::make()->find('www')->maybe('.')->then('laracasts');
 
-        $this->assertRegExp($regex, 'foobarbiz');
+        $this->assertTrue($regex->test('www.laracasts'));
+        $this->assertFalse($regex->test('wwwXlaracasts'));
     }
+
+    /** @test */
+    public function exclude_values()
+    {
+        $regex = Expression::make()
+            ->find('foo')
+            ->anythingBut('bar')
+            ->then('biz');
+
+        $this->assertTrue($regex->test('foobazbiz'));
+        $this->assertFalse($regex->test('foobarbiz'));
+        $this->assertTrue($regex->test('foobiz'));
+    }
+
+    // TODO: Specify the beginning of the line
+    // TODO: Specify the end of the line
+    // TODO: Capital of lower case
 }

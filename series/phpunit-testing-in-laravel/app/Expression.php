@@ -18,45 +18,59 @@ class Expression
 
     public function anything()
     {
-        $this->setExpression('.*');
+        return $this->add('.*');
+    }
+
+    public function add($expression)
+    {
+        $this->expression .= "$expression";
 
         return $this;
     }
 
-    /**
-     * @param mixed $expression
-     */
-    public function setExpression($expression)
+    public function then($value)
     {
-        $this->expression = "/$expression/";
+        return $this->find($value);
     }
 
-    public function then($string)
+    public function find($value)
     {
-        return $this->find($string);
+        return $this->add($this->sanitize($value));
     }
 
-    public function find($string)
+    protected function sanitize($value)
     {
-        $this->setExpression($string);
+        $value = preg_quote($value, '/');
 
-        return $this;
+        return $value;
     }
 
-    public function maybe($string)
+    public function maybe($value)
     {
-        $this->setExpression("($string)?");
+        $value = $this->sanitize($value);
 
-        return $this;
+        return $this->add("(?:$value)?");
+    }
+
+    public function anythingBut($value)
+    {
+        $value = $this->sanitize($value);
+
+        return $this->add("(?!$value).*?");
     }
 
     public function __toString()
     {
-        return $this->expression;
+        return $this->getRegex();
     }
 
-    public function test($string)
+    private function getRegex()
     {
-        return (bool)preg_match($this->expression, $string);
+        return "/{$this->expression}/";
+    }
+
+    public function test($value)
+    {
+        return (bool)preg_match((string)$this, $value);
     }
 }
