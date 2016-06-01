@@ -4,6 +4,7 @@
     <list default="true" id="c1dba12c-e9b7-45f6-8463-2ef7f175c9f2" name="Default" comment="" />
     <ignored path="http-requests-with-guzzle.iws" />
     <ignored path=".idea/workspace.xml" />
+    <ignored path=".idea/dataSources.local.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -20,17 +21,28 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="composer.json" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/composer.json">
+      <file leaf-file-name="routes.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/Http/routes.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="279">
-              <caret line="9" column="14" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="14" />
-              <folding />
+            <state relative-caret-position="930">
+              <caret line="38" column="0" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
+              <folding>
+                <element signature="e#7#29#0#PHP" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/.env.example" />
+        <option value="$PROJECT_DIR$/.env" />
+        <option value="$PROJECT_DIR$/app/Http/routes.php" />
+      </list>
+    </option>
   </component>
   <component name="JsBuildToolGruntFileManager" detection-done="true" />
   <component name="JsBuildToolPackageJson" detection-done="true">
@@ -76,24 +88,7 @@
     </navigator>
     <panes>
       <pane id="ProjectPane">
-        <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="http-requests-with-guzzle" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="http-requests-with-guzzle" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="http-requests-with-guzzle" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
+        <subPane />
       </pane>
       <pane id="Scratches" />
       <pane id="Scope" />
@@ -112,19 +107,19 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1464750381473</updated>
-      <workItem from="1464750382692" duration="89000" />
+      <workItem from="1464750382692" duration="3264000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="89000" />
+    <option name="totallyTimeSpent" value="3264000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="24" width="1920" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -154,9 +149,399 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/composer.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="279">
-          <caret line="9" column="14" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="14" />
+        <state relative-caret-position="248">
+          <caret line="8" column="29" selection-start-line="8" selection-start-column="29" selection-end-line="8" selection-end-column="29" />
+          <folding>
+            <marker date="1464754389398" expanded="true" signature="0:1357" placeholder="{&quot;name&quot;: &quot;laravel/laravel&quot;...}" />
+            <marker date="1464754389398" expanded="true" signature="180:336" placeholder="{&quot;php&quot;: &quot;&gt;=5.5.9&quot;...}" />
+            <marker date="1464754389398" expanded="true" signature="357:563" placeholder="{&quot;fzaninotto/faker&quot;: &quot;~1.4&quot;...}" />
+            <marker date="1464754389398" expanded="true" signature="581:701" placeholder="{...}" />
+            <marker date="1464754389398" expanded="true" signature="603:637" placeholder="[...]" />
+            <marker date="1464754389398" expanded="true" signature="656:695" placeholder="{&quot;App\&quot;: &quot;app/&quot;...}" />
+            <marker date="1464754389398" expanded="true" signature="723:795" placeholder="{...}" />
+            <marker date="1464754389398" expanded="true" signature="745:789" placeholder="[...]" />
+            <marker date="1464754389398" expanded="true" signature="812:1296" placeholder="{...}" />
+            <marker date="1464754389398" expanded="true" signature="851:917" placeholder="[...]" />
+            <marker date="1464754389398" expanded="true" signature="954:1004" placeholder="[...]" />
+            <marker date="1464754389398" expanded="true" signature="1034:1148" placeholder="[...]" />
+            <marker date="1464754389398" expanded="true" signature="1177:1290" placeholder="[...]" />
+            <marker date="1464754389398" expanded="true" signature="1312:1355" placeholder="{&quot;preferred-install&quot;: &quot;dist&quot;...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/guzzlehttp/guzzle/src/Client.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="343">
+          <caret line="100" column="20" selection-start-line="100" selection-start-column="20" selection-end-line="100" selection-end-column="20" />
+          <folding>
+            <marker date="1464750422129" expanded="false" signature="33:220" placeholder="..." />
+            <marker date="1464750422129" expanded="true" signature="225:1033" placeholder=" @method ResponseInterface get($uri, array $options = []) ..." />
+            <marker date="1464750422129" expanded="true" signature="1075:14587" placeholder="{...}" />
+            <marker date="1464750422129" expanded="true" signature="1153:2667" placeholder=" Clients accept an array of constructor parameters. ..." />
+            <marker date="1464750422129" expanded="true" signature="2721:3058" placeholder="{...}" />
+            <marker date="1464750422129" expanded="true" signature="2769:2835" placeholder="..." />
+            <marker date="1464750422129" expanded="true" signature="2929:3007" placeholder="..." />
+            <marker date="1464750422129" expanded="true" signature="3102:3517" placeholder="{...}" />
+            <marker date="1464750422129" expanded="true" signature="3140:3264" placeholder="..." />
+            <marker date="1464750422129" expanded="true" signature="3596:3895" placeholder="{...}" />
+            <marker date="1464750422129" expanded="true" signature="3750:3887" placeholder="..." />
+            <marker date="1464750422129" expanded="true" signature="3969:4096" placeholder="{...}" />
+            <marker date="1464750422129" expanded="true" signature="4173:4975" placeholder="{...}" />
+            <marker date="1464750422129" expanded="true" signature="4652:4695" placeholder="..." />
+            <marker date="1464750422129" expanded="true" signature="5047:5182" placeholder="{...}" />
+            <marker date="1464750422129" expanded="true" signature="5229:5380" placeholder="{...}" />
+            <marker date="1464750422129" expanded="true" signature="5432:5650" placeholder="{...}" />
+            <marker date="1464750422129" expanded="true" signature="5481:5567" placeholder="..." />
+            <marker date="1464750422129" expanded="true" signature="5659:5752" placeholder=" Configures the default options for a client. ..." />
+            <marker date="1464750422129" expanded="true" signature="5808:7267" placeholder="{...}" />
+            <marker date="1464750422129" expanded="true" signature="5836:6072" placeholder="..." />
+            <marker date="1464750422129" expanded="true" signature="6188:6246" placeholder="..." />
+            <marker date="1464750422129" expanded="true" signature="6294:6353" placeholder="..." />
+            <marker date="1464750422129" expanded="true" signature="6400:6541" placeholder="..." />
+            <marker date="1464750422129" expanded="true" signature="6662:6727" placeholder="..." />
+            <marker date="1464750422129" expanded="true" signature="6823:6911" placeholder="..." />
+            <marker date="1464750422129" expanded="true" signature="6919:7260" placeholder="..." />
+            <marker date="1464750422129" expanded="true" signature="7058:7175" placeholder="..." />
+            <marker date="1464750422129" expanded="true" signature="7116:7161" placeholder="..." />
+            <marker date="1464750422129" expanded="true" signature="7276:7423" placeholder=" Merges default options into the array. ..." />
+            <marker date="1464750422129" expanded="true" signature="7472:8584" placeholder="{...}" />
+            <marker date="1464750422129" expanded="true" signature="7558:7741" placeholder="..." />
+            <marker date="1464750422129" expanded="true" signature="7941:8294" placeholder="..." />
+            <marker date="1464750422129" expanded="true" signature="8040:8147" placeholder="..." />
+            <marker date="1464750422129" expanded="true" signature="8190:8284" placeholder="..." />
+            <marker date="1464750422129" expanded="true" signature="8462:8552" placeholder="..." />
+            <marker date="1464750422129" expanded="true" signature="8493:8542" placeholder="..." />
+            <marker date="1464750422129" expanded="true" signature="8593:8932" placeholder=" Transfers the given request and applies request options. ..." />
+            <marker date="1464750422129" expanded="true" signature="9007:9663" placeholder="{...}" />
+            <marker date="1464750422129" expanded="true" signature="9082:9183" placeholder="..." />
+            <marker date="1464750422129" expanded="true" signature="9266:9380" placeholder="..." />
+            <marker date="1464750422129" expanded="true" signature="9497:9576" placeholder="..." />
+            <marker date="1464750422129" expanded="true" signature="9601:9656" placeholder="..." />
+            <marker date="1464750422129" expanded="true" signature="9672:9862" placeholder=" Applies the array of request options to a request. ..." />
+            <marker date="1464750422129" expanded="true" signature="9942:14156" placeholder="{...}" />
+            <marker date="1464750422129" expanded="true" signature="10017:10676" placeholder="..." />
+            <marker date="1464750422129" expanded="true" signature="10065:10447" placeholder="..." />
+            <marker date="1464750422129" expanded="true" signature="10722:10888" placeholder="..." />
+            <marker date="1464750422129" expanded="true" signature="11000:11093" placeholder="..." />
+            <marker date="1464750422129" expanded="true" signature="11137:11419" placeholder="..." />
+            <marker date="1464750422129" expanded="true" signature="11186:11286" placeholder="..." />
+            <marker date="1464750422129" expanded="true" signature="11294:11369" placeholder="..." />
+            <marker date="1464750422129" expanded="true" signature="11460:11669" placeholder="..." />
+            <marker date="1464750422129" expanded="true" signature="11506:11557" placeholder="..." />
+            <marker date="1464750422129" expanded="true" signature="11711:12439" placeholder="..." />
+            <marker date="1464750422129" expanded="true" signature="11963:12429" placeholder="..." />
+            <marker date="1464750422129" expanded="true" signature="11993:12155" placeholder="..." />
+            <marker date="1464750422129" expanded="true" signature="12186:12416" placeholder="..." />
+            <marker date="1464750422129" expanded="true" signature="12481:12878" placeholder="..." />
+            <marker date="1464750422129" expanded="true" signature="12557:12651" placeholder="..." />
+            <marker date="1464750422129" expanded="true" signature="12690:12791" placeholder="..." />
+            <marker date="1464750422129" expanded="true" signature="12919:13163" placeholder="..." />
+            <marker date="1464750422129" expanded="true" signature="13291:13518" placeholder="..." />
+            <marker date="1464750422129" expanded="true" signature="13632:14123" placeholder="..." />
+            <marker date="1464750422129" expanded="true" signature="13797:13929" placeholder="..." />
+            <marker date="1464750422129" expanded="true" signature="13845:13915" placeholder="..." />
+            <marker date="1464750422129" expanded="true" signature="14192:14585" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/com/jetbrains/php/lang/psi/stubs/data/oauth.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="343">
+          <caret line="299" column="20" selection-start-line="299" selection-start-column="20" selection-end-line="299" selection-end-column="20" />
+          <folding>
+            <marker date="1458140525000" expanded="true" signature="1044:1191" placeholder=" Generate a Signature Base String ..." />
+            <marker date="1458140525000" expanded="true" signature="1276:1349" placeholder=" Encode a URI to RFC 3986 ..." />
+            <marker date="1458140525000" expanded="true" signature="1391:1541" placeholder=" The OAuth extension provides a simple interface to interact with data providers using the OAuth HTTP specification to protect private resources. ..." />
+            <marker date="1458140525000" expanded="true" signature="1557:5737" placeholder="..." />
+            <marker date="1458140525000" expanded="true" signature="1566:1589" placeholder=" @var bool ..." />
+            <marker date="1458140525000" expanded="true" signature="1619:1642" placeholder=" @var bool ..." />
+            <marker date="1458140525000" expanded="true" signature="1676:1700" placeholder=" @var array ..." />
+            <marker date="1458140525000" expanded="true" signature="1735:1915" placeholder=" Create a new OAuth object ..." />
+            <marker date="1458140525000" expanded="true" signature="2086:2146" placeholder=" Turn off verbose debugging ..." />
+            <marker date="1458140525000" expanded="true" signature="2196:2248" placeholder=" Turn off redirects ..." />
+            <marker date="1458140525000" expanded="true" signature="2302:2355" placeholder=" Turn off SSL checks ..." />
+            <marker date="1458140525000" expanded="true" signature="2409:2468" placeholder=" Turn on verbose debugging ..." />
+            <marker date="1458140525000" expanded="true" signature="2517:2568" placeholder=" Turn on redirects ..." />
+            <marker date="1458140525000" expanded="true" signature="2621:2673" placeholder=" Turn on SSL checks ..." />
+            <marker date="1458140525000" expanded="true" signature="2726:2823" placeholder=" Set the timeout ..." />
+            <marker date="1458140525000" expanded="true" signature="2879:3098" placeholder=" Fetch an OAuth-protected resource ..." />
+            <marker date="1458140525000" expanded="true" signature="3239:3413" placeholder=" Fetch an access token ..." />
+            <marker date="1458140525000" expanded="true" signature="3535:3588" placeholder=" Get CA information ..." />
+            <marker date="1458140525000" expanded="true" signature="3635:3692" placeholder=" Get the last response ..." />
+            <marker date="1458140525000" expanded="true" signature="3745:3816" placeholder=" Get headers for last response ..." />
+            <marker date="1458140525000" expanded="true" signature="3876:3955" placeholder=" Get HTTP information about the last response ..." />
+            <marker date="1458140525000" expanded="true" signature="4012:4191" placeholder=" Generate OAuth header string signature ..." />
+            <marker date="1458140525000" expanded="true" signature="4287:4418" placeholder=" Fetch a request token ..." />
+            <marker date="1458140525000" expanded="true" signature="4511:4596" placeholder=" Set authorization type ..." />
+            <marker date="1458140525000" expanded="true" signature="4655:4770" placeholder=" Set CA path and info ..." />
+            <marker date="1458140525000" expanded="true" signature="4849:4949" placeholder=" Set the nonce for subsequent requests ..." />
+            <marker date="1458140525000" expanded="true" signature="5001:5063" placeholder=" ..." />
+            <marker date="1458140525000" expanded="true" signature="5127:5212" placeholder=" Set the RSA certificate ..." />
+            <marker date="1458140525000" expanded="true" signature="5272:5356" placeholder=" Set the timestamp ..." />
+            <marker date="1458140525000" expanded="true" signature="5416:5537" placeholder=" Set the token and secret ..." />
+            <marker date="1458140525000" expanded="true" signature="5604:5689" placeholder=" Set the OAuth version ..." />
+            <marker date="1458140525000" expanded="true" signature="5743:5749" placeholder="  ..." />
+            <marker date="1458140525000" expanded="true" signature="5792:5973" placeholder="..." />
+            <marker date="1458140525000" expanded="true" signature="5801:5886" placeholder=" The response of the exception which occurred, if any ..." />
+            <marker date="1458140525000" expanded="true" signature="5923:5947" placeholder=" @var array ..." />
+            <marker date="1458140525000" expanded="true" signature="5982:6020" placeholder=" Manages an OAuth provider class. ..." />
+            <marker date="1458140525000" expanded="true" signature="6044:8306" placeholder="..." />
+            <marker date="1458140525000" expanded="true" signature="6053:6112" placeholder=" @param string $req_params ..." />
+            <marker date="1458140525000" expanded="true" signature="6187:6213" placeholder=" @return void ..." />
+            <marker date="1458140525000" expanded="true" signature="6270:6296" placeholder=" @return void ..." />
+            <marker date="1458140525000" expanded="true" signature="6359:6385" placeholder=" @return void ..." />
+            <marker date="1458140525000" expanded="true" signature="6439:6520" placeholder=" @param string $uri ..." />
+            <marker date="1458140525000" expanded="true" signature="6598:6667" placeholder=" @param array $params_array ..." />
+            <marker date="1458140525000" expanded="true" signature="6729:6797" placeholder=" @param callback $callback_function ..." />
+            <marker date="1458140525000" expanded="true" signature="6868:6976" placeholder=" @param int $size ..." />
+            <marker date="1458140525000" expanded="true" signature="7062:7122" placeholder=" @param mixed $params_array ..." />
+            <marker date="1458140525000" expanded="true" signature="7190:7261" placeholder=" @param bool $will_issue_request_token ..." />
+            <marker date="1458140525000" expanded="true" signature="7346:7407" placeholder=" @param string ..." />
+            <marker date="1458140525000" expanded="true" signature="7485:7612" placeholder=" @param string $oauthexception ..." />
+            <marker date="1458140525000" expanded="true" signature="7713:7816" placeholder=" @param string $param_key ..." />
+            <marker date="1458140525000" expanded="true" signature="7898:7965" placeholder=" @param string $path ..." />
+            <marker date="1458140525000" expanded="true" signature="8033:8101" placeholder=" @param callback $callback_function ..." />
+            <marker date="1458140525000" expanded="true" signature="8178:8246" placeholder=" @param callback $callback_function ..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.env.example">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="124">
+          <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.env">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="279">
+          <caret line="9" column="65" selection-start-line="9" selection-start-column="65" selection-end-line="9" selection-end-column="65" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Support/helpers.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="808">
+          <caret line="226" column="13" selection-start-line="226" selection-start-column="13" selection-end-line="226" selection-end-column="13" />
+          <folding>
+            <marker date="1464749658713" expanded="false" signature="11:177" placeholder="..." />
+            <marker date="1464749658713" expanded="true" signature="220:653" placeholder="..." />
+            <marker date="1464749658713" expanded="true" signature="228:359" placeholder=" Assign high numeric IDs to a config item to force appending. ..." />
+            <marker date="1464749658713" expanded="true" signature="402:652" placeholder="{...}" />
+            <marker date="1464749658713" expanded="true" signature="477:621" placeholder="..." />
+            <marker date="1464749658713" expanded="true" signature="513:611" placeholder="..." />
+            <marker date="1464749658713" expanded="true" signature="693:1006" placeholder="..." />
+            <marker date="1464749658713" expanded="true" signature="701:899" placeholder=" Add an element to an array using &quot;dot&quot; notation if it doesn't exist. ..." />
+            <marker date="1464749658713" expanded="true" signature="946:1005" placeholder="{...}" />
+            <marker date="1464749658713" expanded="true" signature="1048:1356" placeholder="..." />
+            <marker date="1464749658713" expanded="true" signature="1056:1242" placeholder=" Build a new array using a callback. ..." />
+            <marker date="1464749658713" expanded="true" signature="1297:1355" placeholder="{...}" />
+            <marker date="1464749658713" expanded="true" signature="1401:1617" placeholder="..." />
+            <marker date="1464749658713" expanded="true" signature="1409:1528" placeholder=" Collapse an array of arrays into a single array. ..." />
+            <marker date="1464749658713" expanded="true" signature="1566:1616" placeholder="{...}" />
+            <marker date="1464749658713" expanded="true" signature="1660:1897" placeholder="..." />
+            <marker date="1464749658713" expanded="true" signature="1668:1812" placeholder=" Divide an array into two arrays. One with keys and the other with values. ..." />
+            <marker date="1464749658713" expanded="true" signature="1848:1896" placeholder="{...}" />
+            <marker date="1464749658713" expanded="true" signature="1937:2209" placeholder="..." />
+            <marker date="1464749658713" expanded="true" signature="1945:2105" placeholder=" Flatten a multi-dimensional associative array with dots. ..." />
+            <marker date="1464749658713" expanded="true" signature="2153:2208" placeholder="{...}" />
+            <marker date="1464749658713" expanded="true" signature="2252:2530" placeholder="..." />
+            <marker date="1464749658713" expanded="true" signature="2260:2431" placeholder=" Get all of the given array except for a specified array of items. ..." />
+            <marker date="1464749658713" expanded="true" signature="2474:2529" placeholder="{...}" />
+            <marker date="1464749658713" expanded="true" signature="2572:2934" placeholder="..." />
+            <marker date="1464749658713" expanded="true" signature="2580:2786" placeholder=" Return the first element in an array passing a given truth test. ..." />
+            <marker date="1464749658713" expanded="true" signature="2865:2933" placeholder="{...}" />
+            <marker date="1464749658713" expanded="true" signature="2978:3247" placeholder="..." />
+            <marker date="1464749658713" expanded="true" signature="2986:3138" placeholder=" Flatten a multi-dimensional array into a single level. ..." />
+            <marker date="1464749658713" expanded="true" signature="3189:3246" placeholder="{...}" />
+            <marker date="1464749658713" expanded="true" signature="3290:3574" placeholder="..." />
+            <marker date="1464749658713" expanded="true" signature="3298:3474" placeholder=" Remove one or many array items from a given array using &quot;dot&quot; notation. ..." />
+            <marker date="1464749658713" expanded="true" signature="3518:3573" placeholder="{...}" />
+            <marker date="1464749658713" expanded="true" signature="3614:3931" placeholder="..." />
+            <marker date="1464749658713" expanded="true" signature="3622:3813" placeholder=" Get an item from an array using &quot;dot&quot; notation. ..." />
+            <marker date="1464749658713" expanded="true" signature="3869:3930" placeholder="{...}" />
+            <marker date="1464749658713" expanded="true" signature="3971:4238" placeholder="..." />
+            <marker date="1464749658713" expanded="true" signature="3979:4147" placeholder=" Check if an item exists in an array using &quot;dot&quot; notation. ..." />
+            <marker date="1464749658713" expanded="true" signature="4186:4237" placeholder="{...}" />
+            <marker date="1464749658713" expanded="true" signature="4279:4638" placeholder="..." />
+            <marker date="1464749658713" expanded="true" signature="4287:4492" placeholder=" Return the last element in an array passing a given truth test. ..." />
+            <marker date="1464749658713" expanded="true" signature="4570:4637" placeholder="{...}" />
+            <marker date="1464749658713" expanded="true" signature="4679:4935" placeholder="..." />
+            <marker date="1464749658713" expanded="true" signature="4687:4840" placeholder=" Get a subset of the items from the given array. ..." />
+            <marker date="1464749658713" expanded="true" signature="4881:4934" placeholder="{...}" />
+            <marker date="1464749658713" expanded="true" signature="4977:5289" placeholder="..." />
+            <marker date="1464749658713" expanded="true" signature="4985:5171" placeholder=" Pluck an array of values from an array. ..." />
+            <marker date="1464749658713" expanded="true" signature="5227:5288" placeholder="{...}" />
+            <marker date="1464749658713" expanded="true" signature="5333:5634" placeholder="..." />
+            <marker date="1464749658713" expanded="true" signature="5341:5512" placeholder=" Push an item onto the beginning of an array. ..." />
+            <marker date="1464749658713" expanded="true" signature="5570:5633" placeholder="{...}" />
+            <marker date="1464749658713" expanded="true" signature="5675:5978" placeholder="..." />
+            <marker date="1464749658713" expanded="true" signature="5683:5857" placeholder=" Get a value from the array, and remove it. ..." />
+            <marker date="1464749658713" expanded="true" signature="5915:5977" placeholder="{...}" />
+            <marker date="1464749658713" expanded="true" signature="6018:6403" placeholder="..." />
+            <marker date="1464749658713" expanded="true" signature="6026:6295" placeholder=" Set an array item to a given value using &quot;dot&quot; notation. ..." />
+            <marker date="1464749658713" expanded="true" signature="6343:6402" placeholder="{...}" />
+            <marker date="1464749658713" expanded="true" signature="6444:6710" placeholder="..." />
+            <marker date="1464749658713" expanded="true" signature="6452:6598" placeholder=" Sort the array using the given callback. ..." />
+            <marker date="1464749658713" expanded="true" signature="6652:6709" placeholder="{...}" />
+            <marker date="1464749658713" expanded="true" signature="6761:6985" placeholder="..." />
+            <marker date="1464749658713" expanded="true" signature="6769:6885" placeholder=" Recursively sort an array by keys and values. ..." />
+            <marker date="1464749658713" expanded="true" signature="6929:6984" placeholder="{...}" />
+            <marker date="1464749658713" expanded="true" signature="7027:7297" placeholder="..." />
+            <marker date="1464749658713" expanded="true" signature="7035:7183" placeholder=" Filter the array using the given callback. ..." />
+            <marker date="1464749658713" expanded="true" signature="7238:7296" placeholder="{...}" />
+            <marker date="1464749658713" expanded="true" signature="7338:7531" placeholder="..." />
+            <marker date="1464749658713" expanded="true" signature="7346:7449" placeholder=" Convert a value to camel case. ..." />
+            <marker date="1464749658713" expanded="true" signature="7483:7530" placeholder="{...}" />
+            <marker date="1464749658713" expanded="true" signature="7576:7891" placeholder="..." />
+            <marker date="1464749658713" expanded="true" signature="7584:7717" placeholder=" Get the class &quot;basename&quot; of the given object / class. ..." />
+            <marker date="1464749658713" expanded="true" signature="7755:7890" placeholder="{...}" />
+            <marker date="1464749658713" expanded="true" signature="7942:8369" placeholder="..." />
+            <marker date="1464749658713" expanded="true" signature="7950:8099" placeholder=" Returns all traits used by a class, its subclasses and trait of their traits. ..." />
+            <marker date="1464749658713" expanded="true" signature="8143:8368" placeholder="{...}" />
+            <marker date="1464749658713" expanded="true" signature="8258:8321" placeholder="..." />
+            <marker date="1464749658713" expanded="true" signature="8407:8642" placeholder="..." />
+            <marker date="1464749658713" expanded="true" signature="8415:8552" placeholder=" Create a collection from the given value. ..." />
+            <marker date="1464749658713" expanded="true" signature="8590:8641" placeholder="{...}" />
+            <marker date="1464749658713" expanded="true" signature="8682:8975" placeholder="..." />
+            <marker date="1464749658713" expanded="true" signature="8690:8858" placeholder=" Fill in data where it's missing. ..." />
+            <marker date="1464749658713" expanded="true" signature="8907:8974" placeholder="{...}" />
+            <marker date="1464749658713" expanded="true" signature="9014:10222" placeholder="..." />
+            <marker date="1464749658713" expanded="true" signature="9022:9218" placeholder=" Get an item from an array or object using &quot;dot&quot; notation. ..." />
+            <marker date="1464749658713" expanded="true" signature="9274:10221" placeholder="{...}" />
+            <marker date="1464749658713" expanded="true" signature="9309:9346" placeholder="..." />
+            <marker date="1464749658713" expanded="true" signature="9466:10189" placeholder="..." />
+            <marker date="1464749658713" expanded="true" signature="9502:9859" placeholder="..." />
+            <marker date="1464749658713" expanded="true" signature="9555:9618" placeholder="..." />
+            <marker date="1464749658713" expanded="true" signature="9650:9711" placeholder="..." />
+            <marker date="1464749658713" expanded="true" signature="9939:9997" placeholder="..." />
+            <marker date="1464749658713" expanded="true" signature="10058:10118" placeholder="..." />
+            <marker date="1464749658713" expanded="true" signature="10126:10179" placeholder="..." />
+            <marker date="1464749658713" expanded="true" signature="10261:12169" placeholder="..." />
+            <marker date="1464749658713" expanded="true" signature="10269:10489" placeholder=" Set an item on an array or object using dot notation. ..." />
+            <marker date="1464749658713" expanded="true" signature="10556:12168" placeholder="{...}" />
+            <marker date="1464749658713" expanded="true" signature="10686:11101" placeholder="..." />
+            <marker date="1464749658713" expanded="true" signature="10732:10775" placeholder="..." />
+            <marker date="1464749658713" expanded="true" signature="10806:10953" placeholder="..." />
+            <marker date="1464749658713" expanded="true" signature="10853:10939" placeholder="..." />
+            <marker date="1464749658713" expanded="true" signature="10976:11091" placeholder="..." />
+            <marker date="1464749658713" expanded="true" signature="11023:11077" placeholder="..." />
+            <marker date="1464749658713" expanded="true" signature="11138:11501" placeholder="..." />
+            <marker date="1464749658713" expanded="true" signature="11167:11375" placeholder="..." />
+            <marker date="1464749658713" expanded="true" signature="11223:11284" placeholder="..." />
+            <marker date="1464749658713" expanded="true" signature="11434:11491" placeholder="..." />
+            <marker date="1464749658713" expanded="true" signature="11532:11893" placeholder="..." />
+            <marker date="1464749658713" expanded="true" signature="11561:11769" placeholder="..." />
+            <marker date="1464749658713" expanded="true" signature="11613:11676" placeholder="..." />
+            <marker date="1464749658713" expanded="true" signature="11824:11883" placeholder="..." />
+            <marker date="1464749658713" expanded="true" signature="11901:12136" placeholder="..." />
+            <marker date="1464749658713" expanded="true" signature="11957:12046" placeholder="..." />
+            <marker date="1464749658713" expanded="true" signature="12069:12126" placeholder="..." />
+            <marker date="1464749658713" expanded="true" signature="12202:12466" placeholder="..." />
+            <marker date="1464749658713" expanded="true" signature="12210:12317" placeholder=" Dump the passed variables and end the script. ..." />
+            <marker date="1464749658713" expanded="true" signature="12337:12465" placeholder="{...}" />
+            <marker date="1464749658713" expanded="true" signature="12362:12440" placeholder="..." />
+            <marker date="1464749658713" expanded="true" signature="12377:12422" placeholder="..." />
+            <marker date="1464749658713" expanded="true" signature="12498:12844" placeholder="..." />
+            <marker date="1464749658713" expanded="true" signature="12506:12651" placeholder=" Escape HTML entities in a string. ..." />
+            <marker date="1464749658713" expanded="true" signature="12676:12843" placeholder="{...}" />
+            <marker date="1464749658713" expanded="true" signature="12724:12770" placeholder="..." />
+            <marker date="1464749658713" expanded="true" signature="12884:13170" placeholder="..." />
+            <marker date="1464749658713" expanded="true" signature="12892:13060" placeholder=" Determine if a given string ends with a given substring. ..." />
+            <marker date="1464749658713" expanded="true" signature="13106:13169" placeholder="{...}" />
+            <marker date="1464749658713" expanded="true" signature="13205:13417" placeholder="..." />
+            <marker date="1464749658713" expanded="true" signature="13213:13346" placeholder=" Get the first element of an array. Useful for method chaining. ..." />
+            <marker date="1464749658713" expanded="true" signature="13374:13416" placeholder="{...}" />
+            <marker date="1464749658713" expanded="true" signature="13452:13635" placeholder="..." />
+            <marker date="1464749658713" expanded="true" signature="13460:13566" placeholder=" Get the last element from an array. ..." />
+            <marker date="1464749658713" expanded="true" signature="13594:13634" placeholder="{...}" />
+            <marker date="1464749658713" expanded="true" signature="13676:14280" placeholder="..." />
+            <marker date="1464749658713" expanded="true" signature="13684:13865" placeholder=" Get an item from an object using &quot;dot&quot; notation. ..." />
+            <marker date="1464749658713" expanded="true" signature="13923:14279" placeholder="{...}" />
+            <marker date="1464749658713" expanded="true" signature="13978:14015" placeholder="..." />
+            <marker date="1464749658713" expanded="true" signature="14068:14247" placeholder="..." />
+            <marker date="1464749658713" expanded="true" signature="14140:14193" placeholder="..." />
+            <marker date="1464749658713" expanded="true" signature="14327:14860" placeholder="..." />
+            <marker date="1464749658713" expanded="true" signature="14335:14548" placeholder=" Replace a given pattern with each value in the array in sequentially. ..." />
+            <marker date="1464749658713" expanded="true" signature="14616:14859" placeholder="{...}" />
+            <marker date="1464749658713" expanded="true" signature="14660:14851" placeholder="..." />
+            <marker date="1464749658713" expanded="true" signature="14710:14840" placeholder="..." />
+            <marker date="1464749658713" expanded="true" signature="14766:14830" placeholder="..." />
+            <marker date="1464749658713" expanded="true" signature="14901:15159" placeholder="..." />
+            <marker date="1464749658713" expanded="true" signature="14909:15047" placeholder=" Convert a string to snake case. ..." />
+            <marker date="1464749658713" expanded="true" signature="15099:15158" placeholder="{...}" />
+            <marker date="1464749658713" expanded="true" signature="15201:15493" placeholder="..." />
+            <marker date="1464749658713" expanded="true" signature="15209:15379" placeholder=" Determine if a given string starts with a given substring. ..." />
+            <marker date="1464749658713" expanded="true" signature="15427:15492" placeholder="{...}" />
+            <marker date="1464749658713" expanded="true" signature="15536:15824" placeholder="..." />
+            <marker date="1464749658713" expanded="true" signature="15544:15711" placeholder=" Determine if a given string contains a given substring. ..." />
+            <marker date="1464749658713" expanded="true" signature="15760:15823" placeholder="{...}" />
+            <marker date="1464749658713" expanded="true" signature="15865:16122" placeholder="..." />
+            <marker date="1464749658713" expanded="true" signature="15873:16027" placeholder=" Cap a string with a single instance of a given value. ..." />
+            <marker date="1464749658713" expanded="true" signature="16067:16121" placeholder="{...}" />
+            <marker date="1464749658713" expanded="true" signature="16159:16417" placeholder="..." />
+            <marker date="1464749658713" expanded="true" signature="16167:16322" placeholder=" Determine if a given string matches a given pattern. ..." />
+            <marker date="1464749658713" expanded="true" signature="16362:16416" placeholder="{...}" />
+            <marker date="1464749658713" expanded="true" signature="16457:16762" placeholder="..." />
+            <marker date="1464749658713" expanded="true" signature="16465:16639" placeholder=" Limit the number of characters in a string. ..." />
+            <marker date="1464749658713" expanded="true" signature="16700:16761" placeholder="{...}" />
+            <marker date="1464749658713" expanded="true" signature="16803:17056" placeholder="..." />
+            <marker date="1464749658713" expanded="true" signature="16811:16953" placeholder=" Get the plural form of an English word. ..." />
+            <marker date="1464749658713" expanded="true" signature="16999:17055" placeholder="{...}" />
+            <marker date="1464749658713" expanded="true" signature="17097:17358" placeholder="..." />
+            <marker date="1464749658713" expanded="true" signature="17105:17268" placeholder=" Generate a more truly &quot;random&quot; alpha-numeric string. ..." />
+            <marker date="1464749658713" expanded="true" signature="17308:17357" placeholder="{...}" />
+            <marker date="1464749658713" expanded="true" signature="17406:17846" placeholder="..." />
+            <marker date="1464749658713" expanded="true" signature="17414:17615" placeholder=" Replace a given value in the string sequentially with an array. ..." />
+            <marker date="1464749658713" expanded="true" signature="17683:17845" placeholder="{...}" />
+            <marker date="1464749658713" expanded="true" signature="17728:17812" placeholder="..." />
+            <marker date="1464749658713" expanded="true" signature="17894:18238" placeholder="..." />
+            <marker date="1464749658713" expanded="true" signature="17902:18100" placeholder=" Replace the first occurrence of a given value in the string. ..." />
+            <marker date="1464749658713" expanded="true" signature="18162:18237" placeholder="{...}" />
+            <marker date="1464749658713" expanded="true" signature="18285:18626" placeholder="..." />
+            <marker date="1464749658713" expanded="true" signature="18293:18490" placeholder=" Replace the last occurrence of a given value in the string. ..." />
+            <marker date="1464749658713" expanded="true" signature="18551:18625" placeholder="{...}" />
+            <marker date="1464749658713" expanded="true" signature="18669:18878" placeholder="..." />
+            <marker date="1464749658713" expanded="true" signature="18677:18791" placeholder=" Get the singular form of an English word. ..." />
+            <marker date="1464749658713" expanded="true" signature="18827:18877" placeholder="{...}" />
+            <marker date="1464749658713" expanded="true" signature="18917:19192" placeholder="..." />
+            <marker date="1464749658713" expanded="true" signature="18925:19083" placeholder=" Generate a URL friendly &quot;slug&quot; from a given string. ..." />
+            <marker date="1464749658713" expanded="true" signature="19133:19191" placeholder="{...}" />
+            <marker date="1464749658713" expanded="true" signature="19234:19435" placeholder="..." />
+            <marker date="1464749658713" expanded="true" signature="19242:19351" placeholder=" Convert a value to studly caps case. ..." />
+            <marker date="1464749658713" expanded="true" signature="19386:19434" placeholder="{...}" />
+            <marker date="1464749658713" expanded="true" signature="19476:19669" placeholder="..." />
+            <marker date="1464749658713" expanded="true" signature="19484:19587" placeholder=" Convert a value to title case. ..." />
+            <marker date="1464749658713" expanded="true" signature="19621:19668" placeholder="{...}" />
+            <marker date="1464749658713" expanded="true" signature="19720:20072" placeholder="..." />
+            <marker date="1464749658713" expanded="true" signature="19728:19850" placeholder=" Returns all traits used by a trait and its traits. ..." />
+            <marker date="1464749658713" expanded="true" signature="19894:20071" placeholder="{...}" />
+            <marker date="1464749658713" expanded="true" signature="19977:20039" placeholder="..." />
+            <marker date="1464749658713" expanded="true" signature="20108:20335" placeholder="..." />
+            <marker date="1464749658713" expanded="true" signature="20116:20231" placeholder=" Return the default value of the given value. ..." />
+            <marker date="1464749658713" expanded="true" signature="20260:20334" placeholder="{...}" />
+            <marker date="1464749658713" expanded="true" signature="20376:20584" placeholder="..." />
+            <marker date="1464749658713" expanded="true" signature="20384:20484" placeholder=" Determine whether the current environment is Windows based. ..." />
+            <marker date="1464749658713" expanded="true" signature="20512:20583" placeholder="{...}" />
+            <marker date="1464749658713" expanded="true" signature="20619:20810" placeholder="..." />
+            <marker date="1464749658713" expanded="true" signature="20627:20744" placeholder=" Return the given object. Useful for chaining. ..." />
+            <marker date="1464749658713" expanded="true" signature="20773:20809" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/routes.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="930">
+          <caret line="38" column="0" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
+          <folding>
+            <element signature="e#7#29#0#PHP" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
