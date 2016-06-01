@@ -61,8 +61,4 @@ class ExpressionTest extends \PHPUnit_Framework_TestCase
         $this->assertFalse($regex->test('foobarbiz'));
         $this->assertTrue($regex->test('foobiz'));
     }
-
-    // TODO: Specify the beginning of the line
-    // TODO: Specify the end of the line
-    // TODO: Capital of lower case
 }
