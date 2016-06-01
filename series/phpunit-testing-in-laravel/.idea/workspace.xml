@@ -31,8 +31,8 @@
       <file leaf-file-name="ExpressionTest.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/tests/unit/ExpressionTest.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="968">
-              <caret line="66" column="34" selection-start-line="66" selection-start-column="34" selection-end-line="66" selection-end-column="34" />
+            <state relative-caret-position="255">
+              <caret line="44" column="4" selection-start-line="44" selection-start-column="4" selection-end-line="44" selection-end-column="4" />
               <folding />
             </state>
           </provider>
@@ -138,7 +138,7 @@
     <ConfirmationsSetting value="0" id="Remove" />
   </component>
   <component name="ProjectView">
-    <navigator currentView="ProjectPane" proportions="" version="1">
+    <navigator proportions="" version="1">
       <flattenPackages />
       <showMembers />
       <showModules />
@@ -151,19 +151,13 @@
       <manualOrder />
       <foldersAlwaysOnTop value="true" />
     </navigator>
-    <panes>
-      <pane id="Scope" />
-      <pane id="ProjectPane">
-        <subPane />
-      </pane>
-      <pane id="Scratches" />
-    </panes>
+    <panes />
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="settings.editor.selected.configurable" value="preferences.sourceCode.PHP" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../chamb-net/chamb.net" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../lessons/http-requests-with-guzzle" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -235,12 +229,13 @@
       <workItem from="1464449578378" duration="12000" />
       <workItem from="1464498216714" duration="6548000" />
       <workItem from="1464539559107" duration="3963000" />
-      <workItem from="1464631368903" duration="2307000" />
+      <workItem from="1464631368903" duration="3034000" />
+      <workItem from="1464749755699" duration="621000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="35912000" />
+    <option name="totallyTimeSpent" value="37260000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="24" width="1920" height="1056" extended-state="6" />
@@ -250,7 +245,6 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3296875" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.328807" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -263,6 +257,7 @@
       <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.328807" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
@@ -608,32 +603,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="343">
           <caret line="82" column="9" selection-start-line="82" selection-start-column="9" selection-end-line="82" selection-end-column="9" />
-          <folding>
-            <marker date="1458140525000" expanded="true" signature="31:2235" placeholder=" Perform a regular expression match ..." />
-            <marker date="1458140525000" expanded="true" signature="2335:4303" placeholder=" Perform a global regular expression match ..." />
-            <marker date="1458140525000" expanded="true" signature="4424:7829" placeholder=" Perform a regular expression search and replace ..." />
-            <marker date="1458140525000" expanded="true" signature="7925:10146" placeholder=" Perform a regular expression search and replace using a callback ..." />
-            <marker date="1458140525000" expanded="true" signature="10257:10815" placeholder=" Perform a regular expression search and replace using callbacks ..." />
-            <marker date="1458140525000" expanded="true" signature="10922:11445" placeholder=" Perform a regular expression search and replace ..." />
-            <marker date="1458140525000" expanded="true" signature="11540:12527" placeholder=" Split string by a regular expression ..." />
-            <marker date="1458140525000" expanded="true" signature="12603:13092" placeholder=" Quote regular expression characters ..." />
-            <marker date="1458140525000" expanded="true" signature="13148:13685" placeholder=" Return array entries that match the pattern ..." />
-            <marker date="1458140525000" expanded="true" signature="13751:14245" placeholder=" Returns the error code of the last PCRE regex execution ..." />
-            <marker date="1458140525000" expanded="true" signature="14284:14567" placeholder=" Orders results so that $matches[0] is an array of full pattern ..." />
-            <marker date="1458140525000" expanded="true" signature="14608:14729" placeholder=" Returned by {@see preg_last_error()} if the last PCRE function failed due to limited JIT stack space. ..." />
-            <marker date="1458140525000" expanded="true" signature="14776:15024" placeholder=" Orders results so that $matches[0] is an array of first set of ..." />
-            <marker date="1458140525000" expanded="true" signature="15061:15179" placeholder=" See the description of ..." />
-            <marker date="1458140525000" expanded="true" signature="15223:15351" placeholder=" This flag tells &lt;b&gt;preg_split&lt;/b&gt; to return only non-empty ..." />
-            <marker date="1458140525000" expanded="true" signature="15393:15558" placeholder=" This flag tells &lt;b&gt;preg_split&lt;/b&gt; to capture ..." />
-            <marker date="1458140525000" expanded="true" signature="15605:15999" placeholder=" If this flag is set, for every occurring match the appendant string ..." />
-            <marker date="1458140525000" expanded="true" signature="16079:16200" placeholder=" Returned by &lt;b&gt;preg_last_error&lt;/b&gt; if there were no ..." />
-            <marker date="1458140525000" expanded="true" signature="16236:16369" placeholder=" Returned by &lt;b&gt;preg_last_error&lt;/b&gt; if there was an ..." />
-            <marker date="1458140525000" expanded="true" signature="16411:16538" placeholder=" Returned by &lt;b&gt;preg_last_error&lt;/b&gt; if backtrack limit was exhausted. ..." />
-            <marker date="1458140525000" expanded="true" signature="16587:16714" placeholder=" Returned by &lt;b&gt;preg_last_error&lt;/b&gt; if recursion limit was exhausted. ..." />
-            <marker date="1458140525000" expanded="true" signature="16763:16955" placeholder=" Returned by &lt;b&gt;preg_last_error&lt;/b&gt; if the last error was ..." />
-            <marker date="1458140525000" expanded="true" signature="16997:17215" placeholder=" Returned by &lt;b&gt;preg_last_error&lt;/b&gt; if the offset didn't ..." />
-            <marker date="1458140525000" expanded="true" signature="17264:17378" placeholder=" PCRE version and release date (e.g. &quot;7.0 18-Dec-2006&quot;). ..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -643,7 +612,6 @@
           <caret line="58" column="39" selection-start-line="58" selection-start-column="39" selection-end-line="58" selection-end-column="39" />
           <folding>
             <marker date="1464633584357" expanded="false" signature="9:81" placeholder=" @author Rizart Dokollari &lt;***REMOVED***&gt; ..." />
-            <marker date="1464633584357" expanded="true" signature="118:1255" placeholder="{...}" />
             <marker date="1464633584357" expanded="true" signature="182:221" placeholder="{...}" />
             <marker date="1464633584357" expanded="true" signature="253:298" placeholder="{...}" />
             <marker date="1464633584357" expanded="true" signature="336:415" placeholder="{...}" />
@@ -661,8 +629,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/tests/unit/ExpressionTest.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="968">
-          <caret line="66" column="34" selection-start-line="66" selection-start-column="34" selection-end-line="66" selection-end-column="34" />
+        <state relative-caret-position="255">
+          <caret line="44" column="4" selection-start-line="44" selection-start-column="4" selection-end-line="44" selection-end-column="4" />
           <folding />
         </state>
       </provider>
