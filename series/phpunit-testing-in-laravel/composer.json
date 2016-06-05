@@ -17,7 +17,8 @@
     "phpunit/phpunit": "~4.0",
     "symfony/css-selector": "2.8.*|3.0.*",
     "symfony/dom-crawler": "2.8.*|3.0.*",
-    "whatthejeff/nyancat-phpunit-resultprinter": "^1.2"
+    "whatthejeff/nyancat-phpunit-resultprinter": "^1.2",
+    "barryvdh/laravel-ide-helper": "^2.1"
   },
   "autoload": {
     "classmap": [
@@ -48,6 +49,8 @@
     ],
     "post-update-cmd": [
       "Illuminate\\Foundation\\ComposerScripts::postUpdate",
+      "php artisan clear-compiled",
+      "php artisan ide-helper:generate",
       "php artisan optimize"
     ]
   },
