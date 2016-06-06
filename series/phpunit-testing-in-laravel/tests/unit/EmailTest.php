@@ -7,18 +7,12 @@
 namespace tests\unit;
 
 use Mail;
-use Swift_Events_EventListener;
-use Swift_Events_SendEvent;
+use TestCase;
+use tests\MailTracking;
 
-class EmailTest extends \TestCase
+class EmailTest extends TestCase
 {
-    public function setUp()
-    {
-        parent::setUp();
-
-        Mail::getSwiftMailer()
-            ->registerPlugin(new TestingMailEventListener);
-    }
+    use MailTracking;
 
     /** @test */
     public function sent_email()
@@ -28,20 +22,13 @@ class EmailTest extends \TestCase
             $message->from('bar@foo.com');
         });
 
+        Mail::raw('Hello World', function ($message) {
+            $message->to('foo@bar.com');
+            $message->from('bar@foo.com');
+        });
+
         $this->seeEmailWasSent();
-    }
 
-    public function seeEmailWasSent()
-    {
-    }
-}
-
-class TestingMailEventListener implements Swift_Events_EventListener
-{
-    public function beforeSendPerformed(Swift_Events_SendEvent $event)
-    {
-        $message = $event->getMessage();
-
-        dd($message->getFrom());
+        $this->seeEmailsSent(2);
     }
 }
