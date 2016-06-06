@@ -28,14 +28,12 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="EmailTest.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/tests/unit/EmailTest.php">
+      <file leaf-file-name="composer.json" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/composer.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="968">
-              <caret line="44" column="30" selection-start-line="44" selection-start-column="30" selection-end-line="44" selection-end-column="30" />
-              <folding>
-                <element signature="e#107#116#0#PHP" expanded="true" />
-              </folding>
+            <state relative-caret-position="341">
+              <caret line="33" column="24" selection-start-line="33" selection-start-column="24" selection-end-line="33" selection-end-column="24" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -82,8 +80,9 @@
         <option value="$PROJECT_DIR$/tests/unit/ExpressionTest.php" />
         <option value="$PROJECT_DIR$/.env" />
         <option value="$PROJECT_DIR$/config/app.php" />
-        <option value="$PROJECT_DIR$/composer.json" />
         <option value="$PROJECT_DIR$/tests/unit/EmailTest.php" />
+        <option value="$PROJECT_DIR$/tests/MailTracking.php" />
+        <option value="$PROJECT_DIR$/composer.json" />
       </list>
     </option>
   </component>
@@ -168,7 +167,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="settings.editor.selected.configurable" value="preferences.sourceCode.PHP" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../elastic-email" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../chamb-net/chamb.net" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -243,12 +242,13 @@
       <workItem from="1464631368903" duration="3034000" />
       <workItem from="1464749755699" duration="621000" />
       <workItem from="1464906862798" duration="13000" />
-      <workItem from="1465110223835" duration="1283000" />
+      <workItem from="1465110223835" duration="1717000" />
+      <workItem from="1465183232358" duration="1151000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="38556000" />
+    <option name="totallyTimeSpent" value="40141000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -267,7 +267,6 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297769" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3296875" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.328807" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -280,6 +279,7 @@
       <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.328807" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
@@ -306,14 +306,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/tests/integration/app/ArticleTest.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests/tests/integration/TeamTest.php" />
     <entry file="file://$PROJECT_DIR$/database/factories/ArticleFactory.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -562,20 +554,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="682">
           <caret line="58" column="39" selection-start-line="58" selection-start-column="39" selection-end-line="58" selection-end-column="39" />
-          <folding>
-            <marker date="1464633584357" expanded="false" signature="9:81" placeholder=" @author Rizart Dokollari &lt;***REMOVED***&gt; ..." />
-            <marker date="1464633584357" expanded="true" signature="182:221" placeholder="{...}" />
-            <marker date="1464633584357" expanded="true" signature="253:298" placeholder="{...}" />
-            <marker date="1464633584357" expanded="true" signature="336:415" placeholder="{...}" />
-            <marker date="1464633584357" expanded="true" signature="449:497" placeholder="{...}" />
-            <marker date="1464633584357" expanded="true" signature="531:595" placeholder="{...}" />
-            <marker date="1464633584357" expanded="true" signature="636:714" placeholder="{...}" />
-            <marker date="1464633584357" expanded="true" signature="749:846" placeholder="{...}" />
-            <marker date="1464633584357" expanded="true" signature="887:986" placeholder="{...}" />
-            <marker date="1464633584357" expanded="true" signature="1020:1066" placeholder="{...}" />
-            <marker date="1464633584357" expanded="true" signature="1099:1151" placeholder="{...}" />
-            <marker date="1464633584357" expanded="true" signature="1185:1253" placeholder="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -583,18 +561,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="775">
           <caret line="56" column="20" selection-start-line="56" selection-start-column="20" selection-end-line="56" selection-end-column="20" />
-          <folding>
-            <marker date="1464633802463" expanded="false" signature="9:81" placeholder=" @author Rizart Dokollari &lt;***REMOVED***&gt; ..." />
-            <marker date="1464633802463" expanded="true" signature="186:1511" placeholder="{...}" />
-            <marker date="1464633802463" expanded="true" signature="242:501" placeholder="{...}" />
-            <marker date="1464633802463" expanded="true" signature="561:671" placeholder="{...}" />
-            <marker date="1464633802463" expanded="true" signature="729:888" placeholder="{...}" />
-            <marker date="1464633802463" expanded="true" signature="948:1159" placeholder="{...}" />
-            <marker date="1464633802463" expanded="true" signature="1214:1509" placeholder="{...}" />
-            <marker date="1464633802463" expanded="true" signature="1276:1281" placeholder="..." />
-            <marker date="1464633802463" expanded="true" signature="1309:1314" placeholder="..." />
-            <marker date="1464633802463" expanded="true" signature="1335:1340" placeholder="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -602,7 +568,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="620">
           <caret line="20" column="14" selection-start-line="20" selection-start-column="14" selection-end-line="20" selection-end-column="14" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -610,34 +575,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-2256">
           <caret line="46" column="20" selection-start-line="46" selection-start-column="20" selection-end-line="46" selection-end-column="20" />
-          <folding>
-            <marker date="1465111076079" expanded="false" signature="49:130" placeholder="..." />
-            <marker date="1465111076079" expanded="true" signature="172:3170" placeholder="{...}" />
-            <marker date="1465111076079" expanded="true" signature="182:266" placeholder=" Guzzle client instance. ..." />
-            <marker date="1465111076079" expanded="true" signature="300:360" placeholder=" The Mailgun API key. ..." />
-            <marker date="1465111076079" expanded="true" signature="391:450" placeholder=" The Mailgun domain. ..." />
-            <marker date="1465111076079" expanded="true" signature="484:550" placeholder=" THe Mailgun API end-point. ..." />
-            <marker date="1465111076079" expanded="true" signature="581:773" placeholder=" Create a new Mailgun transport instance. ..." />
-            <marker date="1465111076079" expanded="true" signature="847:954" placeholder="{...}" />
-            <marker date="1465111076079" expanded="true" signature="963:990" placeholder=" {@inheritdoc} ..." />
-            <marker date="1465111076079" expanded="true" signature="1073:1773" placeholder="{...}" />
-            <marker date="1465111076079" expanded="true" signature="1317:1537" placeholder="..." />
-            <marker date="1465111076079" expanded="true" signature="1355:1526" placeholder="..." />
-            <marker date="1465111076079" expanded="true" signature="1545:1707" placeholder="..." />
-            <marker date="1465111076079" expanded="true" signature="1578:1696" placeholder="..." />
-            <marker date="1465111076079" expanded="true" signature="1782:1916" placeholder=" Get the &quot;to&quot; payload field for the API request. ..." />
-            <marker date="1465111076079" expanded="true" signature="1976:2331" placeholder="{...}" />
-            <marker date="1465111076079" expanded="true" signature="2041:2143" placeholder="..." />
-            <marker date="1465111076079" expanded="true" signature="2200:2282" placeholder="..." />
-            <marker date="1465111076079" expanded="true" signature="2340:2427" placeholder=" Get the API key being used by the transport. ..." />
-            <marker date="1465111076079" expanded="true" signature="2458:2497" placeholder="{...}" />
-            <marker date="1465111076079" expanded="true" signature="2506:2621" placeholder=" Set the API key being used by the transport. ..." />
-            <marker date="1465111076079" expanded="true" signature="2656:2702" placeholder="{...}" />
-            <marker date="1465111076079" expanded="true" signature="2711:2797" placeholder=" Get the domain being used by the transport. ..." />
-            <marker date="1465111076079" expanded="true" signature="2831:2873" placeholder="{...}" />
-            <marker date="1465111076079" expanded="true" signature="2882:2997" placeholder=" Set the domain being used by the transport. ..." />
-            <marker date="1465111076079" expanded="true" signature="3038:3168" placeholder="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -658,48 +595,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="434">
           <caret line="158" column="8" selection-start-line="158" selection-start-column="8" selection-end-line="158" selection-end-column="8" />
-          <folding>
-            <marker date="1465111006762" expanded="true" signature="15:8315" placeholder="..." />
-            <marker date="1465111006762" expanded="true" signature="23:451" placeholder="..." />
-            <marker date="1465111006762" expanded="true" signature="505:928" placeholder="..." />
-            <marker date="1465111006762" expanded="true" signature="979:1395" placeholder="..." />
-            <marker date="1465111006762" expanded="true" signature="1455:1879" placeholder="..." />
-            <marker date="1465111006762" expanded="true" signature="1915:2354" placeholder="..." />
-            <marker date="1465111006762" expanded="true" signature="2387:2818" placeholder="..." />
-            <marker date="1465111006762" expanded="true" signature="2860:3281" placeholder="..." />
-            <marker date="1465111006762" expanded="true" signature="3353:3847" placeholder="..." />
-            <marker date="1465111006762" expanded="true" signature="3897:4329" placeholder="..." />
-            <marker date="1465111006762" expanded="true" signature="4353:6037" placeholder="..." />
-            <marker date="1465111006762" expanded="true" signature="4365:4425" placeholder="..." />
-            <marker date="1465111006762" expanded="true" signature="5706:5760" placeholder="..." />
-            <marker date="1465111006762" expanded="true" signature="6047:6461" placeholder="..." />
-            <marker date="1465111006762" expanded="true" signature="6483:8311" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/composer.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="806">
-          <caret line="52" column="28" selection-start-line="52" selection-start-column="28" selection-end-line="52" selection-end-column="28" />
-          <folding>
-            <marker date="1465111051955" expanded="true" signature="0:1332" placeholder="{&quot;name&quot;: &quot;laravel/laravel&quot;...}" />
-            <marker date="1465111051955" expanded="true" signature="88:124" placeholder="[...]" />
-            <marker date="1465111051955" expanded="true" signature="180:240" placeholder="{&quot;php&quot;: &quot;&gt;=5.5.9&quot;...}" />
-            <marker date="1465111051955" expanded="true" signature="259:543" placeholder="{&quot;fzaninotto/faker&quot;: &quot;~1.4&quot;...}" />
-            <marker date="1465111051955" expanded="true" signature="559:649" placeholder="{...}" />
-            <marker date="1465111051955" expanded="true" signature="577:601" placeholder="[...]" />
-            <marker date="1465111051955" expanded="true" signature="616:645" placeholder="{&quot;App\&quot;: &quot;app/&quot;...}" />
-            <marker date="1465111051955" expanded="true" signature="669:773" placeholder="{...}" />
-            <marker date="1465111051955" expanded="true" signature="687:721" placeholder="[...]" />
-            <marker date="1465111051955" expanded="true" signature="736:769" placeholder="[...]" />
-            <marker date="1465111051955" expanded="true" signature="788:1279" placeholder="{...}" />
-            <marker date="1465111051955" expanded="true" signature="823:879" placeholder="[...]" />
-            <marker date="1465111051955" expanded="true" signature="912:952" placeholder="[...]" />
-            <marker date="1465111051955" expanded="true" signature="978:1076" placeholder="[...]" />
-            <marker date="1465111051955" expanded="true" signature="1101:1275" placeholder="[...]" />
-            <marker date="1465111051955" expanded="true" signature="1293:1330" placeholder="{&quot;preferred-install&quot;: &quot;dist&quot;...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -2604,40 +2499,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="689">
           <caret line="147" column="23" selection-start-line="147" selection-start-column="23" selection-end-line="147" selection-end-column="23" />
-          <folding>
-            <marker date="1465111076095" expanded="false" signature="39:523" placeholder="..." />
-            <marker date="1465111076095" expanded="true" signature="563:5074" placeholder="{...}" />
-            <marker date="1465111076095" expanded="true" signature="573:684" placeholder=" Create an instance of the SMTP Swift Transport driver. ..." />
-            <marker date="1465111076095" expanded="true" signature="728:1667" placeholder="{...}" />
-            <marker date="1465111076095" expanded="true" signature="728:1803" placeholder="{...}" />
-            <marker date="1465111076095" expanded="true" signature="1073:1127" placeholder="..." />
-            <marker date="1465111076095" expanded="true" signature="1174:1245" placeholder="..." />
-            <marker date="1465111076095" expanded="true" signature="1530:1656" placeholder="..." />
-            <marker date="1465111076095" expanded="true" signature="1698:1768" placeholder="..." />
-            <marker date="1465111076095" expanded="true" signature="1812:1931" placeholder=" Create an instance of the Sendmail Swift Transport driver. ..." />
-            <marker date="1465111076095" expanded="true" signature="1979:2110" placeholder="{...}" />
-            <marker date="1465111076095" expanded="true" signature="2119:2240" placeholder=" Create an instance of the Amazon SES Swift Transport driver. ..." />
-            <marker date="1465111076095" expanded="true" signature="2283:2646" placeholder="{...}" />
-            <marker date="1465111076095" expanded="true" signature="2376:2442" placeholder="..." />
-            <marker date="1465111076095" expanded="true" signature="2496:2581" placeholder="..." />
-            <marker date="1465111076095" expanded="true" signature="2655:2766" placeholder=" Create an instance of the Mail Swift Transport driver. ..." />
-            <marker date="1465111076095" expanded="true" signature="2810:2867" placeholder="{...}" />
-            <marker date="1465111076095" expanded="true" signature="2876:3013" placeholder=" Create an instance of the Mailgun Swift Transport driver. ..." />
-            <marker date="1465111076095" expanded="true" signature="3060:3282" placeholder="{...}" />
-            <marker date="1465111076095" expanded="true" signature="3291:3430" placeholder=" Create an instance of the Mandrill Swift Transport driver. ..." />
-            <marker date="1465111076095" expanded="true" signature="3478:3671" placeholder="{...}" />
-            <marker date="1465111076095" expanded="true" signature="3680:3821" placeholder=" Create an instance of the SparkPost Swift Transport driver. ..." />
-            <marker date="1465111076095" expanded="true" signature="3870:4065" placeholder="{...}" />
-            <marker date="1465111076095" expanded="true" signature="4074:4203" placeholder=" Create an instance of the Log Swift Transport driver. ..." />
-            <marker date="1465111076095" expanded="true" signature="4246:4336" placeholder="{...}" />
-            <marker date="1465111076095" expanded="true" signature="4345:4462" placeholder=" Get a fresh Guzzle HTTP client instance. ..." />
-            <marker date="1465111076095" expanded="true" signature="4510:4659" placeholder="{...}" />
-            <marker date="1465111076095" expanded="true" signature="4668:4744" placeholder=" Get the default mail driver name. ..." />
-            <marker date="1465111076095" expanded="true" signature="4785:4849" placeholder="{...}" />
-            <marker date="1465111076095" expanded="true" signature="4858:4961" placeholder=" Set the default mail driver name. ..." />
-            <marker date="1465111076095" expanded="true" signature="4886:4961" placeholder=" Set the default cache driver name. ..." />
-            <marker date="1465111076095" expanded="true" signature="5007:5072" placeholder="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -2645,18 +2506,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="589">
           <caret line="33" column="20" selection-start-line="33" selection-start-column="20" selection-end-line="33" selection-end-column="20" />
-          <folding>
-            <marker date="1465111076075" expanded="false" signature="49:124" placeholder="..." />
-            <marker date="1465111076075" expanded="true" signature="162:1245" placeholder="{...}" />
-            <marker date="1465111076075" expanded="true" signature="172:250" placeholder=" The Logger instance. ..." />
-            <marker date="1465111076075" expanded="true" signature="284:410" placeholder=" Create a new log transport instance. ..." />
-            <marker date="1465111076075" expanded="true" signature="469:514" placeholder="{...}" />
-            <marker date="1465111076075" expanded="true" signature="523:550" placeholder=" {@inheritdoc} ..." />
-            <marker date="1465111076075" expanded="true" signature="633:760" placeholder="{...}" />
-            <marker date="1465111076075" expanded="true" signature="769:908" placeholder=" Get a loggable string out of a Swiftmailer entity. ..." />
-            <marker date="1465111076075" expanded="true" signature="984:1243" placeholder="{...}" />
-            <marker date="1465111076075" expanded="true" signature="1124:1211" placeholder="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -2664,33 +2513,514 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="565">
           <caret line="61" column="21" selection-start-line="61" selection-start-column="21" selection-end-line="61" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/phpunit/phpunit/src/Framework/Assert.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="343">
+          <caret line="632" column="27" selection-start-line="632" selection-start-column="27" selection-end-line="632" selection-end-column="27" />
           <folding>
-            <marker date="1465111076095" expanded="false" signature="49:149" placeholder="..." />
-            <marker date="1465111076095" expanded="true" signature="202:1391" placeholder="{...}" />
-            <marker date="1465111076095" expanded="true" signature="212:294" placeholder=" The plug-ins registered with the transport. ..." />
-            <marker date="1465111076095" expanded="true" signature="331:358" placeholder=" {@inheritdoc} ..." />
-            <marker date="1465111076095" expanded="true" signature="392:425" placeholder="{...}" />
-            <marker date="1465111076095" expanded="true" signature="434:461" placeholder=" {@inheritdoc} ..." />
-            <marker date="1465111076095" expanded="true" signature="491:524" placeholder="{...}" />
-            <marker date="1465111076095" expanded="true" signature="533:560" placeholder=" {@inheritdoc} ..." />
-            <marker date="1465111076095" expanded="true" signature="589:622" placeholder="{...}" />
-            <marker date="1465111076095" expanded="true" signature="631:762" placeholder=" Register a plug-in with the transport. ..." />
-            <marker date="1465111076095" expanded="true" signature="835:892" placeholder="{...}" />
-            <marker date="1465111076095" expanded="true" signature="901:1051" placeholder=" Iterate through registered plugins and execute plugins' methods. ..." />
-            <marker date="1465111076095" expanded="true" signature="1125:1389" placeholder="{...}" />
-            <marker date="1465111076095" expanded="true" signature="1240:1382" placeholder="..." />
-            <marker date="1465111076095" expanded="true" signature="1305:1372" placeholder="..." />
+            <marker date="1465111080071" expanded="false" signature="8:225" placeholder="..." />
+            <marker date="1465111080071" expanded="true" signature="232:311" placeholder=" A set of assert methods. ..." />
+            <marker date="1465111080071" expanded="true" signature="353:97750" placeholder="{...}" />
+            <marker date="1465111080071" expanded="true" signature="363:385" placeholder=" @var int ..." />
+            <marker date="1465111080071" expanded="true" signature="427:665" placeholder=" Asserts that an array has a specified key. ..." />
+            <marker date="1465111080071" expanded="true" signature="741:1298" placeholder="{...}" />
+            <marker date="1465111080071" expanded="true" signature="801:943" placeholder="..." />
+            <marker date="1465111080071" expanded="true" signature="864:932" placeholder="..." />
+            <marker date="1465111080071" expanded="true" signature="1013:1158" placeholder="..." />
+            <marker date="1465111080071" expanded="true" signature="1076:1147" placeholder="..." />
+            <marker date="1465111080071" expanded="true" signature="1307:1618" placeholder=" Asserts that an array has a specified subset. ..." />
+            <marker date="1465111080071" expanded="true" signature="1714:2231" placeholder="{...}" />
+            <marker date="1465111080071" expanded="true" signature="1754:1899" placeholder="..." />
+            <marker date="1465111080071" expanded="true" signature="1817:1888" placeholder="..." />
+            <marker date="1465111080071" expanded="true" signature="1934:2079" placeholder="..." />
+            <marker date="1465111080071" expanded="true" signature="1997:2068" placeholder="..." />
+            <marker date="1465111080071" expanded="true" signature="2240:2489" placeholder=" Asserts that an array does not have a specified key. ..." />
+            <marker date="1465111080071" expanded="true" signature="2568:3185" placeholder="{...}" />
+            <marker date="1465111080071" expanded="true" signature="2628:2770" placeholder="..." />
+            <marker date="1465111080071" expanded="true" signature="2691:2759" placeholder="..." />
+            <marker date="1465111080071" expanded="true" signature="2840:2985" placeholder="..." />
+            <marker date="1465111080071" expanded="true" signature="2903:2974" placeholder="..." />
+            <marker date="1465111080071" expanded="true" signature="3194:3532" placeholder=" Asserts that a haystack contains a needle. ..." />
+            <marker date="1465111080071" expanded="true" signature="3700:4632" placeholder="{...}" />
+            <marker date="1465111080071" expanded="true" signature="3813:4026" placeholder="..." />
+            <marker date="1465111080071" expanded="true" signature="4059:4403" placeholder="..." />
+            <marker date="1465111080071" expanded="true" signature="4098:4249" placeholder="..." />
+            <marker date="1465111080071" expanded="true" signature="4165:4234" placeholder="..." />
+            <marker date="1465111080071" expanded="true" signature="4411:4564" placeholder="..." />
+            <marker date="1465111080071" expanded="true" signature="4474:4553" placeholder="..." />
+            <marker date="1465111080071" expanded="true" signature="4641:5120" placeholder=" Asserts that a haystack that is stored in a static attribute of a class ..." />
+            <marker date="1465111080071" expanded="true" signature="5334:5612" placeholder="{...}" />
+            <marker date="1465111080071" expanded="true" signature="5370:5604" placeholder="..." />
+            <marker date="1465111080071" expanded="true" signature="5621:5967" placeholder=" Asserts that a haystack does not contain a needle. ..." />
+            <marker date="1465111080071" expanded="true" signature="6138:7234" placeholder="{...}" />
+            <marker date="1465111080071" expanded="true" signature="6251:6548" placeholder="..." />
+            <marker date="1465111080071" expanded="true" signature="6581:7005" placeholder="..." />
+            <marker date="1465111080071" expanded="true" signature="6620:6771" placeholder="..." />
+            <marker date="1465111080071" expanded="true" signature="6687:6756" placeholder="..." />
+            <marker date="1465111080071" expanded="true" signature="7013:7166" placeholder="..." />
+            <marker date="1465111080071" expanded="true" signature="7076:7155" placeholder="..." />
+            <marker date="1465111080071" expanded="true" signature="7243:7730" placeholder=" Asserts that a haystack that is stored in a static attribute of a class ..." />
+            <marker date="1465111080071" expanded="true" signature="7947:8228" placeholder="{...}" />
+            <marker date="1465111080071" expanded="true" signature="7986:8220" placeholder="..." />
+            <marker date="1465111080071" expanded="true" signature="8237:8501" placeholder=" Asserts that a haystack contains only values of a given type. ..." />
+            <marker date="1465111080071" expanded="true" signature="8604:9202" placeholder="{...}" />
+            <marker date="1465111080071" expanded="true" signature="8720:8865" placeholder="..." />
+            <marker date="1465111080071" expanded="true" signature="8783:8854" placeholder="..." />
+            <marker date="1465111080071" expanded="true" signature="8904:8975" placeholder="..." />
+            <marker date="1465111080071" expanded="true" signature="9003:9194" placeholder="..." />
+            <marker date="1465111080071" expanded="true" signature="9211:9426" placeholder=" Asserts that a haystack contains only instances of a given classname ..." />
+            <marker date="1465111080071" expanded="true" signature="9523:10008" placeholder="{...}" />
+            <marker date="1465111080071" expanded="true" signature="9639:9784" placeholder="..." />
+            <marker date="1465111080071" expanded="true" signature="9702:9773" placeholder="..." />
+            <marker date="1465111080071" expanded="true" signature="9812:10000" placeholder="..." />
+            <marker date="1465111080071" expanded="true" signature="10017:10422" placeholder=" Asserts that a haystack that is stored in a static attribute of a class ..." />
+            <marker date="1465111080071" expanded="true" signature="10571:10776" placeholder="{...}" />
+            <marker date="1465111080071" expanded="true" signature="10611:10768" placeholder="..." />
+            <marker date="1465111080071" expanded="true" signature="10785:11057" placeholder=" Asserts that a haystack does not contain only values of a given type. ..." />
+            <marker date="1465111080071" expanded="true" signature="11163:11841" placeholder="{...}" />
+            <marker date="1465111080071" expanded="true" signature="11279:11424" placeholder="..." />
+            <marker date="1465111080071" expanded="true" signature="11342:11413" placeholder="..." />
+            <marker date="1465111080071" expanded="true" signature="11463:11534" placeholder="..." />
+            <marker date="1465111080071" expanded="true" signature="11562:11833" placeholder="..." />
+            <marker date="1465111080071" expanded="true" signature="11850:12270" placeholder=" Asserts that a haystack that is stored in a static attribute of a class ..." />
+            <marker date="1465111080071" expanded="true" signature="12422:12630" placeholder="{...}" />
+            <marker date="1465111080071" expanded="true" signature="12465:12622" placeholder="..." />
+            <marker date="1465111080071" expanded="true" signature="12639:12826" placeholder=" Asserts the number of elements of an array, Countable or Traversable. ..." />
+            <marker date="1465111080071" expanded="true" signature="12909:13434" placeholder="{...}" />
+            <marker date="1465111080071" expanded="true" signature="12954:13040" placeholder="..." />
+            <marker date="1465111080071" expanded="true" signature="13174:13277" placeholder="..." />
+            <marker date="1465111080071" expanded="true" signature="13305:13426" placeholder="..." />
+            <marker date="1465111080071" expanded="true" signature="13443:13783" placeholder=" Asserts the number of elements of an array, Countable or Traversable ..." />
+            <marker date="1465111080071" expanded="true" signature="13912:14092" placeholder="{...}" />
+            <marker date="1465111080071" expanded="true" signature="13945:14084" placeholder="..." />
+            <marker date="1465111080071" expanded="true" signature="14101:14288" placeholder=" Asserts the number of elements of an array, Countable or Traversable. ..." />
+            <marker date="1465111080071" expanded="true" signature="14374:14949" placeholder="{...}" />
+            <marker date="1465111080071" expanded="true" signature="14419:14505" placeholder="..." />
+            <marker date="1465111080071" expanded="true" signature="14639:14742" placeholder="..." />
+            <marker date="1465111080071" expanded="true" signature="14958:15298" placeholder=" Asserts the number of elements of an array, Countable or Traversable ..." />
+            <marker date="1465111080071" expanded="true" signature="15430:15613" placeholder="{...}" />
+            <marker date="1465111080071" expanded="true" signature="15466:15605" placeholder="..." />
+            <marker date="1465111080071" expanded="true" signature="15622:15897" placeholder=" Asserts that two variables are equal. ..." />
+            <marker date="1465111080071" expanded="true" signature="16048:16311" placeholder="{...}" />
+            <marker date="1465111080071" expanded="true" signature="16320:16675" placeholder=" Asserts that a variable is equal to an attribute of an object. ..." />
+            <marker date="1465111080071" expanded="true" signature="16870:17137" placeholder="{...}" />
+            <marker date="1465111080071" expanded="true" signature="16904:17129" placeholder="..." />
+            <marker date="1465111080071" expanded="true" signature="17146:17484" placeholder=" Asserts that two variables are not equal. ..." />
+            <marker date="1465111080071" expanded="true" signature="17638:17985" placeholder="{...}" />
+            <marker date="1465111080071" expanded="true" signature="17994:18353" placeholder=" Asserts that a variable is not equal to an attribute of an object. ..." />
+            <marker date="1465111080071" expanded="true" signature="18551:18821" placeholder="{...}" />
+            <marker date="1465111080071" expanded="true" signature="18588:18813" placeholder="..." />
+            <marker date="1465111080071" expanded="true" signature="18830:19004" placeholder=" Asserts that a variable is empty. ..." />
+            <marker date="1465111080071" expanded="true" signature="19069:19143" placeholder="{...}" />
+            <marker date="1465111080071" expanded="true" signature="19152:19437" placeholder=" Asserts that a static attribute of a class or an attribute of an object ..." />
+            <marker date="1465111080071" expanded="true" signature="19550:19702" placeholder="{...}" />
+            <marker date="1465111080071" expanded="true" signature="19583:19694" placeholder="..." />
+            <marker date="1465111080071" expanded="true" signature="19711:19889" placeholder=" Asserts that a variable is not empty. ..." />
+            <marker date="1465111080071" expanded="true" signature="19957:20049" placeholder="{...}" />
+            <marker date="1465111080071" expanded="true" signature="20058:20347" placeholder=" Asserts that a static attribute of a class or an attribute of an object ..." />
+            <marker date="1465111080071" expanded="true" signature="20463:20618" placeholder="{...}" />
+            <marker date="1465111080071" expanded="true" signature="20499:20610" placeholder="..." />
+            <marker date="1465111080071" expanded="true" signature="20627:20848" placeholder=" Asserts that a value is greater than another value. ..." />
+            <marker date="1465111080071" expanded="true" signature="20930:21017" placeholder="{...}" />
+            <marker date="1465111080071" expanded="true" signature="21026:21307" placeholder=" Asserts that an attribute is greater than another value. ..." />
+            <marker date="1465111080071" expanded="true" signature="21433:21610" placeholder="{...}" />
+            <marker date="1465111080071" expanded="true" signature="21472:21602" placeholder="..." />
+            <marker date="1465111080071" expanded="true" signature="21619:21852" placeholder=" Asserts that a value is greater than or equal to another value. ..." />
+            <marker date="1465111080071" expanded="true" signature="21941:22081" placeholder="{...}" />
+            <marker date="1465111080071" expanded="true" signature="21973:22073" placeholder="..." />
+            <marker date="1465111080071" expanded="true" signature="22090:22383" placeholder=" Asserts that an attribute is greater than or equal to another value. ..." />
+            <marker date="1465111080071" expanded="true" signature="22516:22700" placeholder="{...}" />
+            <marker date="1465111080071" expanded="true" signature="22562:22692" placeholder="..." />
+            <marker date="1465111080071" expanded="true" signature="22709:22930" placeholder=" Asserts that a value is smaller than another value. ..." />
+            <marker date="1465111080071" expanded="true" signature="23009:23093" placeholder="{...}" />
+            <marker date="1465111080071" expanded="true" signature="23102:23383" placeholder=" Asserts that an attribute is smaller than another value. ..." />
+            <marker date="1465111080071" expanded="true" signature="23506:23680" placeholder="{...}" />
+            <marker date="1465111080071" expanded="true" signature="23542:23672" placeholder="..." />
+            <marker date="1465111080071" expanded="true" signature="23689:23922" placeholder=" Asserts that a value is smaller than or equal to another value. ..." />
+            <marker date="1465111080071" expanded="true" signature="24008:24099" placeholder="{...}" />
+            <marker date="1465111080071" expanded="true" signature="24108:24401" placeholder=" Asserts that an attribute is smaller than or equal to another value. ..." />
+            <marker date="1465111080071" expanded="true" signature="24531:24712" placeholder="{...}" />
+            <marker date="1465111080071" expanded="true" signature="24574:24704" placeholder="..." />
+            <marker date="1465111080071" expanded="true" signature="24721:25046" placeholder=" Asserts that the contents of one file is equal to the contents of another ..." />
+            <marker date="1465111080071" expanded="true" signature="25171:25513" placeholder="{...}" />
+            <marker date="1465111080071" expanded="true" signature="25310:25505" placeholder="..." />
+            <marker date="1465111080071" expanded="true" signature="25522:25851" placeholder=" Asserts that the contents of one file is not equal to the contents of ..." />
+            <marker date="1465111080071" expanded="true" signature="25979:26324" placeholder="{...}" />
+            <marker date="1465111080071" expanded="true" signature="26121:26316" placeholder="..." />
+            <marker date="1465111080071" expanded="true" signature="26333:26661" placeholder=" Asserts that the contents of a string is equal ..." />
+            <marker date="1465111080071" expanded="true" signature="26802:27088" placeholder="{...}" />
+            <marker date="1465111080071" expanded="true" signature="26894:27080" placeholder="..." />
+            <marker date="1465111080071" expanded="true" signature="27097:27429" placeholder=" Asserts that the contents of a string is not equal ..." />
+            <marker date="1465111080071" expanded="true" signature="27573:27862" placeholder="{...}" />
+            <marker date="1465111080071" expanded="true" signature="27668:27854" placeholder="..." />
+            <marker date="1465111080071" expanded="true" signature="27871:28039" placeholder=" Asserts that a file exists. ..." />
+            <marker date="1465111080071" expanded="true" signature="28111:28375" placeholder="{...}" />
+            <marker date="1465111080071" expanded="true" signature="28154:28239" placeholder="..." />
+            <marker date="1465111080071" expanded="true" signature="28384:28560" placeholder=" Asserts that a file does not exist. ..." />
+            <marker date="1465111080071" expanded="true" signature="28635:28959" placeholder="{...}" />
+            <marker date="1465111080071" expanded="true" signature="28678:28763" placeholder="..." />
+            <marker date="1465111080071" expanded="true" signature="28968:29145" placeholder=" Asserts that a condition is true. ..." />
+            <marker date="1465111080071" expanded="true" signature="29212:29288" placeholder="{...}" />
+            <marker date="1465111080071" expanded="true" signature="29297:29478" placeholder=" Asserts that a condition is not true. ..." />
+            <marker date="1465111080071" expanded="true" signature="29548:29642" placeholder="{...}" />
+            <marker date="1465111080071" expanded="true" signature="29651:29829" placeholder=" Asserts that a condition is false. ..." />
+            <marker date="1465111080071" expanded="true" signature="29897:29974" placeholder="{...}" />
+            <marker date="1465111080071" expanded="true" signature="29983:30165" placeholder=" Asserts that a condition is not false. ..." />
+            <marker date="1465111080071" expanded="true" signature="30236:30331" placeholder="{...}" />
+            <marker date="1465111080071" expanded="true" signature="30340:30456" placeholder=" Asserts that a variable is not null. ..." />
+            <marker date="1465111080071" expanded="true" signature="30523:30614" placeholder="{...}" />
+            <marker date="1465111080071" expanded="true" signature="30623:30735" placeholder=" Asserts that a variable is null. ..." />
+            <marker date="1465111080071" expanded="true" signature="30799:30872" placeholder="{...}" />
+            <marker date="1465111080071" expanded="true" signature="30881:31106" placeholder=" Asserts that a class has a specified attribute. ..." />
+            <marker date="1465111080071" expanded="true" signature="31202:31877" placeholder="{...}" />
+            <marker date="1465111080071" expanded="true" signature="31250:31335" placeholder="..." />
+            <marker date="1465111080071" expanded="true" signature="31426:31525" placeholder="..." />
+            <marker date="1465111080071" expanded="true" signature="31594:31695" placeholder="..." />
+            <marker date="1465111080071" expanded="true" signature="31886:32121" placeholder=" Asserts that a class does not have a specified attribute. ..." />
+            <marker date="1465111080071" expanded="true" signature="32220:32933" placeholder="{...}" />
+            <marker date="1465111080071" expanded="true" signature="32268:32353" placeholder="..." />
+            <marker date="1465111080071" expanded="true" signature="32444:32543" placeholder="..." />
+            <marker date="1465111080071" expanded="true" signature="32612:32713" placeholder="..." />
+            <marker date="1465111080071" expanded="true" signature="32942:33174" placeholder=" Asserts that a class has a specified static attribute. ..." />
+            <marker date="1465111080071" expanded="true" signature="33276:33957" placeholder="{...}" />
+            <marker date="1465111080071" expanded="true" signature="33324:33409" placeholder="..." />
+            <marker date="1465111080071" expanded="true" signature="33500:33599" placeholder="..." />
+            <marker date="1465111080071" expanded="true" signature="33668:33769" placeholder="..." />
+            <marker date="1465111080071" expanded="true" signature="33966:34208" placeholder=" Asserts that a class does not have a specified static attribute. ..." />
+            <marker date="1465111080071" expanded="true" signature="34313:35062" placeholder="{...}" />
+            <marker date="1465111080071" expanded="true" signature="34361:34446" placeholder="..." />
+            <marker date="1465111080071" expanded="true" signature="34537:34636" placeholder="..." />
+            <marker date="1465111080071" expanded="true" signature="34705:34806" placeholder="..." />
+            <marker date="1465111080071" expanded="true" signature="35071:35295" placeholder=" Asserts that an object has a specified attribute. ..." />
+            <marker date="1465111080071" expanded="true" signature="35389:36014" placeholder="{...}" />
+            <marker date="1465111080071" expanded="true" signature="35437:35522" placeholder="..." />
+            <marker date="1465111080071" expanded="true" signature="35613:35712" placeholder="..." />
+            <marker date="1465111080071" expanded="true" signature="35749:35834" placeholder="..." />
+            <marker date="1465111080071" expanded="true" signature="36023:36257" placeholder=" Asserts that an object does not have a specified attribute. ..." />
+            <marker date="1465111080071" expanded="true" signature="36354:37017" placeholder="{...}" />
+            <marker date="1465111080071" expanded="true" signature="36402:36487" placeholder="..." />
+            <marker date="1465111080071" expanded="true" signature="36578:36677" placeholder="..." />
+            <marker date="1465111080071" expanded="true" signature="36714:36799" placeholder="..." />
+            <marker date="1465111080071" expanded="true" signature="37026:37281" placeholder=" Asserts that two variables have the same type and value. ..." />
+            <marker date="1465111080071" expanded="true" signature="37356:37687" placeholder="{...}" />
+            <marker date="1465111080071" expanded="true" signature="37416:37487" placeholder="..." />
+            <marker date="1465111080071" expanded="true" signature="37495:37680" placeholder="..." />
+            <marker date="1465111080071" expanded="true" signature="37696:37952" placeholder=" Asserts that a variable and an attribute of an object have the same type ..." />
+            <marker date="1465111080071" expanded="true" signature="38071:38241" placeholder="{...}" />
+            <marker date="1465111080071" expanded="true" signature="38103:38233" placeholder="..." />
+            <marker date="1465111080071" expanded="true" signature="38250:38519" placeholder=" Asserts that two variables do not have the same type and value. ..." />
+            <marker date="1465111080071" expanded="true" signature="38597:38969" placeholder="{...}" />
+            <marker date="1465111080071" expanded="true" signature="38657:38731" placeholder="..." />
+            <marker date="1465111080071" expanded="true" signature="38739:38962" placeholder="..." />
+            <marker date="1465111080071" expanded="true" signature="38978:39241" placeholder=" Asserts that a variable and an attribute of an object do not have the ..." />
+            <marker date="1465111080071" expanded="true" signature="39363:39536" placeholder="{...}" />
+            <marker date="1465111080071" expanded="true" signature="39398:39528" placeholder="..." />
+            <marker date="1465111080071" expanded="true" signature="39545:39757" placeholder=" Asserts that a variable is of a given type. ..." />
+            <marker date="1465111080071" expanded="true" signature="39838:40214" placeholder="{...}" />
+            <marker date="1465111080071" expanded="true" signature="39943:40045" placeholder="..." />
+            <marker date="1465111080071" expanded="true" signature="40223:40480" placeholder=" Asserts that an attribute is of a given type. ..." />
+            <marker date="1465111080071" expanded="true" signature="40593:40757" placeholder="{...}" />
+            <marker date="1465111080071" expanded="true" signature="40631:40749" placeholder="..." />
+            <marker date="1465111080071" expanded="true" signature="40766:40982" placeholder=" Asserts that a variable is not of a given type. ..." />
+            <marker date="1465111080071" expanded="true" signature="41066:41480" placeholder="{...}" />
+            <marker date="1465111080071" expanded="true" signature="41171:41273" placeholder="..." />
+            <marker date="1465111080071" expanded="true" signature="41489:41746" placeholder=" Asserts that an attribute is of a given type. ..." />
+            <marker date="1465111080071" expanded="true" signature="41862:42029" placeholder="{...}" />
+            <marker date="1465111080071" expanded="true" signature="41903:42021" placeholder="..." />
+            <marker date="1465111080071" expanded="true" signature="42038:42250" placeholder=" Asserts that a variable is of a given type. ..." />
+            <marker date="1465111080071" expanded="true" signature="42333:42624" placeholder="{...}" />
+            <marker date="1465111080071" expanded="true" signature="42376:42461" placeholder="..." />
+            <marker date="1465111080071" expanded="true" signature="42633:42890" placeholder=" Asserts that an attribute is of a given type. ..." />
+            <marker date="1465111080071" expanded="true" signature="43005:43171" placeholder="{...}" />
+            <marker date="1465111080071" expanded="true" signature="43045:43163" placeholder="..." />
+            <marker date="1465111080071" expanded="true" signature="43180:43396" placeholder=" Asserts that a variable is not of a given type. ..." />
+            <marker date="1465111080071" expanded="true" signature="43482:43811" placeholder="{...}" />
+            <marker date="1465111080071" expanded="true" signature="43525:43610" placeholder="..." />
+            <marker date="1465111080071" expanded="true" signature="43820:44077" placeholder=" Asserts that an attribute is of a given type. ..." />
+            <marker date="1465111080071" expanded="true" signature="44195:44364" placeholder="{...}" />
+            <marker date="1465111080071" expanded="true" signature="44238:44356" placeholder="..." />
+            <marker date="1465111080071" expanded="true" signature="44373:44540" placeholder=" Asserts that a string matches a given regular expression. ..." />
+            <marker date="1465111080071" expanded="true" signature="44616:45008" placeholder="{...}" />
+            <marker date="1465111080071" expanded="true" signature="44658:44743" placeholder="..." />
+            <marker date="1465111080071" expanded="true" signature="44780:44865" placeholder="..." />
+            <marker date="1465111080071" expanded="true" signature="45017:45250" placeholder=" Asserts that a string does not match a given regular expression. ..." />
+            <marker date="1465111080071" expanded="true" signature="45329:45781" placeholder="{...}" />
+            <marker date="1465111080071" expanded="true" signature="45371:45456" placeholder="..." />
+            <marker date="1465111080071" expanded="true" signature="45493:45578" placeholder="..." />
+            <marker date="1465111080071" expanded="true" signature="45790:46060" placeholder=" Assert that the size of two arrays (or `Countable` or `Traversable` objects) ..." />
+            <marker date="1465111080071" expanded="true" signature="46139:46764" placeholder="{...}" />
+            <marker date="1465111080071" expanded="true" signature="46277:46380" placeholder="..." />
+            <marker date="1465111080071" expanded="true" signature="46508:46611" placeholder="..." />
+            <marker date="1465111080071" expanded="true" signature="46639:46756" placeholder="..." />
+            <marker date="1465111080071" expanded="true" signature="46773:47047" placeholder=" Assert that the size of two arrays (or `Countable` or `Traversable` objects) ..." />
+            <marker date="1465111080071" expanded="true" signature="47129:47804" placeholder="{...}" />
+            <marker date="1465111080071" expanded="true" signature="47267:47370" placeholder="..." />
+            <marker date="1465111080071" expanded="true" signature="47498:47601" placeholder="..." />
+            <marker date="1465111080071" expanded="true" signature="47813:48033" placeholder=" Asserts that a string matches a given format string. ..." />
+            <marker date="1465111080071" expanded="true" signature="48121:48515" placeholder="{...}" />
+            <marker date="1465111080071" expanded="true" signature="48162:48247" placeholder="..." />
+            <marker date="1465111080071" expanded="true" signature="48284:48369" placeholder="..." />
+            <marker date="1465111080071" expanded="true" signature="48524:48751" placeholder=" Asserts that a string does not match a given format string. ..." />
+            <marker date="1465111080071" expanded="true" signature="48842:49296" placeholder="{...}" />
+            <marker date="1465111080071" expanded="true" signature="48883:48968" placeholder="..." />
+            <marker date="1465111080071" expanded="true" signature="49005:49090" placeholder="..." />
+            <marker date="1465111080071" expanded="true" signature="49305:49527" placeholder=" Asserts that a string matches a given format file. ..." />
+            <marker date="1465111080071" expanded="true" signature="49623:49996" placeholder="{...}" />
+            <marker date="1465111080071" expanded="true" signature="49720:49805" placeholder="..." />
+            <marker date="1465111080071" expanded="true" signature="50005:50236" placeholder=" Asserts that a string does not match a given format string. ..." />
+            <marker date="1465111080071" expanded="true" signature="50335:50776" placeholder="{...}" />
+            <marker date="1465111080071" expanded="true" signature="50432:50517" placeholder="..." />
+            <marker date="1465111080071" expanded="true" signature="50785:51002" placeholder=" Asserts that a string starts with a given prefix. ..." />
+            <marker date="1465111080071" expanded="true" signature="51087:51506" placeholder="{...}" />
+            <marker date="1465111080071" expanded="true" signature="51128:51213" placeholder="..." />
+            <marker date="1465111080071" expanded="true" signature="51250:51335" placeholder="..." />
+            <marker date="1465111080071" expanded="true" signature="51515:51736" placeholder=" Asserts that a string starts not with a given prefix. ..." />
+            <marker date="1465111080071" expanded="true" signature="51824:52281" placeholder="{...}" />
+            <marker date="1465111080071" expanded="true" signature="51865:51950" placeholder="..." />
+            <marker date="1465111080071" expanded="true" signature="51987:52072" placeholder="..." />
+            <marker date="1465111080071" expanded="true" signature="52290:52505" placeholder=" Asserts that a string ends with a given suffix. ..." />
+            <marker date="1465111080071" expanded="true" signature="52588:52983" placeholder="{...}" />
+            <marker date="1465111080071" expanded="true" signature="52629:52714" placeholder="..." />
+            <marker date="1465111080071" expanded="true" signature="52751:52836" placeholder="..." />
+            <marker date="1465111080071" expanded="true" signature="52992:53211" placeholder=" Asserts that a string ends not with a given suffix. ..." />
+            <marker date="1465111080071" expanded="true" signature="53297:53752" placeholder="{...}" />
+            <marker date="1465111080071" expanded="true" signature="53338:53423" placeholder="..." />
+            <marker date="1465111080071" expanded="true" signature="53460:53545" placeholder="..." />
+            <marker date="1465111080071" expanded="true" signature="53761:53976" placeholder=" Asserts that two XML files are equal. ..." />
+            <marker date="1465111080071" expanded="true" signature="54075:54270" placeholder="{...}" />
+            <marker date="1465111080071" expanded="true" signature="54279:54498" placeholder=" Asserts that two XML files are not equal. ..." />
+            <marker date="1465111080071" expanded="true" signature="54600:54798" placeholder="{...}" />
+            <marker date="1465111080071" expanded="true" signature="54807:55025" placeholder=" Asserts that two XML documents are equal. ..." />
+            <marker date="1465111080071" expanded="true" signature="55125:55315" placeholder="{...}" />
+            <marker date="1465111080071" expanded="true" signature="55324:55546" placeholder=" Asserts that two XML documents are not equal. ..." />
+            <marker date="1465111080071" expanded="true" signature="55649:55842" placeholder="{...}" />
+            <marker date="1465111080071" expanded="true" signature="55851:56068" placeholder=" Asserts that two XML documents are equal. ..." />
+            <marker date="1465111080071" expanded="true" signature="56169:56354" placeholder="{...}" />
+            <marker date="1465111080071" expanded="true" signature="56363:56584" placeholder=" Asserts that two XML documents are not equal. ..." />
+            <marker date="1465111080071" expanded="true" signature="56688:56876" placeholder="{...}" />
+            <marker date="1465111080071" expanded="true" signature="56885:57171" placeholder=" Asserts that a hierarchy of DOMElements matches. ..." />
+            <marker date="1465111080071" expanded="true" signature="57321:59718" placeholder="{...}" />
+            <marker date="1465111080071" expanded="true" signature="57599:57705" placeholder="..." />
+            <marker date="1465111080071" expanded="true" signature="57740:58914" placeholder="..." />
+            <marker date="1465111080071" expanded="true" signature="57772:58136" placeholder="..." />
+            <marker date="1465111080071" expanded="true" signature="57903:58122" placeholder="..." />
+            <marker date="1465111080071" expanded="true" signature="58215:58904" placeholder="..." />
+            <marker date="1465111080071" expanded="true" signature="58371:58433" placeholder="..." />
+            <marker date="1465111080071" expanded="true" signature="58477:58890" placeholder="..." />
+            <marker date="1465111080071" expanded="true" signature="58509:58871" placeholder="..." />
+            <marker date="1465111080071" expanded="true" signature="58542:58849" placeholder="..." />
+            <marker date="1465111080071" expanded="true" signature="59083:59400" placeholder="..." />
+            <marker date="1465111080071" expanded="true" signature="59202:59390" placeholder="..." />
+            <marker date="1465111080071" expanded="true" signature="59475:59711" placeholder="..." />
+            <marker date="1465111080071" expanded="true" signature="59518:59700" placeholder="..." />
+            <marker date="1465111080071" expanded="true" signature="59727:60695" placeholder=" Assert the presence, absence, or count of elements in a document matching ..." />
+            <marker date="1465111080071" expanded="true" signature="60801:61056" placeholder="{...}" />
+            <marker date="1465111080071" expanded="true" signature="60915:61048" placeholder="..." />
+            <marker date="1465111080071" expanded="true" signature="61065:61566" placeholder=" assertSelectRegExp(&quot;#binder .name&quot;, &quot;/Mike|Derek/&quot;, true, $xml); // any? ..." />
+            <marker date="1465111080071" expanded="true" signature="61683:61951" placeholder="{...}" />
+            <marker date="1465111080071" expanded="true" signature="61797:61943" placeholder="..." />
+            <marker date="1465111080071" expanded="true" signature="61960:62454" placeholder=" assertSelectEquals(&quot;#binder .name&quot;, &quot;Chuck&quot;, true,  $xml);  // any? ..." />
+            <marker date="1465111080071" expanded="true" signature="62571:64162" placeholder="{...}" />
+            <marker date="1465111080071" expanded="true" signature="62696:62791" placeholder="..." />
+            <marker date="1465111080071" expanded="true" signature="62874:62992" placeholder="..." />
+            <marker date="1465111080071" expanded="true" signature="63100:63340" placeholder="..." />
+            <marker date="1465111080071" expanded="true" signature="63195:63258" placeholder="..." />
+            <marker date="1465111080071" expanded="true" signature="63266:63330" placeholder="..." />
+            <marker date="1465111080071" expanded="true" signature="63539:64087" placeholder="..." />
+            <marker date="1465111080071" expanded="true" signature="63627:63708" placeholder="..." />
+            <marker date="1465111080071" expanded="true" signature="63749:63832" placeholder="..." />
+            <marker date="1465111080071" expanded="true" signature="63872:63953" placeholder="..." />
+            <marker date="1465111080071" expanded="true" signature="63994:64077" placeholder="..." />
+            <marker date="1465111080071" expanded="true" signature="64095:64155" placeholder="..." />
+            <marker date="1465111080071" expanded="true" signature="64171:69773" placeholder=" Evaluate an HTML or XML string and assert its structure and/or contents. ..." />
+            <marker date="1465111080071" expanded="true" signature="69862:70197" placeholder="{...}" />
+            <marker date="1465111080071" expanded="true" signature="70206:70620" placeholder=" This assertion is the exact opposite of assertTag(). ..." />
+            <marker date="1465111080071" expanded="true" signature="70712:71048" placeholder="{...}" />
+            <marker date="1465111080071" expanded="true" signature="71057:71350" placeholder=" Evaluates a PHPUnit_Framework_Constraint matcher object. ..." />
+            <marker date="1465111080071" expanded="true" signature="71455:71561" placeholder="{...}" />
+            <marker date="1465111080071" expanded="true" signature="71570:71759" placeholder=" Asserts that a string is a valid JSON string. ..." />
+            <marker date="1465111080071" expanded="true" signature="71827:72030" placeholder="{...}" />
+            <marker date="1465111080071" expanded="true" signature="71872:71957" placeholder="..." />
+            <marker date="1465111080071" expanded="true" signature="72039:72222" placeholder=" Asserts that two given JSON encoded objects or arrays are equal. ..." />
+            <marker date="1465111080071" expanded="true" signature="72327:72593" placeholder="{...}" />
+            <marker date="1465111080071" expanded="true" signature="72602:72789" placeholder=" Asserts that two given JSON encoded objects or arrays are not equal. ..." />
+            <marker date="1465111080071" expanded="true" signature="72897:73166" placeholder="{...}" />
+            <marker date="1465111080071" expanded="true" signature="73175:73385" placeholder=" Asserts that the generated JSON encoded object and the content of the given file are equal. ..." />
+            <marker date="1465111080071" expanded="true" signature="73488:73912" placeholder="{...}" />
+            <marker date="1465111080071" expanded="true" signature="73921:74135" placeholder=" Asserts that the generated JSON encoded object and the content of the given file are not equal. ..." />
+            <marker date="1465111080071" expanded="true" signature="74241:74703" placeholder="{...}" />
+            <marker date="1465111080071" expanded="true" signature="74712:74873" placeholder=" Asserts that two JSON files are not equal. ..." />
+            <marker date="1465111080071" expanded="true" signature="74977:75763" placeholder="{...}" />
+            <marker date="1465111080071" expanded="true" signature="75772:75929" placeholder=" Asserts that two JSON files are equal. ..." />
+            <marker date="1465111080071" expanded="true" signature="76030:76740" placeholder="{...}" />
+            <marker date="1465111080071" expanded="true" signature="76749:76935" placeholder=" Returns a PHPUnit_Framework_Constraint_And matcher object. ..." />
+            <marker date="1465111080071" expanded="true" signature="76977:77170" placeholder="{...}" />
+            <marker date="1465111080071" expanded="true" signature="77179:77363" placeholder=" Returns a PHPUnit_Framework_Constraint_Or matcher object. ..." />
+            <marker date="1465111080071" expanded="true" signature="77404:77596" placeholder="{...}" />
+            <marker date="1465111080071" expanded="true" signature="77605:77853" placeholder=" Returns a PHPUnit_Framework_Constraint_Not matcher object. ..." />
+            <marker date="1465111080071" expanded="true" signature="77935:78013" placeholder="{...}" />
+            <marker date="1465111080071" expanded="true" signature="78022:78208" placeholder=" Returns a PHPUnit_Framework_Constraint_Xor matcher object. ..." />
+            <marker date="1465111080071" expanded="true" signature="78250:78443" placeholder="{...}" />
+            <marker date="1465111080071" expanded="true" signature="78452:78652" placeholder=" Returns a PHPUnit_Framework_Constraint_IsAnything matcher object. ..." />
+            <marker date="1465111080071" expanded="true" signature="78692:78764" placeholder="{...}" />
+            <marker date="1465111080071" expanded="true" signature="78773:78965" placeholder=" Returns a PHPUnit_Framework_Constraint_IsTrue matcher object. ..." />
+            <marker date="1465111080071" expanded="true" signature="79003:79071" placeholder="{...}" />
+            <marker date="1465111080071" expanded="true" signature="79080:79257" placeholder=" Returns a PHPUnit_Framework_Constraint_Callback matcher object. ..." />
+            <marker date="1465111080071" expanded="true" signature="79306:79387" placeholder="{...}" />
+            <marker date="1465111080071" expanded="true" signature="79396:79590" placeholder=" Returns a PHPUnit_Framework_Constraint_IsFalse matcher object. ..." />
+            <marker date="1465111080071" expanded="true" signature="79629:79698" placeholder="{...}" />
+            <marker date="1465111080071" expanded="true" signature="79707:79900" placeholder=" Returns a PHPUnit_Framework_Constraint_IsJson matcher object. ..." />
+            <marker date="1465111080071" expanded="true" signature="79938:80006" placeholder="{...}" />
+            <marker date="1465111080071" expanded="true" signature="80015:80207" placeholder=" Returns a PHPUnit_Framework_Constraint_IsNull matcher object. ..." />
+            <marker date="1465111080071" expanded="true" signature="80245:80313" placeholder="{...}" />
+            <marker date="1465111080071" expanded="true" signature="80322:80640" placeholder=" Returns a PHPUnit_Framework_Constraint_Attribute matcher object. ..." />
+            <marker date="1465111080071" expanded="true" signature="80737:80871" placeholder="{...}" />
+            <marker date="1465111080071" expanded="true" signature="80880:81230" placeholder=" Returns a PHPUnit_Framework_Constraint_TraversableContains matcher ..." />
+            <marker date="1465111080071" expanded="true" signature="81344:81486" placeholder="{...}" />
+            <marker date="1465111080071" expanded="true" signature="81495:81762" placeholder=" Returns a PHPUnit_Framework_Constraint_TraversableContainsOnly matcher ..." />
+            <marker date="1465111080071" expanded="true" signature="81811:81903" placeholder="{...}" />
+            <marker date="1465111080071" expanded="true" signature="81912:82125" placeholder=" Returns a PHPUnit_Framework_Constraint_TraversableContainsOnly matcher ..." />
+            <marker date="1465111080071" expanded="true" signature="82190:82294" placeholder="{...}" />
+            <marker date="1465111080071" expanded="true" signature="82303:82537" placeholder=" Returns a PHPUnit_Framework_Constraint_ArrayHasKey matcher object. ..." />
+            <marker date="1465111080071" expanded="true" signature="82584:82663" placeholder="{...}" />
+            <marker date="1465111080071" expanded="true" signature="82672:83023" placeholder=" Returns a PHPUnit_Framework_Constraint_IsEqual matcher object. ..." />
+            <marker date="1465111080071" expanded="true" signature="83142:83336" placeholder="{...}" />
+            <marker date="1465111080071" expanded="true" signature="83345:83828" placeholder=" Returns a PHPUnit_Framework_Constraint_IsEqual matcher object ..." />
+            <marker date="1465111080071" expanded="true" signature="83972:84230" placeholder="{...}" />
+            <marker date="1465111080071" expanded="true" signature="84010:84222" placeholder="..." />
+            <marker date="1465111080071" expanded="true" signature="84037:84184" placeholder="..." />
+            <marker date="1465111080071" expanded="true" signature="84239:84433" placeholder=" Returns a PHPUnit_Framework_Constraint_IsEmpty matcher object. ..." />
+            <marker date="1465111080071" expanded="true" signature="84472:84541" placeholder="{...}" />
+            <marker date="1465111080071" expanded="true" signature="84550:84750" placeholder=" Returns a PHPUnit_Framework_Constraint_FileExists matcher object. ..." />
+            <marker date="1465111080071" expanded="true" signature="84792:84864" placeholder="{...}" />
+            <marker date="1465111080071" expanded="true" signature="84873:85109" placeholder=" Returns a PHPUnit_Framework_Constraint_GreaterThan matcher object. ..." />
+            <marker date="1465111080071" expanded="true" signature="85158:85239" placeholder="{...}" />
+            <marker date="1465111080071" expanded="true" signature="85248:85592" placeholder=" Returns a PHPUnit_Framework_Constraint_Or matcher object that wraps ..." />
+            <marker date="1465111080071" expanded="true" signature="85648:85830" placeholder="{...}" />
+            <marker date="1465111080071" expanded="true" signature="85686:85822" placeholder="..." />
+            <marker date="1465111080071" expanded="true" signature="85839:86096" placeholder=" Returns a PHPUnit_Framework_Constraint_ClassHasAttribute matcher object. ..." />
+            <marker date="1465111080071" expanded="true" signature="86159:86276" placeholder="{...}" />
+            <marker date="1465111080071" expanded="true" signature="86285:86561" placeholder=" Returns a PHPUnit_Framework_Constraint_ClassHasStaticAttribute matcher ..." />
+            <marker date="1465111080071" expanded="true" signature="86630:86753" placeholder="{...}" />
+            <marker date="1465111080071" expanded="true" signature="86762:87021" placeholder=" Returns a PHPUnit_Framework_Constraint_ObjectHasAttribute matcher object. ..." />
+            <marker date="1465111080071" expanded="true" signature="87085:87203" placeholder="{...}" />
+            <marker date="1465111080071" expanded="true" signature="87212:87448" placeholder=" Returns a PHPUnit_Framework_Constraint_IsIdentical matcher object. ..." />
+            <marker date="1465111080071" expanded="true" signature="87497:87578" placeholder="{...}" />
+            <marker date="1465111080071" expanded="true" signature="87587:87830" placeholder=" Returns a PHPUnit_Framework_Constraint_IsInstanceOf matcher object. ..." />
+            <marker date="1465111080071" expanded="true" signature="87884:87970" placeholder="{...}" />
+            <marker date="1465111080071" expanded="true" signature="87979:88205" placeholder=" Returns a PHPUnit_Framework_Constraint_IsType matcher object. ..." />
+            <marker date="1465111080071" expanded="true" signature="88248:88323" placeholder="{...}" />
+            <marker date="1465111080071" expanded="true" signature="88332:88562" placeholder=" Returns a PHPUnit_Framework_Constraint_LessThan matcher object. ..." />
+            <marker date="1465111080071" expanded="true" signature="88608:88686" placeholder="{...}" />
+            <marker date="1465111080071" expanded="true" signature="88695:89036" placeholder=" Returns a PHPUnit_Framework_Constraint_Or matcher object that wraps ..." />
+            <marker date="1465111080071" expanded="true" signature="89089:89268" placeholder="{...}" />
+            <marker date="1465111080071" expanded="true" signature="89127:89260" placeholder="..." />
+            <marker date="1465111080071" expanded="true" signature="89277:89512" placeholder=" Returns a PHPUnit_Framework_Constraint_PCREMatch matcher object. ..." />
+            <marker date="1465111080071" expanded="true" signature="89576:89657" placeholder="{...}" />
+            <marker date="1465111080071" expanded="true" signature="89666:89908" placeholder=" Returns a PHPUnit_Framework_Constraint_StringMatches matcher object. ..." />
+            <marker date="1465111080071" expanded="true" signature="89954:90038" placeholder="{...}" />
+            <marker date="1465111080071" expanded="true" signature="90047:90294" placeholder=" Returns a PHPUnit_Framework_Constraint_StringStartsWith matcher object. ..." />
+            <marker date="1465111080071" expanded="true" signature="90349:90436" placeholder="{...}" />
+            <marker date="1465111080071" expanded="true" signature="90445:90716" placeholder=" Returns a PHPUnit_Framework_Constraint_StringContains matcher object. ..." />
+            <marker date="1465111080071" expanded="true" signature="90783:90875" placeholder="{...}" />
+            <marker date="1465111080071" expanded="true" signature="90884:91127" placeholder=" Returns a PHPUnit_Framework_Constraint_StringEndsWith matcher object. ..." />
+            <marker date="1465111080071" expanded="true" signature="91180:91265" placeholder="{...}" />
+            <marker date="1465111080071" expanded="true" signature="91274:91437" placeholder=" Returns a PHPUnit_Framework_Constraint_Count matcher object. ..." />
+            <marker date="1465111080071" expanded="true" signature="91482:91557" placeholder="{...}" />
+            <marker date="1465111080071" expanded="true" signature="91565:91713" placeholder=" Fails a test with the given message. ..." />
+            <marker date="1465111080071" expanded="true" signature="91762:91842" placeholder="{...}" />
+            <marker date="1465111080071" expanded="true" signature="91851:92158" placeholder=" Returns the value of an attribute of a class or an object. ..." />
+            <marker date="1465111080071" expanded="true" signature="92233:93267" placeholder="{...}" />
+            <marker date="1465111080071" expanded="true" signature="92281:92366" placeholder="..." />
+            <marker date="1465111080071" expanded="true" signature="92457:92556" placeholder="..." />
+            <marker date="1465111080071" expanded="true" signature="92599:92937" placeholder="..." />
+            <marker date="1465111080071" expanded="true" signature="92648:92803" placeholder="..." />
+            <marker date="1465111080071" expanded="true" signature="92715:92788" placeholder="..." />
+            <marker date="1465111080071" expanded="true" signature="92850:92926" placeholder="..." />
+            <marker date="1465111080071" expanded="true" signature="92975:93107" placeholder="..." />
+            <marker date="1465111080071" expanded="true" signature="93020:93096" placeholder="..." />
+            <marker date="1465111080071" expanded="true" signature="93115:93260" placeholder="..." />
+            <marker date="1465111080071" expanded="true" signature="93178:93249" placeholder="..." />
+            <marker date="1465111080071" expanded="true" signature="93276:93620" placeholder=" Returns the value of a static attribute. ..." />
+            <marker date="1465111080071" expanded="true" signature="93696:94786" placeholder="{...}" />
+            <marker date="1465111080071" expanded="true" signature="93740:93825" placeholder="..." />
+            <marker date="1465111080071" expanded="true" signature="93868:93957" placeholder="..." />
+            <marker date="1465111080071" expanded="true" signature="94001:94086" placeholder="..." />
+            <marker date="1465111080071" expanded="true" signature="94177:94276" placeholder="..." />
+            <marker date="1465111080071" expanded="true" signature="94354:94600" placeholder="..." />
+            <marker date="1465111080071" expanded="true" signature="94477:94542" placeholder="..." />
+            <marker date="1465111080071" expanded="true" signature="94670:94768" placeholder="..." />
+            <marker date="1465111080071" expanded="true" signature="94795:95139" placeholder=" Returns the value of an object's attribute. ..." />
+            <marker date="1465111080071" expanded="true" signature="95212:96648" placeholder="{...}" />
+            <marker date="1465111080071" expanded="true" signature="95253:95338" placeholder="..." />
+            <marker date="1465111080071" expanded="true" signature="95382:95467" placeholder="..." />
+            <marker date="1465111080071" expanded="true" signature="95558:95657" placeholder="..." />
+            <marker date="1465111080071" expanded="true" signature="95673:95756" placeholder="..." />
+            <marker date="1465111080071" expanded="true" signature="95790:96126" placeholder="..." />
+            <marker date="1465111080071" expanded="true" signature="95911:96116" placeholder="..." />
+            <marker date="1465111080071" expanded="true" signature="95933:96051" placeholder="..." />
+            <marker date="1465111080071" expanded="true" signature="96085:96102" placeholder="..." />
+            <marker date="1465111080071" expanded="true" signature="96161:96461" placeholder="..." />
+            <marker date="1465111080071" expanded="true" signature="96218:96279" placeholder="..." />
+            <marker date="1465111080071" expanded="true" signature="96531:96630" placeholder="..." />
+            <marker date="1465111080071" expanded="true" signature="96657:96855" placeholder=" Mark the test as incomplete. ..." />
+            <marker date="1465111080071" expanded="true" signature="96918:96997" placeholder="{...}" />
+            <marker date="1465111080071" expanded="true" signature="97006:97198" placeholder=" Mark the test as skipped. ..." />
+            <marker date="1465111080071" expanded="true" signature="97258:97334" placeholder="{...}" />
+            <marker date="1465111080071" expanded="true" signature="97343:97477" placeholder=" Return the current assertion count. ..." />
+            <marker date="1465111080071" expanded="true" signature="97517:97558" placeholder="{...}" />
+            <marker date="1465111080071" expanded="true" signature="97567:97668" placeholder=" Reset the assertion counter. ..." />
+            <marker date="1465111080071" expanded="true" signature="97710:97748" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/MailTracking.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="248">
+          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <folding>
+            <marker date="1465184323663" expanded="false" signature="9:80" placeholder=" @author Rizart Dokollari &lt;***REMOVED***&gt; ..." />
+            <marker date="1465184323663" expanded="true" signature="106:204" placeholder="..." />
+            <marker date="1465184323663" expanded="true" signature="224:866" placeholder="{...}" />
+            <marker date="1465184323663" expanded="true" signature="314:424" placeholder="{...}" />
+            <marker date="1465184323663" expanded="true" signature="381:416" placeholder="..." />
+            <marker date="1465184323663" expanded="true" signature="467:640" placeholder="{...}" />
+            <marker date="1465184323663" expanded="true" signature="679:766" placeholder="{...}" />
+            <marker date="1465184323663" expanded="true" signature="818:864" placeholder="{...}" />
+            <marker date="1465184323663" expanded="true" signature="936:1250" placeholder="{...}" />
+            <marker date="1465184323663" expanded="true" signature="946:973" placeholder=" @var TestCase ..." />
+            <marker date="1465184323663" expanded="true" signature="1055:1106" placeholder="{...}" />
+            <marker date="1465184323663" expanded="true" signature="1178:1248" placeholder="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/tests/unit/EmailTest.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="968">
-          <caret line="44" column="30" selection-start-line="44" selection-start-column="30" selection-end-line="44" selection-end-column="30" />
+        <state relative-caret-position="341">
+          <caret line="14" column="8" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="8" />
           <folding>
-            <element signature="e#107#116#0#PHP" expanded="true" />
+            <marker date="1465184323655" expanded="false" signature="9:80" placeholder=" @author Rizart Dokollari &lt;***REMOVED***&gt; ..." />
+            <marker date="1465184323655" expanded="true" signature="111:154" placeholder="..." />
+            <marker date="1465184323655" expanded="true" signature="188:649" placeholder="{...}" />
+            <marker date="1465184323655" expanded="true" signature="263:647" placeholder="{...}" />
+            <marker date="1465184323655" expanded="true" signature="288:418" placeholder="..." />
+            <marker date="1465184323655" expanded="true" signature="324:417" placeholder="..." />
+            <marker date="1465184323655" expanded="true" signature="440:570" placeholder="..." />
+            <marker date="1465184323655" expanded="true" signature="476:569" placeholder="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/composer.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="341">
+          <caret line="33" column="24" selection-start-line="33" selection-start-column="24" selection-end-line="33" selection-end-column="24" />
+          <folding />
         </state>
       </provider>
     </entry>
