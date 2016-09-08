@@ -28,12 +28,14 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="composer.json" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/composer.json">
+      <file leaf-file-name="MailTracking.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/tests/MailTracking.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="341">
-              <caret line="33" column="24" selection-start-line="33" selection-start-column="24" selection-end-line="33" selection-end-column="24" />
-              <folding />
+            <state relative-caret-position="868">
+              <caret line="39" column="0" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
+              <folding>
+                <element signature="e#102#111#0#PHP" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -80,9 +82,9 @@
         <option value="$PROJECT_DIR$/tests/unit/ExpressionTest.php" />
         <option value="$PROJECT_DIR$/.env" />
         <option value="$PROJECT_DIR$/config/app.php" />
-        <option value="$PROJECT_DIR$/tests/unit/EmailTest.php" />
         <option value="$PROJECT_DIR$/tests/MailTracking.php" />
         <option value="$PROJECT_DIR$/composer.json" />
+        <option value="$PROJECT_DIR$/tests/unit/EmailTest.php" />
       </list>
     </option>
   </component>
@@ -243,12 +245,12 @@
       <workItem from="1464749755699" duration="621000" />
       <workItem from="1464906862798" duration="13000" />
       <workItem from="1465110223835" duration="1717000" />
-      <workItem from="1465183232358" duration="1151000" />
+      <workItem from="1465183232358" duration="1249000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="40141000" />
+    <option name="totallyTimeSpent" value="40239000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -2978,49 +2980,55 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tests/MailTracking.php">
+    <entry file="file://$PROJECT_DIR$/composer.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="248">
-          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+        <state relative-caret-position="341">
+          <caret line="33" column="24" selection-start-line="33" selection-start-column="24" selection-end-line="33" selection-end-column="24" />
           <folding>
-            <marker date="1465184323663" expanded="false" signature="9:80" placeholder=" @author Rizart Dokollari &lt;r.dokollari@gmail.com&gt; ..." />
-            <marker date="1465184323663" expanded="true" signature="106:204" placeholder="..." />
-            <marker date="1465184323663" expanded="true" signature="224:866" placeholder="{...}" />
-            <marker date="1465184323663" expanded="true" signature="314:424" placeholder="{...}" />
-            <marker date="1465184323663" expanded="true" signature="381:416" placeholder="..." />
-            <marker date="1465184323663" expanded="true" signature="467:640" placeholder="{...}" />
-            <marker date="1465184323663" expanded="true" signature="679:766" placeholder="{...}" />
-            <marker date="1465184323663" expanded="true" signature="818:864" placeholder="{...}" />
-            <marker date="1465184323663" expanded="true" signature="936:1250" placeholder="{...}" />
-            <marker date="1465184323663" expanded="true" signature="946:973" placeholder=" @var TestCase ..." />
-            <marker date="1465184323663" expanded="true" signature="1055:1106" placeholder="{...}" />
-            <marker date="1465184323663" expanded="true" signature="1178:1248" placeholder="{...}" />
+            <marker date="1465184383428" expanded="true" signature="0:1364" placeholder="{&quot;name&quot;: &quot;laravel/laravel&quot;...}" />
+            <marker date="1465184383428" expanded="true" signature="88:124" placeholder="[...]" />
+            <marker date="1465184383428" expanded="true" signature="180:240" placeholder="{&quot;php&quot;: &quot;&gt;=5.5.9&quot;...}" />
+            <marker date="1465184383428" expanded="true" signature="259:543" placeholder="{&quot;fzaninotto/faker&quot;: &quot;~1.4&quot;...}" />
+            <marker date="1465184383428" expanded="true" signature="559:649" placeholder="{...}" />
+            <marker date="1465184383428" expanded="true" signature="577:601" placeholder="[...]" />
+            <marker date="1465184383428" expanded="true" signature="616:645" placeholder="{&quot;App\&quot;: &quot;app/&quot;...}" />
+            <marker date="1465184383428" expanded="true" signature="669:805" placeholder="{...}" />
+            <marker date="1465184383428" expanded="true" signature="687:753" placeholder="[...]" />
+            <marker date="1465184383428" expanded="true" signature="768:801" placeholder="[...]" />
+            <marker date="1465184383428" expanded="true" signature="820:1311" placeholder="{...}" />
+            <marker date="1465184383428" expanded="true" signature="855:911" placeholder="[...]" />
+            <marker date="1465184383428" expanded="true" signature="944:984" placeholder="[...]" />
+            <marker date="1465184383428" expanded="true" signature="1010:1108" placeholder="[...]" />
+            <marker date="1465184383428" expanded="true" signature="1133:1307" placeholder="[...]" />
+            <marker date="1465184383428" expanded="true" signature="1325:1362" placeholder="{&quot;preferred-install&quot;: &quot;dist&quot;...}" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/tests/unit/EmailTest.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="341">
-          <caret line="14" column="8" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="8" />
+        <state relative-caret-position="930">
+          <caret line="33" column="40" selection-start-line="33" selection-start-column="40" selection-end-line="33" selection-end-column="40" />
           <folding>
-            <marker date="1465184323655" expanded="false" signature="9:80" placeholder=" @author Rizart Dokollari &lt;r.dokollari@gmail.com&gt; ..." />
-            <marker date="1465184323655" expanded="true" signature="111:154" placeholder="..." />
-            <marker date="1465184323655" expanded="true" signature="188:649" placeholder="{...}" />
-            <marker date="1465184323655" expanded="true" signature="263:647" placeholder="{...}" />
-            <marker date="1465184323655" expanded="true" signature="288:418" placeholder="..." />
-            <marker date="1465184323655" expanded="true" signature="324:417" placeholder="..." />
-            <marker date="1465184323655" expanded="true" signature="440:570" placeholder="..." />
-            <marker date="1465184323655" expanded="true" signature="476:569" placeholder="..." />
+            <marker date="1465184466845" expanded="false" signature="9:80" placeholder=" @author Rizart Dokollari &lt;r.dokollari@gmail.com&gt; ..." />
+            <marker date="1465184466845" expanded="true" signature="111:154" placeholder="..." />
+            <marker date="1465184466845" expanded="true" signature="188:692" placeholder="{...}" />
+            <marker date="1465184466845" expanded="true" signature="263:690" placeholder="{...}" />
+            <marker date="1465184466845" expanded="true" signature="288:418" placeholder="..." />
+            <marker date="1465184466845" expanded="true" signature="324:417" placeholder="..." />
+            <marker date="1465184466845" expanded="true" signature="440:570" placeholder="..." />
+            <marker date="1465184466845" expanded="true" signature="476:569" placeholder="..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/composer.json">
+    <entry file="file://$PROJECT_DIR$/tests/MailTracking.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="341">
-          <caret line="33" column="24" selection-start-line="33" selection-start-column="24" selection-end-line="33" selection-end-column="24" />
-          <folding />
+        <state relative-caret-position="868">
+          <caret line="39" column="0" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
+          <folding>
+            <element signature="e#102#111#0#PHP" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
