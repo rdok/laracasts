@@ -6,6 +6,7 @@ Homestead.json
 Homestead.yaml
 .env
 
-tests/_output/*
+tests/_output/
 tests/tmp/*
-!tests/tmp
+!tests/tmp/.gitkeep
+!tests/tmp/Acme/Bar/.gitkeep

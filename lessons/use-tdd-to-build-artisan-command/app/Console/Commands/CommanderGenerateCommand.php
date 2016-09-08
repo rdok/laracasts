@@ -2,7 +2,9 @@
 
 namespace App\Console\Commands;
 
+use Acme\Console\CommandInputParser;
 use Illuminate\Console\Command;
+use Mustache_Engine;
 
 class CommanderGenerateCommand extends Command
 {
@@ -22,15 +24,20 @@ class CommanderGenerateCommand extends Command
      * @var string
      */
     protected $description = 'Generate command and handler classes.';
+    /**
+     * @var CommandInputParser
+     */
+    private $commandInputParser;
 
     /**
      * Create a new command instance.
-     *
-     * @return void
+     * @param CommandInputParser $commandInputParser
      */
-    public function __construct()
+    public function __construct(CommandInputParser $commandInputParser)
     {
         parent::__construct();
+
+        $this->commandInputParser = $commandInputParser;
     }
 
     /**
@@ -40,12 +47,27 @@ class CommanderGenerateCommand extends Command
      */
     public function handle()
     {
+        $commandInputParser = $this->commandInputParser->parse(
+            $this->getClassPath(),
+            $this->option('properties')
+        );
+
+        $template = file_get_contents(app_path('Console/Commands/templates/command.template'));
+
+        $mustache = new Mustache_Engine();
+
+        $template = $mustache->render($template, [
+            'className' => $commandInputParser->className,
+            'namespace' => $commandInputParser->namespace,
+        ]);
+
+        file_put_contents("{$base}/{$path}.php", $template);
+
         $this->info('All done!');
+    }
 
-        $path = $this->argument('path');
-        $base = $this->option('base');
-        $template = app_path('app/Console/Commands/templates/command.template');
-
-        file_put_contents("{$base}/{$path}.php", '');
+    private function getClassPath()
+    {
+        return $this->option('base') . '/' . $this->argument('path');
     }
 }
