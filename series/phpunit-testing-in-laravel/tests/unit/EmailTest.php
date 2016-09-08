@@ -30,5 +30,7 @@ class EmailTest extends TestCase
         $this->seeEmailWasSent();
 
         $this->seeEmailsSent(2);
+
+        $this->seeEmailTo('foo@bar.com');
     }
 }
