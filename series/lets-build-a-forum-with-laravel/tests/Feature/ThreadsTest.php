@@ -11,18 +11,26 @@ class ThreadsTest extends TestCase
     use DatabaseMigrations;
 
     /** @test */
-    public function a_user_can_browse_threads()
+    public function a_user_can_view_latest_thread_on_index()
     {
         $latestThread = factory(Thread::class)->create();
 
         $response = $this->get('/thread');
 
-        $response->assertStatus(200);
+        $response->assertSee($latestThread->title);
 
-        $content = $response->getContent();
+        $response->assertSee($latestThread->body);
+    }
 
-        $this->assertContains($latestThread->title, $content);
+    /** @test */
+    public function a_user_can_view_a_single_thread()
+    {
+        $thread = factory(Thread::class)->create();
 
-        $this->assertContains($latestThread->body, $content);
+        $response = $this->get('/thread/' . $thread->id);
+
+        $response->assertSee($thread->title);
+
+        $response->assertSee($thread->body);
     }
 }
